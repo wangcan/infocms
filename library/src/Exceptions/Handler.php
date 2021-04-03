@@ -1,23 +1,15 @@
 <?php
 
-namespace Yeelight\Exceptions;
+namespace App\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Illuminate\Validation\ValidationException;
+use Illuminate\Auth\AuthenticationException;
+use Tymon\JWTAuth\Exceptions\JWTException;
+use Tymon\JWTAuth\Exceptions\TokenBlacklistedException;
+use Tymon\JWTAuth\Exceptions\TokenInvalidException;
 
-/**
- * Class Handler
- *
- * @category Yeelight
- *
- * @package Yeelight\Exceptions
- *
- * @author Sheldon Lee <xdlee110@gmail.com>
- *
- * @license https://opensource.org/licenses/MIT MIT
- *
- * @link https://www.yeelight.com
- */
 class Handler extends ExceptionHandler
 {
     /**
@@ -26,7 +18,11 @@ class Handler extends ExceptionHandler
      * @var array
      */
     protected $dontReport = [
-        //
+        //AuthorizationException::class,
+        //HttpException::class,
+        //ModelNotFoundException::class,
+        //ValidationException::class,
+        //HttpResponseException::class,
     ];
 
     /**
@@ -44,11 +40,8 @@ class Handler extends ExceptionHandler
      *
      * This is a great spot to send exceptions to Sentry, Bugsnag, etc.
      *
-     * @param \Exception $exception Exception
-     *
+     * @param  \Exception  $exception
      * @return void
-     *
-     * @throws Exception $exception
      */
     public function report(Exception $exception)
     {
@@ -58,13 +51,47 @@ class Handler extends ExceptionHandler
     /**
      * Render an exception into an HTTP response.
      *
-     * @param \Illuminate\Http\Request $request Request
-     * @param \Exception $exception Exception
-     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \Exception  $exception
      * @return \Illuminate\Http\Response
      */
     public function render($request, Exception $exception)
     {
+		//var_dump(get_class($exception));
+        //if ($request->is('api*') || $request->is('sale*')) {
+        if (false) {//$request->is('api*') || $request->is('sale*')) {
+
+            if ($exception instanceof JWTException) {
+
+                $mapExceptions = [
+                    TokenInvalidException::class => '无效的token',
+                    JWTException::class => '无效的token',
+                    TokenBlacklistedException::class => 'token 已被加入黑名单,请重新登录'
+                ];
+
+                $msg = $mapExceptions[get_class($exception)] ?? $exception->getMessage();
+                $msg .= get_class($exception);
+                return responseJsonAsUnAuthorized($msg);
+            }
+            if ($exception instanceof AuthenticationException) {
+                $msg = '你没有权限';
+                $msg .= get_class($exception);
+                return responseJsonAsUnAuthorized($msg);
+            }
+            // 拦截表单验证错误抛出的异常
+            elseif ($exception instanceof ValidationException) {
+
+                return responseJsonAsBadRequest($exception->validator->errors()->first());
+            }
+
+            return responseJsonAsServerError($exception->getMessage());
+        }
+
+
+        if ($request->is('api/e-commerce*') && $exception instanceof ValidationException) {
+            return  response()->json(['status'=>1,"msg"=>$exception->validator->errors()->first()]);
+        }
+
         return parent::render($request, $exception);
     }
 }
