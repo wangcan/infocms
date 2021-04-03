@@ -1,0 +1,51 @@
+
+        modified:   Console/Kernel.php
+        modified:   Exceptions/Handler.php
+        modified:   Http/Controllers/Controller.php
+        modified:   Http/Kernel.php
+        modified:   Http/Middleware/Authenticate.php
+        modified:   Http/Middleware/EncryptCookies.php
+        modified:   Http/Middleware/RedirectIfAuthenticated.php
+        modified:   Http/Middleware/TrimStrings.php
+        modified:   Http/Middleware/TrustProxies.php
+        modified:   Http/Middleware/VerifyCsrfToken.php
+        modified:   Providers/AppServiceProvider.php
+        modified:   Providers/AuthServiceProvider.php
+        modified:   Providers/BroadcastServiceProvider.php
+        modified:   Providers/EventServiceProvider.php
+        modified:   Providers/RouteServiceProvider.php
+
+laravel-cms
+
+
+        modified:   Console/Kernel.php
+        modified:   Exceptions/Handler.php
+        modified:   Http/Controllers/Controller.php
+        modified:   Http/Kernel.php
+        modified:   Http/Middleware/Authenticate.php
+        modified:   Http/Middleware/EncryptCookies.php
+        modified:   Http/Middleware/RedirectIfAuthenticated.php
+        modified:   Http/Middleware/TrimStrings.php
+        modified:   Http/Middleware/TrustProxies.php
+        modified:   Http/Middleware/VerifyCsrfToken.php
+        modified:   Providers/AppServiceProvider.php
+        modified:   Providers/AuthServiceProvider.php
+        modified:   Providers/BroadcastServiceProvider.php
+        modified:   Providers/EventServiceProvider.php
+        modified:   Providers/RouteServiceProvider.php
+        modified:   User.php
+
+lumon5.1api
+
+        modified:   Console/Kernel.php
+        modified:   Events/Event.php
+        modified:   Exceptions/Handler.php
+        modified:   Http/Controllers/Api/V1/UserController.php
+        modified:   Http/Controllers/Controller.php
+        modified:   Jobs/Job.php
+        modified:   Models/User.php
+        modified:   Providers/AppServiceProvider.php
+        modified:   Providers/EventServiceProvider.php
+        modified:   Transformers/BaseTransformer.php
+        modified:   Transformers/UserTransformer.php
+
