@@ -1,0 +1,16 @@
+
+        modified:   library/src/Console/Kernel.php
+        modified:   library/src/Exceptions/Handler.php
+        modified:   library/src/Http/Controllers/Controller.php
+        modified:   library/src/Http/Kernel.php
+        modified:   library/src/Http/Middleware/Authenticate.php
+        modified:   library/src/Http/Middleware/EncryptCookies.php
+        modified:   library/src/Http/Middleware/RedirectIfAuthenticated.php
+        modified:   library/src/Http/Middleware/TrimStrings.php
+        modified:   library/src/Http/Middleware/TrustProxies.php
+        modified:   library/src/Http/Middleware/VerifyCsrfToken.php
+        modified:   library/src/Providers/AppServiceProvider.php
+        modified:   library/src/Providers/AuthServiceProvider.php
+        modified:   library/src/Providers/BroadcastServiceProvider.php
+        modified:   library/src/Providers/EventServiceProvider.php
+        modified:   library/src/Providers/RouteServiceProvider.php
