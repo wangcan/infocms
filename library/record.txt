@@ -48,4 +48,22 @@ lumon5.1api
         modified:   Providers/EventServiceProvider.php
         modified:   Transformers/BaseTransformer.php
         modified:   Transformers/UserTransformer.php
+lumon-api
+
+        modified:   Console/Kernel.php
+        modified:   Events/Event.php
+        modified:   Exceptions/Handler.php
+        modified:   Http/Controllers/Controller.php
+        modified:   Http/Middleware/Authenticate.php
+        modified:   Http/Middleware/ExampleMiddleware.php
+        modified:   Jobs/Job.php
+        modified:   Observers/UserObserver.php
+        modified:   Policies/PostPolicy.php
+        modified:   Providers/AppServiceProvider.php
+        modified:   Providers/AuthServiceProvider.php
+        modified:   Providers/EventServiceProvider.php
+        modified:   Providers/RepositoryServiceProvider.php
+        modified:   Repositories/Criteria/RequestCriteria.php
+        modified:   Repositories/Eloquent/BaseRepository.php
+        modified:   Repositories/Eloquent/UserRepositoryEloquent.php
 
