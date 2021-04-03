@@ -3,6 +3,7 @@
 namespace Yeelight\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Pagination\Paginator;
 
 /**
  * Class AppServiceProvider
@@ -29,6 +30,8 @@ class AppServiceProvider extends ServiceProvider
         view()->composer(
             'backend.partials.sidebar', 'Yeelight\Composers\BackendMenuComposer'
         );
+        Paginator::useBootstrap();
+        $this->registerObservers(); // 注册观察者
     }
 
     /**
@@ -39,5 +42,10 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         //
+    }
+
+    protected function registerObservers(): void
+    {
+        User::observe(UserObserver::class);
     }
 }

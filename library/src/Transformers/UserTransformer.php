@@ -58,3 +58,17 @@ class UserTransformer extends BaseTransformer
         return $model->status == 0 ? '<span class="label label-danger">'.trans('users.columns.status_forbidden').'</span>' : '<span class="label label-success">'.trans('users.columns.status_normal').'</span>';
     }
 }
+<?php
+
+namespace App\Transformers;
+
+use App\Models\User;
+use League\Fractal\TransformerAbstract;
+
+class UserTransformer extends TransformerAbstract
+{
+    public function transform(User $user)
+    {
+        return $user->attributesToArray();
+    }
+}
