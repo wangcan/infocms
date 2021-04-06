@@ -1,6 +1,6 @@
 <?php
 
-namespace Yeelight\Base\Http\Controllers;
+namespace Larabase\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
@@ -11,15 +11,9 @@ use Yeelight\Traits\AuthUserHelpers;
 /**
  * Class Controller
  *
- * @category Yeelight
- *
- * @package Yeelight\Base\Http\Controllers
- *
- * @author Sheldon Lee <xdlee110@gmail.com>
- *
+ * @category Larabase
+ * @package Larabase\Http\Controllers
  * @license https://opensource.org/licenses/MIT MIT
- *
- * @link https://www.yeelight.com
  */
 abstract class Controller extends BaseController
 {

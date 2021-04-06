@@ -1,6 +1,6 @@
 <?php
 
-namespace Yeelight\Base\Models;
+namespace Larabase\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
@@ -301,5 +301,46 @@ class BaseModel extends Model implements BaseModelEventsInterface
         }
 
         return $date->format($this->getDateFormat());
+    }
+
+    /**
+     * 模型标记.
+     *
+     * @var
+     */
+    public $modelTag;
+
+    public function __construct(array $attributes = [])
+    {
+        parent::__construct($attributes);
+    }
+
+    public function initModelTag()
+    {
+        $this->modelTag = strtolower((new \ReflectionClass($this))->getShortName());
+    }
+
+    /**
+     * @return User|null
+     */
+    public function getUser()
+    {
+        return parent::getUser();
+    }
+
+    /**
+     * @return User|null
+     */
+    public function getAuthUser()
+    {
+        return parent::getAuthUser();
+    }
+
+    /**
+     * @return User|null
+     */
+    public function getRelatedUser()
+    {
+        return $this->related_user;
     }
 }
