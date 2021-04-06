@@ -1,6 +1,93 @@
 <?php
 
-namespace App\Policies;
+namespace Larabase\Policies;
+
+use Larabase\Models\BaseModel;
+use Larabase\Models\Foundation\BaseUser;
+
+/**
+ * Class Policy
+ *
+ * @category Larabase
+ * @package Larabase\Policies
+ * @license https://opensource.org/licenses/MIT MIT
+ */
+abstract class AbstractPolicy
+{
+    /**
+     * Get The owner
+     *
+     * @param BaseUser $user user
+     * @param BaseModel $model model
+     *
+     * @return bool
+     */
+    public function owner(BaseUser $user, BaseModel $model)
+    {
+        return $model->getUserId() == $user->getUserId();
+    }
+}
+
+use App\Models\Comment;
+use App\Models\User;
+use Illuminate\Auth\Access\HandlesAuthorization;
+
+class CommentPolicy
+{
+    use HandlesAuthorization;
+
+    /**
+     * Determine whether the user is admin for all authorization.
+     */
+    public function before(User $user)
+    {
+        if ($user->isAdmin()) {
+            return true;
+        }
+    }
+
+    /**
+     * Determine whether the user can delete the comment.
+     */
+    public function delete(User $user, Comment $comment): bool
+    {
+        return $user->id === $comment->author_id;
+    }
+}
+use App\Models\Media;
+use App\Models\User;
+use Illuminate\Auth\Access\HandlesAuthorization;
+
+class MediaPolicy
+{
+    use HandlesAuthorization;
+
+    /**
+     * Determine whether the user is admin for all authorization.
+     */
+    public function before(User $user)
+    {
+        if ($user->isAdmin()) {
+            return true;
+        }
+    }
+
+    /**
+     * Determine whether the user can store a medium.
+     */
+    public function store(User $user): bool
+    {
+        return $user->isAdmin();
+    }
+
+    /**
+     * Determine whether the user can delete the medium.
+     */
+    public function delete(User $user, Media $medium): bool
+    {
+        return $user->isAdmin();
+    }
+}
 
 use App\Models\Post;
 use App\Models\User;
@@ -153,5 +240,39 @@ class PostPolicy
         }
 
         return false;
+    }
+}
+
+use App\Models\User;
+use Illuminate\Auth\Access\HandlesAuthorization;
+
+class UserPolicy
+{
+    use HandlesAuthorization;
+
+    /**
+     * Determine whether the user is admin for all authorization.
+     */
+    public function before(User $user)
+    {
+        if ($user->isAdmin()) {
+            return true;
+        }
+    }
+
+    /**
+     * Determine whether the user can update the user.
+     */
+    public function update(User $current_user, User $user): bool
+    {
+        return $current_user->id === $user->id;
+    }
+
+    /**
+     * Determine whether the user can generate a personnal access token.
+     */
+    public function api_token(User $current_user, User $user): bool
+    {
+        return $current_user->id === $user->id;
     }
 }

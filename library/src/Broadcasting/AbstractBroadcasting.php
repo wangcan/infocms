@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Broadcasting;
+namespace Larabase\Broadcasting;
 
 use App\Models\Post;
 use App\Models\User;
 
-class PostChannel
+class AbstractBroadcasting
 {
     /**
      * Authenticate the user's access to the channel.
