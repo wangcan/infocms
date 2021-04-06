@@ -3,9 +3,9 @@
 namespace App\ViewModels;
 
 use Carbon\Carbon;
-use Spatie\ViewModels\ViewModel;
+use Larabase\ViewModels\AbstractViewModel;
 
-class MovieViewModel extends ViewModel
+class MovieViewModel extends AbstractViewModel
 {
     public $movie;
 

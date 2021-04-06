@@ -1,3 +1,7 @@
+composer require  league/fractal 0.14.0
+
+composer require Cyvelnet/laravel5-fractal
+
 repository
 
 

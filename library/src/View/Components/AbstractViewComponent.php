@@ -1,20 +1,14 @@
 <?php
 
-namespace App\View\Components;
+namespace Larabase\View\Components;
 
 use Illuminate\View\Component;
 use Illuminate\View\View;
 
-class Alert extends Component
+class AbstractViewComponent extends Component
 {
-    /**
-     * The alert type.
-     */
     public string $type;
 
-    /**
-     * The alert type.
-     */
     public ?string $dismissible;
 
     /**
