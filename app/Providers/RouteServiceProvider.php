@@ -49,6 +49,10 @@ class RouteServiceProvider extends ServiceProvider
 		$routeCode = in_array($siteCode, ['pet', 'culture']) ? $siteCode : 'guide';
 		$namespace = 'App\Http\Controllers\\' . ucfirst($routeCode);
 
+        $this->mapSaleRoutes();
+        echo 'sss';exit();
+        $this->mapApiRoutes();
+
         //Route::middleware('pet')
         Route::namespace($namespace)->group(base_path("routes/{$routeCode}.php"));
     }
@@ -66,5 +70,20 @@ class RouteServiceProvider extends ServiceProvider
             ->middleware('api')
             ->namespace($this->namespace)
             ->group(base_path('routes/api.php'));
+    }
+
+    /**
+     * Define the "api" routes for the application.
+     *
+     * These routes are typically stateless.
+     *
+     * @return void
+     */
+    protected function mapSaleRoutes()
+    {
+        Route::prefix('sale')
+            ->middleware('api')
+            ->namespace($this->namespace)
+            ->group(base_path('routes/sale.php'));
     }
 }
