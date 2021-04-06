@@ -1,4 +1,221 @@
 <?php
+
+require __DIR__ . '/response.php';
+
+if (! function_exists('config_path')) {
+    /**
+     * Get the configuration path.
+     *
+     * @param  string $path
+     * @return string
+     */
+    function config_path($path = '')
+    {
+        return app()->basePath() . '/config' . ($path ? '/' . $path : $path);
+    }
+}
+
+if (! function_exists('app_path')) {
+    /**
+     * Get the path to the application folder.
+     *
+     * @param  string  $path
+     * @return string
+     */
+    function app_path($path = '')
+    {
+        return app('path').($path ? DIRECTORY_SEPARATOR.$path : $path);
+    }
+}
+
+/**
+ * 根据路径生成一个图片标签
+ *
+ * @param string       $url
+ * @param string $disk
+ * @param int    $width
+ * @param int    $height
+ * @return string
+ */
+function image($url, $disk = 'public', int $width = 50, int $height = 50) : string
+{
+    if (is_null($url) || empty($url)) {
+
+        $url = get404Image();
+    } else {
+
+        $url = assertUrl($url, $disk);
+    }
+
+    return "<img width='{$width}' height='{$height}' src='{$url}' />";
+}
+
+function assertUrl($url, $disk = 'public')
+{
+    static $driver  = null;
+
+    if (is_null($url) || empty($url)) {
+
+        return get404Image();
+    }
+
+    if (is_null($driver)) {
+        $driver = Storage::disk($disk);
+    }
+
+    if (! starts_with($url, 'http')) {
+        $url = $driver->url($url);
+    }
+
+    return $url;
+}
+
+function get404Image()
+{
+    return asset('images/404.jpg');
+}
+
+
+/**
+ * 把字符串变成固定长度
+ *
+ * @param     $str
+ * @param     $length
+ * @param     $padString
+ * @param int $padType
+ * @return bool|string
+ */
+function fixStrLength($str, $length, $padString = '0', $padType = STR_PAD_LEFT)
+{
+    if (strlen($str) > $length) {
+        return substr($str, strlen($str) - $length);
+    } elseif (strlen($str) < $length) {
+        return str_pad($str, $length, $padString, $padType);
+    }
+
+    return $str;
+}
+
+
+/**
+ * 价格保留两位小数
+ *
+ * @param $price
+ * @return float|int
+ */
+function ceilTwoPrice($price)
+{
+    return round($price, 2);
+}
+
+
+/**
+ * 或者设置的配置项
+ *
+ * @param \App\Enums\SettingKeyEnum $settingEnum
+ * @param null                        $default
+ * @return mixed|null
+ */
+function setting(\App\Enums\SettingKeyEnum $settingEnum, $default = null)
+{
+    $key = \App\Models\Setting::cacheKey($settingEnum->getValue());
+
+    $val = Cache::get($key);
+    if (is_null($val)) {
+
+        $val = \App\Models\Setting::query()->where('key', $settingEnum->getValue())->value('value');
+        if (is_null($val)) {
+            return $default;
+        }
+
+        Cache::put($key, $val);
+    }
+
+    return $val;
+}
+
+/**
+ * 生成系统日志
+ *
+ * @param       $description
+ * @param array $input
+ */
+function createSystemLog($description, $input = [])
+{
+    $operate = new \Encore\Admin\Auth\Database\OperationLog();
+    $operate->path = config('app.url');
+    $operate->method = 'GET';
+    $operate->ip = '127.0.0.1';
+    $operate->input = json_encode($input);
+    $operate->description = $description;
+    $operate->save();
+}
+//转数组
+function objectToArray($object) {
+    //先编码成json字符串，再解码成数组
+    return json_decode(json_encode($object), true);
+}
+/**
+ * 判断远程图片是否存在
+ * @param $url
+ * @return bool
+ */
+function imgExists($url){
+    $curl = curl_init($url);
+    curl_setopt($curl, CURLOPT_NOBODY, true); // 不取回数据
+    curl_exec($curl); // 发送请求
+    $httpCode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
+    if($httpCode==200){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+
+
+function getUserAvatarById($uid)
+{
+    $md5 = md5($uid);
+
+    $sc  = '/' . substr($md5, 0, 2) . '/' . substr($md5, 2, 2) . '/' . substr($md5, 4, 2);
+
+    $fileName = config('imageUrl.cos_storage_url').$sc."/".$uid.".jpg";
+
+    $cosUrl = config('imageUrl.cosv5_cdn').$fileName;
+
+    return $cosUrl;
+}
+
+/**
+ * 阿拉伯数字转中文
+ * @param $num
+ * @return mixed
+ */
+function numeral($num){
+    $china=array('零','一','二','三','四','五','六','七','八','九');
+    $arr=str_split($num);
+    for($i=0;$i<count($arr);$i++){
+        return $china[$arr[$i]];
+    }
+}
+
+/**
+ * 字帖评测年级类型
+ * @param $num
+ * @return mixed
+ */
+function numeralGrade($num){
+    $china=array('零','一年级','二年级','三年级','四年级','五年级','六年级','自由打卡','diy7*10','笔画偏旁','一年级同步','二年级同步','diy5*5','一年级上册期末','二年级上册期末');
+    return $china[$num];
+//    $arr=str_split($num);
+//    for($i=0;$i<count($arr);$i++){
+//        return $china[$arr[$i]];
+//    }
+}
+
+
+
 /**
  * Created by PhpStorm.
  * User: sheldon

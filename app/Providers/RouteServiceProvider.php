@@ -42,19 +42,17 @@ class RouteServiceProvider extends ServiceProvider
      */
     public function map()
     {
-		if (app()->runningInConsole()) {
-			return ;
-		}
-        $siteCode = explode('.', $_SERVER['HTTP_HOST'])[0];
-		$routeCode = in_array($siteCode, ['pet', 'culture']) ? $siteCode : 'guide';
-		$namespace = 'App\Http\Controllers\\' . ucfirst($routeCode);
+		if (!app()->runningInConsole()) {
+            $siteCode = explode('.', $_SERVER['HTTP_HOST'])[0];
+            if (in_array($siteCode, ['pet', 'culture', 'guide'])) {
+		        $namespace = 'App\Http\Controllers\\' . ucfirst($siteCode);
+                Route::namespace($namespace)->group(base_path("routes/{$siteCode}.php"));
+			    return ;
+            }
+        }
 
         $this->mapSaleRoutes();
-        echo 'sss';exit();
         $this->mapApiRoutes();
-
-        //Route::middleware('pet')
-        Route::namespace($namespace)->group(base_path("routes/{$routeCode}.php"));
     }
 
     /**
