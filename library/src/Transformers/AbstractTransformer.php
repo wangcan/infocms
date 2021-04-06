@@ -1,6 +1,8 @@
-<?php namespace Prettus\Repository\Transformer;
+<?php
 
 namespace Larabase\Transformers;
+
+use Illuminate\Database\Eloquent\Model;
 use League\Fractal\TransformerAbstract;
 //use Prettus\Repository\Contracts\Transformable;
 
@@ -13,32 +15,16 @@ use League\Fractal\TransformerAbstract;
  */
 class AbstractTransformer extends TransformerAbstract
 {
-    public function transform(Transformable $model)
+    /*public function transform(Transformable $model)
     {
         return $model->transform();
+    }*/
+
+    public function transform(Model $object)
+    {
+        return $object->attributesToArray();
     }
-}
 
-namespace Yeelight\Transformers;
-
-use Yeelight\Base\Models\BaseModel;
-use Yeelight\Base\Transformers\Transformer;
-
-/**
- * Class BaseTransformer
- *
- * @category Yeelight
- *
- * @package Yeelight\Transformers
- *
- * @author Sheldon Lee <xdlee110@gmail.com>
- *
- * @license https://opensource.org/licenses/MIT MIT
- *
- * @link https://www.yeelight.com
- */
-class BaseTransformer extends Transformer
-{
     /**
      * Include User.
      *
@@ -68,18 +54,30 @@ class BaseTransformer extends Transformer
             return $this->item($user, new UserTransformer());
         }
     }
-}
-<?php
 
-namespace App\Transformers;
+    protected $availableIncludes = ['user', 'comments'];
 
-use Illuminate\Database\Eloquent\Model;
-use League\Fractal\TransformerAbstract;
-
-class BaseTransformer extends TransformerAbstract
-{
-    public function transform(Model $object)
+    public function transform(Post $post)
     {
-        return $object->attributesToArray();
+        return $post->attributesToArray();
+    }
+
+    public function includeUser(Post $post)
+    {
+        return $this->item($post->user, new UserTransformer());
+    }
+
+    public function includeComments(Post $post, ParamBag $params = null)
+    {
+        $limit = 10;
+        if ($params) {
+            $limit = (array) $params->get('limit');
+            $limit = (int) current($limit);
+        }
+
+        $comments = $post->comments()->limit($limit)->get();
+        $total = $post->comments()->count();
+
+        return $this->collection($comments, new PostCommentTransformer())->setMeta(['total' => $total]);
     }
 }
