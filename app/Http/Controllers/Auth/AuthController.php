@@ -10,6 +10,7 @@ use App\Models\User;
 use App\Models\UserLogin;
 use App\Models\PadPassword;
 use App\Services\WechatServe;
+use Tymon\JWTAuth\Facades\JWTAuth;
 
 class AuthController extends Controller
 {
@@ -158,19 +159,13 @@ class AuthController extends Controller
             //return response()->json(['status' => 400, 'message' => '账号或密码为空']);
             return responseJsonHttp(400, '用户名或者密码为空');
         }
-        $user = new User();
-        $info = $user->getLoginUser($name);
-        if (empty($info)) {
-            //return response()->json(['status' => 400, 'message' => '用户不存在']);
-            return responseJsonHttp(400, '用户名或者密码错误');
-        }
-		$isAdmin = $info->isAdmin();
-		if (empty($isAdmin)) {
-            return responseJsonHttp(403, '用户不是管理员，不能登录后台系统');
-		}
-        $verifyPassword = $info->checkPassword($password);
-        if (empty($verifyPassword)) {
-            return responseJsonAsBadRequest('用户名或者密码错误1');
+
+        $credentials = $request->only('name', 'password');
+
+        // 验证失败返回422
+        if (!$token = JWTAuth::attempt($credentials)) {
+            return responseJsonHttp(422, '用户名或密码不正确');
+            $this->response->error('', 422);
         }
 
         return responseJsonHttp(200, '登录成功', $this->getToken($info));

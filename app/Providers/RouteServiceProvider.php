@@ -44,7 +44,10 @@ class RouteServiceProvider extends ServiceProvider
     {
 		if (!app()->runningInConsole()) {
             $siteCode = explode('.', $_SERVER['HTTP_HOST'])[0];
-            if (in_array($siteCode, ['pet', 'culture', 'guide'])) {
+            $siteCode = explode('-', $siteCode)[0];
+            $siteCode = in_array($siteCode, ['brand', 'subject']) ? 'guide' : $siteCode;
+            //var_dump($siteCode);
+            if (in_array($siteCode, ['pet', 'culture', 'guide', 'human', 'topic'])) {
 		        $namespace = 'App\Http\Controllers\\' . ucfirst($siteCode);
                 Route::namespace($namespace)->group(base_path("routes/{$siteCode}.php"));
 			    return ;

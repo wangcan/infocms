@@ -36,10 +36,11 @@ class Controller extends BaseController
 	protected function viewPre()
 	{
 		View::addLocation(app_path().'/views');
-		$path = $this->isMobile() ? 'mobile' : 'pc';
+		$path = $this->isMobile() === null ? '' : ($this->isMobile() ? 'mobile' : 'pc');
+        $path = resource_path('views') . '/' . $path;
 		//$path = 'mobile';
 
-        $paths = [resource_path('views') . '/' . $path];
+        $paths = [$path];
 		$finder =new FileViewFinder(App::make ('files'), $paths);
 		View::setFinder ($finder);
 	}

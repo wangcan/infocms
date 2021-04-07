@@ -5,7 +5,7 @@ namespace App\Http\Requests;
 use Illuminate\Foundation\Http\FormRequest;
 
 /**
- * @bodyParam username string required 手机号/用户名
+ * @bodyParam name string required 手机号/用户名
  * @bodyParam password string required 密码
  */
 class LoginRequest extends FormRequest
@@ -28,8 +28,8 @@ class LoginRequest extends FormRequest
     public function rules()
     {
         return [
-            //'username' => 'required',
-            //'password' => 'required',
+            'name' => 'required',
+            'password' => 'required',
         ];
     }
 }
