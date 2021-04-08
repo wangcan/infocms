@@ -5,20 +5,20 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="edge" />
-<link rel="shortcut icon" href="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/ab561-6001.ico" />
+<link rel="shortcut icon" href="{{$commonAssetUrl}}/petcms/img/ab561-6001.ico" />
 <!--头部开始-->
 <meta name="description" content="小型犬_波奇宠物百科" />
 <title>小型犬_波奇宠物百科</title>
 <link rel="stylesheet" type="text/css" href="//a.boqiicdn.com/Js1/min/?f=/Css/baikenew/common.css,/Css/baikenew/style.css,/Css/baikenew/subList.css" />
 <!--[if lt IE 9]>
-    <script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/respond.min.js"></script>
+    <script src="{{$commonAssetUrl}}/petcms/js/respond.min.js"></script>
     <link href="//a.boqiicdn.com/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
-    <link href="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/1325b-8180.gif" id="respond-redirect" rel="respond-redirect" />
-    <script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/respond.proxy.js"></script>
+    <link href="{{$commonAssetUrl}}/petcms/img/1325b-8180.gif" id="respond-redirect" rel="respond-redirect" />
+    <script src="{{$commonAssetUrl}}/petcms/js/respond.proxy.js"></script>
 <![endif]-->
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/jquery.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/boqii.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/boqii.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/petcms/js/jquery.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/petcms/js/boqii.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/petcms/js/boqii.js"></script>
 <!--头部结束--></head>
 
 <body>
@@ -41,7 +41,7 @@
         "shop_dir": "http://shop.boqii.com",
         "img_dir": "http://img.boqiicdn.com"
     };</script>
-<link rel="stylesheet" type="text/css" href="<?= Yii::getAlias('@tasseturl'); ?>/petcms/css/05527-2245.css" />
+<link rel="stylesheet" type="text/css" href="{{$commonAssetUrl}}/petcms/css/05527-2245.css" />
 <div id="toolbar">
     <div class="toolbar_auto">
         <ul class="toolbar_left left">
@@ -57,13 +57,13 @@
         <ul class="toolbar_right right"></ul>
     </div>
 </div>
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/public_toolbar_baike.js"></script>
+<script src="{{$commonAssetUrl}}/petcms/js/public_toolbar_baike.js"></script>
 <!--顶部开始-->
 <div id="header">
     <div class="top_auto">
         <div class="logo">
             <a href="http://www.boqii.com/baike">
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/c7eff-4452.png" alt="宠物百科" title="宠物百科" /></a>
+                <img src="{{$commonAssetUrl}}/petcms/img/c7eff-4452.png" alt="宠物百科" title="宠物百科" /></a>
         </div>
         <div class="top_search left">
             <form id="search_form" method="get" action="http://i.boqii.com/search">
@@ -73,7 +73,7 @@
         </div>
         <div class="top_ad right">
             <a href="http://vet.boqii.com/?utm_source=baik-cg" target="_blank">
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/52f3b-7661.jpg" /></a>
+                <img src="{{$commonAssetUrl}}/petcms/img/52f3b-7661.jpg" /></a>
         </div>
     </div>
 </div>
@@ -522,7 +522,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/347.html">
-                                <img alt="博美犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/29653-3424.jpg" /></a>
+                                <img alt="博美犬" src="{{$commonAssetUrl}}/petcms/m/img/29653-3424.jpg" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/347.html">博美犬</a></dd>
@@ -530,7 +530,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/368.html">
-                                <img alt="比熊犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/fb5c3-3631.jpg" /></a>
+                                <img alt="比熊犬" src="{{$commonAssetUrl}}/petcms/m/img/fb5c3-3631.jpg" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/368.html">比熊犬</a></dd>
@@ -538,7 +538,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/340.html">
-                                <img alt="贵宾" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/d154a-5252.jpg" /></a>
+                                <img alt="贵宾" src="{{$commonAssetUrl}}/petcms/m/img/d154a-5252.jpg" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/340.html">贵宾</a></dd>
@@ -546,7 +546,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/634.html">
-                                <img alt="巴哥犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/a9c51-9024.jpg" /></a>
+                                <img alt="巴哥犬" src="{{$commonAssetUrl}}/petcms/m/img/a9c51-9024.jpg" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/634.html">巴哥犬</a></dd>
@@ -554,7 +554,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/383.html">
-                                <img alt="法国斗牛犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/edad7-1404.jpg" /></a>
+                                <img alt="法国斗牛犬" src="{{$commonAssetUrl}}/petcms/m/img/edad7-1404.jpg" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/383.html">法国斗牛犬</a></dd>
@@ -562,7 +562,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/552.html">
-                                <img alt="迷你牛头梗" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/b9dcb-1924.jpg" /></a>
+                                <img alt="迷你牛头梗" src="{{$commonAssetUrl}}/petcms/m/img/b9dcb-1924.jpg" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/552.html">迷你牛头梗</a></dd>
@@ -570,7 +570,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/630.html">
-                                <img alt="京巴犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/fa205-3022.jpg" /></a>
+                                <img alt="京巴犬" src="{{$commonAssetUrl}}/petcms/m/img/fa205-3022.jpg" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/630.html">京巴犬</a></dd>
@@ -578,7 +578,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/455.html">
-                                <img alt="吉娃娃" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/ffccd-1263.jpg" /></a>
+                                <img alt="吉娃娃" src="{{$commonAssetUrl}}/petcms/m/img/ffccd-1263.jpg" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/455.html">吉娃娃</a></dd>
@@ -586,7 +586,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/460.html">
-                                <img alt="杰克罗素梗" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/71843-1500.jpg" /></a>
+                                <img alt="杰克罗素梗" src="{{$commonAssetUrl}}/petcms/m/img/71843-1500.jpg" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/460.html">杰克罗素梗</a></dd>
@@ -594,7 +594,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/406.html">
-                                <img alt="中国冠毛犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/a301d-2820.jpg" /></a>
+                                <img alt="中国冠毛犬" src="{{$commonAssetUrl}}/petcms/m/img/a301d-2820.jpg" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/406.html">中国冠毛犬</a></dd>
@@ -602,7 +602,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/467.html">
-                                <img alt="西施犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/1ca11-2654.jpg" /></a>
+                                <img alt="西施犬" src="{{$commonAssetUrl}}/petcms/m/img/1ca11-2654.jpg" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/467.html">西施犬</a></dd>
@@ -610,7 +610,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/681.html">
-                                <img alt="迷你雪纳瑞" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/f2b22-6708.jpg" /></a>
+                                <img alt="迷你雪纳瑞" src="{{$commonAssetUrl}}/petcms/m/img/f2b22-6708.jpg" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/681.html">迷你雪纳瑞</a></dd>
@@ -618,7 +618,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/450.html">
-                                <img alt="蝴蝶犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/0f7b3-8646.jpg" /></a>
+                                <img alt="蝴蝶犬" src="{{$commonAssetUrl}}/petcms/m/img/0f7b3-8646.jpg" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/450.html">蝴蝶犬</a></dd>
@@ -626,7 +626,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/626.html">
-                                <img alt="比格犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/fe40a-3294.jpg" /></a>
+                                <img alt="比格犬" src="{{$commonAssetUrl}}/petcms/m/img/fe40a-3294.jpg" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/626.html">比格犬</a></dd>
@@ -634,7 +634,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/337.html">
-                                <img alt="约克夏" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/908b7-3695.jpg" /></a>
+                                <img alt="约克夏" src="{{$commonAssetUrl}}/petcms/m/img/908b7-3695.jpg" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/337.html">约克夏</a></dd>
@@ -642,7 +642,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/443.html">
-                                <img alt="迷你杜宾犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/bfed9-6239.png" /></a>
+                                <img alt="迷你杜宾犬" src="{{$commonAssetUrl}}/petcms/img/bfed9-6239.png" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/443.html">迷你杜宾犬</a></dd>
@@ -650,7 +650,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/486.html">
-                                <img alt="日本尖嘴犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/8190b-2841.png" /></a>
+                                <img alt="日本尖嘴犬" src="{{$commonAssetUrl}}/petcms/img/8190b-2841.png" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/486.html">日本尖嘴犬</a></dd>
@@ -658,7 +658,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/683.html">
-                                <img alt="雪纳瑞" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/ba107-3091.jpg" /></a>
+                                <img alt="雪纳瑞" src="{{$commonAssetUrl}}/petcms/img/ba107-3091.jpg" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/683.html">雪纳瑞</a></dd>
@@ -666,7 +666,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/548.html">
-                                <img alt="查理士王小猎犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/11a87-9469.png" /></a>
+                                <img alt="查理士王小猎犬" src="{{$commonAssetUrl}}/petcms/img/11a87-9469.png" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/548.html">查理士王小猎犬</a></dd>
@@ -674,7 +674,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/502.html">
-                                <img alt="拉萨犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/6285e-3531.png" /></a>
+                                <img alt="拉萨犬" src="{{$commonAssetUrl}}/petcms/img/6285e-3531.png" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/502.html">拉萨犬</a></dd>
@@ -682,7 +682,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/679.html">
-                                <img alt="美国可卡犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/3ac4f-8967.jpg" /></a>
+                                <img alt="美国可卡犬" src="{{$commonAssetUrl}}/petcms/img/3ac4f-8967.jpg" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/679.html">美国可卡犬</a></dd>
@@ -690,7 +690,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/483.html">
-                                <img alt="马尔济斯犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/2263b-2406.jpg" /></a>
+                                <img alt="马尔济斯犬" src="{{$commonAssetUrl}}/petcms/img/2263b-2406.jpg" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/483.html">马尔济斯犬</a></dd>
@@ -698,7 +698,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/632.html">
-                                <img alt="巴吉度猎犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/8102c-1651.jpg" /></a>
+                                <img alt="巴吉度猎犬" src="{{$commonAssetUrl}}/petcms/img/8102c-1651.jpg" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/632.html">巴吉度猎犬</a></dd>
@@ -706,7 +706,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/534.html">
-                                <img alt="曼彻斯特梗" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/26173-8264.jpg" /></a>
+                                <img alt="曼彻斯特梗" src="{{$commonAssetUrl}}/petcms/img/26173-8264.jpg" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/534.html">曼彻斯特梗</a></dd>
@@ -714,7 +714,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/553.html">
-                                <img alt="苏格兰梗" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/2bc49-8439.png" /></a>
+                                <img alt="苏格兰梗" src="{{$commonAssetUrl}}/petcms/img/2bc49-8439.png" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/553.html">苏格兰梗</a></dd>
@@ -722,7 +722,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/578.html">
-                                <img alt="西藏猎犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/13955-3542.png" /></a>
+                                <img alt="西藏猎犬" src="{{$commonAssetUrl}}/petcms/img/13955-3542.png" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/578.html">西藏猎犬</a></dd>
@@ -730,7 +730,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/420.html">
-                                <img alt="荷兰毛狮犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/b8d38-6658.png" /></a>
+                                <img alt="荷兰毛狮犬" src="{{$commonAssetUrl}}/petcms/img/b8d38-6658.png" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/420.html">荷兰毛狮犬</a></dd>
@@ -738,7 +738,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/532.html">
-                                <img alt="罗福梗" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/e3445-5252.jpg" /></a>
+                                <img alt="罗福梗" src="{{$commonAssetUrl}}/petcms/img/e3445-5252.jpg" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/532.html">罗福梗</a></dd>
@@ -746,7 +746,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/507.html">
-                                <img alt="丝毛梗" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/5da5c-1142.jpg" /></a>
+                                <img alt="丝毛梗" src="{{$commonAssetUrl}}/petcms/img/5da5c-1142.jpg" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/507.html">丝毛梗</a></dd>
@@ -754,7 +754,7 @@
                     <dl>
                         <dt>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/408.html">
-                                <img alt="哈威那犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/91376-9095.jpg" /></a>
+                                <img alt="哈威那犬" src="{{$commonAssetUrl}}/petcms/img/91376-9095.jpg" /></a>
                         </dt>
                         <dd>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/408.html">哈威那犬</a></dd>
@@ -796,7 +796,7 @@
                 <a target="_blank" href="http://www.boqii.com/baike/news/">最新文章</a></p>
             <p class="beian">
                 <a class="police" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502004955">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/31ab7-5261.png" alt="">沪公网安备 31011502004955号</a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/31ab7-5261.png" alt="">沪公网安备 31011502004955号</a>
                 <span>|</span>
                 <a href="http://www.beian.miit.gov.cn/" target="_blank">沪ICP备13034501号-2</a>
                 <span>|</span>&nbsp;增值电信业务经营许可证：
@@ -804,25 +804,25 @@
             <p class="copy">Copyright © 2007-2021 Boqii.com All Rights Reserved 光橙（上海）信息科技有限公司 版权所有</p>
             <p>
                 <a href='http://wap.scjgj.sh.gov.cn/businessCheck/verifKey.do?showType=extShow&serial=9031000020200804110320000006173852-SAIC_SHOW_310000-20131022163114962238&signData=MEUCIQCxAhT2yp7CGYeqT3Nzy3yKKs+8PiJPEXXe40scDQIh5QIgQxGCEwLzNES+bsFkNBbDioZIDWffBlMmuTmGn4zlaQw=' target='_blank' rel='nofollow'>
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/3829f-8548.png" width="100" height="35"></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/3829f-8548.png" width="100" height="35"></a>
                 <a href="http://www.boqii.com/ads.php" target="_blank" rel="nofollow">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/a4644-3558.png" width="100" height="35"></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/a4644-3558.png" width="100" height="35"></a>
                 <a href="https://ss.knet.cn/verifyseal.dll?sn=e14111831011556282oicb000000&ct=df&a=1&pa=0.1636424780320953" target="_blank" rel="nofollow">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/aef78-9568.png" width="100" height="35"></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/aef78-9568.png" width="100" height="35"></a>
                 <a href="http://www.zx110.org/" target="_blank" rel="nofollow">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/d29f5-2562.png" width="100" height="35"></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/d29f5-2562.png" width="100" height="35"></a>
                 <a rel="nofollow" target="_blank" href="http://www.shjbzx.cn/">
-                    <img width="100" height="35" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/6e8d6-1338.png"></a>
+                    <img width="100" height="35" src="{{$commonAssetUrl}}/petcms/img/6e8d6-1338.png"></a>
             </p>
             <!-- <p><a href="http://www.boqii.com/ads.php" target="_blank" rel="nofollow"><img
-            src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/f1a57-7077.png"></a><a
+            src="{{$commonAssetUrl}}/petcms/img/f1a57-7077.png"></a><a
             href="http://www.zx110.org/" target="_blank" rel="nofollow"><img
-            src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/7fff7-5407.png"></a><SCRIPT LANGUAGE="JavaScript">
+            src="{{$commonAssetUrl}}/petcms/img/7fff7-5407.png"></a><SCRIPT LANGUAGE="JavaScript">
             document.writeln(
-            "<a href='http://wap.scjgj.sh.gov.cn/businessCheck/verifKey.do?showType=extShow&serial=9031000020200804110320000006173852-SAIC_SHOW_310000-20131022163114962238&signData=MEUCIQCxAhT2yp7CGYeqT3Nzy3yKKs+8PiJPEXXe40scDQIh5QIgQxGCEwLzNES+bsFkNBbDioZIDWffBlMmuTmGn4zlaQw=' target='_blank' rel='nofollow'><img src='<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/00aac-8970.png' border=0></a>"
+            "<a href='http://wap.scjgj.sh.gov.cn/businessCheck/verifKey.do?showType=extShow&serial=9031000020200804110320000006173852-SAIC_SHOW_310000-20131022163114962238&signData=MEUCIQCxAhT2yp7CGYeqT3Nzy3yKKs+8PiJPEXXe40scDQIh5QIgQxGCEwLzNES+bsFkNBbDioZIDWffBlMmuTmGn4zlaQw=' target='_blank' rel='nofollow'><img src='{{$commonAssetUrl}}/petcms/img/00aac-8970.png' border=0></a>"
             )
             </SCRIPT><a rel="nofollow" target="_blank" href="http://www.shjbzx.cn/"><img width="100" height="35"
-            src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/6e8d6-1338.png"></a><script src="http://kxlogo.knet.cn/seallogo.dll?sn=e14111831011556282oicb000000&size=0"></script></p> -->
+            src="{{$commonAssetUrl}}/petcms/img/6e8d6-1338.png"></a><script src="http://kxlogo.knet.cn/seallogo.dll?sn=e14111831011556282oicb000000&size=0"></script></p> -->
             <p class="copy">违法和不良信息举报电话：
                 <a href="tel:021-68826169">021-68826169</a>
                 <span>|</span>举报邮箱：
@@ -859,7 +859,7 @@ e = d.body.getElementsByTagName('script')[0]; e.parentNode.insertBefore(s, e),
 f = 'https:' == location.protocol;
 s.src = (f ? 'https' : 'http') + '://'+(f?'fm.ipinyou.com':'fm.p0y.cn')+'/j/adv.js';
 }(document);
-</script><noscript><img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/4c99e-8783.gif" style="display:none;"/></noscript> -->
+</script><noscript><img src="{{$commonAssetUrl}}/petcms/img/4c99e-8783.gif" style="display:none;"/></noscript> -->
 <!-- 增加百度统计代码 -->
 <!-- <script>
 (function(){
@@ -884,7 +884,7 @@ s.parentNode.insertBefore(bp, s);
 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://": " http://");
     document.write(unescape("%3Cspan style='display:none;' id='cnzz_stat_icon_1264316807'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1264316807' type='text/javascript'%3E%3C/script%3E"));</script>
 <!-- cnzz20180423新增 end-->
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/js/bqstat.js"></script>
+<script src="{{$commonAssetUrl}}/petcms/m/js/bqstat.js"></script>
 </body>
 
 </html>

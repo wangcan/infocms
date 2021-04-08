@@ -21,8 +21,8 @@
 <meta http-equiv="mobile-agent" content="format=html5; url=http://m.yac8.com/news/15659.html">
 <meta http-equiv="mobile-agent" content="format=wml; url=http://m.yac8.com/news/15659.html">
 <link rel="alternate" media="only screen and(max-width: 640px)" href="http://m.yac8.com/news/15659.html">
-<link rel="icon" href="<?= Yii::getAlias('@tasseturl'); ?>/culture/img/9147b-6066.ico" type="image/x-icon" />
-<link rel="shortcut icon" href="<?= Yii::getAlias('@tasseturl'); ?>/culture/img/9147b-6066.ico" type="image/x-icon" />
+<link rel="icon" href="{{$commonAssetUrl}}/culture/img/9147b-6066.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="{{$commonAssetUrl}}/culture/img/9147b-6066.ico" type="image/x-icon" />
 <link rel="alternate" type="application/rss+xml" title="书法欣赏 RSS Feed" href="../rss.asp?typeStr=&maxNum=50" />
 <script language="javascript" type="text/javascript">var webTypeName = 'show';
     var webDataID = '15659';
@@ -30,10 +30,10 @@
     var webPathPart = '../';
     var jsPathPart = '../';</script>
 <script language="javascript" type="text/javascript" src="../configJs.asp?webName=show&webID=15659&v="></script>
-<script language="javascript" type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/js/otca.js"></script>
-<script language="javascript" type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/js/jquery.min.js"></script>
-<script language="javascript" type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/js/common.js"></script>
-<link rel="stylesheet" href="<?= Yii::getAlias('@tasseturl'); ?>/culture/css/19cef-5346.css" type="text/css" media="all" id="webSkin" /></head>
+<script language="javascript" type="text/javascript" src="{{$commonAssetUrl}}/culture/m/js/otca.js"></script>
+<script language="javascript" type="text/javascript" src="{{$commonAssetUrl}}/culture/js/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="{{$commonAssetUrl}}/culture/js/common.js"></script>
+<link rel="stylesheet" href="{{$commonAssetUrl}}/culture/css/19cef-5346.css" type="text/css" media="all" id="webSkin" /></head>
 
 <body>
 <div class="topBg">
@@ -54,8 +54,8 @@
             </li>
             <li class="b">
                 <a href="http://m.yac8.com/" target="_blank">
-                    <img id="topWapBtn" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/img/3d6e2-8961.gif" alt="WAP手机版" style="margin:5px 0 0 4px;cursor:pointer;float:right;" /></a>
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/culture/img/01bb4-2415.gif" alt="RSS订阅" style="margin:6px 0 0 4px;cursor:pointer;float:right;" onclick="OpenPopup('rss');" />
+                    <img id="topWapBtn" src="{{$commonAssetUrl}}/culture/img/3d6e2-8961.gif" alt="WAP手机版" style="margin:5px 0 0 4px;cursor:pointer;float:right;" /></a>
+                <img src="{{$commonAssetUrl}}/culture/img/01bb4-2415.gif" alt="RSS订阅" style="margin:6px 0 0 4px;cursor:pointer;float:right;" onclick="OpenPopup('rss');" />
                 <span onclick="AddFavorite(document.location.href,document.title);" title="加入收藏" class="font1_2d pointer">加入收藏</span>&nbsp;
                 <span id="setHomeA" onclick="SetHome($id('setHomeA'),document.location.href);" title="设为首页" class="font1_2d pointer">设为首页</span></li>
         </ul>
@@ -67,7 +67,7 @@
     <ul>
         <li class="a">
             <a href='../'>
-                <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/img/d6ad2-7466.png' alt="书法欣赏" title="书法欣赏" /></a>
+                <img src='{{$commonAssetUrl}}/culture/img/d6ad2-7466.png' alt="书法欣赏" title="书法欣赏" /></a>
         </li>
         <li class="adClass b">
             <div class="ad1Style">
@@ -243,9 +243,9 @@
                         <div>
                             <p>许锷小楷《倪文贞公传》，来源：倪元璐花卉图卷后题跋，弗利尔美术馆收藏。</p>
                             <p>许锷，字达夫，号颖叔、瓢隐居士，室名诗可楼，苏州人。工诗，豪饮，尤善楷书。书法学王文治，清末著名书法家，学者。著有《西湖棹歌百首》等。</p>
-                            <img alt="清末著名书法家许锷小楷《倪文贞公传》" title="清末著名书法家许锷小楷《倪文贞公传》" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/2d593-4455.jpg" border="0" />
-                            <img alt="清末著名书法家许锷小楷《倪文贞公传》" title="清末著名书法家许锷小楷《倪文贞公传》" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/ecbe2-2474.jpg" border="0" />
-                            <img alt="清末著名书法家许锷小楷《倪文贞公传》" title="清末著名书法家许锷小楷《倪文贞公传》" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/11f91-4069.jpg" border="0" />
+                            <img alt="清末著名书法家许锷小楷《倪文贞公传》" title="清末著名书法家许锷小楷《倪文贞公传》" src="{{$commonAssetUrl}}/culture/m/img/2d593-4455.jpg" border="0" />
+                            <img alt="清末著名书法家许锷小楷《倪文贞公传》" title="清末著名书法家许锷小楷《倪文贞公传》" src="{{$commonAssetUrl}}/culture/m/img/ecbe2-2474.jpg" border="0" />
+                            <img alt="清末著名书法家许锷小楷《倪文贞公传》" title="清末著名书法家许锷小楷《倪文贞公传》" src="{{$commonAssetUrl}}/culture/m/img/11f91-4069.jpg" border="0" />
                             <p>
                                 <div class='clear'></div>
                                 <div style='margin:0 auto; width:660px; overflow:hidden; text-align:center;' class='adClass'>
@@ -354,7 +354,7 @@
                         <li>
                             <div class='img'>
                                 <a href='../news/72.html' class='font1_2' target='_blank'>
-                                    <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/img/247fc-6065.jpg' onerror="if (this.value!='1'){this.value='1';this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';}" alt="苏适行书书法作品欣赏" width='70' height='90' /></a>
+                                    <img src='{{$commonAssetUrl}}/culture/img/247fc-6065.jpg' onerror="if (this.value!='1'){this.value='1';this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';}" alt="苏适行书书法作品欣赏" width='70' height='90' /></a>
                             </div>
                             <div class='info'>
                                 <div class='ft'>
@@ -531,9 +531,9 @@
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(bp, s);
     })();</script>
-<script language="javascript" type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/js/top.js"></script>
-<script language="javascript" type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/js/replyandmessage.js"></script>
-<script language="javascript" type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/js/newsshow.js"></script>
+<script language="javascript" type="text/javascript" src="{{$commonAssetUrl}}/culture/js/top.js"></script>
+<script language="javascript" type="text/javascript" src="{{$commonAssetUrl}}/culture/js/replyandmessage.js"></script>
+<script language="javascript" type="text/javascript" src="{{$commonAssetUrl}}/culture/js/newsshow.js"></script>
 <script language='javascript' type='text/javascript'>JsWriteBottom();</script></body>
 
 </html>

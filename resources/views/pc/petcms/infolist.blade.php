@@ -5,21 +5,21 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="edge" />
-<link rel="shortcut icon" href="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/ab561-6001.ico" />
+<link rel="shortcut icon" href="{{$commonAssetUrl}}/petcms/img/ab561-6001.ico" />
 <!--头部开始-->
 <meta name="keywords" content="狗狗饲养" />
 <meta name="description" content="狗狗饲养" />
 <title>狗狗饲养-波奇网百科大全</title>
 <link rel="stylesheet" type="text/css" href="//a.boqiicdn.com/Js1/min/?f=/Css/baikenew/common.css,/Css/baikenew/style.css,/Css/baikenew/subList.css" />
 <!--[if lt IE 9]>
-    <script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/respond.min.js"></script>
+    <script src="{{$commonAssetUrl}}/petcms/js/respond.min.js"></script>
     <link href="//a.boqiicdn.com/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
-    <link href="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/1325b-8180.gif" id="respond-redirect" rel="respond-redirect" />
-    <script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/respond.proxy.js"></script>
+    <link href="{{$commonAssetUrl}}/petcms/img/1325b-8180.gif" id="respond-redirect" rel="respond-redirect" />
+    <script src="{{$commonAssetUrl}}/petcms/js/respond.proxy.js"></script>
 <![endif]-->
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/jquery.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/boqii.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/boqii.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/petcms/js/jquery.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/petcms/js/boqii.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/petcms/js/boqii.js"></script>
 <!--头部结束--></head>
 
 <body>
@@ -42,7 +42,7 @@
         "shop_dir": "http://shop.boqii.com",
         "img_dir": "http://img.boqiicdn.com"
     };</script>
-<link rel="stylesheet" type="text/css" href="<?= Yii::getAlias('@tasseturl'); ?>/petcms/css/05527-2245.css" />
+<link rel="stylesheet" type="text/css" href="{{$commonAssetUrl}}/petcms/css/05527-2245.css" />
 <div id="toolbar">
     <div class="toolbar_auto">
         <ul class="toolbar_left left">
@@ -58,13 +58,13 @@
         <ul class="toolbar_right right"></ul>
     </div>
 </div>
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/public_toolbar_baike.js"></script>
+<script src="{{$commonAssetUrl}}/petcms/js/public_toolbar_baike.js"></script>
 <!--顶部开始-->
 <div id="header">
     <div class="top_auto">
         <div class="logo">
             <a href="http://www.boqii.com/baike">
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/c7eff-4452.png" alt="宠物百科" title="宠物百科" /></a>
+                <img src="{{$commonAssetUrl}}/petcms/img/c7eff-4452.png" alt="宠物百科" title="宠物百科" /></a>
         </div>
         <div class="top_search left">
             <form id="search_form" method="get" action="http://i.boqii.com/search">
@@ -74,7 +74,7 @@
         </div>
         <div class="top_ad right">
             <a href="http://vet.boqii.com/?utm_source=baik-cg" target="_blank">
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/52f3b-7661.jpg" /></a>
+                <img src="{{$commonAssetUrl}}/petcms/img/52f3b-7661.jpg" /></a>
         </div>
     </div>
 </div>
@@ -445,7 +445,7 @@
                     <dl>
                         <dt>
                             <a href="http://www.boqii.com/article/185398.html" target="_blank">
-                                <img alt="银狐犬为什么很少人养 " src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/333ab-5772.jpg" /></a>
+                                <img alt="银狐犬为什么很少人养 " src="{{$commonAssetUrl}}/petcms/img/333ab-5772.jpg" /></a>
                         </dt>
                         <dd class="name">
                             <a href="http://www.boqii.com/article/185398.html" target="_blank">银狐犬为什么很少人养</a>
@@ -461,7 +461,7 @@
                     <dl>
                         <dt>
                             <a href="http://www.boqii.com/article/185397.html" target="_blank">
-                                <img alt="狗一岁相当于人多少岁？" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/81789-5646.jpg" /></a>
+                                <img alt="狗一岁相当于人多少岁？" src="{{$commonAssetUrl}}/petcms/img/81789-5646.jpg" /></a>
                         </dt>
                         <dd class="name">
                             <a href="http://www.boqii.com/article/185397.html" target="_blank">狗一岁相当于人多少岁？</a>
@@ -477,7 +477,7 @@
                     <dl>
                         <dt>
                             <a href="http://www.boqii.com/article/185396.html" target="_blank">
-                                <img alt="小狗什么时候断奶？小狗断奶后应该吃什么？" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/4f5b1-2304.jpg" /></a>
+                                <img alt="小狗什么时候断奶？小狗断奶后应该吃什么？" src="{{$commonAssetUrl}}/petcms/img/4f5b1-2304.jpg" /></a>
                         </dt>
                         <dd class="name">
                             <a href="http://www.boqii.com/article/185396.html" target="_blank">小狗什么时候断奶？小狗断奶后应该吃什么？</a>
@@ -493,7 +493,7 @@
                     <dl>
                         <dt>
                             <a href="http://www.boqii.com/article/41491.html" target="_blank">
-                                <img alt="狗为什么喜欢吃屎？狗吃屎应该怎么办？ " src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/b3428-5000.jpg" /></a>
+                                <img alt="狗为什么喜欢吃屎？狗吃屎应该怎么办？ " src="{{$commonAssetUrl}}/petcms/img/b3428-5000.jpg" /></a>
                         </dt>
                         <dd class="name">
                             <a href="http://www.boqii.com/article/41491.html" target="_blank">狗为什么喜欢吃屎？狗吃屎应该怎么办？</a>
@@ -509,7 +509,7 @@
                     <dl>
                         <dt>
                             <a href="http://www.boqii.com/article/41490.html" target="_blank">
-                                <img alt="怎么让狗狗去厕所？ " src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/092ff-9367.jpg" /></a>
+                                <img alt="怎么让狗狗去厕所？ " src="{{$commonAssetUrl}}/petcms/img/092ff-9367.jpg" /></a>
                         </dt>
                         <dd class="name">
                             <a href="http://www.boqii.com/article/41490.html" target="_blank">怎么让狗狗去厕所？</a>
@@ -525,7 +525,7 @@
                     <dl>
                         <dt>
                             <a href="http://www.boqii.com/article/41489.html" target="_blank">
-                                <img alt="什么小宠物好养又干净呢？ " src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/5bed3-9455.jpg" /></a>
+                                <img alt="什么小宠物好养又干净呢？ " src="{{$commonAssetUrl}}/petcms/img/5bed3-9455.jpg" /></a>
                         </dt>
                         <dd class="name">
                             <a href="http://www.boqii.com/article/41489.html" target="_blank">什么小宠物好养又干净呢？</a>
@@ -541,7 +541,7 @@
                     <dl>
                         <dt>
                             <a href="http://www.boqii.com/article/41488.html" target="_blank">
-                                <img alt="狗体内驱虫多久一次？驱虫时应该注意什么？ " src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/5eff1-9277.jpg" /></a>
+                                <img alt="狗体内驱虫多久一次？驱虫时应该注意什么？ " src="{{$commonAssetUrl}}/petcms/img/5eff1-9277.jpg" /></a>
                         </dt>
                         <dd class="name">
                             <a href="http://www.boqii.com/article/41488.html" target="_blank">狗体内驱虫多久一次？驱虫时应该注意什么？</a>
@@ -557,7 +557,7 @@
                     <dl>
                         <dt>
                             <a href="http://www.boqii.com/article/41487.html" target="_blank">
-                                <img alt="藏獒的力量有多大？藏獒能打过老虎吗？ " src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/ebcc9-5824.jpg" /></a>
+                                <img alt="藏獒的力量有多大？藏獒能打过老虎吗？ " src="{{$commonAssetUrl}}/petcms/img/ebcc9-5824.jpg" /></a>
                         </dt>
                         <dd class="name">
                             <a href="http://www.boqii.com/article/41487.html" target="_blank">藏獒的力量有多大？藏獒能打过老虎吗？</a>
@@ -680,7 +680,7 @@
                 <a target="_blank" href="http://www.boqii.com/baike/news/">最新文章</a></p>
             <p class="beian">
                 <a class="police" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502004955">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/31ab7-5261.png" alt="">沪公网安备 31011502004955号</a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/31ab7-5261.png" alt="">沪公网安备 31011502004955号</a>
                 <span>|</span>
                 <a href="http://www.beian.miit.gov.cn/" target="_blank">沪ICP备13034501号-2</a>
                 <span>|</span>&nbsp;增值电信业务经营许可证：
@@ -688,25 +688,25 @@
             <p class="copy">Copyright © 2007-2021 Boqii.com All Rights Reserved 光橙（上海）信息科技有限公司 版权所有</p>
             <p>
                 <a href='http://wap.scjgj.sh.gov.cn/businessCheck/verifKey.do?showType=extShow&serial=9031000020200804110320000006173852-SAIC_SHOW_310000-20131022163114962238&signData=MEUCIQCxAhT2yp7CGYeqT3Nzy3yKKs+8PiJPEXXe40scDQIh5QIgQxGCEwLzNES+bsFkNBbDioZIDWffBlMmuTmGn4zlaQw=' target='_blank' rel='nofollow'>
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/3829f-8548.png" width="100" height="35"></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/3829f-8548.png" width="100" height="35"></a>
                 <a href="http://www.boqii.com/ads.php" target="_blank" rel="nofollow">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/a4644-3558.png" width="100" height="35"></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/a4644-3558.png" width="100" height="35"></a>
                 <a href="https://ss.knet.cn/verifyseal.dll?sn=e14111831011556282oicb000000&ct=df&a=1&pa=0.1636424780320953" target="_blank" rel="nofollow">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/aef78-9568.png" width="100" height="35"></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/aef78-9568.png" width="100" height="35"></a>
                 <a href="http://www.zx110.org/" target="_blank" rel="nofollow">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/d29f5-2562.png" width="100" height="35"></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/d29f5-2562.png" width="100" height="35"></a>
                 <a rel="nofollow" target="_blank" href="http://www.shjbzx.cn/">
-                    <img width="100" height="35" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/6e8d6-1338.png"></a>
+                    <img width="100" height="35" src="{{$commonAssetUrl}}/petcms/img/6e8d6-1338.png"></a>
             </p>
             <!-- <p><a href="http://www.boqii.com/ads.php" target="_blank" rel="nofollow"><img
-            src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/f1a57-7077.png"></a><a
+            src="{{$commonAssetUrl}}/petcms/img/f1a57-7077.png"></a><a
             href="http://www.zx110.org/" target="_blank" rel="nofollow"><img
-            src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/7fff7-5407.png"></a><SCRIPT LANGUAGE="JavaScript">
+            src="{{$commonAssetUrl}}/petcms/img/7fff7-5407.png"></a><SCRIPT LANGUAGE="JavaScript">
             document.writeln(
-            "<a href='http://wap.scjgj.sh.gov.cn/businessCheck/verifKey.do?showType=extShow&serial=9031000020200804110320000006173852-SAIC_SHOW_310000-20131022163114962238&signData=MEUCIQCxAhT2yp7CGYeqT3Nzy3yKKs+8PiJPEXXe40scDQIh5QIgQxGCEwLzNES+bsFkNBbDioZIDWffBlMmuTmGn4zlaQw=' target='_blank' rel='nofollow'><img src='<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/00aac-8970.png' border=0></a>"
+            "<a href='http://wap.scjgj.sh.gov.cn/businessCheck/verifKey.do?showType=extShow&serial=9031000020200804110320000006173852-SAIC_SHOW_310000-20131022163114962238&signData=MEUCIQCxAhT2yp7CGYeqT3Nzy3yKKs+8PiJPEXXe40scDQIh5QIgQxGCEwLzNES+bsFkNBbDioZIDWffBlMmuTmGn4zlaQw=' target='_blank' rel='nofollow'><img src='{{$commonAssetUrl}}/petcms/img/00aac-8970.png' border=0></a>"
             )
             </SCRIPT><a rel="nofollow" target="_blank" href="http://www.shjbzx.cn/"><img width="100" height="35"
-            src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/6e8d6-1338.png"></a><script src="http://kxlogo.knet.cn/seallogo.dll?sn=e14111831011556282oicb000000&size=0"></script></p> -->
+            src="{{$commonAssetUrl}}/petcms/img/6e8d6-1338.png"></a><script src="http://kxlogo.knet.cn/seallogo.dll?sn=e14111831011556282oicb000000&size=0"></script></p> -->
             <p class="copy">违法和不良信息举报电话：
                 <a href="tel:021-68826169">021-68826169</a>
                 <span>|</span>举报邮箱：
@@ -743,7 +743,7 @@ e = d.body.getElementsByTagName('script')[0]; e.parentNode.insertBefore(s, e),
 f = 'https:' == location.protocol;
 s.src = (f ? 'https' : 'http') + '://'+(f?'fm.ipinyou.com':'fm.p0y.cn')+'/j/adv.js';
 }(document);
-</script><noscript><img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/4c99e-8783.gif" style="display:none;"/></noscript> -->
+</script><noscript><img src="{{$commonAssetUrl}}/petcms/img/4c99e-8783.gif" style="display:none;"/></noscript> -->
 <!-- 增加百度统计代码 -->
 <!-- <script>
 (function(){
@@ -768,7 +768,7 @@ s.parentNode.insertBefore(bp, s);
 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://": " http://");
     document.write(unescape("%3Cspan style='display:none;' id='cnzz_stat_icon_1264316807'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1264316807' type='text/javascript'%3E%3C/script%3E"));</script>
 <!-- cnzz20180423新增 end-->
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/js/bqstat.js"></script>
+<script src="{{$commonAssetUrl}}/petcms/m/js/bqstat.js"></script>
 </body>
 
 </html>

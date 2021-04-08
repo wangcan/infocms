@@ -15,11 +15,11 @@
 <meta content="black" name="apple-mobile-web-app-status-bar-style" />
 <meta content="telephone=no" name="format-detection" />
 <meta name="applicable-device" content="mobile">
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/48832-7373.ico" rel="shortcut icon" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/30cdb-6621.css" type="text/css" rel="stylesheet" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/f1d79-1352.css" type="text/css" rel="stylesheet" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/e1cba-9863.css" type="text/css" rel="stylesheet" />
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/jquery.min.js" type="text/javascript"></script>
+<link href="{{$commonAssetUrl}}/sguide/m/img/48832-7373.ico" rel="shortcut icon" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/30cdb-6621.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/f1d79-1352.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/e1cba-9863.css" type="text/css" rel="stylesheet" />
+<script src="{{$commonAssetUrl}}/sguide/m/js/jquery.min.js" type="text/javascript"></script>
 </head>
 
 <body class="mobile blockstyle2">
@@ -208,7 +208,7 @@
                     <div class="item">
                         <div class="img tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/862.html">
-                                <img width="300" height="185" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/2397c-7679.jpg" /></a>
+                                <img width="300" height="185" src="{{$commonAssetUrl}}/sguide/m/img/2397c-7679.jpg" /></a>
                         </div>
                         <div class="cont font14 tablecell lineem">
                             <div class="desc">
@@ -216,7 +216,7 @@
                                     <div class="brandname">
                                         <span class="numb num1"></span>
                                         <span class="name dhidden b c333 ">晨光文具M&G</span>
-                                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/d2aad-5930.png" /></div>
+                                        <img src="{{$commonAssetUrl}}/sguide/m/img/d2aad-5930.png" /></div>
                                     <div class="yusu dhidden">
                                         <span class="c666">投资预算：</span>
                                         <span class="red b">10-20万元</span></div>
@@ -233,7 +233,7 @@
                     <div class="item">
                         <div class="img tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/887.html">
-                                <img width="300" height="185" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/6aefa-3068.jpg" /></a>
+                                <img width="300" height="185" src="{{$commonAssetUrl}}/sguide/m/img/6aefa-3068.jpg" /></a>
                         </div>
                         <div class="cont font14 tablecell lineem">
                             <div class="desc">
@@ -241,7 +241,7 @@
                                     <div class="brandname">
                                         <span class="numb num2"></span>
                                         <span class="name dhidden b c333 ">得力DELI</span>
-                                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/d2aad-5930.png" /></div>
+                                        <img src="{{$commonAssetUrl}}/sguide/m/img/d2aad-5930.png" /></div>
                                     <div class="yusu dhidden">
                                         <span class="c666">投资预算：</span>
                                         <span class="red b">25-45万元</span></div>
@@ -258,7 +258,7 @@
                     <div class="item">
                         <div class="img tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/1765.html">
-                                <img width="300" height="185" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/765e1-9195.jpg" /></a>
+                                <img width="300" height="185" src="{{$commonAssetUrl}}/sguide/m/img/765e1-9195.jpg" /></a>
                         </div>
                         <div class="cont font14 tablecell lineem">
                             <div class="desc">
@@ -282,7 +282,7 @@
                     <div class="item">
                         <div class="img tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/864.html">
-                                <img width="300" height="185" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/805b3-3896.jpg" /></a>
+                                <img width="300" height="185" src="{{$commonAssetUrl}}/sguide/m/img/805b3-3896.jpg" /></a>
                         </div>
                         <div class="cont font14 tablecell lineem">
                             <div class="desc">
@@ -290,7 +290,7 @@
                                     <div class="brandname">
                                         <span class="numb num4"></span>
                                         <span class="name dhidden b c333 ">真彩TrueColor</span>
-                                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/d2aad-5930.png" /></div>
+                                        <img src="{{$commonAssetUrl}}/sguide/m/img/d2aad-5930.png" /></div>
                                     <div class="yusu dhidden">
                                         <span class="c666">投资预算：</span>
                                         <span class="red b">5-10万元</span></div>
@@ -307,7 +307,7 @@
                     <div class="item">
                         <div class="img tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/861.html">
-                                <img width="300" height="185" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/20fd3-2922.jpg" /></a>
+                                <img width="300" height="185" src="{{$commonAssetUrl}}/sguide/m/img/20fd3-2922.jpg" /></a>
                         </div>
                         <div class="cont font14 tablecell lineem">
                             <div class="desc">
@@ -331,7 +331,7 @@
                     <div class="item">
                         <div class="img tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/888.html">
-                                <img width="300" height="185" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/076c6-1285.jpg" /></a>
+                                <img width="300" height="185" src="{{$commonAssetUrl}}/sguide/m/img/076c6-1285.jpg" /></a>
                         </div>
                         <div class="cont font14 tablecell lineem">
                             <div class="desc">
@@ -355,7 +355,7 @@
                     <div class="item">
                         <div class="img tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/878.html">
-                                <img width="300" height="185" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/3c2ef-6165.jpg" /></a>
+                                <img width="300" height="185" src="{{$commonAssetUrl}}/sguide/m/img/3c2ef-6165.jpg" /></a>
                         </div>
                         <div class="cont font14 tablecell lineem">
                             <div class="desc">
@@ -379,7 +379,7 @@
                     <div class="item">
                         <div class="img tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/1056.html">
-                                <img width="300" height="185" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/b794f-1079.jpg" /></a>
+                                <img width="300" height="185" src="{{$commonAssetUrl}}/sguide/m/img/b794f-1079.jpg" /></a>
                         </div>
                         <div class="cont font14 tablecell lineem">
                             <div class="desc">
@@ -403,7 +403,7 @@
                     <div class="item">
                         <div class="img tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/6085.html">
-                                <img width="300" height="185" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/43fc2-3020.jpg" /></a>
+                                <img width="300" height="185" src="{{$commonAssetUrl}}/sguide/m/img/43fc2-3020.jpg" /></a>
                         </div>
                         <div class="cont font14 tablecell lineem">
                             <div class="desc">
@@ -427,7 +427,7 @@
                     <div class="item">
                         <div class="img tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/1763.html">
-                                <img width="300" height="185" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/ca452-5994.jpg" /></a>
+                                <img width="300" height="185" src="{{$commonAssetUrl}}/sguide/m/img/ca452-5994.jpg" /></a>
                         </div>
                         <div class="cont font14 tablecell lineem">
                             <div class="desc">
@@ -486,7 +486,7 @@
                     <div class="blockinfo zhaoshangcol3 ">
                         <div class="itembox">
                             <div class="ajaxload" data-action="zslist" data-subaction="data_MonthAttention" data-thirdaction="" data-page="1" data-start="" data-defaultids="" data-sort="" data-postdata="">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/7ee46-8575.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/7ee46-8575.gif" /></div>
                         </div>
                     </div>
                 </div>
@@ -494,7 +494,7 @@
                     <div class="blockinfo zhaoshangcol3 ">
                         <div class="itembox">
                             <div class="ajaxload" data-action="zslist" data-subaction="data_UpdateTime" data-thirdaction="" data-page="1" data-start="" data-defaultids="" data-sort="" data-postdata="">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/7ee46-8575.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/7ee46-8575.gif" /></div>
                         </div>
                     </div>
                 </div>
@@ -545,355 +545,355 @@
         <div class="bline bline1"></div>
         <div class="blockinfo jiamengcol1 pdtb" id="pos_jiamenglist">
             <div class="itembox">
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/aa43b-3186.png" class="jiamengt" />
+                <img src="{{$commonAssetUrl}}/sguide/m/img/aa43b-3186.png" class="jiamengt" />
                 <div class="itemscroll" shownum="5">
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/6315.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/3e596-4261.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/3e596-4261.gif" /></div>
                             <div class="title c333 dhidden">杜想加盟光明乳业品牌，请与我联系！</div>
                             <div class="name c999 dhidden">光明乳业</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/2505.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/5aeda-6140.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/5aeda-6140.gif" /></div>
                             <div class="title c333 dhidden">程序东想加盟笑开颜品牌，请与我联系！</div>
                             <div class="name c999 dhidden">笑开颜</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/6165.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/58a0a-4216.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/58a0a-4216.gif" /></div>
                             <div class="title c333 dhidden">李想加盟月月舒品牌，请与我联系！</div>
                             <div class="name c999 dhidden">月月舒</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/7070.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/7e193-4221.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/7e193-4221.gif" /></div>
                             <div class="title c333 dhidden">张想加盟口味王品牌，请与我联系！</div>
                             <div class="name c999 dhidden">口味王</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/1271.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/832a7-9960.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/832a7-9960.gif" /></div>
                             <div class="title c333 dhidden">吾买尔江想加盟国大药房品牌</div>
                             <div class="name c999 dhidden">国大药房</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/11834.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/60514-4736.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/60514-4736.gif" /></div>
                             <div class="title c333 dhidden">李女士想加盟安居客品牌，请与我联系！</div>
                             <div class="name c999 dhidden">安居客</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/brand/59193.html">
                             <div class="img" style="background-color:#000000;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/620d2-6751.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/620d2-6751.gif" /></div>
                             <div class="title c333 dhidden">韩先生想加盟卡罗德Carod品牌，请与我联系！</div>
                             <div class="name c999 dhidden">卡罗德Carod</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/2598.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/e9623-4349.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/e9623-4349.gif" /></div>
                             <div class="title c333 dhidden">杨梅子想加盟大视野DIASIA品牌，请与我联系！</div>
                             <div class="name c999 dhidden">大视野DIASIA</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/3806.html">
                             <div class="img" style="background-color:#CA0028;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/972dc-3491.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/972dc-3491.gif" /></div>
                             <div class="title c333 dhidden">王想加盟农夫山泉品牌，请与我联系！</div>
                             <div class="name c999 dhidden">农夫山泉</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/6027.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/93fa1-6316.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/93fa1-6316.gif" /></div>
                             <div class="title c333 dhidden">孔想加盟美的照明品牌，请与我联系！</div>
                             <div class="name c999 dhidden">美的照明</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/4390.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/6417d-7993.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/6417d-7993.gif" /></div>
                             <div class="title c333 dhidden">张想加盟Coca-Cola可口可乐品牌，请与我联系！</div>
                             <div class="name c999 dhidden">Coca-Cola可口可乐</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/13751.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/c24fd-3541.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/c24fd-3541.gif" /></div>
                             <div class="title c333 dhidden">戴先生想加盟釜山火炉品牌，请与我联系！</div>
                             <div class="name c999 dhidden">釜山火炉</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/13674.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/a017f-1524.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/a017f-1524.gif" /></div>
                             <div class="title c333 dhidden">杜想加盟望家欢品牌</div>
                             <div class="name c999 dhidden">望家欢</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/5572.html">
                             <div class="img" style="background-color:#DCDCDD;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/e6a4e-3249.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/e6a4e-3249.gif" /></div>
                             <div class="title c333 dhidden">刘中原想加盟豪爵Haojue品牌，请与我联系！</div>
                             <div class="name c999 dhidden">豪爵Haojue</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/771.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/382c8-6844.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/382c8-6844.gif" /></div>
                             <div class="title c333 dhidden">刘中原想加盟建设•雅马哈YAMAHA品牌，请与我联系！</div>
                             <div class="name c999 dhidden">建设•雅马哈YAMAHA</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/7773.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/42b73-2427.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/42b73-2427.gif" /></div>
                             <div class="title c333 dhidden">王女士想加盟御泥坊品牌，请与我联系！</div>
                             <div class="name c999 dhidden">御泥坊</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/13989.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/55157-6120.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/55157-6120.gif" /></div>
                             <div class="title c333 dhidden">王建华想加盟华致酒行VATS品牌，请与我联系！</div>
                             <div class="name c999 dhidden">华致酒行VATS</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/1212.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/e42aa-4661.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/e42aa-4661.gif" /></div>
                             <div class="title c333 dhidden">时永红想加盟海天品牌，请与我联系！</div>
                             <div class="name c999 dhidden">海天</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/200.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/2f189-9729.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/2f189-9729.gif" /></div>
                             <div class="title c333 dhidden">邹献坚想加盟曼妮芬ManiForm品牌</div>
                             <div class="name c999 dhidden">曼妮芬ManiForm</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/11246.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/00892-3840.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/00892-3840.gif" /></div>
                             <div class="title c333 dhidden">鲜丰水果很好，请尽快联系我详谈！</div>
                             <div class="name c999 dhidden">鲜丰水果</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/2541.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/40126-6687.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/40126-6687.gif" /></div>
                             <div class="title c333 dhidden">杨禄英想加盟台铃TAILG品牌，请与我联系！</div>
                             <div class="name c999 dhidden">台铃TAILG</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/7246.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/69ef2-4065.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/69ef2-4065.gif" /></div>
                             <div class="title c333 dhidden">杨文球想加盟德生品牌，请与我联系！</div>
                             <div class="name c999 dhidden">德生</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/774.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/cbdff-7350.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/cbdff-7350.gif" /></div>
                             <div class="title c333 dhidden">杨禄英想加盟爱玛AIMA品牌，请与我联系！</div>
                             <div class="name c999 dhidden">爱玛AIMA</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/513478.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/4ce43-3801.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/4ce43-3801.gif" /></div>
                             <div class="title c333 dhidden">杨文球想加盟凯伦CANLON品牌，请与我联系！</div>
                             <div class="name c999 dhidden">凯伦CANLON</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/7245.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/90071-2431.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/90071-2431.gif" /></div>
                             <div class="title c333 dhidden">杨文球想加盟宏源品牌，请与我联系！</div>
                             <div class="name c999 dhidden">宏源</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/2231.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/50375-3119.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/50375-3119.gif" /></div>
                             <div class="title c333 dhidden">杨文球想加盟卓宝JOABOA品牌，请与我联系！</div>
                             <div class="name c999 dhidden">卓宝JOABOA</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/13865.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/8ff73-8823.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/8ff73-8823.gif" /></div>
                             <div class="title c333 dhidden">岳林海想加盟黄金眼品牌，请与我联系！</div>
                             <div class="name c999 dhidden">黄金眼</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/2490.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/81050-9938.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/81050-9938.gif" /></div>
                             <div class="title c333 dhidden">赵先生想加盟天天快递TTK品牌，请与我联系！</div>
                             <div class="name c999 dhidden">天天快递TTK</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/5624.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/b01d3-4833.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/b01d3-4833.gif" /></div>
                             <div class="title c333 dhidden">赵先生想加盟全一快递Unitop品牌，请与我联系！</div>
                             <div class="name c999 dhidden">全一快递Unitop</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/5764.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/ef8c6-5325.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/ef8c6-5325.gif" /></div>
                             <div class="title c333 dhidden">韩想加盟四特酒品牌，请与我联系！</div>
                             <div class="name c999 dhidden">四特酒</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/11358.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/56098-1627.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/56098-1627.gif" /></div>
                             <div class="title c333 dhidden">彭华斌想加盟六必居品牌，请与我联系！</div>
                             <div class="name c999 dhidden">六必居</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/5771.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/824ff-6024.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/824ff-6024.gif" /></div>
                             <div class="title c333 dhidden">袁晖想加盟瑁恩·瑁爱Mn·Mo品牌</div>
                             <div class="name c999 dhidden">瑁恩·瑁爱Mn·Mo</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/12142.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/fb2b8-7483.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/fb2b8-7483.gif" /></div>
                             <div class="title c333 dhidden">戴志伟想加盟窝趣WOWQU品牌，请与我联系！</div>
                             <div class="name c999 dhidden">窝趣WOWQU</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/514558.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/76282-5297.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/76282-5297.gif" /></div>
                             <div class="title c333 dhidden">李彦东想加盟驿收发驿站品牌，请与我联系！</div>
                             <div class="name c999 dhidden">驿收发驿站</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/6213.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/c9280-1486.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/c9280-1486.gif" /></div>
                             <div class="title c333 dhidden">杨权想加盟ABC品牌</div>
                             <div class="name c999 dhidden">ABC</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/10019.html">
                             <div class="img" style="background-color:#FFC133;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/9963d-2195.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/9963d-2195.gif" /></div>
                             <div class="title c333 dhidden">美团外卖很好，请尽快联系我详谈！</div>
                             <div class="name c999 dhidden">美团外卖</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/4264.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1866d-1341.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/1866d-1341.gif" /></div>
                             <div class="title c333 dhidden">刘想加盟北冰洋品牌，请与我联系！</div>
                             <div class="name c999 dhidden">北冰洋</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/11739.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1f92d-1352.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/1f92d-1352.gif" /></div>
                             <div class="title c333 dhidden">施先生想加盟小牛电动NIU品牌，请与我联系！</div>
                             <div class="name c999 dhidden">小牛电动NIU</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/6688.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/c631a-2125.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/c631a-2125.gif" /></div>
                             <div class="title c333 dhidden">袁源想加盟宾之郎BinZhiLang品牌，请与我联系！</div>
                             <div class="name c999 dhidden">宾之郎BinZhiLang</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/brand/80104.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/fa8ef-7539.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/fa8ef-7539.gif" /></div>
                             <div class="title c333 dhidden">尤龙涛想加盟米尼智能照明MNC品牌，请与我联系！</div>
                             <div class="name c999 dhidden">米尼智能照明MNC</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/586.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/56a66-4625.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/56a66-4625.gif" /></div>
                             <div class="title c333 dhidden">尤龙涛想加盟三雄极光Pak品牌，请与我联系！</div>
                             <div class="name c999 dhidden">三雄极光Pak</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/5085.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/dc7c9-3675.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/dc7c9-3675.gif" /></div>
                             <div class="title c333 dhidden">尤龙涛想加盟TCL照明品牌，请与我联系！</div>
                             <div class="name c999 dhidden">TCL照明</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/4394.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/17d05-9161.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/17d05-9161.gif" /></div>
                             <div class="title c333 dhidden">杜玲想加盟PEPSI百事可乐品牌</div>
                             <div class="name c999 dhidden">PEPSI百事可乐</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/6441.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/fe572-7194.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/fe572-7194.gif" /></div>
                             <div class="title c333 dhidden">赵想加盟RedBull红牛品牌</div>
                             <div class="name c999 dhidden">RedBull红牛</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/4862.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/39c48-7693.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/39c48-7693.gif" /></div>
                             <div class="title c333 dhidden">熊先生想加盟姚记品牌，请与我联系！</div>
                             <div class="name c999 dhidden">姚记</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/6910.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/a2759-8251.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/a2759-8251.gif" /></div>
                             <div class="title c333 dhidden">胡先生想加盟Sealy丝涟品牌</div>
                             <div class="name c999 dhidden">Sealy丝涟</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/3950.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/aa828-8779.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/aa828-8779.gif" /></div>
                             <div class="title c333 dhidden">豆睿想加盟蓝天豚品牌</div>
                             <div class="name c999 dhidden">蓝天豚</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/3889.html">
                             <div class="img" style="background-color:#EFEFEF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/26267-5935.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/26267-5935.gif" /></div>
                             <div class="title c333 dhidden">吕杰想加盟蒙牛品牌，请与我联系！</div>
                             <div class="name c999 dhidden">蒙牛</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/4876.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/087b4-1607.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/087b4-1607.gif" /></div>
                             <div class="title c333 dhidden">李茂林想加盟青岛啤酒品牌，请与我联系！</div>
                             <div class="name c999 dhidden">青岛啤酒</div></a>
                     </div>
                     <div class="bitem">
                         <a href="https://m.maigoo.com/zhaoshang/7279.html">
                             <div class="img" style="background-color:#FFFFFF;">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/c6832-3149.gif" /></div>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/c6832-3149.gif" /></div>
                             <div class="title c333 dhidden">徐上华想加盟史丹利农业STANLEY品牌，请与我联系！</div>
                             <div class="name c999 dhidden">史丹利农业STANLEY</div></a>
                     </div>
@@ -913,7 +913,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/514.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/aeddb-8184.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/aeddb-8184.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -933,7 +933,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/13736.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/a93b2-9476.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/a93b2-9476.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -953,7 +953,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/9826.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/0983a-2880.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/0983a-2880.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -973,7 +973,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/14488.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/cb577-4777.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/cb577-4777.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -993,7 +993,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/vip_517.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/873cc-9780.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/873cc-9780.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1013,7 +1013,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/vip_510.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/27554-6536.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/27554-6536.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1033,7 +1033,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/vip_114.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/12948-6245.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/12948-6245.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1053,7 +1053,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/vip_1164.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/75198-7445.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/75198-7445.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1073,7 +1073,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/2505.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/87bc3-9840.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/87bc3-9840.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1093,7 +1093,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/vip_637.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/6c503-6536.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/6c503-6536.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1113,7 +1113,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/3073.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/b6855-4783.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/b6855-4783.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1133,7 +1133,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/1689.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/c8200-4682.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/c8200-4682.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1153,7 +1153,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/13910.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1df43-3880.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/1df43-3880.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1173,7 +1173,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/12073.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/d2116-6585.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/d2116-6585.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1193,7 +1193,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/544.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/c40f8-3007.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/c40f8-3007.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1213,7 +1213,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515214.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/7869d-5491.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/7869d-5491.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1233,7 +1233,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/11483.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/ceb83-1315.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/ceb83-1315.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1253,7 +1253,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/13767.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/d9479-4861.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/d9479-4861.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1273,7 +1273,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/11797.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/da612-4504.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/da612-4504.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1293,7 +1293,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/vip_1661.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/3735d-4852.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/3735d-4852.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1313,7 +1313,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/13781.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/af23e-5550.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/af23e-5550.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1333,7 +1333,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/9276.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/7452a-4542.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/7452a-4542.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1353,7 +1353,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/11520.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/8bdc8-8193.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/8bdc8-8193.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1373,7 +1373,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/vip_1373.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/47a7b-9681.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/47a7b-9681.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1393,7 +1393,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/11057.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/3b5c4-2885.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/3b5c4-2885.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1413,7 +1413,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/543.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/576ab-9013.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/576ab-9013.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1433,7 +1433,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/14510.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/38e32-1919.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/38e32-1919.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1453,7 +1453,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/14573.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/43951-3264.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/43951-3264.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1473,7 +1473,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/3195.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/077ee-2179.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/077ee-2179.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1493,7 +1493,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/14898.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/f47b7-3073.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/f47b7-3073.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1513,7 +1513,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/11816.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/97d89-6090.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/97d89-6090.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1533,7 +1533,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/1214.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/9f361-2184.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/9f361-2184.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1553,7 +1553,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/vip_2392.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/6f77c-9638.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/6f77c-9638.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1573,7 +1573,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/444.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/f272f-3985.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/f272f-3985.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1593,7 +1593,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/1165.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/5f97f-3191.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/5f97f-3191.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1613,7 +1613,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/13769.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/bc923-6988.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/bc923-6988.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1633,7 +1633,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/11937.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/515f7-3709.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/515f7-3709.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1653,7 +1653,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/8575.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/317b2-8749.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/317b2-8749.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1673,7 +1673,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/vip_1611.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/51d08-4604.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/51d08-4604.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1693,7 +1693,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/vip_1378.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/9e359-6937.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/9e359-6937.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1713,7 +1713,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/vip_13737.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/4d18a-2394.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/4d18a-2394.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1733,7 +1733,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/vip_119.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/b423f-3264.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/b423f-3264.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1753,7 +1753,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/vip_2218.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/0559d-7115.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/0559d-7115.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1773,7 +1773,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/vip_742.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/9b7f0-4635.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/9b7f0-4635.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1793,7 +1793,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/vip_1708.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/65c0d-3278.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/65c0d-3278.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1813,7 +1813,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/11768.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/07326-8702.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/07326-8702.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1833,7 +1833,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/9275.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/f5079-7484.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/f5079-7484.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1853,7 +1853,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/6316.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/e0f0a-8507.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/e0f0a-8507.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1873,7 +1873,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/vip_1514.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/72421-2675.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/72421-2675.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1893,7 +1893,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/5749.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1e793-3983.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/1e793-3983.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1913,7 +1913,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/9485.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/2ffb7-6353.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/2ffb7-6353.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1933,7 +1933,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/11493.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/e5f50-8189.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/e5f50-8189.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1953,7 +1953,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/4617.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/8e1ba-8058.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/8e1ba-8058.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1973,7 +1973,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/1328.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/64278-7381.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/64278-7381.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -1993,7 +1993,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/2411.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/00393-1999.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/00393-1999.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2013,7 +2013,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/11877.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/e4000-2866.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/e4000-2866.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2033,7 +2033,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/13768.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/0d566-6597.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/0d566-6597.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2053,7 +2053,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/14894.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/4340b-5178.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/4340b-5178.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2073,7 +2073,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/3028.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/d4c5f-1273.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/d4c5f-1273.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2093,7 +2093,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/13765.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/aeede-2058.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/aeede-2058.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2113,7 +2113,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/14395.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/c915e-3833.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/c915e-3833.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2133,7 +2133,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/2291.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/95e84-4255.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/95e84-4255.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2153,7 +2153,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/513805.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1323e-9841.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/1323e-9841.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2173,7 +2173,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/vip_563.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/c0417-2796.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/c0417-2796.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2193,7 +2193,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/1978.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/aa3ce-4073.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/aa3ce-4073.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2213,7 +2213,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/13641.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/81a6e-8313.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/81a6e-8313.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2233,7 +2233,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/9295.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/28e36-1957.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/28e36-1957.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2253,7 +2253,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/12200.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1e159-4926.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/1e159-4926.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2273,7 +2273,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/13803.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/f561f-2278.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/f561f-2278.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2293,7 +2293,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/11367.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/188f0-4121.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/188f0-4121.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2313,7 +2313,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/2223.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/cff98-5263.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/cff98-5263.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2333,7 +2333,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/14210.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/c7910-6032.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/c7910-6032.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2353,7 +2353,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/7085.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/30b57-6426.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/30b57-6426.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2373,7 +2373,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/10516.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/13a16-8559.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/13a16-8559.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2393,7 +2393,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/5535.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/95442-2169.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/95442-2169.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2413,7 +2413,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/14511.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/8762e-6582.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/8762e-6582.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2433,7 +2433,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/14361.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/9ccba-7521.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/9ccba-7521.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2453,7 +2453,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/14362.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/66dc4-1443.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/66dc4-1443.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2473,7 +2473,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/vip_5839.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/e406c-4203.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/e406c-4203.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2493,7 +2493,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/8829.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/0a8d8-2102.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/0a8d8-2102.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2513,7 +2513,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/9224.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/0f87c-7874.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/0f87c-7874.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2533,7 +2533,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/11775.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/35d68-2458.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/35d68-2458.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2553,7 +2553,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/13643.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/30086-4143.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/30086-4143.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2573,7 +2573,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/2326.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/885c6-1341.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/885c6-1341.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2593,7 +2593,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/3141.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/a3489-4025.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/a3489-4025.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2613,7 +2613,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/3287.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/6b52c-1301.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/6b52c-1301.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2633,7 +2633,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/10846.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/70f91-3791.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/70f91-3791.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2653,7 +2653,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/vip_1361.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/5f8fb-3645.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/5f8fb-3645.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2673,7 +2673,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/51.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/5ac0b-6213.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/5ac0b-6213.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2693,7 +2693,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/9418.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/ce35d-4210.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/ce35d-4210.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2713,7 +2713,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/vip_638.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/c774d-7319.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/c774d-7319.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2733,7 +2733,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/4440.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/78581-3869.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/78581-3869.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2753,7 +2753,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/513946.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/db34f-6414.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/db34f-6414.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2773,7 +2773,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/830.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/028ac-8050.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/028ac-8050.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2793,7 +2793,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/11830.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/84ed9-6080.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/84ed9-6080.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2813,7 +2813,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/7480.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/caa26-7300.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/caa26-7300.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2833,7 +2833,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/1321.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/72724-8284.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/72724-8284.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2853,7 +2853,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/vip_1167.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/bd5fa-6361.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/bd5fa-6361.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2873,7 +2873,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/vip_2508.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/c2e30-3306.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/c2e30-3306.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2893,7 +2893,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/5454.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/d1f24-9462.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/d1f24-9462.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2913,7 +2913,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/14513.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/9c87c-6539.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/9c87c-6539.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2933,7 +2933,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/11798.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/02f90-4618.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/02f90-4618.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2953,7 +2953,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/3720.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/de877-2825.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/de877-2825.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2973,7 +2973,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/11866.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/6af81-3624.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/6af81-3624.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -2993,7 +2993,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/5014.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/30f6b-1081.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/30f6b-1081.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3013,7 +3013,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/2125.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1c6ab-7812.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/1c6ab-7812.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3033,7 +3033,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/10478.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/3e6dc-4034.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/3e6dc-4034.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3053,7 +3053,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/2604.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/3670e-6678.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/3670e-6678.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3073,7 +3073,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/5556.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/ed736-1873.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/ed736-1873.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3093,7 +3093,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/1685.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/2a466-7751.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/2a466-7751.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3113,7 +3113,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/9916.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/166ca-8836.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/166ca-8836.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3133,7 +3133,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/459.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/4f2b9-6746.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/4f2b9-6746.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3153,7 +3153,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/2247.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/b864f-9861.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/b864f-9861.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3173,7 +3173,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/1667.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/e1f0a-3347.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/e1f0a-3347.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3193,7 +3193,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/4873.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/a78ec-5451.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/a78ec-5451.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3213,7 +3213,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/3456.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/3890a-2578.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/3890a-2578.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3233,7 +3233,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/13784.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/642c1-8067.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/642c1-8067.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3253,7 +3253,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/14209.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/3ebf0-1884.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/3ebf0-1884.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3273,7 +3273,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/13672.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/c1a70-9190.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/c1a70-9190.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3293,7 +3293,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/9384.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1ec1f-1575.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/1ec1f-1575.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3313,7 +3313,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/5139.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/91f8e-4565.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/91f8e-4565.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3333,7 +3333,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/14271.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/74201-9279.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/74201-9279.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3353,7 +3353,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/7171.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/ff2f3-3559.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/ff2f3-3559.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3373,7 +3373,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/1049.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/72f74-6473.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/72f74-6473.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3393,7 +3393,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/219566.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/4b003-8428.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/4b003-8428.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3413,7 +3413,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/8674.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/ad129-7254.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/ad129-7254.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3433,7 +3433,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/3054.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/75af3-1186.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/75af3-1186.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3453,7 +3453,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/514403.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/be767-6701.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/be767-6701.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3473,7 +3473,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/221400.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/7da98-9476.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/7da98-9476.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3493,7 +3493,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/220953.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/b6d92-1293.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/b6d92-1293.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3513,7 +3513,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/220239.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/15a07-2800.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/15a07-2800.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3533,7 +3533,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/220230.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/a1c07-9438.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/a1c07-9438.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3553,7 +3553,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/34123.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/25acf-9418.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/25acf-9418.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3573,7 +3573,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/32960.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/14cfc-4004.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/14cfc-4004.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3593,7 +3593,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/32702.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/05a22-8819.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/05a22-8819.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3613,7 +3613,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/14104.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/b3e5d-1009.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/b3e5d-1009.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3633,7 +3633,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/13996.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/52d1e-8134.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/52d1e-8134.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3653,7 +3653,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/11287.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/2b8f0-5788.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/2b8f0-5788.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3673,7 +3673,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/10947.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/d9aa1-1932.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/d9aa1-1932.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3693,7 +3693,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/5185.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/f4c48-8349.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/f4c48-8349.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3713,7 +3713,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/4356.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/d9705-8288.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/d9705-8288.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3733,7 +3733,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/4048.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/e7f67-2555.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/e7f67-2555.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3753,7 +3753,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/93.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/89d4c-2275.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/89d4c-2275.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3773,7 +3773,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/220894.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/6e9e6-3276.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/6e9e6-3276.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3793,7 +3793,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/13715.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1cdbf-4278.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/1cdbf-4278.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3813,7 +3813,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/12199.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/5e8be-4954.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/5e8be-4954.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3833,7 +3833,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/7681.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/785d3-5067.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/785d3-5067.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3853,7 +3853,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/7071.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/2613c-3878.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/2613c-3878.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3873,7 +3873,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/4304.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/ebcc2-2915.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/ebcc2-2915.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3893,7 +3893,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/2231.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/b650c-3069.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/b650c-3069.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3913,7 +3913,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/2057.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/d1ecb-4666.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/d1ecb-4666.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3933,7 +3933,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/673.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/103bb-2288.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/103bb-2288.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3953,7 +3953,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/276.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/e72b0-3237.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/e72b0-3237.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3973,7 +3973,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/220490.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/f6233-5354.gif" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/f6233-5354.gif" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -3993,7 +3993,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515642.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/e6876-1874.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/e6876-1874.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4013,7 +4013,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515641.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/a4ef9-7301.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/a4ef9-7301.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4033,7 +4033,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515300.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/3cefc-3288.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/3cefc-3288.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4053,7 +4053,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/220952.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/20c48-7670.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/20c48-7670.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4073,7 +4073,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/220480.html" class="bgimg">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/e8bf5-9028.jpg" />
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/e8bf5-9028.jpg" />
                                 <div class="font16 fff">绿卡能</div></a>
                         </div>
                         <div class="info tablecell">
@@ -4094,7 +4094,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/220390.html" class="bgimg">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/b3b9f-6060.jpg" />
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/b3b9f-6060.jpg" />
                                 <div class="font16 fff">维康wecan</div></a>
                         </div>
                         <div class="info tablecell">
@@ -4115,7 +4115,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/220354.html" class="bgimg">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/e6489-9858.jpg" />
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/e6489-9858.jpg" />
                                 <div class="font16 fff">和邦盛世</div></a>
                         </div>
                         <div class="info tablecell">
@@ -4136,7 +4136,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/13670.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/db535-1576.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/db535-1576.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4156,7 +4156,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/12000.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/b95d3-6586.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/b95d3-6586.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4176,7 +4176,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/11034.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/54a00-1484.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/54a00-1484.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4196,7 +4196,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/5228.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/3cb14-1349.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/3cb14-1349.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4216,7 +4216,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/1439.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/85af2-1670.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/85af2-1670.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4236,7 +4236,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515639.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/00240-3227.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/00240-3227.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4256,7 +4256,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515638.html" class="bgimg">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/b3b9f-6060.jpg" />
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/b3b9f-6060.jpg" />
                                 <div class="font16 fff">高第家居</div></a>
                         </div>
                         <div class="info tablecell">
@@ -4277,7 +4277,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515637.html" class="bgimg">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/e6489-9858.jpg" />
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/e6489-9858.jpg" />
                                 <div class="font16 fff">博轩尼BoXuanNi</div></a>
                         </div>
                         <div class="info tablecell">
@@ -4298,7 +4298,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515636.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/adedf-4141.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/adedf-4141.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4318,7 +4318,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515635.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/e1c4d-7065.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/e1c4d-7065.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4338,7 +4338,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515634.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/bc0d3-6410.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/bc0d3-6410.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4358,7 +4358,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515633.html" class="bgimg">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/e6489-9858.jpg" />
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/e6489-9858.jpg" />
                                 <div class="font16 fff">疾风达</div></a>
                         </div>
                         <div class="info tablecell">
@@ -4379,7 +4379,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515632.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/853c5-2831.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/853c5-2831.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4399,7 +4399,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515631.html" class="bgimg">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/e8bf5-9028.jpg" />
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/e8bf5-9028.jpg" />
                                 <div class="font16 fff">普慧环保PEAKWAY</div></a>
                         </div>
                         <div class="info tablecell">
@@ -4420,7 +4420,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515630.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/a781c-5431.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/a781c-5431.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4440,7 +4440,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515629.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/e7f9e-7288.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/e7f9e-7288.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4460,7 +4460,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515628.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/56fa1-8801.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/56fa1-8801.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4480,7 +4480,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515627.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/17cab-9658.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/17cab-9658.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4500,7 +4500,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515626.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/53ee3-3957.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/53ee3-3957.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4520,7 +4520,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515625.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/ba054-2466.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/ba054-2466.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4540,7 +4540,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515624.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/0c580-5752.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/0c580-5752.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4560,7 +4560,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515623.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/dc3b9-8271.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/dc3b9-8271.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4580,7 +4580,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515622.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/4c30b-6048.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/4c30b-6048.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4600,7 +4600,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515621.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/4c97f-1786.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/4c97f-1786.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4620,7 +4620,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515620.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/e1379-7136.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/e1379-7136.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4640,7 +4640,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515619.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/067c5-3997.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/067c5-3997.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4660,7 +4660,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515618.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/2a00d-4177.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/2a00d-4177.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4680,7 +4680,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515617.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/6681e-9691.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/6681e-9691.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4700,7 +4700,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515616.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/a4f5f-5036.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/a4f5f-5036.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4720,7 +4720,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515615.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/592bf-1404.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/592bf-1404.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4740,7 +4740,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515614.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/236f2-7686.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/236f2-7686.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4760,7 +4760,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515613.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/7db09-7541.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/7db09-7541.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4780,7 +4780,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515612.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/ed89e-9301.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/ed89e-9301.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4800,7 +4800,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515611.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/aef05-2116.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/aef05-2116.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4820,7 +4820,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515610.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/b0e90-4637.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/b0e90-4637.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4840,7 +4840,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515609.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/2c185-5264.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/2c185-5264.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4860,7 +4860,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515608.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/70842-9200.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/70842-9200.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4880,7 +4880,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515607.html" class="bgimg">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/e8bf5-9028.jpg" />
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/e8bf5-9028.jpg" />
                                 <div class="font16 fff">亚佳特</div></a>
                         </div>
                         <div class="info tablecell">
@@ -4901,7 +4901,7 @@
                     <li class="item">
                         <div class="imgbox tablecell">
                             <a href="https://m.maigoo.com/zhaoshang/515606.html" class="img">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/d95b4-4859.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/d95b4-4859.jpg" /></a>
                         </div>
                         <div class="info tablecell">
                             <div class="desc line18em font14">
@@ -4955,14 +4955,14 @@
                     <a class="color1" href="javascript:;" onclick="window.open('https://m.maigoo.com/user/login/');">注册登录>></a></div>
             </div>
             <div class="moremzsm">
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/dec8c-3557.gif" onclick="$('#mzsmcontent').find('.mzsm').css('height','auto');$(this).parent().remove();" /></div>
+                <img src="{{$commonAssetUrl}}/sguide/m/img/dec8c-3557.gif" onclick="$('#mzsmcontent').find('.mzsm').css('height','auto');$(this).parent().remove();" /></div>
         </div>
         <div class="pagecss" data-css="/public/css/mobile/v2019/color.css,/public/css/mobile/v2019/weui.min.css,/public/css/mobile/v2019/zhaoshang/list.css,/public/css/mobile/v2019/block/publicblock/searchselect.css,/public/css/mobile/v2019/block/zhaoshang/zhaoshanglist.css,/public/css/mobile/v2019/block/zhaoshang/col3.css,/public/css/mobile/v2019/block/jiameng/addform.css,/public/css/mobile/v2019/block/jiameng/col1.css,/public/css/mobile/v2019/block/zhaoshang/col1.css,/public/css/mobile/v2019/block/publicblock/mzsm.css"></div>
         <div class="pagejs" data-js="/public/js/mobile/v2019/public.js,/public/js/mobile/v2019/event.js,/public/js/mobile/v2019/weUI.js,/public/js/mobile/v2019/block/publicblock/searchselect.js,/public/js/mobile/v2019/block/jiameng/addform.js,/public/js/mobile/v2019/block/jiameng/jiamengadd.js"></div>
     </div>
 </div>
 <div class="ads">
-    <script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/v.js"></script>
+    <script type="text/javascript" src="{{$commonAssetUrl}}/sguide/m/js/v.js"></script>
     </script>
 </div>
 <footer>
@@ -5022,8 +5022,8 @@
     test = 'list',
     issm = '';
     var authorpiclist = null;</script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/jquery.cookie.min.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/zhaoshang_list_f2145fcc869ad84959ec8e842c587251.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/sguide/m/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/sguide/m/js/zhaoshang_list_f2145fcc869ad84959ec8e842c587251.js"></script>
 <script>var _hmt = _hmt || []; (function() {
         var hm = document.createElement("script");
         hm.src = "https://hm.baidu.com/hm.js?882d151476ece2b55af12abf0af8572c";

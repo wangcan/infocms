@@ -15,11 +15,11 @@
 <meta content="black" name="apple-mobile-web-app-status-bar-style" />
 <meta content="telephone=no" name="format-detection" />
 <meta name="applicable-device" content="mobile">
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/48832-7373.ico" rel="shortcut icon" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/30cdb-6621.css" type="text/css" rel="stylesheet" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/f1d79-1352.css" type="text/css" rel="stylesheet" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/78e15-7764.css" type="text/css" rel="stylesheet" />
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/jquery.min.js" type="text/javascript"></script>
+<link href="{{$commonAssetUrl}}/sguide/m/img/48832-7373.ico" rel="shortcut icon" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/30cdb-6621.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/f1d79-1352.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/78e15-7764.css" type="text/css" rel="stylesheet" />
+<script src="{{$commonAssetUrl}}/sguide/m/js/jquery.min.js" type="text/javascript"></script>
 </head>
 
 <body class="mobile blockstyle2">
@@ -119,14 +119,14 @@
                 <div class="infobox">
                     <div class="imgbox">
                         <a isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3DRxurQ0LD5%2FwcQipKwQzePDAVflQIoZepyK8Cckff7TVRAdhuF14FMe%2B82ooptPV%2Bt4hWD5k2kjNQGJRg6iVmCsG9%2B3Bhuj2rTcGYdUd9A5PNo%2B4dndBAMe%2FBas0tvb4eZz42eVlqqJTBwBLHPsOVpfdFsh68tKJtbfpGn6CgG60LH38rwvnFMBbqKVbTskvgIYULNg46oBA%3D&union_lens=lensId:TAPI@1603075833@0b847662_e68d_1753ec3fce3_77f4@01" ck="155559" class="img">
-                            <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/56bf1-6105.jpg"></a>
+                            <img src="{{$commonAssetUrl}}/sguide/m/img/56bf1-6105.jpg"></a>
                     </div>
                     <div class="descbox">
                         <div class="title line18em">
                             <span class="c666 font14">店铺名称：
                                 <a class="font14 b color1" isconvert=1 rel="nofollow" href="https://s.click.taobao.com/t?e=m%3D2%26s%3DRxurQ0LD5%2FwcQipKwQzePDAVflQIoZepyK8Cckff7TVRAdhuF14FMe%2B82ooptPV%2Bt4hWD5k2kjNQGJRg6iVmCsG9%2B3Bhuj2rTcGYdUd9A5PNo%2B4dndBAMe%2FBas0tvb4eZz42eVlqqJTBwBLHPsOVpfdFsh68tKJtbfpGn6CgG60LH38rwvnFMBbqKVbTskvgIYULNg46oBA%3D&union_lens=lensId:TAPI@1603075833@0b847662_e68d_1753ec3fce3_77f4@01">得力旗舰店</a></span>
                             <em>
-                                <img class="mt-1" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1fb61-9881.gif"></em>
+                                <img class="mt-1" src="{{$commonAssetUrl}}/sguide/m/img/1fb61-9881.gif"></em>
                         </div>
                         <div class="detail line18em">
                             <ul>
@@ -263,7 +263,7 @@
                     <div class="describe font14 bg2">
                         <div class="txt line18em c666">得力官方旗舰店在线销售书写笔、计算器、文件夹、考勤机、学生文具品、打印纸等产品；涵盖了桌面文具、文件管理、书写系列、办公生活用品、办公设备、财务必备等领域；凭借先进的供应链管理、研发制造能力和完备的采购系统，得力以合理的价格迅捷提供全面的解决方案，让客户以简单的方式获得理想的办公环境、高效的办公硬件和软件支持。店内产品种类丰富，并时常参与各类优惠活动，进店还可领券再购物享更多实惠；所有展示商品均是实拍，均与实物相符；作为文具行业知名品牌，得力一直致力于为广大消费者提供性价比高的产品，让办公学习更得力。</div>
                         <div class="more" onclick="$(this).parent().find('.txt').css({'max-height':'none'});$(this).remove();">
-                            <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/dec8c-3557.gif" /></div>
+                            <img src="{{$commonAssetUrl}}/sguide/m/img/dec8c-3557.gif" /></div>
                     </div>
                 </div>
             </div>
@@ -313,7 +313,7 @@
                         <li class="item">
                             <div class="imgbox">
                                 <a isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3Dewhc3UFJMHAcQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMdACiPS3srg7lovu%2FCElQOtQGJRg6iVmCsG9%2B3Bhuj2rh74dnMJXmKgyny9FmT8FF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJtbfpGn6CgG63GzltgxZn28%2BCTnndEcWuj4LYhtm9mErWcyiXZjC3gl5G%2BuH0aQmExQstigGg5AzrGJe8N%2FwNpGw%3D%3D&union_lens=lensId:TAPI@1594896857@0b0122b6_0e6a_1735742b7c0_77d3@01">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/e62f2-8869.jpg" /></a>
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/e62f2-8869.jpg" /></a>
                             </div>
                             <div class="cont font12">
                                 <div class="title dhidden2">
@@ -336,7 +336,7 @@
                         <li class="item">
                             <div class="imgbox">
                                 <a isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3Dlya6vlS0R6QcQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMZJR2dcQVh%2Bfxq3IhSJN6GRQGJRg6iVmCsG9%2B3Bhuj2rh74dnMJXmKgyny9FmT8FF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJtbfpGn6CgG63GzltgxZn28%2BCTnndEcWuj%2Ba3tEOtVrpaAOxDhOfKufZG%2BuH0aQmExQstigGg5AzrGJe8N%2FwNpGw%3D%3D&union_lens=lensId:TAPI@1594899324@0b58a1be_0e82_17357685d88_e1b8@01">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/f2236-4859.jpg" /></a>
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/f2236-4859.jpg" /></a>
                             </div>
                             <div class="cont font12">
                                 <div class="title dhidden2">
@@ -359,7 +359,7 @@
                         <li class="item">
                             <div class="imgbox">
                                 <a isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3DnH6SewIjyQMcQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMRYWMCnQIIcxMMgx22UI05ZQGJRg6iVmCsG9%2B3Bhuj2rh74dnMJXmKgyny9FmT8FF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJtbfpGn6CgG63GzltgxZn28%2BCTnndEcWuj8DL8dC24YqQtlDessDoGNjgcfVNdTNN6%2FBkYmbRsMn%2BiZ%2BQMlGz6FQ%3D%3D&union_lens=lensId:TAPI@1594893178@0b5a32ca_0e30_173570a96fb_a6c7@01">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/49c88-2397.jpg" /></a>
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/49c88-2397.jpg" /></a>
                             </div>
                             <div class="cont font12">
                                 <div class="title dhidden2">
@@ -382,7 +382,7 @@
                         <li class="item">
                             <div class="imgbox">
                                 <a isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3DRDzPagxV4%2BkcQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMdACiPS3srg7lovu%2FCElQOtQGJRg6iVmCsG9%2B3Bhuj2rh74dnMJXmKgyny9FmT8FF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJtbfpGn6CgG63GzltgxZn28%2BCTnndEcWujcAMXvWrwuzRr45H%2B20txVTgcfVNdTNN6%2FBkYmbRsMn%2BiZ%2BQMlGz6FQ%3D%3D&union_lens=lensId:TAPI@1594896857@0b0122b6_0e6a_1735742b7bf_77b4@01">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/66477-3172.jpg" /></a>
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/66477-3172.jpg" /></a>
                             </div>
                             <div class="cont font12">
                                 <div class="title dhidden2">
@@ -405,7 +405,7 @@
                         <li class="item">
                             <div class="imgbox">
                                 <a isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3Dy4VTJLN9iKUcQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMQ0HsgdUeuIL1aH1Hk3GeOhQGJRg6iVmCsG9%2B3Bhuj2rh74dnMJXmKgyny9FmT8FF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJtbfpGn6CgG63GzltgxZn28%2BCTnndEcWuja4GWwnTTAs%2BAW1QqGQq3kGBbXq3745FKWijl4Vj7nd0%3D&union_lens=lensId:TAPI@1594892006@0b847695_0ea4_17356f8b539_6ce0@01">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/eccd0-2511.jpg" /></a>
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/eccd0-2511.jpg" /></a>
                             </div>
                             <div class="cont font12">
                                 <div class="title dhidden2">
@@ -428,7 +428,7 @@
                         <li class="item">
                             <div class="imgbox">
                                 <a isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3D3sDyXyniTYYcQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMR6rNA%2B4uvjzMMgx22UI05ZQGJRg6iVmCsG9%2B3Bhuj2rh74dnMJXmKgyny9FmT8FF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJtbfpGn6CgG63GzltgxZn28%2BCTnndEcWuju6%2BEqOY%2B%2BlxCjcpphSglEpG%2BuH0aQmExQstigGg5AzrGJe8N%2FwNpGw%3D%3D&union_lens=lensId:TAPI@1594894298@0b08206e_0e64_173571bad54_ca1c@01">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/8d755-8674.jpg" /></a>
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/8d755-8674.jpg" /></a>
                             </div>
                             <div class="cont font12">
                                 <div class="title dhidden2">
@@ -451,7 +451,7 @@
                         <li class="item">
                             <div class="imgbox">
                                 <a isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3DuroZSAr1Iw0cQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMdACiPS3srg7lovu%2FCElQOtQGJRg6iVmCsG9%2B3Bhuj2rh74dnMJXmKgyny9FmT8FF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJtbfpGn6CgG63GzltgxZn28%2BCTnndEcWuj3kl1rEiu%2BB9jDDAwGPABVZG%2BuH0aQmExQstigGg5AzrGJe8N%2FwNpGw%3D%3D&union_lens=lensId:TAPI@1594896857@0b0122b6_0e6a_1735742b7bf_77af@01">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/bea30-5723.jpg" /></a>
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/bea30-5723.jpg" /></a>
                             </div>
                             <div class="cont font12">
                                 <div class="title dhidden2">
@@ -459,7 +459,7 @@
                                         <i>7</i>
                                     </em>
                                     <a isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3DuroZSAr1Iw0cQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMdACiPS3srg7lovu%2FCElQOtQGJRg6iVmCsG9%2B3Bhuj2rh74dnMJXmKgyny9FmT8FF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJtbfpGn6CgG63GzltgxZn28%2BCTnndEcWuj3kl1rEiu%2BB9jDDAwGPABVZG%2BuH0aQmExQstigGg5AzrGJe8N%2FwNpGw%3D%3D&union_lens=lensId:TAPI@1594896857@0b0122b6_0e6a_1735742b7bf_77af@01" class="c333">
-                                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/0a94d-2687.gif" />得力文具7534盒装小学生橡皮擦考试素描美术橡皮擦得干净不易留痕 4B/2B多规格橡皮创意卡通可爱儿童学习用品</a></div>
+                                        <img src="{{$commonAssetUrl}}/sguide/m/img/0a94d-2687.gif" />得力文具7534盒装小学生橡皮擦考试素描美术橡皮擦得干净不易留痕 4B/2B多规格橡皮创意卡通可爱儿童学习用品</a></div>
                                 <div class="other">
                                     <div class="price font16">￥9.9</div>
                                     <div class="salenum">月销:1.8万+</div></div>
@@ -475,7 +475,7 @@
                         <li class="item">
                             <div class="imgbox">
                                 <a isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3DgPWHhNtjlBYcQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMdACiPS3srg7lovu%2FCElQOtQGJRg6iVmCsG9%2B3Bhuj2rh74dnMJXmKgyny9FmT8FF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJtbfpGn6CgG63GzltgxZn28%2BCTnndEcWujKN25acCUJw1jRLO66tGFM5G%2BuH0aQmExQstigGg5AzrGJe8N%2FwNpGw%3D%3D&union_lens=lensId:TAPI@1594896857@0b0122b6_0e6a_1735742b7c0_77d2@01">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/6a39d-7231.jpg" /></a>
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/6a39d-7231.jpg" /></a>
                             </div>
                             <div class="cont font12">
                                 <div class="title dhidden2">
@@ -498,7 +498,7 @@
                         <li class="item">
                             <div class="imgbox">
                                 <a isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3Dve4Rp4aWazAcQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMdACiPS3srg7lovu%2FCElQOtQGJRg6iVmCsG9%2B3Bhuj2rh74dnMJXmKgyny9FmT8FF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJtbfpGn6CgG63GzltgxZn28%2BCTnndEcWujlMw7%2FXKxx4Eq4RB%2FWHjLppG%2BuH0aQmExQstigGg5AzrGJe8N%2FwNpGw%3D%3D&union_lens=lensId:TAPI@1594896857@0b0122b6_0e6a_1735742b7bf_77ae@01">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/bba19-8876.jpg" /></a>
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/bba19-8876.jpg" /></a>
                             </div>
                             <div class="cont font12">
                                 <div class="title dhidden2">
@@ -521,7 +521,7 @@
                         <li class="item">
                             <div class="imgbox">
                                 <a isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3DkRr9nEqvjA4cQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMfK7nmt1NRUjxq3IhSJN6GRQGJRg6iVmCsG9%2B3Bhuj2rh74dnMJXmKgyny9FmT8FF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJtbfpGn6CgG63GzltgxZn28%2BCTnndEcWujKN25acCUJw02FuF%2FdJF4tJG%2BuH0aQmExQstigGg5AzrGJe8N%2FwNpGw%3D%3D&union_lens=lensId:TAPI@1594893084@0b84766f_0eb7_17357092801_895d@01">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/f590c-2160.jpg" /></a>
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/f590c-2160.jpg" /></a>
                             </div>
                             <div class="cont font12">
                                 <div class="title dhidden2">
@@ -573,14 +573,14 @@
                     <li class="item">
                         <div class="imgbox">
                             <a href="https://m.maigoo.com/webshop/155559.html">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/56bf1-6105.jpg_290_186.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/56bf1-6105.jpg_290_186.jpg" /></a>
                         </div>
                         <div class="cont">
                             <ul>
                                 <li class="webtitle font16">
                                     <a isconvert=1 rel="nofollow" href="https://s.click.taobao.com/t?e=m%3D2%26s%3DRxurQ0LD5%2FwcQipKwQzePDAVflQIoZepyK8Cckff7TVRAdhuF14FMe%2B82ooptPV%2Bt4hWD5k2kjNQGJRg6iVmCsG9%2B3Bhuj2rTcGYdUd9A5PNo%2B4dndBAMe%2FBas0tvb4eZz42eVlqqJTBwBLHPsOVpfdFsh68tKJtbfpGn6CgG60LH38rwvnFMBbqKVbTskvgIYULNg46oBA%3D&union_lens=lensId:TAPI@1603075833@0b847662_e68d_1753ec3fce3_77f4@01" class="title c333 dhidden">得力旗舰店</a></li>
                                 <li class="shoplevel font14 line15em">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1fb61-9881.gif" />
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/1fb61-9881.gif" />
                                     <em class="c999">顶级卖家</em>
                                     <span class="typename font12">旗舰店</span></li>
                                 <li class="c999 font14 line15em">关注指数 &nbsp;23737</li>
@@ -593,14 +593,14 @@
                     <li class="item">
                         <div class="imgbox">
                             <a href="https://m.maigoo.com/webshop/140738.html">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1b113-6284.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/1b113-6284.jpg" /></a>
                         </div>
                         <div class="cont">
                             <ul>
                                 <li class="webtitle font16">
                                     <a isconvert=1 rel="nofollow" href="https://union-click.jd.com/jdc?e=&p=AyIGZRprFQMTBlQaWxUAETcRRANLXSJeEF4aVwkMGQtBRE5XDVULR0VJHEpYAE8SCQITBlQaWhUCEARKQh5JXyJ3I0wzYQRLDzV5QU0AUHhdfwN%2BS2FBWRdrFgoUBV0TWx0AIg9dEloVBxc3ZRtaJVR8B1QaWhQDEgdXGGsXAxMEUR1dHAYTN1UfUxYKFAVdHF8cBBo3UhtSJQIQAFcbXB0GFQ5SdRolMiIEZStrFjISNwpfBkgyEAZUH1I%3D" class="title c333 dhidden">得力自营旗舰店</a></li>
                                 <li class="shoplevel font14 line15em">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1bbcc-3594.gif" />
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/1bbcc-3594.gif" />
                                     <em class="c999">初级卖家</em>
                                     <span class="typename font12">自营</span></li>
                                 <li class="c999 font14 line15em">关注指数 &nbsp;5620</li>
@@ -613,14 +613,14 @@
                     <li class="item">
                         <div class="imgbox">
                             <a href="https://m.maigoo.com/webshop/278260.html">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/4fe13-2703.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/4fe13-2703.jpg" /></a>
                         </div>
                         <div class="cont">
                             <ul>
                                 <li class="webtitle font16">
                                     <a isconvert=1 rel="nofollow" href="https://union-click.jd.com/jdc?e=&p=AyIGZRprFQoUDlArH0paTFhlQh5QQ1AMSwUFTx1JUkpJBUkcThkNRA5BSw4HXR1SEB1LQglGa1BDF0cQcylFZ3tPUktfTwZQYBJcIlMOHjdWE10XChoHXRlrHQobBlUeXiUyEgZlWjUWAxIOVitZFAMRA1MdUhEDIgdRE1gdABsHVB9aHAsiAFUSaxUAFQVVHFMRBRsAO1prJTIRN2UrWCUCIlgRRgYlABMGURI%3D" class="title c333 dhidden">得力办公品牌旗舰店</a></li>
                                 <li class="shoplevel font14 line15em">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1bbcc-3594.gif" />
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/1bbcc-3594.gif" />
                                     <em class="c999">顶级卖家</em>
                                     <span class="typename font12">旗舰店</span></li>
                                 <li class="c999 font14 line15em">关注指数 &nbsp;4296</li>
@@ -633,14 +633,14 @@
                     <li class="item">
                         <div class="imgbox">
                             <a href="https://m.maigoo.com/webshop/277012.html">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/3ec27-6320.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/3ec27-6320.jpg" /></a>
                         </div>
                         <div class="cont">
                             <ul>
                                 <li class="webtitle font16">
                                     <a isconvert=1 rel="nofollow" href="https://s.click.taobao.com/t?e=m%3D2%26s%3D6jc7t2Y76qQcQipKwQzePDAVflQIoZepyK8Cckff7TVRAdhuF14FMSPYO0z31RYdt4hWD5k2kjNQGJRg6iVmCsG9%2B3Bhuj2rTcGYdUd9A5PNo%2B4dndBAMe%2FBas0tvb4eZz42eVlqqJTBwBLHPsOVpfdFsh68tKJtTBMgo9cPdHBoZcROWC53QSwRStI7Ole2cSpj5qSCmbA%3D&union_lens=lensId:TAPI@1603077323@0bba65eb_03da_1753edab9d6_a3c1@01" class="title c333 dhidden">得力保险箱旗舰店</a></li>
                                 <li class="shoplevel font14 line15em">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1fb61-9881.gif" />
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/1fb61-9881.gif" />
                                     <em class="c999">顶级卖家</em>
                                     <span class="typename font12">旗舰店</span></li>
                                 <li class="c999 font14 line15em">关注指数 &nbsp;1056</li>
@@ -653,14 +653,14 @@
                     <li class="item">
                         <div class="imgbox">
                             <a href="https://m.maigoo.com/webshop/357860.html">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/6a9b2-9740.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/6a9b2-9740.jpg" /></a>
                         </div>
                         <div class="cont">
                             <ul>
                                 <li class="webtitle font16">
                                     <a isconvert=1 rel="nofollow" href="https://union-click.jd.com/jdc?e=&p=AyIGZRprFQMTBlQTWR0HGzcRRANLXSJeEF4aVwkMGQtBRE5XDVULR0VJHEpYAE8SCQITBlQaUxcKFw5KQh5JXyJwHRkyVHAWTjZGLVNwRnsTZAdWegxBWRdrFgoUBV0TWx0AIg9dEloVBxc3ZRtaJVR8B1QaWhQKEA9QEmsXAxMEUR1dHAYTN1UfUxYKEQRUG14XABQ3UhtSJQIQAFcbXB0GFQ5SdRolMiIEZStrFjISNwpfBkgyEAZUH1I%3D" class="title c333 dhidden">得力插座品牌自营旗舰店</a></li>
                                 <li class="shoplevel font14 line15em">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1bbcc-3594.gif" />
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/1bbcc-3594.gif" />
                                     <em class="c999">初级卖家</em>
                                     <span class="typename font12">自营</span></li>
                                 <li class="c999 font14 line15em">关注指数 &nbsp;173</li>
@@ -782,14 +782,14 @@
                     <li class="item">
                         <div class="imgbox">
                             <a href="https://m.maigoo.com/webshop/245853.html">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/07f7d-3072.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/07f7d-3072.jpg" /></a>
                         </div>
                         <div class="cont">
                             <ul>
                                 <li class="webtitle font16">
                                     <a isconvert=1 rel="nofollow" href="https://s.click.taobao.com/t?e=m%3D2%26s%3D%2FXfQT9J4LQccQipKwQzePDAVflQIoZepyK8Cckff7TVRAdhuF14FMTgAsxPDHobeMMgx22UI05ZQGJRg6iVmCsG9%2B3Bhuj2rTcGYdUd9A5PNo%2B4dndBAMe%2FBas0tvb4eZz42eVlqqJTBwBLHPsOVpfdFsh68tKJt0%2F9iPBA3%2Fi20oJmDeTYXVCwRStI7Ole2cSpj5qSCmbA%3D&union_lens=lensId:TAPI@1603076228@0b0b06ab_e94a_1753eca0780_8a8a@01" class="title c333 dhidden">真彩旗舰店</a></li>
                                 <li class="shoplevel font14 line15em">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1fb61-9881.gif" />
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/1fb61-9881.gif" />
                                     <em class="c999">顶级卖家</em>
                                     <span class="typename font12">旗舰店</span></li>
                                 <li class="c999 font14 line15em">关注指数 &nbsp;6906</li>
@@ -802,14 +802,14 @@
                     <li class="item">
                         <div class="imgbox">
                             <a href="https://m.maigoo.com/webshop/155559.html">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/56bf1-6105.jpg_290_186.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/56bf1-6105.jpg_290_186.jpg" /></a>
                         </div>
                         <div class="cont">
                             <ul>
                                 <li class="webtitle font16">
                                     <a isconvert=1 rel="nofollow" href="https://s.click.taobao.com/t?e=m%3D2%26s%3DRxurQ0LD5%2FwcQipKwQzePDAVflQIoZepyK8Cckff7TVRAdhuF14FMe%2B82ooptPV%2Bt4hWD5k2kjNQGJRg6iVmCsG9%2B3Bhuj2rTcGYdUd9A5PNo%2B4dndBAMe%2FBas0tvb4eZz42eVlqqJTBwBLHPsOVpfdFsh68tKJtbfpGn6CgG60LH38rwvnFMBbqKVbTskvgIYULNg46oBA%3D&union_lens=lensId:TAPI@1603075833@0b847662_e68d_1753ec3fce3_77f4@01" class="title c333 dhidden">得力旗舰店</a></li>
                                 <li class="shoplevel font14 line15em">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1fb61-9881.gif" />
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/1fb61-9881.gif" />
                                     <em class="c999">顶级卖家</em>
                                     <span class="typename font12">旗舰店</span></li>
                                 <li class="c999 font14 line15em">关注指数 &nbsp;23737</li>
@@ -822,14 +822,14 @@
                     <li class="item">
                         <div class="imgbox">
                             <a href="https://m.maigoo.com/webshop/334555.html">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/c31b5-5486.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/c31b5-5486.jpg" /></a>
                         </div>
                         <div class="cont">
                             <ul>
                                 <li class="webtitle font16">
                                     <a isconvert=1 rel="nofollow" href="https://s.click.taobao.com/t?e=m%3D2%26s%3D55z3HMga%2BqccQipKwQzePDAVflQIoZepyK8Cckff7TVRAdhuF14FMRkWFie6%2BgsCxq3IhSJN6GRQGJRg6iVmCsG9%2B3Bhuj2rTcGYdUd9A5PNo%2B4dndBAMe%2FBas0tvb4eZz42eVlqqJTBwBLHPsOVpfdFsh68tKJt3HDzDuL2mK9kRLFq77RliSwRStI7Ole2cSpj5qSCmbA%3D&union_lens=lensId:TAPI@1603082714@0b847682_020f_1753f2cfd5b_4c8e@01" class="title c333 dhidden">Comix齐心办公用品旗舰店</a></li>
                                 <li class="shoplevel font14 line15em">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1fb61-9881.gif" />
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/1fb61-9881.gif" />
                                     <em class="c999">顶级卖家</em>
                                     <span class="typename font12">旗舰店</span></li>
                                 <li class="c999 font14 line15em">关注指数 &nbsp;1152</li>
@@ -842,14 +842,14 @@
                     <li class="item">
                         <div class="imgbox">
                             <a href="https://m.maigoo.com/webshop/66213.html">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/7bcc6-6986.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/7bcc6-6986.jpg" /></a>
                         </div>
                         <div class="cont">
                             <ul>
                                 <li class="webtitle font16">
                                     <a isconvert=1 rel="nofollow" href="https://s.click.taobao.com/t?e=m%3D2%26s%3DR4vOR9ws3kccQipKwQzePDAVflQIoZepyK8Cckff7TVRAdhuF14FMV8qrMWjnlXA1aH1Hk3GeOhQGJRg6iVmCsG9%2B3Bhuj2rTcGYdUd9A5PNo%2B4dndBAMe%2FBas0tvb4eZz42eVlqqJTBwBLHPsOVpfdFsh68tKJtDoIsMWFLM5HbuH8uTeg4ExbqKVbTskvgIYULNg46oBA%3D&union_lens=lensId:TAPI@1603075636@0b588f48_194f_1753ec0fe46_a68d@01" class="title c333 dhidden">晨光旗舰店</a></li>
                                 <li class="shoplevel font14 line15em">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1fb61-9881.gif" />
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/1fb61-9881.gif" />
                                     <em class="c999">顶级卖家</em>
                                     <span class="typename font12">旗舰店</span></li>
                                 <li class="c999 font14 line15em">关注指数 &nbsp;29406</li>
@@ -862,14 +862,14 @@
                     <li class="item">
                         <div class="imgbox">
                             <a href="https://m.maigoo.com/webshop/317825.html">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/d7938-9803.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/d7938-9803.jpg" /></a>
                         </div>
                         <div class="cont">
                             <ul>
                                 <li class="webtitle font16">
                                     <a isconvert=1 rel="nofollow" href="https://s.click.taobao.com/t?e=m%3D2%26s%3DD36nit1kANIcQipKwQzePDAVflQIoZepyK8Cckff7TVRAdhuF14FMVlbxTPXVIy3lovu%2FCElQOtQGJRg6iVmCsG9%2B3Bhuj2rTcGYdUd9A5PNo%2B4dndBAMe%2FBas0tvb4eZz42eVlqqJTBwBLHPsOVpfdFsh68tKJt%2FcrutHrZhJZOGvlWwtOUziwRStI7Ole2cSpj5qSCmbA%3D&union_lens=lensId:TAPI@1603080947@0b84766e_9c6a_1753f12077b_29cb@01" class="title c333 dhidden">爱好文具旗舰店</a></li>
                                 <li class="shoplevel font14 line15em">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1fb61-9881.gif" />
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/1fb61-9881.gif" />
                                     <em class="c999">顶级卖家</em>
                                     <span class="typename font12">旗舰店</span></li>
                                 <li class="c999 font14 line15em">关注指数 &nbsp;963</li>
@@ -907,14 +907,14 @@
                     <a class="color1" href="javascript:;" onclick="window.open('https://m.maigoo.com/user/login/');">注册登录>></a></div>
             </div>
             <div class="moremzsm">
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/dec8c-3557.gif" onclick="$('#mzsmcontent').find('.mzsm').css('height','auto');$(this).parent().remove();" /></div>
+                <img src="{{$commonAssetUrl}}/sguide/m/img/dec8c-3557.gif" onclick="$('#mzsmcontent').find('.mzsm').css('height','auto');$(this).parent().remove();" /></div>
         </div>
         <div class="pagecss" data-css="/public/css/mobile/v2019/color.css,/public/css/mobile/v2019/weui.min.css,/public/css/mobile/v2019/block/webshop/webshopinfo.css,/public/css/mobile/v2019/block/publicblock/searchselect.css,/public/css/mobile/v2019/block/product/col.css,/public/css/mobile/v2019/block/webshop/col.css,/public/css/mobile/v2019/block/webshop/specslist.css,/public/css/mobile/v2019/block/publicblock/mzsm.css"></div>
         <div class="pagejs" data-js="/public/js/mobile/v2019/public.js,/public/js/mobile/v2019/event.js,/public/js/mobile/v2019/weUI.js,/public/js/mobile/v2019/block/publicblock/searchselect.js"></div>
     </div>
 </div>
 <div class="ads">
-    <script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/v.js"></script>
+    <script type="text/javascript" src="{{$commonAssetUrl}}/sguide/m/js/v.js"></script>
     </script>
 </div>
 <footer>
@@ -974,8 +974,8 @@
     test = 'show',
     issm = '';
     var authorpiclist = null;</script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/jquery.cookie.min.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/webshop_show_1b4b11662af5f03a33962167d34b1c41.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/sguide/m/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/sguide/m/js/webshop_show_1b4b11662af5f03a33962167d34b1c41.js"></script>
 <script>var _hmt = _hmt || []; (function() {
         var hm = document.createElement("script");
         hm.src = "https://hm.baidu.com/hm.js?882d151476ece2b55af12abf0af8572c";

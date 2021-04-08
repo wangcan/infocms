@@ -13,23 +13,23 @@
 <title>书法作品-名家书法篆刻作品欣赏</title>
 <meta name="Keywords" content="书法,书法欣赏,书法作品,书法作品欣赏,毛笔书法欣赏,硬笔书法欣赏,书法展,书法展览,篆刻作品,名家书法赏析">
 <meta name="Description" content="近现代书法名家楷书、行书、隶书、草书、篆书欣赏,毛笔书法欣赏,硬笔书法欣赏,篆刻作品欣赏,书法展览获奖作品欣赏!">
-<link rel="stylesheet" type="text/css" href="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/css/8de35-7834.css">
-<link rel="stylesheet" type="text/css" href="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/css/31093-4280.css">
-<link rel="apple-touch-icon" href="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/b62f9-3915.png" />
+<link rel="stylesheet" type="text/css" href="{{$commonAssetUrl}}/culture/m/css/8de35-7834.css">
+<link rel="stylesheet" type="text/css" href="{{$commonAssetUrl}}/culture/m/css/31093-4280.css">
+<link rel="apple-touch-icon" href="{{$commonAssetUrl}}/culture/m/img/b62f9-3915.png" />
 <script language='javascript' type='text/javascript'>var dbPathPart = '../';
     var pcPathPart = 'http://www.yac8.com/';
     var webPathPart = '../';
     var jsPathPart = '../';
     var webTypeName = 'list';</script>
-<!-- <script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/js/zepto.js"></script> -->
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/js/zepto.min.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/js/iscroll.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/js/lib.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/js/common.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/js/top.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/js/topnav.js"></script>
+<!-- <script type="text/javascript" src="{{$commonAssetUrl}}/culture/m/js/zepto.js"></script> -->
+<script type="text/javascript" src="{{$commonAssetUrl}}/culture/m/js/zepto.min.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/culture/m/js/iscroll.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/culture/m/js/lib.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/culture/m/js/common.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/culture/m/js/top.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/culture/m/js/topnav.js"></script>
 <!-- 导航 -->
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/js/otca.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/culture/m/js/otca.js"></script>
 </head>
 
 <body>
@@ -43,7 +43,7 @@
                         <!-- logo -->
                         <div class="active logoBox">
                             <a href="../">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/19045-5251.png" /></a>
+                                <img src="{{$commonAssetUrl}}/culture/m/img/19045-5251.png" /></a>
                         </div>
                         <div class="toolBox">
                             <span class="line"></span>
@@ -173,7 +173,7 @@
                                     <td width='110'>
                                         <div class='imgArea'>
                                             <a href='../news/15659.html'>
-                                                <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/3ef48-1071.jpg' onerror="this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';" /></a>
+                                                <img src='{{$commonAssetUrl}}/culture/m/img/3ef48-1071.jpg' onerror="this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';" /></a>
                                         </div>
                                     </td>
                                     <td>
@@ -194,7 +194,7 @@
                                     <td width='110'>
                                         <div class='imgArea'>
                                             <a href='../news/15585.html'>
-                                                <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/fa98e-5545.jpg' onerror="this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';" /></a>
+                                                <img src='{{$commonAssetUrl}}/culture/m/img/fa98e-5545.jpg' onerror="this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';" /></a>
                                         </div>
                                     </td>
                                     <td>
@@ -215,7 +215,7 @@
                                     <td width='110'>
                                         <div class='imgArea'>
                                             <a href='../news/15554.html'>
-                                                <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/35421-4778.jpg' onerror="this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';" /></a>
+                                                <img src='{{$commonAssetUrl}}/culture/m/img/35421-4778.jpg' onerror="this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';" /></a>
                                         </div>
                                     </td>
                                     <td>
@@ -236,7 +236,7 @@
                                     <td width='110'>
                                         <div class='imgArea'>
                                             <a href='../news/15506.html'>
-                                                <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/1159e-3811.jpg' onerror="this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';" /></a>
+                                                <img src='{{$commonAssetUrl}}/culture/m/img/1159e-3811.jpg' onerror="this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';" /></a>
                                         </div>
                                     </td>
                                     <td>
@@ -257,7 +257,7 @@
                                     <td width='110'>
                                         <div class='imgArea'>
                                             <a href='../news/15468.html'>
-                                                <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/8f716-6775.jpg' onerror="this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';" /></a>
+                                                <img src='{{$commonAssetUrl}}/culture/m/img/8f716-6775.jpg' onerror="this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';" /></a>
                                         </div>
                                     </td>
                                     <td>
@@ -278,7 +278,7 @@
                                     <td width='110'>
                                         <div class='imgArea'>
                                             <a href='../news/15466.html'>
-                                                <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/ebd5f-7216.jpg' onerror="this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';" /></a>
+                                                <img src='{{$commonAssetUrl}}/culture/m/img/ebd5f-7216.jpg' onerror="this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';" /></a>
                                         </div>
                                     </td>
                                     <td>
@@ -299,7 +299,7 @@
                                     <td width='110'>
                                         <div class='imgArea'>
                                             <a href='../news/15427.html'>
-                                                <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/e90e1-1585.jpg' onerror="this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';" /></a>
+                                                <img src='{{$commonAssetUrl}}/culture/m/img/e90e1-1585.jpg' onerror="this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';" /></a>
                                         </div>
                                     </td>
                                     <td>
@@ -320,7 +320,7 @@
                                     <td width='110'>
                                         <div class='imgArea'>
                                             <a href='../news/15343.html'>
-                                                <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/e2ce2-4182.jpg' onerror="this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';" /></a>
+                                                <img src='{{$commonAssetUrl}}/culture/m/img/e2ce2-4182.jpg' onerror="this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';" /></a>
                                         </div>
                                     </td>
                                     <td>
@@ -341,7 +341,7 @@
                                     <td width='110'>
                                         <div class='imgArea'>
                                             <a href='../news/15298.html'>
-                                                <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/853de-5927.jpg' onerror="this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';" /></a>
+                                                <img src='{{$commonAssetUrl}}/culture/m/img/853de-5927.jpg' onerror="this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';" /></a>
                                         </div>
                                     </td>
                                     <td>
@@ -362,7 +362,7 @@
                                     <td width='110'>
                                         <div class='imgArea'>
                                             <a href='../news/15267.html'>
-                                                <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/fd96f-5972.jpg' onerror="this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';" /></a>
+                                                <img src='{{$commonAssetUrl}}/culture/m/img/fd96f-5972.jpg' onerror="this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';" /></a>
                                         </div>
                                     </td>
                                     <td>
@@ -383,7 +383,7 @@
                                     <td width='110'>
                                         <div class='imgArea'>
                                             <a href='../news/15228.html'>
-                                                <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/12ff3-5836.jpg' onerror="this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';" /></a>
+                                                <img src='{{$commonAssetUrl}}/culture/m/img/12ff3-5836.jpg' onerror="this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';" /></a>
                                         </div>
                                     </td>
                                     <td>
@@ -404,7 +404,7 @@
                                     <td width='110'>
                                         <div class='imgArea'>
                                             <a href='../news/15193.html'>
-                                                <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/77a42-1256.jpg' onerror="this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';" /></a>
+                                                <img src='{{$commonAssetUrl}}/culture/m/img/77a42-1256.jpg' onerror="this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';" /></a>
                                         </div>
                                     </td>
                                     <td>
@@ -425,7 +425,7 @@
                                     <td width='110'>
                                         <div class='imgArea'>
                                             <a href='../news/15142.html'>
-                                                <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/ccd6e-4881.jpg' onerror="this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';" /></a>
+                                                <img src='{{$commonAssetUrl}}/culture/m/img/ccd6e-4881.jpg' onerror="this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';" /></a>
                                         </div>
                                     </td>
                                     <td>
@@ -446,7 +446,7 @@
                                     <td width='110'>
                                         <div class='imgArea'>
                                             <a href='../news/15108.html'>
-                                                <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/d31fe-3584.jpg' onerror="this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';" /></a>
+                                                <img src='{{$commonAssetUrl}}/culture/m/img/d31fe-3584.jpg' onerror="this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';" /></a>
                                         </div>
                                     </td>
                                     <td>
@@ -467,7 +467,7 @@
                                     <td width='110'>
                                         <div class='imgArea'>
                                             <a href='../news/15090.html'>
-                                                <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/caf57-6408.jpg' onerror="this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';" /></a>
+                                                <img src='{{$commonAssetUrl}}/culture/m/img/caf57-6408.jpg' onerror="this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';" /></a>
                                         </div>
                                     </td>
                                     <td>
@@ -507,7 +507,7 @@
                 <div class="clear"></div>
             </div>
             <div class="ad102Style">
-                <script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/js/o2fz6.js"></script>
+                <script type="text/javascript" src="{{$commonAssetUrl}}/culture/m/js/o2fz6.js"></script>
             </div>
             <div class='clear'></div>
             <div id="area_bottom" name="bottom" class="bodyActive">

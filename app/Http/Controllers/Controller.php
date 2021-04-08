@@ -40,7 +40,7 @@ class Controller extends BaseController
         $path = resource_path('views') . '/' . $path;
 		//$path = 'mobile';
 
-        $paths = [$path];
+        $paths = [$path, app_path() . '/views'];
 		$finder =new FileViewFinder(App::make ('files'), $paths);
 		View::setFinder ($finder);
 	}

@@ -15,11 +15,11 @@
 <meta content="black" name="apple-mobile-web-app-status-bar-style" />
 <meta content="telephone=no" name="format-detection" />
 <meta name="applicable-device" content="mobile">
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/48832-7373.ico" rel="shortcut icon" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/30cdb-6621.css" type="text/css" rel="stylesheet" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/f1d79-1352.css" type="text/css" rel="stylesheet" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/f34f9-2323.css" type="text/css" rel="stylesheet" />
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/jquery.min.js" type="text/javascript"></script>
+<link href="{{$commonAssetUrl}}/sguide/m/img/48832-7373.ico" rel="shortcut icon" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/30cdb-6621.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/f1d79-1352.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/f34f9-2323.css" type="text/css" rel="stylesheet" />
+<script src="{{$commonAssetUrl}}/sguide/m/js/jquery.min.js" type="text/javascript"></script>
 </head>
 
 <body class="mobile ">
@@ -238,7 +238,7 @@
                         <div class="ibox">
                             <div class="img ">
                                 <a href="https://m.maigoo.com/mingren/8452.html">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/9414e-1768.png" /></a>
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/9414e-1768.png" /></a>
                             </div>
                             <div class="contbox">
                                 <a class="title font15 color2 dhidden2" href="https://m.maigoo.com/mingren/8452.html">
@@ -256,7 +256,7 @@
                         <div class="ibox">
                             <div class="img ">
                                 <a href="https://m.maigoo.com/mingren/7484.html">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1a34d-1574.png" /></a>
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/1a34d-1574.png" /></a>
                             </div>
                             <div class="contbox">
                                 <a class="title font15 color2 dhidden2" href="https://m.maigoo.com/mingren/7484.html">
@@ -274,7 +274,7 @@
                         <div class="ibox">
                             <div class="img ">
                                 <a href="https://m.maigoo.com/mingren/8454.html">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/71d21-5047.jpg" /></a>
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/71d21-5047.jpg" /></a>
                             </div>
                             <div class="contbox">
                                 <a class="title font15 color2 dhidden2" href="https://m.maigoo.com/mingren/8454.html">
@@ -292,7 +292,7 @@
                         <div class="ibox">
                             <div class="img ">
                                 <a href="https://m.maigoo.com/mingren/7509.html">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/20bf8-4406.jpg" /></a>
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/20bf8-4406.jpg" /></a>
                             </div>
                             <div class="contbox">
                                 <a class="title font15 color2 dhidden2" href="https://m.maigoo.com/mingren/7509.html">
@@ -324,7 +324,7 @@
                         <div class="ibox">
                             <div class="img ">
                                 <a href="https://m.maigoo.com/mingren/1037.html">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/cf8a3-8378.png" /></a>
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/cf8a3-8378.png" /></a>
                             </div>
                             <div class="contbox">
                                 <a class="title font15 color2 dhidden2" href="https://m.maigoo.com/mingren/1037.html">
@@ -342,7 +342,7 @@
                         <div class="ibox">
                             <div class="img ">
                                 <a href="https://m.maigoo.com/mingren/8457.html">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/b7f12-5884.jpg" /></a>
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/b7f12-5884.jpg" /></a>
                             </div>
                             <div class="contbox">
                                 <a class="title font15 color2 dhidden2" href="https://m.maigoo.com/mingren/8457.html">
@@ -360,7 +360,7 @@
                         <div class="ibox">
                             <div class="img ">
                                 <a href="https://m.maigoo.com/mingren/7527.html">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/d507d-2160.jpg" /></a>
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/d507d-2160.jpg" /></a>
                             </div>
                             <div class="contbox">
                                 <a class="title font15 color2 dhidden2" href="https://m.maigoo.com/mingren/7527.html">
@@ -378,7 +378,7 @@
                         <div class="ibox">
                             <div class="img ">
                                 <a href="https://m.maigoo.com/mingren/8456.html">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/3e24f-4038.png" /></a>
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/3e24f-4038.png" /></a>
                             </div>
                             <div class="contbox">
                                 <a class="title font15 color2 dhidden2" href="https://m.maigoo.com/mingren/8456.html">
@@ -396,7 +396,7 @@
                         <div class="ibox">
                             <div class="img ">
                                 <a href="https://m.maigoo.com/mingren/1401.html">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/bc0d3-2817.png" /></a>
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/bc0d3-2817.png" /></a>
                             </div>
                             <div class="contbox">
                                 <a class="title font15 color2 dhidden2" href="https://m.maigoo.com/mingren/1401.html">
@@ -438,14 +438,14 @@
                     <a class="color1" href="javascript:;" onclick="window.open('https://m.maigoo.com/user/login/');">注册登录>></a></div>
             </div>
             <div class="moremzsm">
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/dec8c-3557.gif" onclick="$('#mzsmcontent').find('.mzsm').css('height','auto');$(this).parent().remove();" /></div>
+                <img src="{{$commonAssetUrl}}/sguide/m/img/dec8c-3557.gif" onclick="$('#mzsmcontent').find('.mzsm').css('height','auto');$(this).parent().remove();" /></div>
         </div>
         <div class="pagecss" data-css="/public/css/mobile/v2019/color.css,/public/css/mobile/v2019/weui.min.css,/public/css/mobile/v2019/block/publicblock/searchselect.css,/public/css/mobile/v2019/block/publicblock/articlelist.css,/public/css/mobile/v2019/block/publicblock/mzsm.css"></div>
         <div class="pagejs" data-js="/public/js/mobile/v2019/public.js,/public/js/mobile/v2019/event.js,/public/js/mobile/v2019/weUI.js,/public/js/mobile/v2019/block/publicblock/searchselect.js,/public/js/mobile/v2019/block/publicblock/articlelist.js"></div>
     </div>
 </div>
 <div class="ads">
-    <script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/v.js"></script>
+    <script type="text/javascript" src="{{$commonAssetUrl}}/sguide/m/js/v.js"></script>
     </script>
 </div>
 <footer>
@@ -505,8 +505,8 @@
     test = 'list',
     issm = '';
     var authorpiclist = null;</script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/jquery.cookie.min.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/mingren_list_2f3aba754b61dec9b282e3af2d387e06.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/sguide/m/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/sguide/m/js/mingren_list_2f3aba754b61dec9b282e3af2d387e06.js"></script>
 <script>var _hmt = _hmt || []; (function() {
         var hm = document.createElement("script");
         hm.src = "https://hm.baidu.com/hm.js?882d151476ece2b55af12abf0af8572c";

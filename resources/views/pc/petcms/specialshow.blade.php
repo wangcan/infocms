@@ -8,12 +8,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="" />
     <title>宠物夏季饲养全攻略</title>
-    <link href="<?= Yii::getAlias('@tasseturl'); ?>/petcms/css/efc66-5225.css" type="text/css" rel="stylesheet">
-    <link href="<?= Yii::getAlias('@tasseturl'); ?>/petcms/css/73543-1848.css" type="text/css" rel="stylesheet">
-    <script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/wb.js" type="text/javascript" charset="utf-8"></script>
-    <link rel="shortcut icon" href="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/ab561-6001.ico" />
+    <link href="{{$commonAssetUrl}}/petcms/css/efc66-5225.css" type="text/css" rel="stylesheet">
+    <link href="{{$commonAssetUrl}}/petcms/css/73543-1848.css" type="text/css" rel="stylesheet">
+    <script src="{{$commonAssetUrl}}/petcms/js/wb.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="shortcut icon" href="{{$commonAssetUrl}}/petcms/img/ab561-6001.ico" />
     <script type="text/javascript" src="//a.boqiicdn.com/Js1/core/jquery-1.8.0.min.js.jquery"></script>
-    <style>body{ background:url(<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/c6483-7231.png) repeat 0; } #banner{ background:#30c0d8 url(<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/280d2-4950.jpg) no-repeat center top; } .navbgcolor{ background-color: ; } .maincolor{ color:#30c0d8!important;} .mainbg{ background-color:#30c0d8 !important;} .mainbghover:hover{ background-color:#30c0d8 !important;} .mainborder{ border-color:#30c0d8 !important;}</style></head>
+    <style>body{ background:url({{$commonAssetUrl}}/petcms/img/c6483-7231.png) repeat 0; } #banner{ background:#30c0d8 url({{$commonAssetUrl}}/petcms/img/280d2-4950.jpg) no-repeat center top; } .navbgcolor{ background-color: ; } .maincolor{ color:#30c0d8!important;} .mainbg{ background-color:#30c0d8 !important;} .mainbghover:hover{ background-color:#30c0d8 !important;} .mainborder{ border-color:#30c0d8 !important;}</style></head>
 
 <body>
     <div class="BarBox">
@@ -46,8 +46,8 @@
             <div class="medical_l">
                 <div class="greenbg mainbg"></div>
                 <div class="l_img">
-                    <a href="http://www.boqii.com/article/27863.html" target="_black" " class="l_img_i1 " ><img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/d4e6f-2076.jpg" height="400 " width="300 " /></a><h4 class="l_img_t1 "><span></span><a href="http://www.boqii.com/article/27863.html "  target="_black ">狗狗夏季防暑知识早知道</a></h4></div></div><ul class="medical_c "><li class="clear "><span class="num1 "></span><div class="c_txt "><h3><a href="http://www.boqii.com/article/24.html " target="_black ">夏季如何养护狗狗？</a></h3><p>六月酷暑天，在夏季主人应该采取哪些措施养护自己的猫咪和爱犬，防止宠物生夏季...<a href="http://www.boqii.com/article/24.html " class="detail maincolor " target="_black ">[详细]</a></p></div></li><li class="clear "><span class="num2 "></span><div class="c_txt "><h3><a href="http://www.boqii.com/article/1519.html " target="_black ">夏天狗狗较常见的五种疾病</a></h3><p>夏天确实是个不好过的季节。狗狗的皮肤没有汗腺，体内的热量靠舌头来散发这很容...<a href="http://www.boqii.com/article/1519.html " class="detail maincolor " target="_black ">[详细]</a></p></div></li><li class="clear "><span class="num3 "></span><div class="c_txt "><h3><a href="http://www.boqii.com/article/60.html " target="_black ">夏天狗狗易发皮肤病治疗方案</a></h3><p>皮肤病是狗狗夏季最常见的疾病。由于夏季温度高、紫外线辐射强，再加上野外各种...<a href="http://www.boqii.com/article/60.html " class="detail maincolor " target="_black ">[详细]</a></p></div></li></ul><div class="medical_r "><a href="http://www.boqii.com/article/4288.html " target="_black "><img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/5fc9f-2136.jpg" height="120 " width="260 " alt=" "></a><p>夏日炎热，人们恨不得整天泡在凉水里度夏，但猫咪却依然穿着厚厚的皮衣，它们是怎么散热的呢？...</p><a href="http://www.boqii.com/article/9244.html " target="_black "><img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/51f5d-3659.jpg" height="120 " width="260 " alt=" "></a><p>随着夏天的到来，猫咪的脾气似乎也跟着看涨，连主人都无法逃过它们的抓挠啃咬。下面小编就带你找到原因对症下药。...</p></div></div><!--模块一--><div class="main_medical clear "><div class="medical_l "><div class="greenbg mainbg "></div><div class="l_img "><a href="http://www.boqii.com/article/28062.html " target="_black "" class="l_img_i1">
-                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/a285c-4076.png" height="400" width="300" /></a>
+                    <a href="http://www.boqii.com/article/27863.html" target="_black" " class="l_img_i1 " ><img src="{{$commonAssetUrl}}/petcms/img/d4e6f-2076.jpg" height="400 " width="300 " /></a><h4 class="l_img_t1 "><span></span><a href="http://www.boqii.com/article/27863.html "  target="_black ">狗狗夏季防暑知识早知道</a></h4></div></div><ul class="medical_c "><li class="clear "><span class="num1 "></span><div class="c_txt "><h3><a href="http://www.boqii.com/article/24.html " target="_black ">夏季如何养护狗狗？</a></h3><p>六月酷暑天，在夏季主人应该采取哪些措施养护自己的猫咪和爱犬，防止宠物生夏季...<a href="http://www.boqii.com/article/24.html " class="detail maincolor " target="_black ">[详细]</a></p></div></li><li class="clear "><span class="num2 "></span><div class="c_txt "><h3><a href="http://www.boqii.com/article/1519.html " target="_black ">夏天狗狗较常见的五种疾病</a></h3><p>夏天确实是个不好过的季节。狗狗的皮肤没有汗腺，体内的热量靠舌头来散发这很容...<a href="http://www.boqii.com/article/1519.html " class="detail maincolor " target="_black ">[详细]</a></p></div></li><li class="clear "><span class="num3 "></span><div class="c_txt "><h3><a href="http://www.boqii.com/article/60.html " target="_black ">夏天狗狗易发皮肤病治疗方案</a></h3><p>皮肤病是狗狗夏季最常见的疾病。由于夏季温度高、紫外线辐射强，再加上野外各种...<a href="http://www.boqii.com/article/60.html " class="detail maincolor " target="_black ">[详细]</a></p></div></li></ul><div class="medical_r "><a href="http://www.boqii.com/article/4288.html " target="_black "><img src="{{$commonAssetUrl}}/petcms/img/5fc9f-2136.jpg" height="120 " width="260 " alt=" "></a><p>夏日炎热，人们恨不得整天泡在凉水里度夏，但猫咪却依然穿着厚厚的皮衣，它们是怎么散热的呢？...</p><a href="http://www.boqii.com/article/9244.html " target="_black "><img src="{{$commonAssetUrl}}/petcms/img/51f5d-3659.jpg" height="120 " width="260 " alt=" "></a><p>随着夏天的到来，猫咪的脾气似乎也跟着看涨，连主人都无法逃过它们的抓挠啃咬。下面小编就带你找到原因对症下药。...</p></div></div><!--模块一--><div class="main_medical clear "><div class="medical_l "><div class="greenbg mainbg "></div><div class="l_img "><a href="http://www.boqii.com/article/28062.html " target="_black "" class="l_img_i1">
+                        <img src="{{$commonAssetUrl}}/petcms/img/a285c-4076.png" height="400" width="300" /></a>
                     <h4 class="l_img_t1">
                         <span></span>
                         <a href="http://www.boqii.com/article/28062.html" target="_black">夏天让狗狗成为会“狗刨”的网红犬</a></h4>
@@ -84,10 +84,10 @@
             </ul>
             <div class="medical_r">
                 <a href="http://www.boqii.com/article/28161.html" target="_black">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/234b3-1875.jpg" height="120" width="260" alt=""></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/234b3-1875.jpg" height="120" width="260" alt=""></a>
                 <p>西瓜可是夏天必备的消夏良品。但是当我们大快朵颐的时候，要不要分一点给狗狗吃呢？...</p>
                 <a href="http://www.boqii.com/article/28030.html" target="_black">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/7778e-9576.jpg" height="120" width="260" alt=""></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/7778e-9576.jpg" height="120" width="260" alt=""></a>
                 <p>夏天又要到啦，最美的事情莫过于吹着空调吃冰淇淋了。狗狗能吃冰淇淋么？...</p>
             </div>
         </div>
@@ -96,7 +96,7 @@
             <ul class="clear">
                 <li class="clear">
                     <span class="medical_bk_img">
-                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/e64ec-4610.jpg" height="150" width="200" alt=""></span>
+                        <img src="{{$commonAssetUrl}}/petcms/img/e64ec-4610.jpg" height="150" width="200" alt=""></span>
                     <div class="medical_bk_txt">
                         <h3>
                             <a href="http://www.boqii.com/article/27226.html" target="_black">狗狗夏季也要穿衣服？</a></h3>
@@ -106,7 +106,7 @@
                 </li>
                 <li class="clear">
                     <span class="medical_bk_img">
-                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/2e976-4784.jpg" height="150" width="200" alt=""></span>
+                        <img src="{{$commonAssetUrl}}/petcms/img/2e976-4784.jpg" height="150" width="200" alt=""></span>
                     <div class="medical_bk_txt">
                         <h3>
                             <a href="http://www.boqii.com/article/28034.html" target="_black">夏天你又要给狗狗剃毛了？</a></h3>
@@ -120,28 +120,28 @@
         <div class="main_exterior">
             <ul class="clear wid">
                 <li class="pe_con">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/9b5bd-4864.jpg" height="176" width="235" alt="">
+                    <img src="{{$commonAssetUrl}}/petcms/img/9b5bd-4864.jpg" height="176" width="235" alt="">
                     <h4 class="title3">
                         <span class="mainbg"></span>
                         <a href="http://www.boqii.com/article/28153.html" target="_black">夏季给猫咪补水的重要性</a></h4>
                     <p>眼看天气一天一天的热了起来，猫猫对于渴的敏感度低于狗，它们不会像狗一样经常主动饮水。所以天气一热就又到了猫咪频频脱水的季节了。主人们一定要注意，在夏季给猫咪补水可是一件大事。...</p>
                 </li>
                 <li class="pe_con">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/ff7b7-3622.jpg" height="176" width="235" alt="">
+                    <img src="{{$commonAssetUrl}}/petcms/img/ff7b7-3622.jpg" height="176" width="235" alt="">
                     <h4 class="title3">
                         <span class="mainbg"></span>
                         <a href="http://www.boqii.com/article/28035.html" target="_black">夏天猫咪不吃饭咋办</a></h4>
                     <p>马上要入夏了，说起夏天想必很多人都会因为炎热的天气变得慵懒起来，浑身提不起劲，甚至连动都不想动了。而保持高冷范的猫咪就更不用说了，或许连你端来的猫粮都不想吃了。这时候我们的铲屎官要急了，夏天猫咪不吃饭该咋办呢?...</p>
                 </li>
                 <li class="pe_con">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/f91cf-5020.jpg" height="176" width="235" alt="">
+                    <img src="{{$commonAssetUrl}}/petcms/img/f91cf-5020.jpg" height="176" width="235" alt="">
                     <h4 class="title3">
                         <span class="mainbg"></span>
                         <a href="http://www.boqii.com/article/8477.html" target="_black">猫咪夏季洗澡后也要吹干</a></h4>
                     <p>夏天天气炎热，主人会经常选择性的为猫咪洗澡，也会发生这种情况：天气很热，就让猫咪自然吹干吧！其实这样很不好，建议主人，即使是最炎热的中午，也要帮助猫咪吹干。...</p>
                 </li>
                 <li class="pe_con">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/79a2e-2783.jpg" height="176" width="235" alt="">
+                    <img src="{{$commonAssetUrl}}/petcms/img/79a2e-2783.jpg" height="176" width="235" alt="">
                     <h4 class="title3">
                         <span class="mainbg"></span>
                         <a href="http://www.boqii.com/article/28179.html" target="_black">夏天猫咪预防空调病很重要</a></h4>
@@ -154,7 +154,7 @@
             <ul class="clear">
                 <li class="clear">
                     <span class="medical_bk_img">
-                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/21a98-2959.jpg" height="150" width="200" alt=""></span>
+                        <img src="{{$commonAssetUrl}}/petcms/img/21a98-2959.jpg" height="150" width="200" alt=""></span>
                     <div class="medical_bk_txt">
                         <h3>
                             <a href="http://www.boqii.com/article/28549.html" target="_black">夏天宠物兔要怎么养？</a></h3>
@@ -164,7 +164,7 @@
                 </li>
                 <li class="clear">
                     <span class="medical_bk_img">
-                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/cd524-7628.jpg" height="150" width="200" alt=""></span>
+                        <img src="{{$commonAssetUrl}}/petcms/img/cd524-7628.jpg" height="150" width="200" alt=""></span>
                     <div class="medical_bk_txt">
                         <h3>
                             <a href="http://www.boqii.com/article/28110.html" target="_black">仓鼠夏季消暑的水果零食</a></h3>
@@ -177,7 +177,7 @@
         <!--模块四-->
         <div class="main_raiders clear">
             <span class="raiders_img">
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/bf021-3898.jpg" height="410" width="320" alt=""></span>
+                <img src="{{$commonAssetUrl}}/petcms/img/bf021-3898.jpg" height="410" width="320" alt=""></span>
             <ul class="raiders_con">
                 <li>
                     <h3>

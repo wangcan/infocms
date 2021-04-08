@@ -1,6 +1,6 @@
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/e4ba2-6910.ico" rel="shortcut icon" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/css/86dbe-1933.css" type="text/css" rel="stylesheet" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/css/9012f-9612.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/img/e4ba2-6910.ico" rel="shortcut icon" />
+<link href="{{$commonAssetUrl}}/sguide/css/86dbe-1933.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/css/9012f-9612.css" type="text/css" rel="stylesheet" />
 
 @switch($view)
 @case('home')

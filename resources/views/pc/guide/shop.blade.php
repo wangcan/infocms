@@ -11,21 +11,21 @@
 <meta name="keywords" content="得力旗舰店,得力网店介绍" />
 <meta name="description" content="得力官方旗舰店在线销售书写笔、计算器、文件夹、考勤机、学生文具品、打印纸等产品；涵盖了桌面文具、文件管理、书写系列、办公生活用品、办公设备、财务必备等领域；凭借先进的供应链管理、研发制造能力和完备的采购系统，得力以合理的价格迅捷提供全面的解决方案，让客户以简单的方式获得理想的办公环境、高效的办公硬件和软件支持。店内产品种类丰富，并时常参与各类优惠活动，进店还可领券再购物享更多实惠；所有展示商品均是实拍，均与实物相符；作为文具行业知名品牌，得力一直致力于为广大消费者提供性价比高的产品，让办公学习更得力。" />
 <meta name="mobile-agent" content="format=html5;url=https://m.maigoo.com/webshop/155559.html">
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/e4ba2-8294.ico" rel="shortcut icon" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/30cdb-6621.css" type="text/css" rel="stylesheet" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/css/9a030-1171.css" type="text/css" rel="stylesheet" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/css/2e39f-2080.css" type="text/css" rel="stylesheet" />
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/jquery.min.js" type="text/javascript"></script>
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/jquery.cookie.min.js" type="text/javascript"></script>
+<link href="{{$commonAssetUrl}}/sguide/img/e4ba2-8294.ico" rel="shortcut icon" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/30cdb-6621.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/css/9a030-1171.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/css/2e39f-2080.css" type="text/css" rel="stylesheet" />
+<script src="{{$commonAssetUrl}}/sguide/m/js/jquery.min.js" type="text/javascript"></script>
+<script src="{{$commonAssetUrl}}/sguide/m/js/jquery.cookie.min.js" type="text/javascript"></script>
 <!--[if lt IE 9]>
-    <script src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/js/html5shiv.min.js" type="text/javascript"></script>
+    <script src="{{$commonAssetUrl}}/sguide/js/html5shiv.min.js" type="text/javascript"></script>
 <![endif]--></head>
 
 <body class="pc blockstyle2">
 <header>
     <div class="headlist">
         <a class="logo" href="https://www.maigoo.com/">
-            <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/9b49d-6078.png" /></a>
+            <img src="{{$commonAssetUrl}}/sguide/img/9b49d-6078.png" /></a>
         <a class="phoneqrcode color1 fenlei" href="/category/brand/" target="_blank">
             <i class="iconfont icon-fenlei2"></i>
             <span>网站分类</span>
@@ -50,7 +50,7 @@
         </div>
         <div class="userbox font12">
             <a class="color1" href="https://www.cnpp.cn/android/maigooapp/" target="_blank">
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/62b97-4217.png" height="20" />买购APP</a>
+                <img src="{{$commonAssetUrl}}/sguide/img/62b97-4217.png" height="20" />买购APP</a>
             <div class="userinfo orange center">
                 <i class="iconfont icon-denglu"></i>
                 <a class="color1 loginin" href="javascript:;" onclick="cnpplogin(this)">登录</a>|
@@ -82,34 +82,34 @@
     <div class="webshoplogo">
         <div class="logobox2">
             <a target="_blank" href="https://www.maigoo.com/webshop/66213.html">
-                <img width="83" height="37" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/7aac2-5783.png" />
+                <img width="83" height="37" src="{{$commonAssetUrl}}/sguide/img/7aac2-5783.png" />
                 <em class="dhidden">晨光</em></a>
             <a target="_blank" href="https://www.maigoo.com/webshop/155559.html">
-                <img width="83" height="37" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/ded4e-9567.png" />
+                <img width="83" height="37" src="{{$commonAssetUrl}}/sguide/img/ded4e-9567.png" />
                 <em class="dhidden">得力</em></a>
             <a target="_blank" href="https://www.maigoo.com/webshop/245853.html">
-                <img width="83" height="37" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/1db86-6802.png" />
+                <img width="83" height="37" src="{{$commonAssetUrl}}/sguide/img/1db86-6802.png" />
                 <em class="dhidden">真彩</em></a>
             <a target="_blank" href="https://www.maigoo.com/webshop/334555.html">
-                <img width="83" height="37" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/f418a-8167.png" />
+                <img width="83" height="37" src="{{$commonAssetUrl}}/sguide/img/f418a-8167.png" />
                 <em class="dhidden">齐心办公</em></a>
             <a target="_blank" href="https://www.maigoo.com/webshop/317825.html">
-                <img width="83" height="37" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/5dbb1-2611.png" />
+                <img width="83" height="37" src="{{$commonAssetUrl}}/sguide/img/5dbb1-2611.png" />
                 <em class="dhidden">爱好</em></a>
             <a target="_blank" href="https://www.maigoo.com/webshop/230909.html">
-                <img width="83" height="37" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/1f90b-5145.png" />
+                <img width="83" height="37" src="{{$commonAssetUrl}}/sguide/img/1f90b-5145.png" />
                 <em class="dhidden">白雪文具</em></a>
             <a target="_blank" href="https://www.maigoo.com/webshop/271998.html">
-                <img width="83" height="37" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/2b225-1622.png" />
+                <img width="83" height="37" src="{{$commonAssetUrl}}/sguide/img/2b225-1622.png" />
                 <em class="dhidden">贝发</em></a>
             <a target="_blank" href="https://www.maigoo.com/webshop/155564.html">
                 <img width="83" height="37" src="https://image.maigoo.com/upload2/images/20131113/mbrand__2555_logo.png#" />
                 <em class="dhidden">广博</em></a>
             <a target="_blank" href="https://www.maigoo.com/webshop/273632.html">
-                <img width="83" height="37" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/04ccc-5068.png" />
+                <img width="83" height="37" src="{{$commonAssetUrl}}/sguide/img/04ccc-5068.png" />
                 <em class="dhidden">三木</em></a>
             <a target="_blank" href="https://www.maigoo.com/webshop/142762.html">
-                <img width="83" height="37" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/15a61-4374.png" />
+                <img width="83" height="37" src="{{$commonAssetUrl}}/sguide/img/15a61-4374.png" />
                 <em class="dhidden">金万年</em></a>
         </div>
     </div>
@@ -123,7 +123,7 @@
                         <div class="infobox">
                             <div class="imgbox tablecell">
                                 <a target="_blank" isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3DsYxUH%2BU2txocQipKwQzePDAVflQIoZepyK8Cckff7TVRAdhuF14FMe%2B82ooptPV%2Bt4hWD5k2kjNQGJRg6iVmCquNNJwpiecKuyyTDi1DterblIwp3swM8O%2FBas0tvb4eZz42eVlqqJTBwBLHPsOVpfdFsh68tKJtbfpGn6CgG63DIagRwwDnQHyMgFoeq%2BJ3IYULNg46oBA%3D&union_lens=lensId:TAPI@1603075833@0b08480f_2053_1753ec3fd4a_a8fc@01" ck="155559" class="img">
-                                    <img width="390" height="250" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/56bf1-6105.jpg"></a>
+                                    <img width="390" height="250" src="{{$commonAssetUrl}}/sguide/m/img/56bf1-6105.jpg"></a>
                             </div>
                             <div class=" tablecell">
                                 <div class="descbox">
@@ -131,7 +131,7 @@
                                         <span class="c666">网店:
                                             <a target="_blank" class=" b color1" isconvert=1 rel="nofollow" href="https://s.click.taobao.com/t?e=m%3D2%26s%3DsYxUH%2BU2txocQipKwQzePDAVflQIoZepyK8Cckff7TVRAdhuF14FMe%2B82ooptPV%2Bt4hWD5k2kjNQGJRg6iVmCquNNJwpiecKuyyTDi1DterblIwp3swM8O%2FBas0tvb4eZz42eVlqqJTBwBLHPsOVpfdFsh68tKJtbfpGn6CgG63DIagRwwDnQHyMgFoeq%2BJ3IYULNg46oBA%3D&union_lens=lensId:TAPI@1603075833@0b08480f_2053_1753ec3fd4a_a8fc@01">得力旗舰店</a></span>
                                         <em>
-                                            <img class="mt-1" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/5a10f-2488.gif"></em>
+                                            <img class="mt-1" src="{{$commonAssetUrl}}/sguide/img/5a10f-2488.gif"></em>
                                     </div>
                                     <div class="detail line18em">
                                         <ul>
@@ -316,7 +316,7 @@
                                 <li class="item">
                                     <div class="imgbox">
                                         <a target="_blank" isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3DyFI5AYPPLfMcQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMdACiPS3srg71aH1Hk3GeOhQGJRg6iVmCquNNJwpiecKj3DSG%2Fd2Xq3aJPra%2BgfbF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJtbfpGn6CgG63GzltgxZn28%2BCTnndEcWuj4LYhtm9mErWcyiXZjC3gl9jQZWj6MiluZIpeBYMomanGJe8N%2FwNpGw%3D%3D&union_lens=lensId:TAPI@1594896856@0b0159d6_0ea4_1735742b6d7_837b@01">
-                                            <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/e62f2-8869.jpg" /></a>
+                                            <img src="{{$commonAssetUrl}}/sguide/m/img/e62f2-8869.jpg" /></a>
                                     </div>
                                     <div class="cont ">
                                         <div class="title font16">
@@ -339,7 +339,7 @@
                                 <li class="item">
                                     <div class="imgbox">
                                         <a target="_blank" isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3DhLQcu%2ByhrPscQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMZJR2dcQVh%2Bfxq3IhSJN6GRQGJRg6iVmCquNNJwpiecKj3DSG%2Fd2Xq3aJPra%2BgfbF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJtbfpGn6CgG63GzltgxZn28%2BCTnndEcWuj%2Ba3tEOtVrpaAOxDhOfKufdjQZWj6MiluZIpeBYMomanGJe8N%2FwNpGw%3D%3D&union_lens=lensId:TAPI@1594899324@0b84769e_0ee8_17357685caf_a739@01">
-                                            <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/f2236-4859.jpg" /></a>
+                                            <img src="{{$commonAssetUrl}}/sguide/m/img/f2236-4859.jpg" /></a>
                                     </div>
                                     <div class="cont ">
                                         <div class="title font16">
@@ -362,7 +362,7 @@
                                 <li class="item">
                                     <div class="imgbox">
                                         <a target="_blank" isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3DJUWUdcfgCWccQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMRYWMCnQIIcxMMgx22UI05ZQGJRg6iVmCquNNJwpiecKj3DSG%2Fd2Xq3aJPra%2BgfbF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJtbfpGn6CgG63GzltgxZn28%2BCTnndEcWuj8DL8dC24YqQtlDessDoGNsolTdsLqP4ZzGUFt6SD5s%2BiZ%2BQMlGz6FQ%3D%3D&union_lens=lensId:TAPI@1594893178@0b092543_0eaa_173570a9629_9ca7@01">
-                                            <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/49c88-2397.jpg" /></a>
+                                            <img src="{{$commonAssetUrl}}/sguide/m/img/49c88-2397.jpg" /></a>
                                     </div>
                                     <div class="cont ">
                                         <div class="title font16">
@@ -385,7 +385,7 @@
                                 <li class="item">
                                     <div class="imgbox">
                                         <a target="_blank" isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3DxKv%2Fl%2BMdKHQcQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMdACiPS3srg71aH1Hk3GeOhQGJRg6iVmCquNNJwpiecKj3DSG%2Fd2Xq3aJPra%2BgfbF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJtbfpGn6CgG63GzltgxZn28%2BCTnndEcWujcAMXvWrwuzRr45H%2B20txVcolTdsLqP4ZzGUFt6SD5s%2BiZ%2BQMlGz6FQ%3D%3D&union_lens=lensId:TAPI@1594896856@0b0159d6_0ea4_1735742b6d7_835d@01">
-                                            <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/66477-3172.jpg" /></a>
+                                            <img src="{{$commonAssetUrl}}/sguide/m/img/66477-3172.jpg" /></a>
                                     </div>
                                     <div class="cont ">
                                         <div class="title font16">
@@ -408,7 +408,7 @@
                                 <li class="item">
                                     <div class="imgbox">
                                         <a target="_blank" isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3DwKMr1QyZ6TIcQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMQ0HsgdUeuIL1aH1Hk3GeOhQGJRg6iVmCquNNJwpiecKj3DSG%2Fd2Xq3aJPra%2BgfbF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJtbfpGn6CgG63GzltgxZn28%2BCTnndEcWuja4GWwnTTAs%2BAW1QqGQq3kI1sA2L6AMJs5iqi4%2FpslRo%3D&union_lens=lensId:TAPI@1594892006@0b1ae91e_0e84_17356f8b484_5806@01">
-                                            <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/eccd0-2511.jpg" /></a>
+                                            <img src="{{$commonAssetUrl}}/sguide/m/img/eccd0-2511.jpg" /></a>
                                     </div>
                                     <div class="cont ">
                                         <div class="title font16">
@@ -431,7 +431,7 @@
                                 <li class="item">
                                     <div class="imgbox">
                                         <a target="_blank" isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3DSflj0Kx9XLscQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMR6rNA%2B4uvjzMMgx22UI05ZQGJRg6iVmCquNNJwpiecKj3DSG%2Fd2Xq3aJPra%2BgfbF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJtbfpGn6CgG63GzltgxZn28%2BCTnndEcWuju6%2BEqOY%2B%2BlxCjcpphSglEtjQZWj6MiluZIpeBYMomanGJe8N%2FwNpGw%3D%3D&union_lens=lensId:TAPI@1594894298@0b01580a_0e9a_173571bac92_0a85@01">
-                                            <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/8d755-8674.jpg" /></a>
+                                            <img src="{{$commonAssetUrl}}/sguide/m/img/8d755-8674.jpg" /></a>
                                     </div>
                                     <div class="cont ">
                                         <div class="title font16">
@@ -454,7 +454,7 @@
                                 <li class="item">
                                     <div class="imgbox">
                                         <a target="_blank" isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3Do1agCOpcI0YcQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMdACiPS3srg71aH1Hk3GeOhQGJRg6iVmCquNNJwpiecKj3DSG%2Fd2Xq3aJPra%2BgfbF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJtbfpGn6CgG63GzltgxZn28%2BCTnndEcWuj3kl1rEiu%2BB9jDDAwGPABVdjQZWj6MiluZIpeBYMomanGJe8N%2FwNpGw%3D%3D&union_lens=lensId:TAPI@1594896856@0b0159d6_0ea4_1735742b6d7_8358@01">
-                                            <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/bea30-5723.jpg" /></a>
+                                            <img src="{{$commonAssetUrl}}/sguide/m/img/bea30-5723.jpg" /></a>
                                     </div>
                                     <div class="cont ">
                                         <div class="title font16">
@@ -462,7 +462,7 @@
                                                 <i>7</i>
                                             </em>
                                             <a target="_blank" isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3Do1agCOpcI0YcQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMdACiPS3srg71aH1Hk3GeOhQGJRg6iVmCquNNJwpiecKj3DSG%2Fd2Xq3aJPra%2BgfbF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJtbfpGn6CgG63GzltgxZn28%2BCTnndEcWuj3kl1rEiu%2BB9jDDAwGPABVdjQZWj6MiluZIpeBYMomanGJe8N%2FwNpGw%3D%3D&union_lens=lensId:TAPI@1594896856@0b0159d6_0ea4_1735742b6d7_8358@01" class="c333 ">
-                                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/73e87-2104.gif" />得力文具7534盒装小学生橡皮擦考试素描美术橡皮擦得干净不易留痕 4B/2B多规格橡皮创意卡通可爱儿童学习用品</a></div>
+                                                <img src="{{$commonAssetUrl}}/sguide/img/73e87-2104.gif" />得力文具7534盒装小学生橡皮擦考试素描美术橡皮擦得干净不易留痕 4B/2B多规格橡皮创意卡通可爱儿童学习用品</a></div>
                                         <div class="other ">
                                             <div class="price font18">￥9.9</div>
                                             <div class="salenum font12">月销:1.8万+</div></div>
@@ -478,7 +478,7 @@
                                 <li class="item">
                                     <div class="imgbox">
                                         <a target="_blank" isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3DuQCV%2BFPz1u0cQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMdACiPS3srg71aH1Hk3GeOhQGJRg6iVmCquNNJwpiecKj3DSG%2Fd2Xq3aJPra%2BgfbF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJtbfpGn6CgG63GzltgxZn28%2BCTnndEcWujKN25acCUJw1jRLO66tGFM9jQZWj6MiluZIpeBYMomanGJe8N%2FwNpGw%3D%3D&union_lens=lensId:TAPI@1594896856@0b0159d6_0ea4_1735742b6d7_837c@01">
-                                            <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/6a39d-7231.jpg" /></a>
+                                            <img src="{{$commonAssetUrl}}/sguide/m/img/6a39d-7231.jpg" /></a>
                                     </div>
                                     <div class="cont ">
                                         <div class="title font16">
@@ -501,7 +501,7 @@
                                 <li class="item">
                                     <div class="imgbox">
                                         <a target="_blank" isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3DJnqZEWbxzlAcQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMdACiPS3srg71aH1Hk3GeOhQGJRg6iVmCquNNJwpiecKj3DSG%2Fd2Xq3aJPra%2BgfbF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJtbfpGn6CgG63GzltgxZn28%2BCTnndEcWujlMw7%2FXKxx4Eq4RB%2FWHjLptjQZWj6MiluZIpeBYMomanGJe8N%2FwNpGw%3D%3D&union_lens=lensId:TAPI@1594896856@0b0159d6_0ea4_1735742b6d7_8357@01">
-                                            <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/bba19-8876.jpg" /></a>
+                                            <img src="{{$commonAssetUrl}}/sguide/m/img/bba19-8876.jpg" /></a>
                                     </div>
                                     <div class="cont ">
                                         <div class="title font16">
@@ -553,14 +553,14 @@
                             <li class="item">
                                 <div class="imgbox">
                                     <a target="_blank" href="https://www.maigoo.com/webshop/155559.html">
-                                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/56bf1-6105.jpg_180_115.jpg" /></a>
+                                        <img src="{{$commonAssetUrl}}/sguide/m/img/56bf1-6105.jpg_180_115.jpg" /></a>
                                 </div>
                                 <div class="cont">
                                     <ul>
                                         <li class="webtitle font18">
                                             <a target="_blank" isconvert=1 rel="nofollow" href="https://s.click.taobao.com/t?e=m%3D2%26s%3DsYxUH%2BU2txocQipKwQzePDAVflQIoZepyK8Cckff7TVRAdhuF14FMe%2B82ooptPV%2Bt4hWD5k2kjNQGJRg6iVmCquNNJwpiecKuyyTDi1DterblIwp3swM8O%2FBas0tvb4eZz42eVlqqJTBwBLHPsOVpfdFsh68tKJtbfpGn6CgG63DIagRwwDnQHyMgFoeq%2BJ3IYULNg46oBA%3D&union_lens=lensId:TAPI@1603075833@0b08480f_2053_1753ec3fd4a_a8fc@01" class="title c333 dhidden">得力旗舰店</a></li>
                                         <li class="shoplevel font14 line15em">
-                                            <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/5a10f-2488.gif" />
+                                            <img src="{{$commonAssetUrl}}/sguide/img/5a10f-2488.gif" />
                                             <em class="c999">顶级卖家</em>
                                             <span class="typename">旗舰店</span></li>
                                         <li class="c999 font14 line15em">推荐指数 &nbsp;39631</li>
@@ -573,14 +573,14 @@
                             <li class="item">
                                 <div class="imgbox">
                                     <a target="_blank" href="https://www.maigoo.com/webshop/140738.html">
-                                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/446ed-5283.jpg" /></a>
+                                        <img src="{{$commonAssetUrl}}/sguide/img/446ed-5283.jpg" /></a>
                                 </div>
                                 <div class="cont">
                                     <ul>
                                         <li class="webtitle font18">
                                             <a target="_blank" isconvert=1 rel="nofollow" href="https://union-click.jd.com/jdc?e=&p=AyIGZRprFQMTBlQaWxUAETcRRANLXSJeEF4aVwkMGQlLBkgdSVJKSQVJHEpYAE8SCQITBlQaWhUCEARKQh5JXyIAUkwBY1VHADVNKXFxVwItfT1PHGB3WRdrEgcUBVwcXRcyGg9cGlsQByI3VRprQ2wSBlQaWhQCEgVWK1kUAxEDUx1SFQUiB1ETWB0EEA9SH14RBCIAVRJrFQAVBVUcUxEFGwA7WmslMhE3ZStYJQIiWBFGBiUAEwZREg%3D%3D" class="title c333 dhidden">得力自营旗舰店</a></li>
                                         <li class="shoplevel font14 line15em">
-                                            <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1bbcc-3594.gif" />
+                                            <img src="{{$commonAssetUrl}}/sguide/m/img/1bbcc-3594.gif" />
                                             <em class="c999">初级卖家</em>
                                             <span class="typename">自营</span></li>
                                         <li class="c999 font14 line15em">推荐指数 &nbsp;29033</li>
@@ -593,14 +593,14 @@
                             <li class="item">
                                 <div class="imgbox">
                                     <a target="_blank" href="https://www.maigoo.com/webshop/278260.html">
-                                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/72844-4480.jpg" /></a>
+                                        <img src="{{$commonAssetUrl}}/sguide/img/72844-4480.jpg" /></a>
                                 </div>
                                 <div class="cont">
                                     <ul>
                                         <li class="webtitle font18">
                                             <a target="_blank" isconvert=1 rel="nofollow" href="https://union-click.jd.com/jdc?e=&p=AyIGZRprFQoUDlArH0paTFhlQh5QQ1AMSwUHRV9PGA5OREdcThkNRA5BSw4HXR1SEB1LQglGa11rSHxUTwZJYnsAU18vdRhLYQVBI0MOHjdSHl0XCxUBVytTHQsTB1AeayUCEzcUdVgUAhsEZRlaFAEWAVMSWxIyEgNdGFMXCxIGUBxfEDIVB1wrWxcFEAdSE18SCxVpFCtrJQEiN2UYaxUyTUMIRmsXAxMDXA%3D%3D" class="title c333 dhidden">得力办公品牌旗舰店</a></li>
                                         <li class="shoplevel font14 line15em">
-                                            <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1bbcc-3594.gif" />
+                                            <img src="{{$commonAssetUrl}}/sguide/m/img/1bbcc-3594.gif" />
                                             <em class="c999">顶级卖家</em>
                                             <span class="typename">旗舰店</span></li>
                                         <li class="c999 font14 line15em">推荐指数 &nbsp;11754</li>
@@ -613,14 +613,14 @@
                             <li class="item">
                                 <div class="imgbox">
                                     <a target="_blank" href="https://www.maigoo.com/webshop/277012.html">
-                                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/a2687-6911.jpg" /></a>
+                                        <img src="{{$commonAssetUrl}}/sguide/img/a2687-6911.jpg" /></a>
                                 </div>
                                 <div class="cont">
                                     <ul>
                                         <li class="webtitle font18">
                                             <a target="_blank" isconvert=1 rel="nofollow" href="https://s.click.taobao.com/t?e=m%3D2%26s%3DnSwW6CPNGSwcQipKwQzePDAVflQIoZepyK8Cckff7TVRAdhuF14FMSPYO0z31RYdt4hWD5k2kjNQGJRg6iVmCquNNJwpiecKuyyTDi1DterblIwp3swM8O%2FBas0tvb4eZz42eVlqqJTBwBLHPsOVpfdFsh68tKJtTBMgo9cPdHBoZcROWC53QeQBLW1IKSHKcSpj5qSCmbA%3D&union_lens=lensId:TAPI@1603077323@0b176e7b_aeec_1753edaba53_b711@01" class="title c333 dhidden">得力保险箱旗舰店</a></li>
                                         <li class="shoplevel font14 line15em">
-                                            <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/5a10f-2488.gif" />
+                                            <img src="{{$commonAssetUrl}}/sguide/img/5a10f-2488.gif" />
                                             <em class="c999">顶级卖家</em>
                                             <span class="typename">旗舰店</span></li>
                                         <li class="c999 font14 line15em">推荐指数 &nbsp;31267</li>
@@ -737,7 +737,7 @@
                 </div>
                 <div class="bline bline1"></div>
                 <div class="ads">
-                    <script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/js/nm.js"></script>
+                    <script type="text/javascript" src="{{$commonAssetUrl}}/sguide/js/nm.js"></script>
                 </div>
                 <div id="mzsmcontent">
                     <span class="mzsm_title center font16 b c333">
@@ -758,7 +758,7 @@
                             <a class="color1" href="javascript:;" onclick="window.open('https://www.maigoo.com/user/login/');">注册登录>></a></div>
                     </div>
                     <div class="moremzsm">
-                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/dec8c-3557.gif" onclick="$('#mzsmcontent').find('.mzsm').css('height','auto');$(this).parent().remove();" /></div>
+                        <img src="{{$commonAssetUrl}}/sguide/m/img/dec8c-3557.gif" onclick="$('#mzsmcontent').find('.mzsm').css('height','auto');$(this).parent().remove();" /></div>
                 </div>
                 <div class="pagecss" data-css="/public/css/maigoo/v2019/color.css,/public/css/maigoo/v2019/weui.min.css,/public/css/maigoo/v2019/block/webshop/webshopinfo.css,/public/css/maigoo/v2019/block/publicblock/searchselect3.css,/public/css/maigoo/v2019/block/product/col.css,/public/css/maigoo/v2019/block/webshop/col.css,/public/css/maigoo/v2019/block/webshop/specslist.css,/public/css/maigoo/v2019/block/publicblock/mzsm.css"></div>
                 <div class="pagejs" data-js="/public/js/maigoo/v2019/public.js,/public/js/maigoo/v2019/event.js,/public/js/maigoo/v2019/weUI.js,/public/js/maigoo/v2019/block/webshop/webshopinfo.js,/public/js/maigoo/v2019/block/publicblock/searchselect3.js"></div>
@@ -788,92 +788,92 @@
                         <ul class="col3">
                             <li>
                                 <a href="https://www.maigoo.com/maigoo/151wj_index.html" title="文具用品" target="_blank" class="c333">
-                                    <img width="80" height="80" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/28c57-5852.png" width="100" />
+                                    <img width="80" height="80" src="{{$commonAssetUrl}}/sguide/m/img/28c57-5852.png" width="100" />
                                     <div class="dhidden line18em">文具用品</div></a>
                             </li>
                             <li>
                                 <a href="https://www.maigoo.com/maigoo/785bi_index.html" title="中性笔" target="_blank" class="c333">
-                                    <img width="80" height="80" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/e5b64-8059.png" width="100" />
+                                    <img width="80" height="80" src="{{$commonAssetUrl}}/sguide/img/e5b64-8059.png" width="100" />
                                     <div class="dhidden line18em">中性笔</div></a>
                             </li>
                             <li>
                                 <a href="https://www.maigoo.com/maigoo/576dyj_index.html" title="打印纸" target="_blank" class="c333">
-                                    <img width="80" height="80" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/54d5b-5917.png" width="100" />
+                                    <img width="80" height="80" src="{{$commonAssetUrl}}/sguide/img/54d5b-5917.png" width="100" />
                                     <div class="dhidden line18em">打印纸</div></a>
                             </li>
                             <li>
                                 <a href="https://www.maigoo.com/maigoo/1465szj_index.html" title="碎纸机" target="_blank" class="c333">
-                                    <img width="80" height="80" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/49428-4161.png" width="100" />
+                                    <img width="80" height="80" src="{{$commonAssetUrl}}/sguide/img/49428-4161.png" width="100" />
                                     <div class="dhidden line18em">碎纸机</div></a>
                             </li>
                             <li>
                                 <a href="https://www.maigoo.com/maigoo/585dkj_index.html" title="打孔机" target="_blank" class="c333">
-                                    <img width="80" height="80" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/9b41e-2999.png" width="100" />
+                                    <img width="80" height="80" src="{{$commonAssetUrl}}/sguide/img/9b41e-2999.png" width="100" />
                                     <div class="dhidden line18em">打孔机</div></a>
                             </li>
                             <li>
                                 <a href="https://www.maigoo.com/maigoo/284zd_index.html" title="装订机" target="_blank" class="c333">
-                                    <img width="80" height="80" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/7c5b7-4760.png" width="100" />
+                                    <img width="80" height="80" src="{{$commonAssetUrl}}/sguide/img/7c5b7-4760.png" width="100" />
                                     <div class="dhidden line18em">装订机</div></a>
                             </li>
                             <li>
                                 <a href="https://www.maigoo.com/maigoo/581sfj_index.html" title="塑封机" target="_blank" class="c333">
-                                    <img width="80" height="80" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/a7c65-5710.png" width="100" />
+                                    <img width="80" height="80" src="{{$commonAssetUrl}}/sguide/img/a7c65-5710.png" width="100" />
                                     <div class="dhidden line18em">塑封机</div></a>
                             </li>
                             <li>
                                 <a href="https://www.maigoo.com/maigoo/577jsj_index.html" title="计算器" target="_blank" class="c333">
-                                    <img width="80" height="80" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/3dd2e-2874.png" width="100" />
+                                    <img width="80" height="80" src="{{$commonAssetUrl}}/sguide/img/3dd2e-2874.png" width="100" />
                                     <div class="dhidden line18em">计算器</div></a>
                             </li>
                             <li>
                                 <a href="https://www.maigoo.com/maigoo/1043fdj_index.html" title="放大镜" target="_blank" class="c333">
-                                    <img width="80" height="80" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/879dd-2798.png" width="100" />
+                                    <img width="80" height="80" src="{{$commonAssetUrl}}/sguide/img/879dd-2798.png" width="100" />
                                     <div class="dhidden line18em">放大镜</div></a>
                             </li>
                             <li>
                                 <a href="https://www.maigoo.com/maigoo/1342lb_index.html" title="蜡笔" target="_blank" class="c333">
-                                    <img width="80" height="80" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/f9c59-1147.png" width="100" />
+                                    <img width="80" height="80" src="{{$commonAssetUrl}}/sguide/img/f9c59-1147.png" width="100" />
                                     <div class="dhidden line18em">蜡笔</div></a>
                             </li>
                             <li>
                                 <a href="https://www.maigoo.com/maigoo/1265blt_index.html" title="便签" target="_blank" class="c333">
-                                    <img width="80" height="80" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/ae2ba-2063.png" width="100" />
+                                    <img width="80" height="80" src="{{$commonAssetUrl}}/sguide/img/ae2ba-2063.png" width="100" />
                                     <div class="dhidden line18em">便签</div></a>
                             </li>
                             <li>
                                 <a href="https://www.maigoo.com/maigoo/152gb_index.html" title="钢笔" target="_blank" class="c333">
-                                    <img width="80" height="80" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/34a3e-8555.png" width="100" />
+                                    <img width="80" height="80" src="{{$commonAssetUrl}}/sguide/img/34a3e-8555.png" width="100" />
                                     <div class="dhidden line18em">钢笔</div></a>
                             </li>
                             <li>
                                 <a href="https://www.maigoo.com/maigoo/578kqj_index.html" title="考勤机" target="_blank" class="c333">
-                                    <img width="80" height="80" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/e6fdd-9792.png" width="100" />
+                                    <img width="80" height="80" src="{{$commonAssetUrl}}/sguide/img/e6fdd-9792.png" width="100" />
                                     <div class="dhidden line18em">考勤机</div></a>
                             </li>
                             <li>
                                 <a href="https://www.maigoo.com/maigoo/223dy_index.html" title="验钞机" target="_blank" class="c333">
-                                    <img width="80" height="80" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/9f6d1-2600.png" width="100" />
+                                    <img width="80" height="80" src="{{$commonAssetUrl}}/sguide/img/9f6d1-2600.png" width="100" />
                                     <div class="dhidden line18em">验钞机</div></a>
                             </li>
                             <li>
                                 <a href="https://www.maigoo.com/maigoo/639dy_index.html" title="插座" target="_blank" class="c333">
-                                    <img width="80" height="80" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/42aaf-6060.png" width="100" />
+                                    <img width="80" height="80" src="{{$commonAssetUrl}}/sguide/img/42aaf-6060.png" width="100" />
                                     <div class="dhidden line18em">插座</div></a>
                             </li>
                             <li>
                                 <a href="https://www.maigoo.com/maigoo/809baojp_index.html" title="翻页笔" target="_blank" class="c333">
-                                    <img width="80" height="80" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/50f98-9785.png" width="100" />
+                                    <img width="80" height="80" src="{{$commonAssetUrl}}/sguide/img/50f98-9785.png" width="100" />
                                     <div class="dhidden line18em">翻页笔</div></a>
                             </li>
                             <li>
                                 <a href="https://www.maigoo.com/maigoo/511gp_index.html" title="光盘" target="_blank" class="c333">
-                                    <img width="80" height="80" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/277f5-7693.png" width="100" />
+                                    <img width="80" height="80" src="{{$commonAssetUrl}}/sguide/img/277f5-7693.png" width="100" />
                                     <div class="dhidden line18em">光盘</div></a>
                             </li>
                             <li>
                                 <a href="https://www.maigoo.com/maigoo/573xigu_index.html" title="硒鼓" target="_blank" class="c333">
-                                    <img width="80" height="80" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/c0ba2-4748.png" width="100" />
+                                    <img width="80" height="80" src="{{$commonAssetUrl}}/sguide/img/c0ba2-4748.png" width="100" />
                                     <div class="dhidden line18em">硒鼓</div></a>
                             </li>
                             <div class="clear"></div>
@@ -885,47 +885,47 @@
                         <ul>
                             <li>
                                 <a target="_blank" href="https://www.maigoo.com/maigoo/2729sd_index.html" class="c333">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/51405-4384.png" width="60" height="60" />
+                                    <img src="{{$commonAssetUrl}}/sguide/img/51405-4384.png" width="60" height="60" />
                                     <div class="dhidden line18em">大品牌</div></a>
                             </li>
                             <li>
                                 <a target="_blank" href="https://www.maigoo.com/maigoo/2730cmsb_index.html" class="c333">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/cc381-2939.png" width="60" height="60" />
+                                    <img src="{{$commonAssetUrl}}/sguide/img/cc381-2939.png" width="60" height="60" />
                                     <div class="dhidden line18em">驰名保护</div></a>
                             </li>
                             <li>
                                 <a target="_blank" href="https://www.maigoo.com/maigoo/4630gjqy_index.html" class="c333">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/02b1d-7431.png" width="60" height="60" />
+                                    <img src="{{$commonAssetUrl}}/sguide/img/02b1d-7431.png" width="60" height="60" />
                                     <div class="dhidden line18em">高新企业</div></a>
                             </li>
                             <li>
                                 <a target="_blank" href="https://www.maigoo.com/maigoo/2733ss_index.html" class="c333">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/3e42b-9411.png" width="60" height="60" />
+                                    <img src="{{$commonAssetUrl}}/sguide/img/3e42b-9411.png" width="60" height="60" />
                                     <div class="dhidden line18em">上市公司</div></a>
                             </li>
                             <li>
                                 <a target="_blank" href="https://www.maigoo.com/maigoo/4813qqy_index.html" class="c333">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/226d4-2613.png" width="60" height="60" />
+                                    <img src="{{$commonAssetUrl}}/sguide/img/226d4-2613.png" width="60" height="60" />
                                     <div class="dhidden line18em">500强企业</div></a>
                             </li>
                             <li>
                                 <a target="_blank" href="https://www.maigoo.com/maigoo/4635ssmp_index.html" class="c333">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/6b632-2854.png" width="60" height="60" />
+                                    <img src="{{$commonAssetUrl}}/sguide/img/6b632-2854.png" width="60" height="60" />
                                     <div class="dhidden line18em">名牌产品</div></a>
                             </li>
                             <li>
                                 <a target="_blank" href="https://www.maigoo.com/maigoo/4636zmsb_index.html" class="c333">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/4370e-5593.png" width="60" height="60" />
+                                    <img src="{{$commonAssetUrl}}/sguide/img/4370e-5593.png" width="60" height="60" />
                                     <div class="dhidden line18em">著名商标</div></a>
                             </li>
                             <li>
                                 <a target="_blank" href="https://www.maigoo.com/maigoo/2733zxqy_index.html" class="c333">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/e1ae1-6482.png" width="60" height="60" />
+                                    <img src="{{$commonAssetUrl}}/sguide/img/e1ae1-6482.png" width="60" height="60" />
                                     <div class="dhidden line18em">中小企业</div></a>
                             </li>
                             <li>
                                 <a target="_blank" href="/brand/search/?isopen=py" class="c333">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/05c57-8594.png" width="60" height="60" />
+                                    <img src="{{$commonAssetUrl}}/sguide/img/05c57-8594.png" width="60" height="60" />
                                     <div class="dhidden line18em">首字母</div></a>
                             </li>
                         </ul>
@@ -1140,7 +1140,7 @@
                                                     <div class="title font16 b">知识榜</div>
                                                     <div class="mintitle font12">知识百科</div>
                                                     <div class="img">
-                                                        <img width="60" height="60" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/0de0c-9334.png" /></div>
+                                                        <img width="60" height="60" src="{{$commonAssetUrl}}/sguide/img/0de0c-9334.png" /></div>
                                                 </a>
                                             </div>
                                             <div class="item s2">
@@ -1148,7 +1148,7 @@
                                                     <div class="title font16 b">品牌榜</div>
                                                     <div class="mintitle font12">十大品牌</div>
                                                     <div class="img">
-                                                        <img width="60" height="60" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/04ba0-9363.png" /></div>
+                                                        <img width="60" height="60" src="{{$commonAssetUrl}}/sguide/img/04ba0-9363.png" /></div>
                                                 </a>
                                             </div>
                                             <div class="item s3">
@@ -1156,7 +1156,7 @@
                                                     <div class="title font16 b">网购榜</div>
                                                     <div class="mintitle font12">网店排行</div>
                                                     <div class="img">
-                                                        <img width="60" height="60" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/360f8-3669.png" /></div>
+                                                        <img width="60" height="60" src="{{$commonAssetUrl}}/sguide/img/360f8-3669.png" /></div>
                                                 </a>
                                             </div>
                                             <div class="item s4">
@@ -1164,7 +1164,7 @@
                                                     <div class="title font16 b">招商榜</div>
                                                     <div class="mintitle font12">招商加盟</div>
                                                     <div class="img">
-                                                        <img width="60" height="60" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/fb8f7-3835.png" /></div>
+                                                        <img width="60" height="60" src="{{$commonAssetUrl}}/sguide/img/fb8f7-3835.png" /></div>
                                                 </a>
                                             </div>
                                             <div class="clear"></div>
@@ -1177,7 +1177,7 @@
                                                     <div class="title font16 b">趣闻榜</div>
                                                     <div class="mintitle font12">生活排行</div>
                                                     <div class="img">
-                                                        <img width="60" height="60" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/d276d-3183.png" /></div>
+                                                        <img width="60" height="60" src="{{$commonAssetUrl}}/sguide/img/d276d-3183.png" /></div>
                                                 </a>
                                             </div>
                                             <div class="item s6">
@@ -1185,7 +1185,7 @@
                                                     <div class="title font16 b">人物榜</div>
                                                     <div class="mintitle font12">名人榜单</div>
                                                     <div class="img">
-                                                        <img width="60" height="60" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/a019c-9023.png" /></div>
+                                                        <img width="60" height="60" src="{{$commonAssetUrl}}/sguide/img/a019c-9023.png" /></div>
                                                 </a>
                                             </div>
                                             <div class="item s7">
@@ -1193,7 +1193,7 @@
                                                     <div class="title font16 b">装修榜</div>
                                                     <div class="mintitle font12">装修知识</div>
                                                     <div class="img">
-                                                        <img width="60" height="60" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/47c7b-8490.png" /></div>
+                                                        <img width="60" height="60" src="{{$commonAssetUrl}}/sguide/img/47c7b-8490.png" /></div>
                                                 </a>
                                             </div>
                                             <div class="item s8">
@@ -1201,7 +1201,7 @@
                                                     <div class="title font16 b">网点榜</div>
                                                     <div class="mintitle font12">服务网点</div>
                                                     <div class="img">
-                                                        <img width="60" height="60" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/220aa-7633.png" /></div>
+                                                        <img width="60" height="60" src="{{$commonAssetUrl}}/sguide/img/220aa-7633.png" /></div>
                                                 </a>
                                             </div>
                                             <div class="clear"></div>
@@ -1214,7 +1214,7 @@
                                                     <div class="title font16 b">产品榜</div>
                                                     <div class="mintitle font12">热门产品</div>
                                                     <div class="img">
-                                                        <img width="60" height="60" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/2d672-9078.png" /></div>
+                                                        <img width="60" height="60" src="{{$commonAssetUrl}}/sguide/img/2d672-9078.png" /></div>
                                                 </a>
                                             </div>
                                             <div class="item s10">
@@ -1222,7 +1222,7 @@
                                                     <div class="title font16 b">娱乐榜</div>
                                                     <div class="mintitle font12">娱乐八卦</div>
                                                     <div class="img">
-                                                        <img width="60" height="60" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/11a55-5336.png" /></div>
+                                                        <img width="60" height="60" src="{{$commonAssetUrl}}/sguide/img/11a55-5336.png" /></div>
                                                 </a>
                                             </div>
                                             <div class="item s11">
@@ -1230,7 +1230,7 @@
                                                     <div class="title font16 b">汽车榜</div>
                                                     <div class="mintitle font12">价格排行</div>
                                                     <div class="img">
-                                                        <img width="60" height="60" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/f919c-3508.png" /></div>
+                                                        <img width="60" height="60" src="{{$commonAssetUrl}}/sguide/img/f919c-3508.png" /></div>
                                                 </a>
                                             </div>
                                             <div class="item s12">
@@ -1238,7 +1238,7 @@
                                                     <div class="title font16 b">旅游榜</div>
                                                     <div class="mintitle font12">热门景点</div>
                                                     <div class="img">
-                                                        <img width="60" height="60" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/8b738-4776.png" /></div>
+                                                        <img width="60" height="60" src="{{$commonAssetUrl}}/sguide/img/8b738-4776.png" /></div>
                                                 </a>
                                             </div>
                                             <div class="clear"></div>
@@ -1253,49 +1253,49 @@
                     <ul>
                         <li>
                             <a href="https://www.maigoo.com/brand/webshop_2411.html" target="_blank">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/8d43c-3290.gif" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/8d43c-3290.gif" /></a>
                         </li>
                         <li>
                             <a href="https://www.maigoo.com/brand/webshop_2418.html" target="_blank">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/7a719-6493.gif" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/7a719-6493.gif" /></a>
                         </li>
                         <li>
                             <a href="https://www.maigoo.com/brand/webshop_2413.html" target="_blank">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/2eba9-3024.gif" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/2eba9-3024.gif" /></a>
                         </li>
                         <li>
                             <a href="https://www.maigoo.com/brand/webshop_2476.html" target="_blank">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/c63ba-5340.gif" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/c63ba-5340.gif" /></a>
                         </li>
                         <li>
                             <a href="https://www.maigoo.com/brand/webshop_2415.html" target="_blank">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/ea38c-2087.gif" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/ea38c-2087.gif" /></a>
                         </li>
                         <li>
                             <a href="https://www.maigoo.com/brand/webshop_2414.html" target="_blank">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/3d415-3041.gif" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/3d415-3041.gif" /></a>
                         </li>
                         <li>
                             <a href="https://www.maigoo.com/brand/webshop_2416.html" target="_blank">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/907fe-3403.gif" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/907fe-3403.gif" /></a>
                         </li>
                         <li>
                             <a href="https://www.maigoo.com/brand/webshop_2555.html" target="_blank">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/df0e8-2928.gif" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/df0e8-2928.gif" /></a>
                         </li>
                         <li>
                             <a href="https://www.maigoo.com/brand/webshop_2516.html" target="_blank">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/b69dd-1729.gif" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/b69dd-1729.gif" /></a>
                         </li>
                         <li>
                             <a href="https://www.maigoo.com/brand/webshop_2417.html" target="_blank">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/d6b40-8960.gif" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/d6b40-8960.gif" /></a>
                         </li>
                     </ul>
                     <div class="clear"></div>
                 </div>
                 <a class="downloadapp" href="https://www.cnpp.cn/android/maigooapp/" target="_blank">
-                    <img width="260" height="150" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/5c768-4907.jpg" /></a>
+                    <img width="260" height="150" src="{{$commonAssetUrl}}/sguide/img/5c768-4907.jpg" /></a>
                 <dl class="datacounts">
                     <dd>
                         <a href="https://www.maigoo.com/brand10/pinpaibang/#posbrandvottelist" target="_blank" class="c666 line2em dhidden">已有
@@ -1316,34 +1316,34 @@
 <div class="webshoplogo">
     <div class="logobox2">
         <a target="_blank" href="https://www.maigoo.com/webshop/66213.html">
-            <img width="83" height="37" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/7aac2-5783.png" />
+            <img width="83" height="37" src="{{$commonAssetUrl}}/sguide/img/7aac2-5783.png" />
             <em class="dhidden">晨光</em></a>
         <a target="_blank" href="https://www.maigoo.com/webshop/155559.html">
-            <img width="83" height="37" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/ded4e-9567.png" />
+            <img width="83" height="37" src="{{$commonAssetUrl}}/sguide/img/ded4e-9567.png" />
             <em class="dhidden">得力</em></a>
         <a target="_blank" href="https://www.maigoo.com/webshop/245853.html">
-            <img width="83" height="37" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/1db86-6802.png" />
+            <img width="83" height="37" src="{{$commonAssetUrl}}/sguide/img/1db86-6802.png" />
             <em class="dhidden">真彩</em></a>
         <a target="_blank" href="https://www.maigoo.com/webshop/334555.html">
-            <img width="83" height="37" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/f418a-8167.png" />
+            <img width="83" height="37" src="{{$commonAssetUrl}}/sguide/img/f418a-8167.png" />
             <em class="dhidden">齐心办公</em></a>
         <a target="_blank" href="https://www.maigoo.com/webshop/317825.html">
-            <img width="83" height="37" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/5dbb1-2611.png" />
+            <img width="83" height="37" src="{{$commonAssetUrl}}/sguide/img/5dbb1-2611.png" />
             <em class="dhidden">爱好</em></a>
         <a target="_blank" href="https://www.maigoo.com/webshop/230909.html">
-            <img width="83" height="37" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/1f90b-5145.png" />
+            <img width="83" height="37" src="{{$commonAssetUrl}}/sguide/img/1f90b-5145.png" />
             <em class="dhidden">白雪文具</em></a>
         <a target="_blank" href="https://www.maigoo.com/webshop/271998.html">
-            <img width="83" height="37" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/2b225-1622.png" />
+            <img width="83" height="37" src="{{$commonAssetUrl}}/sguide/img/2b225-1622.png" />
             <em class="dhidden">贝发</em></a>
         <a target="_blank" href="https://www.maigoo.com/webshop/155564.html">
             <img width="83" height="37" src="https://image.maigoo.com/upload2/images/20131113/mbrand__2555_logo.png#" />
             <em class="dhidden">广博</em></a>
         <a target="_blank" href="https://www.maigoo.com/webshop/273632.html">
-            <img width="83" height="37" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/04ccc-5068.png" />
+            <img width="83" height="37" src="{{$commonAssetUrl}}/sguide/img/04ccc-5068.png" />
             <em class="dhidden">三木</em></a>
         <a target="_blank" href="https://www.maigoo.com/webshop/142762.html">
-            <img width="83" height="37" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/15a61-4374.png" />
+            <img width="83" height="37" src="{{$commonAssetUrl}}/sguide/img/15a61-4374.png" />
             <em class="dhidden">金万年</em></a>
     </div>
 </div>
@@ -1400,7 +1400,7 @@
             </dl>
         </div>
         <div class="lgimg">
-            <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/e9669-2147.png" /></div>
+            <img src="{{$commonAssetUrl}}/sguide/img/e9669-2147.png" /></div>
         <div class="words font12 fff center line18em">
             <ul class="words1">
                 <li>本站不生产产品，不开设网店、不提供产品销售服务，不对任何人的任何交易承担任何责任。如有侵权、虚假信息、错误信息或任何问题，</li>
@@ -1436,9 +1436,9 @@
             <div class="clear"></div>
         </div>
         <div class="center bimg">
-            <img class="lazy" data-src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/f5b42-1095.png" /></div>
+            <img class="lazy" data-src="{{$commonAssetUrl}}/sguide/img/f5b42-1095.png" /></div>
         <div class="center bimg">
-            <img class="lazy" data-src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/b0e91-5790.png" /></div>
+            <img class="lazy" data-src="{{$commonAssetUrl}}/sguide/img/b0e91-5790.png" /></div>
     </div>
 </footer>
 <div id="go_top">
@@ -1446,7 +1446,7 @@
         <li class="holidayicon getajaxdata" url="https://s.maigoo.com/ajaxstream/holiday/?action=getinfo"></li>
         <li>
             <a class="fff" href="javascript:void(0);" id="kefu" onclick="kefulink();">
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/7bd6f-8721.gif">
+                <img src="{{$commonAssetUrl}}/sguide/img/7bd6f-8721.gif">
                 <div class="wordout">
                     <div class="word">联 系客 服</div></div>
             </a>
@@ -1472,7 +1472,7 @@
             <a class="qrcode fff" href="javascript:;" onmouseover="$(this).find('img').attr('src',$(this).find('img').attr('data-src'))">
                 <i class="iconfont icon-erweima1"></i>
                 <div class="word lh" style="width:42px;">二维码</div>
-                <img width="682" height="194" data-src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/img/af43f-5320.png" /></a>
+                <img width="682" height="194" data-src="{{$commonAssetUrl}}/sguide/img/af43f-5320.png" /></a>
         </li>
         <li>
             <a class="gotop fff" href="javascript:;" onclick="$('html,body').animate({'scrollTop':'0'},{duration:300})">
@@ -1491,7 +1491,7 @@
     userid = '0',
     issm = '';
     var authorpiclist = null;</script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/js/webshop_show_e4772b5bafb73186ad5c5f26001592b4.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/sguide/js/webshop_show_e4772b5bafb73186ad5c5f26001592b4.js"></script>
 <script>var _hmt = _hmt || []; (function() {
         var hm = document.createElement("script");
         hm.src = "https://hm.baidu.com/hm.js?de3f6fd28ec4ac19170f18e2a8777593";

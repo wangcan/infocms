@@ -15,11 +15,11 @@
 <meta content="black" name="apple-mobile-web-app-status-bar-style" />
 <meta content="telephone=no" name="format-detection" />
 <meta name="applicable-device" content="mobile">
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/48832-7373.ico" rel="shortcut icon" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/30cdb-6621.css" type="text/css" rel="stylesheet" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/f1d79-1352.css" type="text/css" rel="stylesheet" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/cd077-5970.css" type="text/css" rel="stylesheet" />
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/jquery.min.js" type="text/javascript"></script>
+<link href="{{$commonAssetUrl}}/sguide/m/img/48832-7373.ico" rel="shortcut icon" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/30cdb-6621.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/f1d79-1352.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/cd077-5970.css" type="text/css" rel="stylesheet" />
+<script src="{{$commonAssetUrl}}/sguide/m/js/jquery.min.js" type="text/javascript"></script>
 </head>
 
 <body class="mobile ">
@@ -177,7 +177,7 @@
                 <h1 class="title font18 b c333 line15em">陈湖文-上海晨光文具股份有限公司董事长介绍</h1>
                 <div class="qzoneinfo c999">
                     <a href="https://m.maigoo.com/mgzone/1682.html" class="color1">
-                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/9b5d5-4928.jpg" />名人画像</a>&nbsp;上传提供
+                        <img src="{{$commonAssetUrl}}/sguide/m/img/9b5d5-4928.jpg" />名人画像</a>&nbsp;上传提供
                     <span class="attention ccc">
                         <i class="iconfont icon-yanjing"></i>
                         <span count="attention">0</span></span>
@@ -202,7 +202,7 @@
                         <p style="text-indent:0px;text-align:center;">
                             <span>
                                 <span class="showauthor">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/55aa5-9020.jpg" alt="" width="600" title="" align="" />
+                                    <img src="{{$commonAssetUrl}}/sguide/m/img/55aa5-9020.jpg" alt="" width="600" title="" align="" />
                                     <em>该图片由注册用户"
                                         <i style="display:inline-block;" class="authorblue qzone" onclick="return openUrl($(this).attr('href'));" href="https://m.maigoo.com/mgzone/1682.html" target="_blank">名人画像</i>"提供，
                                         <i class="authorblue" onclick="return openUrl($(this).attr('href'));" href="https://www.cnpp.cn/relief/">
@@ -269,7 +269,7 @@
                     <a class="color1" href="javascript:;" onclick="window.open('https://m.maigoo.com/user/login/');">注册登录>></a></div>
             </div>
             <div class="moremzsm">
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/dec8c-3557.gif" onclick="$('#mzsmcontent').find('.mzsm').css('height','auto');$(this).parent().remove();" /></div>
+                <img src="{{$commonAssetUrl}}/sguide/m/img/dec8c-3557.gif" onclick="$('#mzsmcontent').find('.mzsm').css('height','auto');$(this).parent().remove();" /></div>
         </div>
         <div class="articlepraise bottombd" id="articlepraise">
             <!--点赞-->
@@ -305,7 +305,7 @@
                     <div class="ibox">
                         <div class="img ">
                             <a href="https://m.maigoo.com/goomai/204644.html">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/b6d91-8727.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/b6d91-8727.jpg" /></a>
                         </div>
                         <div class="contbox">
                             <a class="title font15 color2 dhidden2" href="https://m.maigoo.com/goomai/204644.html">
@@ -394,7 +394,7 @@
     </div>
 </div>
 <div class="ads">
-    <script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/v.js"></script>
+    <script type="text/javascript" src="{{$commonAssetUrl}}/sguide/m/js/v.js"></script>
     </script>
 </div>
 <footer>
@@ -454,8 +454,8 @@
     test = 'show',
     issm = '';
     var authorpiclist = [];</script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/jquery.cookie.min.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/mingren_show_3e5679defc8c8d6cc38631b105ace43b.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/sguide/m/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/sguide/m/js/mingren_show_3e5679defc8c8d6cc38631b105ace43b.js"></script>
 <script>var _hmt = _hmt || []; (function() {
         var hm = document.createElement("script");
         hm.src = "https://hm.baidu.com/hm.js?882d151476ece2b55af12abf0af8572c";

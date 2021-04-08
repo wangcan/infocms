@@ -6,21 +6,21 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="edge" />
 <meta name="applicable-device" content="pc" />
-<link rel="shortcut icon" href="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/ab561-6001.ico" />
+<link rel="shortcut icon" href="{{$commonAssetUrl}}/petcms/img/ab561-6001.ico" />
 <!--头部开始-->
 <meta name="keywords" content="金毛价格，图片，特点，训练方式，品种简介，金毛用品，纯种金毛多少钱一只，金毛好养吗" />
 <meta name="description" content="波奇网金毛百科为您提供详尽的关于金毛价格、图片、特点、训练及饲养方式、品种简介、金毛用品及纯种金毛鉴定等信息。波奇网为国内最大的金毛综合信息门户，想了解最新最全金毛动态，就上波奇网!" />
 <title>金毛价格_图片_纯种金毛幼犬多少钱一只_金毛好养吗-波奇网</title>
 <link rel="stylesheet" type="text/css" href="//a.boqiicdn.com/Js1/min/?f=/Css/baikenew/common.css,/Css/baikenew/style.css,/Css/baikenew/subList.css" />
 <!--[if lt IE 9]>
-    <script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/respond.min.js"></script>
+    <script src="{{$commonAssetUrl}}/petcms/js/respond.min.js"></script>
     <link href="//a.boqiicdn.com/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
-    <link href="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/1325b-8180.gif" id="respond-redirect" rel="respond-redirect" />
-    <script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/respond.proxy.js"></script>
+    <link href="{{$commonAssetUrl}}/petcms/img/1325b-8180.gif" id="respond-redirect" rel="respond-redirect" />
+    <script src="{{$commonAssetUrl}}/petcms/js/respond.proxy.js"></script>
 <![endif]-->
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/jquery.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/boqii.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/boqii.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/petcms/js/jquery.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/petcms/js/boqii.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/petcms/js/boqii.js"></script>
 <!--头部结束--></head>
 
 <body>
@@ -43,7 +43,7 @@
         "shop_dir": "http://shop.boqii.com",
         "img_dir": "http://img.boqiicdn.com"
     };</script>
-<link rel="stylesheet" type="text/css" href="<?= Yii::getAlias('@tasseturl'); ?>/petcms/css/05527-2245.css" />
+<link rel="stylesheet" type="text/css" href="{{$commonAssetUrl}}/petcms/css/05527-2245.css" />
 <div id="toolbar">
     <div class="toolbar_auto">
         <ul class="toolbar_left left">
@@ -59,13 +59,13 @@
         <ul class="toolbar_right right"></ul>
     </div>
 </div>
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/public_toolbar_baike.js"></script>
+<script src="{{$commonAssetUrl}}/petcms/js/public_toolbar_baike.js"></script>
 <!--顶部开始-->
 <div id="header">
     <div class="top_auto">
         <div class="logo">
             <a href="http://www.boqii.com/baike">
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/c7eff-4452.png" alt="宠物百科" title="宠物百科" /></a>
+                <img src="{{$commonAssetUrl}}/petcms/img/c7eff-4452.png" alt="宠物百科" title="宠物百科" /></a>
         </div>
         <div class="top_search left">
             <form id="search_form" method="get" action="http://i.boqii.com/search">
@@ -75,7 +75,7 @@
         </div>
         <div class="top_ad right">
             <a href="http://vet.boqii.com/?utm_source=baik-cg" target="_blank">
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/52f3b-7661.jpg" /></a>
+                <img src="{{$commonAssetUrl}}/petcms/img/52f3b-7661.jpg" /></a>
         </div>
     </div>
 </div>
@@ -471,7 +471,7 @@
                 </dl>
                 <div class="entry_tit_rig">
                     <a target="_blank" href="http://www.boqii.com/entry/album/332">
-                        <img alt="金毛" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/0d9e5-4098.png" /></a>
+                        <img alt="金毛" src="{{$commonAssetUrl}}/petcms/m/img/0d9e5-4098.png" /></a>
                     <span>相册 （6张图片）</span></div>
                 <div class="entry_c_t">
                     <a href="http://www.boqii.com/entry/detail/332.html" class="first current">词条</a>
@@ -486,7 +486,7 @@
                         <div class="entry_detail">
                             <p style="text-align:center">
                                 <span class="replace_title">
-                                    <img style="width:500px;height:350px;" ptype="1" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/ca615-1585.jpg" border="0" height="350" hspace="0" vspace="0" width="500" alt="金毛犬的品种简介" title="金毛犬的品种简介" />
+                                    <img style="width:500px;height:350px;" ptype="1" src="{{$commonAssetUrl}}/petcms/m/img/ca615-1585.jpg" border="0" height="350" hspace="0" vspace="0" width="500" alt="金毛犬的品种简介" title="金毛犬的品种简介" />
                                     <br />
                                     <a href="http://www.boqii.com/tag/910/" target="_blank" style="text-decoration:none;border-bottom:1px dotted #FE730C;">金毛犬</a>(
                                     <a href='http://www.boqii.com/pet-all/332.html' target="_blank">详情介绍</a>)</span></p>
@@ -525,13 +525,13 @@
                         <div class="entry_pic" style="border-bottom:1px dashed #ddd;padding-bottom:30px;">
                             <div class="entry_pic_body">
                                 <a target="_blank" href="http://www.boqii.com/entry/photo/332/6519">
-                                    <img alt="金毛" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/0fe84-3771.jpg" /></a>
+                                    <img alt="金毛" src="{{$commonAssetUrl}}/petcms/m/img/0fe84-3771.jpg" /></a>
                                 <a target="_blank" href="http://www.boqii.com/entry/photo/332/6518">
-                                    <img alt="金毛" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/80a84-3009.jpg" /></a>
+                                    <img alt="金毛" src="{{$commonAssetUrl}}/petcms/m/img/80a84-3009.jpg" /></a>
                                 <a target="_blank" href="http://www.boqii.com/entry/photo/332/6517">
-                                    <img alt="金毛" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/db3e1-6924.jpg" /></a>
+                                    <img alt="金毛" src="{{$commonAssetUrl}}/petcms/m/img/db3e1-6924.jpg" /></a>
                                 <a target="_blank" href="http://www.boqii.com/entry/photo/332/6516">
-                                    <img alt="金毛" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/7512f-1928.jpg" class="last" /></a>
+                                    <img alt="金毛" src="{{$commonAssetUrl}}/petcms/m/img/7512f-1928.jpg" class="last" /></a>
                             </div>
                         </div>
                         <div class="entry_b_tit" id="002">
@@ -540,7 +540,7 @@
                         <div class="entry_detail">
                             <p style="text-align:center">
                                 <span class="replace_title">
-                                    <img style="width:500px;height:350px;" ptype="1" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/ba62d-6567.jpg" border="0" height="350" hspace="0" vspace="0" width="500" alt="金毛犬的形态特征" title="金毛犬的形态特征" />
+                                    <img style="width:500px;height:350px;" ptype="1" src="{{$commonAssetUrl}}/petcms/m/img/ba62d-6567.jpg" border="0" height="350" hspace="0" vspace="0" width="500" alt="金毛犬的形态特征" title="金毛犬的形态特征" />
                                     <br />
                                     <a href="http://www.boqii.com/tag/910/" target="_blank" style="text-decoration:none;border-bottom:1px dotted #FE730C;">金毛犬</a>(
                                     <a href='http://www.boqii.com/pet-all/332.html' target="_blank">详情介绍</a>)</span></p>
@@ -564,7 +564,7 @@
                         <div class="entry_detail">
                             <p style="text-align:center">
                                 <span class="replace_title">
-                                    <img style="width:500px;height:350px;" ptype="1" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/9383b-1744.jpg" border="0" height="350" hspace="0" vspace="0" width="500" alt="金毛犬的性格特点" title="金毛犬的性格特点" />
+                                    <img style="width:500px;height:350px;" ptype="1" src="{{$commonAssetUrl}}/petcms/m/img/9383b-1744.jpg" border="0" height="350" hspace="0" vspace="0" width="500" alt="金毛犬的性格特点" title="金毛犬的性格特点" />
                                     <br />
                                     <a href="http://www.boqii.com/tag/910/" target="_blank" style="text-decoration:none;border-bottom:1px dotted #FE730C;">金毛犬</a>(
                                     <a href='http://www.boqii.com/pet-all/332.html' target="_blank">详情介绍</a>)</span></p>
@@ -618,7 +618,7 @@
                         <div class="entry_detail">
                             <p style="text-align:center">
                                 <span class="replace_title">
-                                    <img style="width:500px;height:350px;" ptype="1" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/0c6ce-4367.jpg" border="0" height="350" hspace="0" vspace="0" width="500" alt="金毛犬的养护知识" title="金毛犬的养护知识" />
+                                    <img style="width:500px;height:350px;" ptype="1" src="{{$commonAssetUrl}}/petcms/m/img/0c6ce-4367.jpg" border="0" height="350" hspace="0" vspace="0" width="500" alt="金毛犬的养护知识" title="金毛犬的养护知识" />
                                     <br />
                                     <a href="http://www.boqii.com/tag/910/" target="_blank" style="text-decoration:none;border-bottom:1px dotted #FE730C;">金毛犬</a>(
                                     <a href='http://www.boqii.com/pet-all/332.html' target="_blank">详情介绍</a>)</span></p>
@@ -643,7 +643,7 @@
                         <div class="entry_detail">
                             <p style="text-align:center">
                                 <span class="replace_title">
-                                    <img style="width:500px;height:350px;" ptype="1" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/e267b-5365.jpg" border="0" height="350" hspace="0" vspace="0" width="500" alt="金毛犬的喂食要点" title="金毛犬的喂食要点" />
+                                    <img style="width:500px;height:350px;" ptype="1" src="{{$commonAssetUrl}}/petcms/m/img/e267b-5365.jpg" border="0" height="350" hspace="0" vspace="0" width="500" alt="金毛犬的喂食要点" title="金毛犬的喂食要点" />
                                     <br />
                                     <a href="http://www.boqii.com/tag/910/" target="_blank" style="text-decoration:none;border-bottom:1px dotted #FE730C;">金毛犬</a>(
                                     <a href='http://www.boqii.com/pet-all/332.html' target="_blank">详情介绍</a>)</span></p>
@@ -698,7 +698,7 @@
                                             <dl>
                                                 <dt>
                                                     <a href="http://shop.boqii.com/product-24270.html?froms_coms=baike-pet&froms_uids=332" target="_blank">
-                                                        <img alt="怡亲Yoken 狗狗训导尿片" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/5dcb0-2491.jpg" /></a>
+                                                        <img alt="怡亲Yoken 狗狗训导尿片" src="{{$commonAssetUrl}}/petcms/img/5dcb0-2491.jpg" /></a>
                                                 </dt>
                                                 <dd class="name">
                                                     <a href="http://shop.boqii.com/product-24270.html?froms_coms=baike-pet&froms_uids=332" target="_blank">怡亲Yoken 狗狗训导尿片</a></dd>
@@ -709,7 +709,7 @@
                                             <dl>
                                                 <dt>
                                                     <a href="http://shop.boqii.com/product-25535.html?froms_coms=baike-pet&froms_uids=332" target="_blank">
-                                                        <img alt="多可特 宠物尿片整包" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/2910d-4520.jpg" /></a>
+                                                        <img alt="多可特 宠物尿片整包" src="{{$commonAssetUrl}}/petcms/img/2910d-4520.jpg" /></a>
                                                 </dt>
                                                 <dd class="name">
                                                     <a href="http://shop.boqii.com/product-25535.html?froms_coms=baike-pet&froms_uids=332" target="_blank">多可特 宠物尿片整包</a></dd>
@@ -720,7 +720,7 @@
                                             <dl>
                                                 <dt>
                                                     <a href="http://shop.boqii.com/product-1399.html?froms_coms=baike-pet&froms_uids=332" target="_blank">
-                                                        <img alt="福来恩 犬用体外驱虫滴剂 小型犬10kg以下 整盒3支装/3个月剂量 法国进口" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/4d04d-9737.jpg" /></a>
+                                                        <img alt="福来恩 犬用体外驱虫滴剂 小型犬10kg以下 整盒3支装/3个月剂量 法国进口" src="{{$commonAssetUrl}}/petcms/m/img/4d04d-9737.jpg" /></a>
                                                 </dt>
                                                 <dd class="name">
                                                     <a href="http://shop.boqii.com/product-1399.html?froms_coms=baike-pet&froms_uids=332" target="_blank">福来恩 犬用体外驱虫滴剂 小型犬10kg以下 整盒3支装/3个月剂量 法国进口</a></dd>
@@ -731,7 +731,7 @@
                                             <dl>
                                                 <dt>
                                                     <a href="http://shop.boqii.com/product-1683.html?froms_coms=baike-pet&froms_uids=332" target="_blank">
-                                                        <img alt="拜宠清 犬用体内驱虫 口服  单片装/可三个月喂一次  德国进口" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/177f6-3256.jpg" /></a>
+                                                        <img alt="拜宠清 犬用体内驱虫 口服  单片装/可三个月喂一次  德国进口" src="{{$commonAssetUrl}}/petcms/m/img/177f6-3256.jpg" /></a>
                                                 </dt>
                                                 <dd class="name">
                                                     <a href="http://shop.boqii.com/product-1683.html?froms_coms=baike-pet&froms_uids=332" target="_blank">拜宠清 犬用体内驱虫 口服 单片装/可三个月喂一次 德国进口</a></dd>
@@ -742,7 +742,7 @@
                                             <dl>
                                                 <dt>
                                                     <a href="http://shop.boqii.com/product-2849.html?froms_coms=baike-pet&froms_uids=332" target="_blank">
-                                                        <img alt="法国皇家Royal Canin 泰迪贵宾专用成犬粮 3kg PD30" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/8616e-2889.jpg" /></a>
+                                                        <img alt="法国皇家Royal Canin 泰迪贵宾专用成犬粮 3kg PD30" src="{{$commonAssetUrl}}/petcms/img/8616e-2889.jpg" /></a>
                                                 </dt>
                                                 <dd class="name">
                                                     <a href="http://shop.boqii.com/product-2849.html?froms_coms=baike-pet&froms_uids=332" target="_blank">法国皇家Royal Canin 泰迪贵宾专用成犬粮 3kg PD30</a></dd>
@@ -753,7 +753,7 @@
                                             <dl>
                                                 <dt>
                                                     <a href="http://shop.boqii.com/product-487.html?froms_coms=baike-pet&froms_uids=332" target="_blank">
-                                                        <img alt="法国皇家Royal Canin 小型犬幼犬离乳期奶糕粮 1kg" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/a660a-4155.jpg" /></a>
+                                                        <img alt="法国皇家Royal Canin 小型犬幼犬离乳期奶糕粮 1kg" src="{{$commonAssetUrl}}/petcms/img/a660a-4155.jpg" /></a>
                                                 </dt>
                                                 <dd class="name">
                                                     <a href="http://shop.boqii.com/product-487.html?froms_coms=baike-pet&froms_uids=332" target="_blank">法国皇家Royal Canin 小型犬幼犬离乳期奶糕粮 1kg</a></dd>
@@ -764,7 +764,7 @@
                                             <dl>
                                                 <dt>
                                                     <a href="http://shop.boqii.com/product-31368.html?froms_coms=baike-pet&froms_uids=332" target="_blank">
-                                                        <img alt="怡亲Yoken 竹炭去味干爽尿片 便后清理 猫狗通用" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/05709-1210.jpg" /></a>
+                                                        <img alt="怡亲Yoken 竹炭去味干爽尿片 便后清理 猫狗通用" src="{{$commonAssetUrl}}/petcms/img/05709-1210.jpg" /></a>
                                                 </dt>
                                                 <dd class="name">
                                                     <a href="http://shop.boqii.com/product-31368.html?froms_coms=baike-pet&froms_uids=332" target="_blank">怡亲Yoken 竹炭去味干爽尿片 便后清理 猫狗通用</a></dd>
@@ -775,7 +775,7 @@
                                             <dl>
                                                 <dt>
                                                     <a href="http://shop.boqii.com/product-20887.html?froms_coms=baike-pet&froms_uids=332" target="_blank">
-                                                        <img alt="怡亲 彩装宠物训导尿片" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/7f90e-4636.jpg" /></a>
+                                                        <img alt="怡亲 彩装宠物训导尿片" src="{{$commonAssetUrl}}/petcms/img/7f90e-4636.jpg" /></a>
                                                 </dt>
                                                 <dd class="name">
                                                     <a href="http://shop.boqii.com/product-20887.html?froms_coms=baike-pet&froms_uids=332" target="_blank">怡亲 彩装宠物训导尿片</a></dd>
@@ -786,7 +786,7 @@
                                             <dl>
                                                 <dt>
                                                     <a href="http://shop.boqii.com/product-39521.html?froms_coms=baike-pet&froms_uids=332" target="_blank">
-                                                        <img alt="怡亲 彩装宠物训导尿片" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/7f90e-4636.jpg" /></a>
+                                                        <img alt="怡亲 彩装宠物训导尿片" src="{{$commonAssetUrl}}/petcms/img/7f90e-4636.jpg" /></a>
                                                 </dt>
                                                 <dd class="name">
                                                     <a href="http://shop.boqii.com/product-39521.html?froms_coms=baike-pet&froms_uids=332" target="_blank">怡亲 彩装宠物训导尿片</a></dd>
@@ -797,7 +797,7 @@
                                             <dl>
                                                 <dt>
                                                     <a href="http://shop.boqii.com/product-186.html?froms_coms=baike-pet&froms_uids=332" target="_blank">
-                                                        <img alt="法国皇家Royal Canin 小型成犬粮 2kg" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/2bb2a-7051.jpg" /></a>
+                                                        <img alt="法国皇家Royal Canin 小型成犬粮 2kg" src="{{$commonAssetUrl}}/petcms/img/2bb2a-7051.jpg" /></a>
                                                 </dt>
                                                 <dd class="name">
                                                     <a href="http://shop.boqii.com/product-186.html?froms_coms=baike-pet&froms_uids=332" target="_blank">法国皇家Royal Canin 小型成犬粮 2kg</a></dd>
@@ -808,7 +808,7 @@
                                             <dl>
                                                 <dt>
                                                     <a href="http://shop.boqii.com/product-37619.html?froms_coms=baike-pet&froms_uids=332" target="_blank">
-                                                        <img alt="怡亲 宠物训导狗尿片 /简装" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/98e16-3106.jpg" /></a>
+                                                        <img alt="怡亲 宠物训导狗尿片 /简装" src="{{$commonAssetUrl}}/petcms/img/98e16-3106.jpg" /></a>
                                                 </dt>
                                                 <dd class="name">
                                                     <a href="http://shop.boqii.com/product-37619.html?froms_coms=baike-pet&froms_uids=332" target="_blank">怡亲 宠物训导狗尿片 /简装</a></dd>
@@ -819,7 +819,7 @@
                                             <dl>
                                                 <dt>
                                                     <a href="http://shop.boqii.com/product-1392.html?froms_coms=baike-pet&froms_uids=332" target="_blank">
-                                                        <img alt="宝路Pedigree 牛肉高汤口味成犬妙鲜包  100g 狗湿粮" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/dcd37-8834.jpg" /></a>
+                                                        <img alt="宝路Pedigree 牛肉高汤口味成犬妙鲜包  100g 狗湿粮" src="{{$commonAssetUrl}}/petcms/img/dcd37-8834.jpg" /></a>
                                                 </dt>
                                                 <dd class="name">
                                                     <a href="http://shop.boqii.com/product-1392.html?froms_coms=baike-pet&froms_uids=332" target="_blank">宝路Pedigree 牛肉高汤口味成犬妙鲜包 100g 狗湿粮</a></dd>
@@ -830,7 +830,7 @@
                                             <dl>
                                                 <dt>
                                                     <a href="http://shop.boqii.com/product-7795.html?froms_coms=baike-pet&froms_uids=332" target="_blank">
-                                                        <img alt="小宠EHD 洁耳舒 50ml 猫狗预防耳螨耳炎滴耳液" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/bc1f6-1789.jpg" /></a>
+                                                        <img alt="小宠EHD 洁耳舒 50ml 猫狗预防耳螨耳炎滴耳液" src="{{$commonAssetUrl}}/petcms/m/img/bc1f6-1789.jpg" /></a>
                                                 </dt>
                                                 <dd class="name">
                                                     <a href="http://shop.boqii.com/product-7795.html?froms_coms=baike-pet&froms_uids=332" target="_blank">小宠EHD 洁耳舒 50ml 猫狗预防耳螨耳炎滴耳液</a></dd>
@@ -841,7 +841,7 @@
                                             <dl>
                                                 <dt>
                                                     <a href="http://shop.boqii.com/product-2976.html?froms_coms=baike-pet&froms_uids=332" target="_blank">
-                                                        <img alt="宝路Pedigree 牛肉肝蔬菜中小型成犬粮 1.8kg" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/6afae-6542.jpg" /></a>
+                                                        <img alt="宝路Pedigree 牛肉肝蔬菜中小型成犬粮 1.8kg" src="{{$commonAssetUrl}}/petcms/img/6afae-6542.jpg" /></a>
                                                 </dt>
                                                 <dd class="name">
                                                     <a href="http://shop.boqii.com/product-2976.html?froms_coms=baike-pet&froms_uids=332" target="_blank">宝路Pedigree 牛肉肝蔬菜中小型成犬粮 1.8kg</a></dd>
@@ -852,7 +852,7 @@
                                             <dl>
                                                 <dt>
                                                     <a href="http://shop.boqii.com/product-34213.html?froms_coms=baike-pet&froms_uids=332" target="_blank">
-                                                        <img alt="哈特丽 除毛刷除毛器 轻松去毛 一刷即净" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/5afc8-3533.jpg" /></a>
+                                                        <img alt="哈特丽 除毛刷除毛器 轻松去毛 一刷即净" src="{{$commonAssetUrl}}/petcms/img/5afc8-3533.jpg" /></a>
                                                 </dt>
                                                 <dd class="name">
                                                     <a href="http://shop.boqii.com/product-34213.html?froms_coms=baike-pet&froms_uids=332" target="_blank">哈特丽 除毛刷除毛器 轻松去毛 一刷即净</a></dd>
@@ -863,7 +863,7 @@
                                             <dl>
                                                 <dt>
                                                     <a href="http://shop.boqii.com/product-39560.html?froms_coms=baike-pet&froms_uids=332" target="_blank">
-                                                        <img alt="怡亲Yoken 平板网络式狗厕所便盆 带垫板不湿脚" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/fa6ed-6590.jpg" /></a>
+                                                        <img alt="怡亲Yoken 平板网络式狗厕所便盆 带垫板不湿脚" src="{{$commonAssetUrl}}/petcms/img/fa6ed-6590.jpg" /></a>
                                                 </dt>
                                                 <dd class="name">
                                                     <a href="http://shop.boqii.com/product-39560.html?froms_coms=baike-pet&froms_uids=332" target="_blank">怡亲Yoken 平板网络式狗厕所便盆 带垫板不湿脚</a></dd>
@@ -874,7 +874,7 @@
                                             <dl>
                                                 <dt>
                                                     <a href="http://shop.boqii.com/product-3772.html?froms_coms=baike-pet&froms_uids=332" target="_blank">
-                                                        <img alt="风来客 毫棒混合装洁齿磨牙骨咬胶狗零食2寸 270g（30只装）" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/3f012-5881.jpg" /></a>
+                                                        <img alt="风来客 毫棒混合装洁齿磨牙骨咬胶狗零食2寸 270g（30只装）" src="{{$commonAssetUrl}}/petcms/img/3f012-5881.jpg" /></a>
                                                 </dt>
                                                 <dd class="name">
                                                     <a href="http://shop.boqii.com/product-3772.html?froms_coms=baike-pet&froms_uids=332" target="_blank">风来客 毫棒混合装洁齿磨牙骨咬胶狗零食2寸 270g（30只装）</a></dd>
@@ -885,7 +885,7 @@
                                             <dl>
                                                 <dt>
                                                     <a href="http://shop.boqii.com/product-3882.html?froms_coms=baike-pet&froms_uids=332" target="_blank">
-                                                        <img alt="犬心保 犬用体内驱虫 口服 适用11kg以下小型犬 6粒整盒/6个月剂量 美国进口" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/e609c-6518.jpg" /></a>
+                                                        <img alt="犬心保 犬用体内驱虫 口服 适用11kg以下小型犬 6粒整盒/6个月剂量 美国进口" src="{{$commonAssetUrl}}/petcms/m/img/e609c-6518.jpg" /></a>
                                                 </dt>
                                                 <dd class="name">
                                                     <a href="http://shop.boqii.com/product-3882.html?froms_coms=baike-pet&froms_uids=332" target="_blank">犬心保 犬用体内驱虫 口服 适用11kg以下小型犬 6粒整盒/6个月剂量 美国进口</a></dd>
@@ -896,7 +896,7 @@
                                             <dl>
                                                 <dt>
                                                     <a href="http://shop.boqii.com/product-20275.html?froms_coms=baike-pet&froms_uids=332" target="_blank">
-                                                        <img alt="曼劳 立体派牛肉味肉粒狗零食 200g" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/f4b01-9700.jpg" /></a>
+                                                        <img alt="曼劳 立体派牛肉味肉粒狗零食 200g" src="{{$commonAssetUrl}}/petcms/img/f4b01-9700.jpg" /></a>
                                                 </dt>
                                                 <dd class="name">
                                                     <a href="http://shop.boqii.com/product-20275.html?froms_coms=baike-pet&froms_uids=332" target="_blank">曼劳 立体派牛肉味肉粒狗零食 200g</a></dd>
@@ -907,7 +907,7 @@
                                             <dl>
                                                 <dt>
                                                     <a href="http://shop.boqii.com/product-23967.html?froms_coms=baike-pet&froms_uids=332" target="_blank">
-                                                        <img alt="伊丽Elite  网红变身装秋冬狗狗四脚衣麋鹿山羊兔子 柔软亲肤泰迪比熊博美衣服" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/87ced-2980.jpg" /></a>
+                                                        <img alt="伊丽Elite  网红变身装秋冬狗狗四脚衣麋鹿山羊兔子 柔软亲肤泰迪比熊博美衣服" src="{{$commonAssetUrl}}/petcms/img/87ced-2980.jpg" /></a>
                                                 </dt>
                                                 <dd class="name">
                                                     <a href="http://shop.boqii.com/product-23967.html?froms_coms=baike-pet&froms_uids=332" target="_blank">伊丽Elite 网红变身装秋冬狗狗四脚衣麋鹿山羊兔子 柔软亲肤泰迪比熊博美衣服</a></dd>
@@ -958,13 +958,13 @@
                         <div class="entry_r_t">类似汪汪</div>
                         <div class="entry_ls">
                             <a target="_blank" href="http://www.boqii.com/entry/detail/350.html">
-                                <img title="边境牧羊犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/ab960-3855.jpg" width=60 height=45 /></a>
+                                <img title="边境牧羊犬" src="{{$commonAssetUrl}}/petcms/img/ab960-3855.jpg" width=60 height=45 /></a>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/357.html">
-                                <img title="哈士奇" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/1e30a-4109.png" width=60 height=45 /></a>
+                                <img title="哈士奇" src="{{$commonAssetUrl}}/petcms/img/1e30a-4109.png" width=60 height=45 /></a>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/377.html">
-                                <img title="法老王猎犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/ac9c3-2450.jpg" width=60 height=45 /></a>
+                                <img title="法老王猎犬" src="{{$commonAssetUrl}}/petcms/img/ac9c3-2450.jpg" width=60 height=45 /></a>
                             <a target="_blank" href="http://www.boqii.com/entry/detail/395.html">
-                                <img title="哥威斯犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/4bf94-2567.jpg" width=60 height=45 /></a>
+                                <img title="哥威斯犬" src="{{$commonAssetUrl}}/petcms/img/4bf94-2567.jpg" width=60 height=45 /></a>
                         </div>
                         <div id="entry">
                             <div class="entry_r_t entry_ml">词条目录</div>
@@ -1001,7 +1001,7 @@
                                     <em></em>
                                     <a href="#007">8. 相关文章</a></p>
                             </div>
-                            <!-- <div style="margin:20px 0;"><a href="http://shop.boqii.com/zhuanti/684.html?utm_source=baidu-seopc"><img width="280px" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/554d3-6281.jpg" /></a></div> --></div>
+                            <!-- <div style="margin:20px 0;"><a href="http://shop.boqii.com/zhuanti/684.html?utm_source=baidu-seopc"><img width="280px" src="{{$commonAssetUrl}}/petcms/img/554d3-6281.jpg" /></a></div> --></div>
                     </div>
                 </div>
             </div>
@@ -1032,7 +1032,7 @@
                 <a target="_blank" href="http://www.boqii.com/baike/news/">最新文章</a></p>
             <p class="beian">
                 <a class="police" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502004955">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/31ab7-5261.png" alt="">沪公网安备 31011502004955号</a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/31ab7-5261.png" alt="">沪公网安备 31011502004955号</a>
                 <span>|</span>
                 <a href="http://www.beian.miit.gov.cn/" target="_blank">沪ICP备13034501号-2</a>
                 <span>|</span>&nbsp;增值电信业务经营许可证：
@@ -1040,25 +1040,25 @@
             <p class="copy">Copyright © 2007-2021 Boqii.com All Rights Reserved 光橙（上海）信息科技有限公司 版权所有</p>
             <p>
                 <a href='http://wap.scjgj.sh.gov.cn/businessCheck/verifKey.do?showType=extShow&serial=9031000020200804110320000006173852-SAIC_SHOW_310000-20131022163114962238&signData=MEUCIQCxAhT2yp7CGYeqT3Nzy3yKKs+8PiJPEXXe40scDQIh5QIgQxGCEwLzNES+bsFkNBbDioZIDWffBlMmuTmGn4zlaQw=' target='_blank' rel='nofollow'>
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/3829f-8548.png" width="100" height="35"></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/3829f-8548.png" width="100" height="35"></a>
                 <a href="http://www.boqii.com/ads.php" target="_blank" rel="nofollow">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/a4644-3558.png" width="100" height="35"></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/a4644-3558.png" width="100" height="35"></a>
                 <a href="https://ss.knet.cn/verifyseal.dll?sn=e14111831011556282oicb000000&ct=df&a=1&pa=0.1636424780320953" target="_blank" rel="nofollow">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/aef78-9568.png" width="100" height="35"></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/aef78-9568.png" width="100" height="35"></a>
                 <a href="http://www.zx110.org/" target="_blank" rel="nofollow">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/d29f5-2562.png" width="100" height="35"></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/d29f5-2562.png" width="100" height="35"></a>
                 <a rel="nofollow" target="_blank" href="http://www.shjbzx.cn/">
-                    <img width="100" height="35" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/6e8d6-1338.png"></a>
+                    <img width="100" height="35" src="{{$commonAssetUrl}}/petcms/img/6e8d6-1338.png"></a>
             </p>
             <!-- <p><a href="http://www.boqii.com/ads.php" target="_blank" rel="nofollow"><img
-            src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/f1a57-7077.png"></a><a
+            src="{{$commonAssetUrl}}/petcms/img/f1a57-7077.png"></a><a
             href="http://www.zx110.org/" target="_blank" rel="nofollow"><img
-            src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/7fff7-5407.png"></a><SCRIPT LANGUAGE="JavaScript">
+            src="{{$commonAssetUrl}}/petcms/img/7fff7-5407.png"></a><SCRIPT LANGUAGE="JavaScript">
             document.writeln(
-            "<a href='http://wap.scjgj.sh.gov.cn/businessCheck/verifKey.do?showType=extShow&serial=9031000020200804110320000006173852-SAIC_SHOW_310000-20131022163114962238&signData=MEUCIQCxAhT2yp7CGYeqT3Nzy3yKKs+8PiJPEXXe40scDQIh5QIgQxGCEwLzNES+bsFkNBbDioZIDWffBlMmuTmGn4zlaQw=' target='_blank' rel='nofollow'><img src='<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/00aac-8970.png' border=0></a>"
+            "<a href='http://wap.scjgj.sh.gov.cn/businessCheck/verifKey.do?showType=extShow&serial=9031000020200804110320000006173852-SAIC_SHOW_310000-20131022163114962238&signData=MEUCIQCxAhT2yp7CGYeqT3Nzy3yKKs+8PiJPEXXe40scDQIh5QIgQxGCEwLzNES+bsFkNBbDioZIDWffBlMmuTmGn4zlaQw=' target='_blank' rel='nofollow'><img src='{{$commonAssetUrl}}/petcms/img/00aac-8970.png' border=0></a>"
             )
             </SCRIPT><a rel="nofollow" target="_blank" href="http://www.shjbzx.cn/"><img width="100" height="35"
-            src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/6e8d6-1338.png"></a><script src="http://kxlogo.knet.cn/seallogo.dll?sn=e14111831011556282oicb000000&size=0"></script></p> -->
+            src="{{$commonAssetUrl}}/petcms/img/6e8d6-1338.png"></a><script src="http://kxlogo.knet.cn/seallogo.dll?sn=e14111831011556282oicb000000&size=0"></script></p> -->
             <p class="copy">违法和不良信息举报电话：
                 <a href="tel:021-68826169">021-68826169</a>
                 <span>|</span>举报邮箱：
@@ -1095,7 +1095,7 @@ e = d.body.getElementsByTagName('script')[0]; e.parentNode.insertBefore(s, e),
 f = 'https:' == location.protocol;
 s.src = (f ? 'https' : 'http') + '://'+(f?'fm.ipinyou.com':'fm.p0y.cn')+'/j/adv.js';
 }(document);
-</script><noscript><img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/4c99e-8783.gif" style="display:none;"/></noscript> -->
+</script><noscript><img src="{{$commonAssetUrl}}/petcms/img/4c99e-8783.gif" style="display:none;"/></noscript> -->
 <!-- 增加百度统计代码 -->
 <!-- <script>
 (function(){
@@ -1120,7 +1120,7 @@ s.parentNode.insertBefore(bp, s);
 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://": " http://");
     document.write(unescape("%3Cspan style='display:none;' id='cnzz_stat_icon_1264316807'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1264316807' type='text/javascript'%3E%3C/script%3E"));</script>
 <!-- cnzz20180423新增 end-->
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/js/bqstat.js"></script>
+<script src="{{$commonAssetUrl}}/petcms/m/js/bqstat.js"></script>
 </body>
 
 </html>

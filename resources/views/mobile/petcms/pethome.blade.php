@@ -13,12 +13,12 @@
 <meta name="description" content="爬虫品种" />
 <title>爬虫品种-波奇网百科大全</title>
 <!-- build:css(.) styles/main.css -->
-<link rel="stylesheet" href="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/css/2bd41-7171.css" />
+<link rel="stylesheet" href="{{$commonAssetUrl}}/petcms/m/css/2bd41-7171.css" />
 <!--endbuild--></head>
 
 <body>
 <div class="pupWindow">
-    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/9f795-4062.png" /></div>
+    <img src="{{$commonAssetUrl}}/petcms/m/img/9f795-4062.png" /></div>
 <header class="bM_header">
     <div class="header-left">
         <a href="http://m.boqii.com/baike/" class="goback">
@@ -59,7 +59,7 @@
         <ul id="artlist">
             <li>
                 <a href="http://m.boqii.com/article/35526.html">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/6a2f0-6433.jpg" alt="巴西龟怎么换水？巴西龟换水频率">
+                    <img src="{{$commonAssetUrl}}/petcms/m/img/6a2f0-6433.jpg" alt="巴西龟怎么换水？巴西龟换水频率">
                     <div class="info">
                         <span class="Ititle">巴西龟怎么换水？巴西龟换水频率</span>
                         <p>作者：呦呦</p>
@@ -68,7 +68,7 @@
             </li>
             <li>
                 <a href="http://m.boqii.com/article/35417.html">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/fc53b-9775.jpg" alt="豹龟吃什么？豹龟吃什么食物？">
+                    <img src="{{$commonAssetUrl}}/petcms/m/img/fc53b-9775.jpg" alt="豹龟吃什么？豹龟吃什么食物？">
                     <div class="info">
                         <span class="Ititle">豹龟吃什么？豹龟吃什么食物？</span>
                         <p>作者：呦呦</p>
@@ -77,7 +77,7 @@
             </li>
             <li>
                 <a href="http://m.boqii.com/article/35373.html">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/9a113-7248.jpg" alt="肥尾守宫多少钱？肥尾守宫怎么养？">
+                    <img src="{{$commonAssetUrl}}/petcms/m/img/9a113-7248.jpg" alt="肥尾守宫多少钱？肥尾守宫怎么养？">
                     <div class="info">
                         <span class="Ititle">肥尾守宫多少钱？肥尾守宫怎么养？</span>
                         <p>作者：呦呦</p>
@@ -86,7 +86,7 @@
             </li>
             <li>
                 <a href="http://m.boqii.com/article/35372.html">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/b7104-3217.jpg" alt="巴西龟寿命多久？巴西龟的的寿命">
+                    <img src="{{$commonAssetUrl}}/petcms/m/img/b7104-3217.jpg" alt="巴西龟寿命多久？巴西龟的的寿命">
                     <div class="info">
                         <span class="Ititle">巴西龟寿命多久？巴西龟的的寿命</span>
                         <p>作者：呦呦</p>
@@ -95,7 +95,7 @@
             </li>
             <li>
                 <a href="http://m.boqii.com/article/35371.html">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/b7104-3217.jpg" alt="巴西龟寿命多久？巴西龟的的寿命">
+                    <img src="{{$commonAssetUrl}}/petcms/m/img/b7104-3217.jpg" alt="巴西龟寿命多久？巴西龟的的寿命">
                     <div class="info">
                         <span class="Ititle">巴西龟寿命多久？巴西龟的的寿命</span>
                         <p>作者：呦呦</p>
@@ -104,7 +104,7 @@
             </li>
             <li>
                 <a href="http://m.boqii.com/article/35370.html">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/b7cc1-9149.jpg" alt="中华草龟能长多大？中华草龟寿命多长？">
+                    <img src="{{$commonAssetUrl}}/petcms/m/img/b7cc1-9149.jpg" alt="中华草龟能长多大？中华草龟寿命多长？">
                     <div class="info">
                         <span class="Ititle">中华草龟能长多大？中华草龟寿命多长？</span>
                         <p>作者：呦呦</p>
@@ -113,7 +113,7 @@
             </li>
             <li>
                 <a href="http://m.boqii.com/article/35368.html">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/fedfe-6929.jpg" alt="老爷树蛙怎么养？老爷树蛙饲养">
+                    <img src="{{$commonAssetUrl}}/petcms/m/img/fedfe-6929.jpg" alt="老爷树蛙怎么养？老爷树蛙饲养">
                     <div class="info">
                         <span class="Ititle">老爷树蛙怎么养？老爷树蛙饲养</span>
                         <p>作者：呦呦</p>
@@ -122,7 +122,7 @@
             </li>
             <li>
                 <a href="http://m.boqii.com/article/35328.html">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/f1a2a-2806.jpg" alt="巴西龟能长多大？巴西龟吃什么？">
+                    <img src="{{$commonAssetUrl}}/petcms/m/img/f1a2a-2806.jpg" alt="巴西龟能长多大？巴西龟吃什么？">
                     <div class="info">
                         <span class="Ititle">巴西龟能长多大？巴西龟吃什么？</span>
                         <p>作者：呦呦</p>
@@ -131,7 +131,7 @@
             </li>
             <li>
                 <a href="http://m.boqii.com/article/35327.html">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/f1a2a-2806.jpg" alt="巴西龟能长多大？巴西龟吃什么？">
+                    <img src="{{$commonAssetUrl}}/petcms/m/img/f1a2a-2806.jpg" alt="巴西龟能长多大？巴西龟吃什么？">
                     <div class="info">
                         <span class="Ititle">巴西龟能长多大？巴西龟吃什么？</span>
                         <p>作者：呦呦</p>
@@ -140,7 +140,7 @@
             </li>
             <li>
                 <a href="http://m.boqii.com/article/35320.html">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/525d2-2941.jpg" alt="巴西龟怎么分公母？巴西龟公母分辨">
+                    <img src="{{$commonAssetUrl}}/petcms/m/img/525d2-2941.jpg" alt="巴西龟怎么分公母？巴西龟公母分辨">
                     <div class="info">
                         <span class="Ititle">巴西龟怎么分公母？巴西龟公母分辨</span>
                         <p>作者：呦呦</p>
@@ -164,7 +164,7 @@
         <div class="andriod_download_con clearfix">
             <a href="javascript:;" class="close_andriod"></a>
             <div class="left_side">
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/290fd-9149.png" alt="">
+                <img src="{{$commonAssetUrl}}/petcms/m/img/290fd-9149.png" alt="">
                 <p>
                     <i class="android_hint">下载波奇宠物APP</i>
                     <br />新人立送290，首单再返330</p></div>
@@ -174,12 +174,12 @@
     </div>
 </div>
 <!-- build:js scripts/baikeMedical.js -->
-<script data-main="/baike/Public/Js/baikeMedical" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/js/require.js"></script>
+<script data-main="/baike/Public/Js/baikeMedical" src="{{$commonAssetUrl}}/petcms/m/js/require.js"></script>
 <!-- endbuild -->
-<!--script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/js/ga.js"></script-->
+<!--script type="text/javascript" src="{{$commonAssetUrl}}/petcms/m/js/ga.js"></script-->
 <script type="text/javascript">var cnzz_protocol03 = (("https:" == document.location.protocol) ? " https://": " http://");
     document.write(unescape("%3Cspan style='display:none' id='cnzz_stat_icon_1264316807'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol03 + "s13.cnzz.com/z_stat.php%3Fid%3D1264316807' type='text/javascript'%3E%3C/script%3E"));</script>
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/js/bqstat.js"></script>
+<script src="{{$commonAssetUrl}}/petcms/m/js/bqstat.js"></script>
 </body>
 
 </html>

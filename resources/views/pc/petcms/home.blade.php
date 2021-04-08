@@ -5,21 +5,21 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="edge" />
-<link rel="shortcut icon" href="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/ab561-6001.ico" />
+<link rel="shortcut icon" href="{{$commonAssetUrl}}/petcms/img/ab561-6001.ico" />
 <!--头部开始-->
 <meta name="keywords" content="宠物知识,宠物百科,宠物大全,宠物美容,宠物训练." />
 <meta name="description" content="波奇宠物百科是包含了宠物百科,宠物大全等专业宠物知识的专业性宠物百科.在这里不仅有狗狗和猫咪,也可以找到宠物龟,龙猫,仓鼠等宠物养护,宠物训练知识.要了解宠物知识,来波奇宠物百科." />
 <title>宠物知识,宠物大全,宠物美容,宠物训练知识-波奇宠物百科</title>
 <link rel="stylesheet" type="text/css" href="//a.boqiicdn.com/Js1/min/?f=/Css/baikenew/common.css,/Css/baikenew/style.css,/Css/baikenew/subList.css" />
 <!--[if lt IE 9]>
-    <script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/respond.min.js"></script>
+    <script src="{{$commonAssetUrl}}/petcms/js/respond.min.js"></script>
     <link href="//a.boqiicdn.com/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
-    <link href="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/1325b-8180.gif" id="respond-redirect" rel="respond-redirect" />
-    <script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/respond.proxy.js"></script>
+    <link href="{{$commonAssetUrl}}/petcms/img/1325b-8180.gif" id="respond-redirect" rel="respond-redirect" />
+    <script src="{{$commonAssetUrl}}/petcms/js/respond.proxy.js"></script>
 <![endif]-->
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/jquery.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/boqii.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/boqii.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/petcms/js/jquery.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/petcms/js/boqii.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/petcms/js/boqii.js"></script>
 <!--头部结束--></head>
 
 <body>
@@ -44,7 +44,7 @@
             "shop_dir": "http://shop.boqii.com",
             "img_dir": "http://img.boqiicdn.com"
         };</script>
-    <link rel="stylesheet" type="text/css" href="<?= Yii::getAlias('@tasseturl'); ?>/petcms/css/05527-2245.css" />
+    <link rel="stylesheet" type="text/css" href="{{$commonAssetUrl}}/petcms/css/05527-2245.css" />
     <div id="toolbar">
         <div class="toolbar_auto">
             <ul class="toolbar_left left">
@@ -60,13 +60,13 @@
             <ul class="toolbar_right right"></ul>
         </div>
     </div>
-    <script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/public_toolbar_baike.js"></script>
+    <script src="{{$commonAssetUrl}}/petcms/js/public_toolbar_baike.js"></script>
     <!--顶部开始-->
     <div id="header">
         <div class="top_auto">
             <div class="logo">
                 <a href="http://www.boqii.com/baike">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/c7eff-4452.png" alt="宠物百科" title="宠物百科" /></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/c7eff-4452.png" alt="宠物百科" title="宠物百科" /></a>
             </div>
             <div class="top_search left">
                 <form id="search_form" method="get" action="http://i.boqii.com/search">
@@ -76,7 +76,7 @@
             </div>
             <div class="top_ad right">
                 <a href="http://vet.boqii.com/?utm_source=baik-cg" target="_blank">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/52f3b-7661.jpg" /></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/52f3b-7661.jpg" /></a>
             </div>
         </div>
     </div>
@@ -421,7 +421,7 @@
                     <div class="banner_content bd">
                         <div class="banner_list">
                             <a href="http://bbs.boqii.com/content/viewthread-4509373.html" target="_blank" ids="ID_101" var="101">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/862ae-4684.jpg" alt="【招募测评达人】千元现金券月月拿，万元免费好货等你测" />
+                                <img src="{{$commonAssetUrl}}/petcms/img/862ae-4684.jpg" alt="【招募测评达人】千元现金券月月拿，万元免费好货等你测" />
                                 <dl>
                                     <dt>【招募测评达人】千元现金券月月拿，万元免费好货等你测</dt>
                                     <dd>有没有想过不花钱也能精致养宠，甚至还能轻松 赚 钱？</dd></dl>
@@ -429,7 +429,7 @@
                         </div>
                         <div class="banner_list cur">
                             <a href="http://bbs.boqii.com/content/viewthread-4509370.html" target="_blank" ids="ID_101" var="101">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/d1210-2244.jpg" alt="【每周-社区活动-招新】宠物圈里最容易拿奖的活动，没有之一" />
+                                <img src="{{$commonAssetUrl}}/petcms/img/d1210-2244.jpg" alt="【每周-社区活动-招新】宠物圈里最容易拿奖的活动，没有之一" />
                                 <dl>
                                     <dt>【每周-社区活动-招新】宠物圈里最容易拿奖的活动，没有之一</dt>
                                     <dd></dd>
@@ -438,7 +438,7 @@
                         </div>
                         <div class="banner_list">
                             <a href="http://bbs.boqii.com/content/viewthread-4509374.html" target="_blank" ids="ID_101" var="101">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/0773a-2763.jpg" alt="【波奇官方读者群招新】杭州打狗、网红Saya、玉林狗肉节……新闻早知道" />
+                                <img src="{{$commonAssetUrl}}/petcms/img/0773a-2763.jpg" alt="【波奇官方读者群招新】杭州打狗、网红Saya、玉林狗肉节……新闻早知道" />
                                 <dl>
                                     <dt>【波奇官方读者群招新】杭州打狗、网红Saya、玉林狗肉节……新闻早知道</dt>
                                     <dd>我们是：《狗哥说事》官方全球读者群！我们做：最新鲜、最搞笑的全球新闻、最萌趣、最沙雕的宠物趣事，最犀...</dd></dl>
@@ -493,7 +493,7 @@
                     <dl>
                         <dt>
                             <a href="http://www.boqii.com/entry/detail/332.html" target="_blank">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/0d9e5-4098.png" alt="金毛" /></a>
+                                <img src="{{$commonAssetUrl}}/petcms/m/img/0d9e5-4098.png" alt="金毛" /></a>
                         </dt>
                         <dd>
                             <a href="http://www.boqii.com/entry/detail/332.html" target="_blank">金毛</a></dd>
@@ -501,7 +501,7 @@
                     <dl>
                         <dt>
                             <a href="http://www.boqii.com/entry/detail/357.html" target="_blank">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/1e30a-4109.png" alt="哈士奇" /></a>
+                                <img src="{{$commonAssetUrl}}/petcms/img/1e30a-4109.png" alt="哈士奇" /></a>
                         </dt>
                         <dd>
                             <a href="http://www.boqii.com/entry/detail/357.html" target="_blank">哈士奇</a></dd>
@@ -509,7 +509,7 @@
                     <dl>
                         <dt>
                             <a href="http://www.boqii.com/entry/detail/368.html" target="_blank">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/fb5c3-3631.jpg" alt="比熊犬" /></a>
+                                <img src="{{$commonAssetUrl}}/petcms/m/img/fb5c3-3631.jpg" alt="比熊犬" /></a>
                         </dt>
                         <dd>
                             <a href="http://www.boqii.com/entry/detail/368.html" target="_blank">比熊犬</a></dd>
@@ -517,7 +517,7 @@
                     <dl>
                         <dt>
                             <a href="http://www.boqii.com/entry/detail/347.html" target="_blank">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/29653-3424.jpg" alt="博美犬" /></a>
+                                <img src="{{$commonAssetUrl}}/petcms/m/img/29653-3424.jpg" alt="博美犬" /></a>
                         </dt>
                         <dd>
                             <a href="http://www.boqii.com/entry/detail/347.html" target="_blank">博美犬</a></dd>
@@ -525,7 +525,7 @@
                     <dl>
                         <dt>
                             <a href="http://www.boqii.com/entry/detail/350.html" target="_blank">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/ab960-3855.jpg" alt="边境牧羊犬" /></a>
+                                <img src="{{$commonAssetUrl}}/petcms/img/ab960-3855.jpg" alt="边境牧羊犬" /></a>
                         </dt>
                         <dd>
                             <a href="http://www.boqii.com/entry/detail/350.html" target="_blank">边境牧羊犬</a></dd>
@@ -533,7 +533,7 @@
                     <dl class="dl6">
                         <dt>
                             <a href="http://www.boqii.com/entry/detail/340.html" target="_blank">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/d154a-5252.jpg" alt="贵宾" /></a>
+                                <img src="{{$commonAssetUrl}}/petcms/m/img/d154a-5252.jpg" alt="贵宾" /></a>
                         </dt>
                         <dd>
                             <a href="http://www.boqii.com/entry/detail/340.html" target="_blank">贵宾</a></dd>
@@ -541,7 +541,7 @@
                     <dl>
                         <dt>
                             <a href="http://www.boqii.com/entry/detail/337.html" target="_blank">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/908b7-3695.jpg" alt="约克夏" /></a>
+                                <img src="{{$commonAssetUrl}}/petcms/m/img/908b7-3695.jpg" alt="约克夏" /></a>
                         </dt>
                         <dd>
                             <a href="http://www.boqii.com/entry/detail/337.html" target="_blank">约克夏</a></dd>
@@ -549,7 +549,7 @@
                     <dl>
                         <dt>
                             <a href="http://www.boqii.com/entry/detail/358.html" target="_blank">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/3ccee-6957.jpg" alt="垂耳兔" /></a>
+                                <img src="{{$commonAssetUrl}}/petcms/img/3ccee-6957.jpg" alt="垂耳兔" /></a>
                         </dt>
                         <dd>
                             <a href="http://www.boqii.com/entry/detail/358.html" target="_blank">垂耳兔</a></dd>
@@ -557,7 +557,7 @@
                     <dl>
                         <dt>
                             <a href="http://www.boqii.com/entry/detail/353.html" target="_blank">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/2d23e-1532.jpg" alt="异国短毛猫" /></a>
+                                <img src="{{$commonAssetUrl}}/petcms/img/2d23e-1532.jpg" alt="异国短毛猫" /></a>
                         </dt>
                         <dd>
                             <a href="http://www.boqii.com/entry/detail/353.html" target="_blank">异国短毛猫</a></dd>
@@ -565,7 +565,7 @@
                     <dl>
                         <dt>
                             <a href="http://www.boqii.com/entry/detail/364.html" target="_blank">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/dcb96-7225.jpg" alt="波斯猫" /></a>
+                                <img src="{{$commonAssetUrl}}/petcms/img/dcb96-7225.jpg" alt="波斯猫" /></a>
                         </dt>
                         <dd>
                             <a href="http://www.boqii.com/entry/detail/364.html" target="_blank">波斯猫</a></dd>
@@ -573,7 +573,7 @@
                     <dl>
                         <dt>
                             <a href="http://www.boqii.com/entry/detail/343.html" target="_blank">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/69941-8898.jpg" alt="苏格兰折耳猫" /></a>
+                                <img src="{{$commonAssetUrl}}/petcms/img/69941-8898.jpg" alt="苏格兰折耳猫" /></a>
                         </dt>
                         <dd>
                             <a href="http://www.boqii.com/entry/detail/343.html" target="_blank">苏格兰折耳猫</a></dd>
@@ -581,7 +581,7 @@
                     <dl class="dl6">
                         <dt>
                             <a href="http://www.boqii.com/entry/detail/342.html" target="_blank">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/b0857-8425.png" alt="大鳄龟" /></a>
+                                <img src="{{$commonAssetUrl}}/petcms/img/b0857-8425.png" alt="大鳄龟" /></a>
                         </dt>
                         <dd>
                             <a href="http://www.boqii.com/entry/detail/342.html" target="_blank">大鳄龟</a></dd>
@@ -605,7 +605,7 @@
                             <dl class="dog_c_l left">
                                 <dt>
                                     <a href="http://www.boqii.com/article/22357.html" target="_blank">
-                                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/89705-1124.jpg" alt="犬体外寄生虫会诱发出哪些疾病" />
+                                        <img src="{{$commonAssetUrl}}/petcms/img/89705-1124.jpg" alt="犬体外寄生虫会诱发出哪些疾病" />
                                         <span>犬体外寄生虫会诱发出哪些疾病</span></a>
                                 </dt>
                                 <dd>为狗狗做好驱虫工作不只是为了防止某些寄生虫对我们的健康造成影响，更主要的是因为寄生虫对于狗狗的危害来的更大，而且寄生虫不...[
@@ -613,7 +613,7 @@
                             <dl class="dog_c_l left">
                                 <dt>
                                     <a href="http://www.boqii.com/article/22384.html" target="_blank">
-                                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/2735b-9810.jpg" alt="维生素过量对狗狗有何危害" />
+                                        <img src="{{$commonAssetUrl}}/petcms/img/2735b-9810.jpg" alt="维生素过量对狗狗有何危害" />
                                         <span>维生素过量对狗狗有何危害</span></a>
                                 </dt>
                                 <dd>维生素是维持狗狗生长发育以及正常生理的必要物质，合理地为狗狗补充维生素能够有效地增强狗狗的抵抗力，并在一定程度上防止狗狗...[
@@ -621,7 +621,7 @@
                             <dl class="dog_c_l left">
                                 <dt>
                                     <a href="http://www.boqii.com/article/22372.html" target="_blank">
-                                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/4e421-6100.jpg" alt="酶与益生菌对于狗狗有何作用" />
+                                        <img src="{{$commonAssetUrl}}/petcms/img/4e421-6100.jpg" alt="酶与益生菌对于狗狗有何作用" />
                                         <span>酶与益生菌对于狗狗有何作用</span></a>
                                 </dt>
                                 <dd>其实狗狗身体本身就会存在各式各样的酶，来帮助机体消化以及吸收营养。不过随着某些食物摄入量地减少，某些酶的活性就会变得越来...[
@@ -635,7 +635,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/348999.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/348999.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/bad98-8831.jpg" alt="怎么样训练小鹿犬打猎呢？" /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/bad98-8831.jpg" alt="怎么样训练小鹿犬打猎呢？" /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/348999.html" target="_blank">怎么样训练小鹿犬打猎呢？</a></dd>
@@ -644,7 +644,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/348996.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/348996.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/8432f-8912.jpg" alt="如何训练拉布拉多嗅觉，让其根据味道找东西？" /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/8432f-8912.jpg" alt="如何训练拉布拉多嗅觉，让其根据味道找东西？" /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/348996.html" target="_blank">如何训练拉布拉多嗅觉，让其根据味道找东西？</a></dd>
@@ -653,7 +653,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/348995.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/348995.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/66d55-1961.jpg" alt="农村怎么训练狗扑咬？这样的方式或许更加管用 " /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/66d55-1961.jpg" alt="农村怎么训练狗扑咬？这样的方式或许更加管用 " /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/348995.html" target="_blank">农村怎么训练狗扑咬？这样的方式或许更加管用</a></dd>
@@ -662,7 +662,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/348994.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/348994.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/cfc4a-1925.jpg" alt="牧羊犬怎么训练睡觉？为什么要让其有足够的睡眠？" /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/cfc4a-1925.jpg" alt="牧羊犬怎么训练睡觉？为什么要让其有足够的睡眠？" /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/348994.html" target="_blank">牧羊犬怎么训练睡觉？为什么要让其有足够的睡眠？</a></dd>
@@ -671,7 +671,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/348992.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/348992.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/71c02-6881.jpg" alt="两年的金毛怎么训练？这几个方法很不错 " /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/71c02-6881.jpg" alt="两年的金毛怎么训练？这几个方法很不错 " /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/348992.html" target="_blank">两年的金毛怎么训练？这几个方法很不错</a></dd>
@@ -680,7 +680,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/348991.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/348991.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/371d1-3016.jpg" alt="两年的金毛怎么训练？这几个方法很不错" /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/371d1-3016.jpg" alt="两年的金毛怎么训练？这几个方法很不错" /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/348991.html" target="_blank">两年的金毛怎么训练？这几个方法很不错</a></dd>
@@ -689,7 +689,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/348990.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/348990.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/8b85b-1621.jpg" alt="两个月小狗训练方法介绍，这样训练狗很乖 " /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/8b85b-1621.jpg" alt="两个月小狗训练方法介绍，这样训练狗很乖 " /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/348990.html" target="_blank">两个月小狗训练方法介绍，这样训练狗很乖</a></dd>
@@ -698,7 +698,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/348989.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/348989.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/3d0c4-3730.jpg" alt="怎么对两个月的灵提犬训练？" /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/3d0c4-3730.jpg" alt="怎么对两个月的灵提犬训练？" /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/348989.html" target="_blank">怎么对两个月的灵提犬训练？</a></dd>
@@ -755,7 +755,7 @@
                             <dl class="dog_c_l left">
                                 <dt>
                                     <a href="http://www.boqii.com/article/22375.html" target="_blank">
-                                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/d4f5a-2432.jpg" alt="几种常见的猫咪的保定方法" />
+                                        <img src="{{$commonAssetUrl}}/petcms/img/d4f5a-2432.jpg" alt="几种常见的猫咪的保定方法" />
                                         <span>几种常见的猫咪的保定方法</span></a>
                                 </dt>
                                 <dd>在对于猫咪的饲养过程中，我们时常会遇到猫咪的各种各样的病症，在对这些病症做出诊断之前，我们需要对猫咪做一些一般的检查，比...[
@@ -763,7 +763,7 @@
                             <dl class="dog_c_l left">
                                 <dt>
                                     <a href="http://www.boqii.com/article/22382.html" target="_blank">
-                                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/9d754-4531.jpg" alt="母猫的产后护理" />
+                                        <img src="{{$commonAssetUrl}}/petcms/img/9d754-4531.jpg" alt="母猫的产后护理" />
                                         <span>母猫的产后护理</span></a>
                                 </dt>
                                 <dd>众所周知，猫的分娩是一个十分漫长的过程，它在其中消耗了很大的体力，身体十分虚弱，抗病力明显下降。此时需要而且补充一定的营...[
@@ -771,7 +771,7 @@
                             <dl class="dog_c_l left">
                                 <dt>
                                     <a href="http://www.boqii.com/article/22383.html" target="_blank">
-                                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/bbd14-4485.jpg" alt=" 猫身体检查的方法" />
+                                        <img src="{{$commonAssetUrl}}/petcms/img/bbd14-4485.jpg" alt=" 猫身体检查的方法" />
                                         <span>猫身体检查的方法</span></a>
                                 </dt>
                                 <dd>猫出现了病症，对于猫病症的检查方法有许多种，可分为全身检查，被毛和皮肤检查，可视粘膜的检查等等，其中各个部位的检查方法也...[
@@ -785,7 +785,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/348998.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/348998.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/b6142-9653.jpg" alt="如何训练孟加拉豹猫，谈一谈你的看法呢？ " /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/b6142-9653.jpg" alt="如何训练孟加拉豹猫，谈一谈你的看法呢？ " /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/348998.html" target="_blank">如何训练孟加拉豹猫，谈一谈你的看法呢？</a></dd>
@@ -794,7 +794,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/348997.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/348997.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/9cd8b-6743.jpg" alt="如何训练猫晚上不叫？这几点做到就不会叫了 " /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/9cd8b-6743.jpg" alt="如何训练猫晚上不叫？这几点做到就不会叫了 " /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/348997.html" target="_blank">如何训练猫晚上不叫？这几点做到就不会叫了</a></dd>
@@ -803,7 +803,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/37320.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/37320.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/28d59-2958.jpg" alt="猫咪会进入你的被子，几个小技巧让你的猫咪学会回窝睡 " /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/28d59-2958.jpg" alt="猫咪会进入你的被子，几个小技巧让你的猫咪学会回窝睡 " /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/37320.html" target="_blank">猫咪会进入你的被子，几个小技巧让你的猫咪学会回窝睡</a></dd>
@@ -812,7 +812,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/37311.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/37311.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/db1dd-6606.jpg" alt="猫咪会进入你的被子，几个小技巧让你的猫咪学会回窝睡 " /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/db1dd-6606.jpg" alt="猫咪会进入你的被子，几个小技巧让你的猫咪学会回窝睡 " /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/37311.html" target="_blank">猫咪会进入你的被子，几个小技巧让你的猫咪学会回窝睡</a></dd>
@@ -821,7 +821,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/37195.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/37195.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/9be65-9396.jpg" alt="怎么训练猫使用猫砂？这种方法非常有效" /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/9be65-9396.jpg" alt="怎么训练猫使用猫砂？这种方法非常有效" /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/37195.html" target="_blank">怎么训练猫使用猫砂？这种方法非常有效</a></dd>
@@ -830,7 +830,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/37184.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/37184.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/f66ae-8161.jpg" alt="美短太淘气怎么训练？ " /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/f66ae-8161.jpg" alt="美短太淘气怎么训练？ " /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/37184.html" target="_blank">美短太淘气怎么训练？</a></dd>
@@ -839,7 +839,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/36287.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/36287.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/df956-2024.jpg" alt="金吉拉呼吸很重是生病了吗？" /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/df956-2024.jpg" alt="金吉拉呼吸很重是生病了吗？" /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/36287.html" target="_blank">金吉拉呼吸很重是生病了吗？</a></dd>
@@ -848,7 +848,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/36286.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/36286.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/e597d-2726.jpg" alt="为什么会给猫咪断尾？" /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/e597d-2726.jpg" alt="为什么会给猫咪断尾？" /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/36286.html" target="_blank">为什么会给猫咪断尾？</a></dd>
@@ -908,7 +908,7 @@
                             <dl class="dog_c_l left">
                                 <dt>
                                     <a href="http://www.boqii.com/article/22364.html" target="_blank">
-                                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/af5b9-4129.jpg" alt="怎样预防兔异食症" />
+                                        <img src="{{$commonAssetUrl}}/petcms/img/af5b9-4129.jpg" alt="怎样预防兔异食症" />
                                         <span>怎样预防兔异食症</span></a>
                                 </dt>
                                 <dd>兔异食症的发生除了与平时的习惯有关之外，主要还是因为身体缺乏某些微量元素所造成的。患有异食症的家兔会对原本很多本能进食的...[
@@ -924,7 +924,7 @@
                             <dl class="dog_c_l left">
                                 <dt>
                                     <a href="http://www.boqii.com/article/22381.html" target="_blank">
-                                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/f882f-9195.jpg" alt="锦鲤的一般特性" />
+                                        <img src="{{$commonAssetUrl}}/petcms/img/f882f-9195.jpg" alt="锦鲤的一般特性" />
                                         <span>锦鲤的一般特性</span></a>
                                 </dt>
                                 <dd>锦鲤是观赏性特别高的鱼类，它因色彩艳丽而具有“水中活宝石”、“会游泳的艺术品”之称，它在日本广泛生产繁殖，近年来在中国广...[
@@ -938,7 +938,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/348993.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/348993.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/805eb-8347.jpg" alt="龙猫几个月开始训练比较好？如何训练？ " /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/805eb-8347.jpg" alt="龙猫几个月开始训练比较好？如何训练？ " /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/348993.html" target="_blank">龙猫几个月开始训练比较好？如何训练？</a></dd>
@@ -947,7 +947,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/348987.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/348987.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/4162b-8785.jpg" alt="腊嘴鸟能训练放飞吗？如何训练腊嘴鸟放飞？" /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/4162b-8785.jpg" alt="腊嘴鸟能训练放飞吗？如何训练腊嘴鸟放飞？" /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/348987.html" target="_blank">腊嘴鸟能训练放飞吗？如何训练腊嘴鸟放飞？</a></dd>
@@ -956,7 +956,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/41476.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/41476.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/e656e-3172.jpg" alt="盘点一下又干净又好养的小宠物，有你喜欢的吗？ " /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/e656e-3172.jpg" alt="盘点一下又干净又好养的小宠物，有你喜欢的吗？ " /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/41476.html" target="_blank">盘点一下又干净又好养的小宠物，有你喜欢的吗？</a></dd>
@@ -965,7 +965,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/41470.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/41470.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/f809f-6226.jpg" alt="什么宠物小巧好养便宜？ " /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/f809f-6226.jpg" alt="什么宠物小巧好养便宜？ " /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/41470.html" target="_blank">什么宠物小巧好养便宜？</a></dd>
@@ -974,7 +974,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/41464.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/41464.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/65a11-9386.jpg" alt="刚果灰鹦鹉如何训练？刚果灰鹦鹉如何购买？ " /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/65a11-9386.jpg" alt="刚果灰鹦鹉如何训练？刚果灰鹦鹉如何购买？ " /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/41464.html" target="_blank">刚果灰鹦鹉如何训练？刚果灰鹦鹉如何购买？</a></dd>
@@ -983,7 +983,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/37125.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/37125.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/ac0d2-3880.jpg" alt="如何训练画眉鸟托手？看完你就知道了 " /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/ac0d2-3880.jpg" alt="如何训练画眉鸟托手？看完你就知道了 " /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/37125.html" target="_blank">如何训练画眉鸟托手？看完你就知道了</a></dd>
@@ -992,7 +992,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/36131.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/36131.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/7737d-2549.jpg" alt="银狐仓鼠不能喂哪些食物？" /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/7737d-2549.jpg" alt="银狐仓鼠不能喂哪些食物？" /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/36131.html" target="_blank">银狐仓鼠不能喂哪些食物？</a></dd>
@@ -1001,7 +1001,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/36130.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/36130.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/84da8-4693.jpg" alt="老婆婆仓鼠的饲养方法有什么不一样？" /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/84da8-4693.jpg" alt="老婆婆仓鼠的饲养方法有什么不一样？" /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/36130.html" target="_blank">老婆婆仓鼠的饲养方法有什么不一样？</a></dd>
@@ -1058,7 +1058,7 @@
                             <dl class="dog_c_l left">
                                 <dt>
                                     <a href="http://www.boqii.com/article/22380.html" target="_blank">
-                                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/66a07-5391.jpg" alt="雏菊的传说及花语介绍" />
+                                        <img src="{{$commonAssetUrl}}/petcms/img/66a07-5391.jpg" alt="雏菊的传说及花语介绍" />
                                         <span>雏菊的传说及花语介绍</span></a>
                                 </dt>
                                 <dd>雏菊是菊科的一种，由于雏菊被视为丛生的杂草，在春季开花，但是却深得意大利人的喜爱，并且推举为意大利的国花，所以现在非常有...[
@@ -1066,7 +1066,7 @@
                             <dl class="dog_c_l left">
                                 <dt>
                                     <a href="http://www.boqii.com/article/22379.html" target="_blank">
-                                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/48afe-5647.jpg" alt="紫色风信子的传说及花语介绍" />
+                                        <img src="{{$commonAssetUrl}}/petcms/img/48afe-5647.jpg" alt="紫色风信子的传说及花语介绍" />
                                         <span>紫色风信子的传说及花语介绍</span></a>
                                 </dt>
                                 <dd>风信子是百合科早春开花的球根花卉之一，现在也有着“西洋水仙”的称呼，由于风信子的色彩丰富，所以深受人们的喜爱。小编就为你...[
@@ -1074,7 +1074,7 @@
                             <dl class="dog_c_l left">
                                 <dt>
                                     <a href="http://www.boqii.com/article/22377.html" target="_blank">
-                                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/09bf1-8997.jpg" alt="圣诞花的传说及花语" />
+                                        <img src="{{$commonAssetUrl}}/petcms/img/09bf1-8997.jpg" alt="圣诞花的传说及花语" />
                                         <span>圣诞花的传说及花语</span></a>
                                 </dt>
                                 <dd>圣诞花最令人印象深刻的就是其大红色了，给人带来非常喜庆的感觉。由于圣诞花是圣诞前后开花，所以人们亲切的称它为圣诞花。那么...[
@@ -1088,7 +1088,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/35494.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/35494.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/bc52f-7628.jpg" alt="水仙花有毒吗？水仙花怎么养？" /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/bc52f-7628.jpg" alt="水仙花有毒吗？水仙花怎么养？" /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/35494.html" target="_blank">水仙花有毒吗？水仙花怎么养？</a></dd>
@@ -1097,7 +1097,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/35487.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/35487.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/24223-8095.jpg" alt="金钻怎么养？金钻的养殖方法" /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/24223-8095.jpg" alt="金钻怎么养？金钻的养殖方法" /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/35487.html" target="_blank">金钻怎么养？金钻的养殖方法</a></dd>
@@ -1106,7 +1106,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/35481.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/35481.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/28c61-1523.jpg" alt="长寿花有毒吗？长寿花介绍" /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/28c61-1523.jpg" alt="长寿花有毒吗？长寿花介绍" /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/35481.html" target="_blank">长寿花有毒吗？长寿花介绍</a></dd>
@@ -1115,7 +1115,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/35476.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/35476.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/c336d-5037.jpg" alt="凤梨花怎么养？凤梨花养殖方法" /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/c336d-5037.jpg" alt="凤梨花怎么养？凤梨花养殖方法" /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/35476.html" target="_blank">凤梨花怎么养？凤梨花养殖方法</a></dd>
@@ -1124,7 +1124,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/35461.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/35461.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/f3db9-5022.jpg" alt="六月雪怎么养？六月雪养殖方法" /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/f3db9-5022.jpg" alt="六月雪怎么养？六月雪养殖方法" /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/35461.html" target="_blank">六月雪怎么养？六月雪养殖方法</a></dd>
@@ -1133,7 +1133,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/35457.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/35457.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/ccf6c-3549.jpg" alt="栀子花怎么养？栀子花的养殖方法" /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/ccf6c-3549.jpg" alt="栀子花怎么养？栀子花的养殖方法" /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/35457.html" target="_blank">栀子花怎么养？栀子花的养殖方法</a></dd>
@@ -1142,7 +1142,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/35450.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/35450.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/43da9-6683.jpg" alt="绿萝有毒吗？绿萝怎么养才能更旺盛？" /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/43da9-6683.jpg" alt="绿萝有毒吗？绿萝怎么养才能更旺盛？" /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/35450.html" target="_blank">绿萝有毒吗？绿萝怎么养才能更旺盛？</a></dd>
@@ -1151,7 +1151,7 @@
                             <dt>
                                 <a href="http://www.boqii.com/article/35444.html" target="_blank" class="opa"></a>
                                 <a href="http://www.boqii.com/article/35444.html" target="_blank">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/e638a-4232.jpg" alt="碰碰香怎样爆盆？碰碰香怎么养好看？" /></a>
+                                    <img src="{{$commonAssetUrl}}/petcms/img/e638a-4232.jpg" alt="碰碰香怎样爆盆？碰碰香怎么养好看？" /></a>
                             </dt>
                             <dd>
                                 <a href="http://www.boqii.com/article/35444.html" target="_blank">碰碰香怎样爆盆？碰碰香怎么养好看？</a></dd>
@@ -1197,17 +1197,17 @@
             <!--<div class="subject">-->
             <!--<div class="subject_body">-->
             <!---->
-            <!--<a href="http://www.boqii.com/zhuanti/1949.html" target="_blank"><img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/74f62-6267.jpg" alt="3月养花，当看“世界花后”郁金香" title="3月养花，当看“世界花后”郁金香"  /></a>-->
+            <!--<a href="http://www.boqii.com/zhuanti/1949.html" target="_blank"><img src="{{$commonAssetUrl}}/petcms/img/74f62-6267.jpg" alt="3月养花，当看“世界花后”郁金香" title="3月养花，当看“世界花后”郁金香"  /></a>-->
             <!---->
-            <!--<a href="http://www.boqii.com/zhuanti/1953.html" target="_blank"><img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/4439e-2344.jpg" alt="春季花草养护全攻略" title="春季花草养护全攻略"  /></a>-->
+            <!--<a href="http://www.boqii.com/zhuanti/1953.html" target="_blank"><img src="{{$commonAssetUrl}}/petcms/img/4439e-2344.jpg" alt="春季花草养护全攻略" title="春季花草养护全攻略"  /></a>-->
             <!---->
-            <!--<a href="http://www.boqii.com/zhuanti/1948.html" target="_blank"><img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/03841-3184.jpg" alt="独忆相思苦,春梦了无痕——宠物情事大公开" title="独忆相思苦,春梦了无痕——宠物情事大公开"  /></a>-->
+            <!--<a href="http://www.boqii.com/zhuanti/1948.html" target="_blank"><img src="{{$commonAssetUrl}}/petcms/img/03841-3184.jpg" alt="独忆相思苦,春梦了无痕——宠物情事大公开" title="独忆相思苦,春梦了无痕——宠物情事大公开"  /></a>-->
             <!---->
-            <!--<a href="http://www.boqii.com/zhuanti/1945.html" target="_blank"><img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/06ce2-1716.jpg" alt="春暖花开，选购多肉正当时" title="春暖花开，选购多肉正当时"  /></a>-->
+            <!--<a href="http://www.boqii.com/zhuanti/1945.html" target="_blank"><img src="{{$commonAssetUrl}}/petcms/img/06ce2-1716.jpg" alt="春暖花开，选购多肉正当时" title="春暖花开，选购多肉正当时"  /></a>-->
             <!---->
-            <!--<a href="http://www.boqii.com/zhuanti/1954.html" target="_blank"><img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/7dc46-9936.jpg" alt="干货分享——养犬新手必看知识合集" title="干货分享——养犬新手必看知识合集"  /></a>-->
+            <!--<a href="http://www.boqii.com/zhuanti/1954.html" target="_blank"><img src="{{$commonAssetUrl}}/petcms/img/7dc46-9936.jpg" alt="干货分享——养犬新手必看知识合集" title="干货分享——养犬新手必看知识合集"  /></a>-->
             <!---->
-            <!--<a href="http://www.boqii.com/zhuanti/1952.html" target="_blank"><img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/a78b5-4224.jpg" alt="春季宠物毛球大作战" title="春季宠物毛球大作战" class="last" /></a>-->
+            <!--<a href="http://www.boqii.com/zhuanti/1952.html" target="_blank"><img src="{{$commonAssetUrl}}/petcms/img/a78b5-4224.jpg" alt="春季宠物毛球大作战" title="春季宠物毛球大作战" class="last" /></a>-->
             <!---->
             <!--</div>-->
             <!--</div>-->
@@ -1258,7 +1258,7 @@
                     <a target="_blank" href="http://www.boqii.com/baike/news/">最新文章</a></p>
                 <p class="beian">
                     <a class="police" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502004955">
-                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/31ab7-5261.png" alt="">沪公网安备 31011502004955号</a>
+                        <img src="{{$commonAssetUrl}}/petcms/img/31ab7-5261.png" alt="">沪公网安备 31011502004955号</a>
                     <span>|</span>
                     <a href="http://www.beian.miit.gov.cn/" target="_blank">沪ICP备13034501号-2</a>
                     <span>|</span>&nbsp;增值电信业务经营许可证：
@@ -1266,17 +1266,17 @@
                 <p class="copy">Copyright © 2007-2021 Boqii.com All Rights Reserved 光橙（上海）信息科技有限公司 版权所有</p>
                 <p>
                     <a href='http://wap.scjgj.sh.gov.cn/businessCheck/verifKey.do?showType=extShow&serial=9031000020200804110320000006173852-SAIC_SHOW_310000-20131022163114962238&signData=MEUCIQCxAhT2yp7CGYeqT3Nzy3yKKs+8PiJPEXXe40scDQIh5QIgQxGCEwLzNES+bsFkNBbDioZIDWffBlMmuTmGn4zlaQw=' target='_blank' rel='nofollow'>
-                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/3829f-8548.png" width="100" height="35"></a>
+                        <img src="{{$commonAssetUrl}}/petcms/img/3829f-8548.png" width="100" height="35"></a>
                     <a href="http://www.boqii.com/ads.php" target="_blank" rel="nofollow">
-                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/a4644-3558.png" width="100" height="35"></a>
+                        <img src="{{$commonAssetUrl}}/petcms/img/a4644-3558.png" width="100" height="35"></a>
                     <a href="https://ss.knet.cn/verifyseal.dll?sn=e14111831011556282oicb000000&ct=df&a=1&pa=0.1636424780320953" target="_blank" rel="nofollow">
-                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/aef78-9568.png" width="100" height="35"></a>
+                        <img src="{{$commonAssetUrl}}/petcms/img/aef78-9568.png" width="100" height="35"></a>
                     <a href="http://www.zx110.org/" target="_blank" rel="nofollow">
-                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/d29f5-2562.png" width="100" height="35"></a>
+                        <img src="{{$commonAssetUrl}}/petcms/img/d29f5-2562.png" width="100" height="35"></a>
                     <a rel="nofollow" target="_blank" href="http://www.shjbzx.cn/">
-                        <img width="100" height="35" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/6e8d6-1338.png"></a>
+                        <img width="100" height="35" src="{{$commonAssetUrl}}/petcms/img/6e8d6-1338.png"></a>
                 </p>
-                <!-- <p><a href="http://www.boqii.com/ads.php" target="_blank" rel="nofollow"><img                        src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/f1a57-7077.png"></a><a                    href="http://www.zx110.org/" target="_blank" rel="nofollow"><img                        src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/7fff7-5407.png"></a><SCRIPT LANGUAGE="JavaScript">                    document.writeln(                        "<a href='http://wap.scjgj.sh.gov.cn/businessCheck/verifKey.do?showType=extShow&serial=9031000020200804110320000006173852-SAIC_SHOW_310000-20131022163114962238&signData=MEUCIQCxAhT2yp7CGYeqT3Nzy3yKKs+8PiJPEXXe40scDQIh5QIgQxGCEwLzNES+bsFkNBbDioZIDWffBlMmuTmGn4zlaQw=' target='_blank' rel='nofollow'><img src='<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/00aac-8970.png' border=0></a>"                    )                </SCRIPT><a rel="nofollow" target="_blank" href="http://www.shjbzx.cn/"><img width="100" height="35"                        src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/6e8d6-1338.png"></a><script src="http://kxlogo.knet.cn/seallogo.dll?sn=e14111831011556282oicb000000&size=0"></script></p> -->
+                <!-- <p><a href="http://www.boqii.com/ads.php" target="_blank" rel="nofollow"><img                        src="{{$commonAssetUrl}}/petcms/img/f1a57-7077.png"></a><a                    href="http://www.zx110.org/" target="_blank" rel="nofollow"><img                        src="{{$commonAssetUrl}}/petcms/img/7fff7-5407.png"></a><SCRIPT LANGUAGE="JavaScript">                    document.writeln(                        "<a href='http://wap.scjgj.sh.gov.cn/businessCheck/verifKey.do?showType=extShow&serial=9031000020200804110320000006173852-SAIC_SHOW_310000-20131022163114962238&signData=MEUCIQCxAhT2yp7CGYeqT3Nzy3yKKs+8PiJPEXXe40scDQIh5QIgQxGCEwLzNES+bsFkNBbDioZIDWffBlMmuTmGn4zlaQw=' target='_blank' rel='nofollow'><img src='{{$commonAssetUrl}}/petcms/img/00aac-8970.png' border=0></a>"                    )                </SCRIPT><a rel="nofollow" target="_blank" href="http://www.shjbzx.cn/"><img width="100" height="35"                        src="{{$commonAssetUrl}}/petcms/img/6e8d6-1338.png"></a><script src="http://kxlogo.knet.cn/seallogo.dll?sn=e14111831011556282oicb000000&size=0"></script></p> -->
                 <p class="copy">违法和不良信息举报电话：
                     <a href="tel:021-68826169">021-68826169</a>
                     <span>|</span>举报邮箱：
@@ -1304,7 +1304,7 @@
             s.parentNode.insertBefore(mvl, s);
         })();</script>
     <!-- 新增加访客代码 -->
-    <!-- <script type="text/javascript">var _py = _py || [];_py.push(['a', 'irs..iRfl18kq8dTQKZlZo93OV_']);_py.push(['domain','stats.ipinyou.com']);_py.push(['e','']);-function(d) {    var s = d.createElement('script'),    e = d.body.getElementsByTagName('script')[0]; e.parentNode.insertBefore(s, e),    f = 'https:' == location.protocol;    s.src = (f ? 'https' : 'http') + '://'+(f?'fm.ipinyou.com':'fm.p0y.cn')+'/j/adv.js';}(document);</script><noscript><img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/4c99e-8783.gif" style="display:none;"/></noscript> -->
+    <!-- <script type="text/javascript">var _py = _py || [];_py.push(['a', 'irs..iRfl18kq8dTQKZlZo93OV_']);_py.push(['domain','stats.ipinyou.com']);_py.push(['e','']);-function(d) {    var s = d.createElement('script'),    e = d.body.getElementsByTagName('script')[0]; e.parentNode.insertBefore(s, e),    f = 'https:' == location.protocol;    s.src = (f ? 'https' : 'http') + '://'+(f?'fm.ipinyou.com':'fm.p0y.cn')+'/j/adv.js';}(document);</script><noscript><img src="{{$commonAssetUrl}}/petcms/img/4c99e-8783.gif" style="display:none;"/></noscript> -->
     <!-- 增加百度统计代码 -->
     <!-- <script>(function(){    var bp = document.createElement('script');    var curProtocol = window.location.protocol.split(':')[0];    if (curProtocol === 'https') {        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';            }    else {        bp.src = 'http://push.zhanzhang.baidu.com/push.js';    }    var s = document.getElementsByTagName("script")[0];    s.parentNode.insertBefore(bp, s);})();</script> -->
     <!-- 增加百度统计代码 end-->
@@ -1316,7 +1316,7 @@
     <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://": " http://");
         document.write(unescape("%3Cspan style='display:none;' id='cnzz_stat_icon_1264316807'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1264316807' type='text/javascript'%3E%3C/script%3E"));</script>
     <!-- cnzz20180423新增 end-->
-    <script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/js/bqstat.js"></script>
+    <script src="{{$commonAssetUrl}}/petcms/m/js/bqstat.js"></script>
 </body>
 
 </html>

@@ -13,23 +13,23 @@
 <title>清末著名书法家许锷小楷《倪文贞公传》毛笔书法书法欣赏</title>
 <meta name="Keywords" content="">
 <meta name="Description" content="许锷小楷《倪文贞公传》，来源：倪元璐花卉图卷后题跋，弗利尔美术馆收藏。许锷，字达夫，号颖叔、瓢隐居士，室名诗可楼，苏州人。工诗，豪饮，尤善楷书。书法学王文治，清末著名书法家，学者。著有《西湖棹歌百首》等。 ...">
-<link rel="stylesheet" type="text/css" href="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/css/8de35-7834.css">
-<link rel="stylesheet" type="text/css" href="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/css/31093-4280.css">
-<link rel="apple-touch-icon" href="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/b62f9-3915.png" />
+<link rel="stylesheet" type="text/css" href="{{$commonAssetUrl}}/culture/m/css/8de35-7834.css">
+<link rel="stylesheet" type="text/css" href="{{$commonAssetUrl}}/culture/m/css/31093-4280.css">
+<link rel="apple-touch-icon" href="{{$commonAssetUrl}}/culture/m/img/b62f9-3915.png" />
 <script language='javascript' type='text/javascript'>var dbPathPart = '../';
     var pcPathPart = 'http://www.yac8.com/';
     var webPathPart = '../';
     var jsPathPart = '../';
     var webTypeName = 'show';</script>
-<!-- <script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/js/zepto.js"></script> -->
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/js/zepto.min.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/js/iscroll.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/js/lib.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/js/common.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/js/top.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/js/topnav.js"></script>
+<!-- <script type="text/javascript" src="{{$commonAssetUrl}}/culture/m/js/zepto.js"></script> -->
+<script type="text/javascript" src="{{$commonAssetUrl}}/culture/m/js/zepto.min.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/culture/m/js/iscroll.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/culture/m/js/lib.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/culture/m/js/common.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/culture/m/js/top.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/culture/m/js/topnav.js"></script>
 <!-- 导航 -->
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/js/otca.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/culture/m/js/otca.js"></script>
 </head>
 
 <body>
@@ -43,7 +43,7 @@
                         <!-- logo -->
                         <div class="active logoBox">
                             <a href="../">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/19045-5251.png" /></a>
+                                <img src="{{$commonAssetUrl}}/culture/m/img/19045-5251.png" /></a>
                         </div>
                         <div class="toolBox">
                             <span class="line"></span>
@@ -144,7 +144,7 @@
             <div class="ad101Style"></div>
             <div class='clear'></div>
             <div id="area_content">
-                <script src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/js/newsshow.js" type="text/javascript"></script>
+                <script src="{{$commonAssetUrl}}/culture/m/js/newsshow.js" type="text/javascript"></script>
                 <input type="hidden" id="infoID" name="infoID" value="15659" />
                 <input type="hidden" id="isUserCheck" name="isUserCheck" value="0" />
                 <input type="hidden" id="pageValue" name="pageValue" value="0" />
@@ -194,9 +194,9 @@
                                 <div>
                                     <p>许锷小楷《倪文贞公传》，来源：倪元璐花卉图卷后题跋，弗利尔美术馆收藏。</p>
                                     <p>许锷，字达夫，号颖叔、瓢隐居士，室名诗可楼，苏州人。工诗，豪饮，尤善楷书。书法学王文治，清末著名书法家，学者。著有《西湖棹歌百首》等。</p>
-                                    <img alt="清末著名书法家许锷小楷《倪文贞公传》" title="清末著名书法家许锷小楷《倪文贞公传》" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/2d593-4455.jpg" border="0" />
-                                    <img alt="清末著名书法家许锷小楷《倪文贞公传》" title="清末著名书法家许锷小楷《倪文贞公传》" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/ecbe2-2474.jpg" border="0" />
-                                    <img alt="清末著名书法家许锷小楷《倪文贞公传》" title="清末著名书法家许锷小楷《倪文贞公传》" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/11f91-4069.jpg" border="0" />
+                                    <img alt="清末著名书法家许锷小楷《倪文贞公传》" title="清末著名书法家许锷小楷《倪文贞公传》" src="{{$commonAssetUrl}}/culture/m/img/2d593-4455.jpg" border="0" />
+                                    <img alt="清末著名书法家许锷小楷《倪文贞公传》" title="清末著名书法家许锷小楷《倪文贞公传》" src="{{$commonAssetUrl}}/culture/m/img/ecbe2-2474.jpg" border="0" />
+                                    <img alt="清末著名书法家许锷小楷《倪文贞公传》" title="清末著名书法家许锷小楷《倪文贞公传》" src="{{$commonAssetUrl}}/culture/m/img/11f91-4069.jpg" border="0" />
                                     <p>
                                         <div class='clear'></div>
                                         <div class='navPageBox'>
@@ -218,7 +218,7 @@
                             </div>
                             <div class="htmlContent htmlFontSize" style="padding:0 10px;"></div>
                             <div class="ad107Style">
-                                <script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/js/cal4.js"></script>
+                                <script type="text/javascript" src="{{$commonAssetUrl}}/culture/m/js/cal4.js"></script>
                             </div>
                             <div class='clear'></div>
                             <div class='prevNextBox bodyActive'>
@@ -366,7 +366,7 @@
                 </section>
                 <script type="text/javascript">newsAbout.init();</script></div>
             <div class="ad102Style">
-                <script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/js/o2fz6.js"></script>
+                <script type="text/javascript" src="{{$commonAssetUrl}}/culture/m/js/o2fz6.js"></script>
             </div>
             <div class='clear'></div>
             <div id="area_bottom" name="bottom" class="bodyActive">

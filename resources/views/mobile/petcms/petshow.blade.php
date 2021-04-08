@@ -15,15 +15,15 @@
 <meta name="description" content="波奇网金毛百科为您提供详尽的关于金毛价格、图片、特点、训练及饲养方式、品种简介、金毛用品及纯种金毛鉴定等信息。波奇网为国内最大的金毛综合信息门户，想了解最新最全金毛动态，就上波奇网!" />
 <title>金毛价格_图片_纯种金毛幼犬好养吗_多少钱一只-波奇网手机版</title>
 <!-- build:css(.) styles/main.css -->
-<link rel="stylesheet" href="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/css/2bd41-7171.css" />
+<link rel="stylesheet" href="{{$commonAssetUrl}}/petcms/m/css/2bd41-7171.css" />
 <!--endbuild--></head>
 
 <body>
 <div class="pupWindow">
-    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/9f795-4062.png" /></div>
+    <img src="{{$commonAssetUrl}}/petcms/m/img/9f795-4062.png" /></div>
 <input type="hidden" id="shareTitle" value="金毛">
 <input type="hidden" id="shareContent" value="">
-<input type="hidden" id="shareImage" value="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/0d9e5-4098.png">
+<input type="hidden" id="shareImage" value="{{$commonAssetUrl}}/petcms/m/img/0d9e5-4098.png">
 <header>
     <input type="hidden" id="Pid" value="1896">
     <div class="header-left">
@@ -34,11 +34,11 @@
     <input type="hidden" id="appTitle" value="金毛">
     <h1 class="header-center">金毛</h1></header>
 <div id="wrap" class="mt50 container mb">
-    <!-- <section class="top_banner"><a href="http://v.boqii.com/?utm_source=baidu-seopc"><img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/5fa66-5746.jpg"></a><span class="close"><i></i></span></section> -->
+    <!-- <section class="top_banner"><a href="http://v.boqii.com/?utm_source=baidu-seopc"><img src="{{$commonAssetUrl}}/petcms/m/img/5fa66-5746.jpg"></a><span class="close"><i></i></span></section> -->
     <section class="top">
         <div class="animalsPhoto">
             <span>
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/0d9e5-4098.png" alt="金毛"></span>
+                <img src="{{$commonAssetUrl}}/petcms/m/img/0d9e5-4098.png" alt="金毛"></span>
         </div>
         <div class="introduce">
             <ul>
@@ -68,7 +68,7 @@
         <p>
             <p style="text-align:center">
                 <span class="replace_title">
-                    <img style="width:500px;height:350px;" ptype="1" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/ca615-1585.jpg" border="0" height="350" hspace="0" vspace="0" width="500" alt="金毛犬的品种简介" title="金毛犬的品种简介" />
+                    <img style="width:500px;height:350px;" ptype="1" src="{{$commonAssetUrl}}/petcms/m/img/ca615-1585.jpg" border="0" height="350" hspace="0" vspace="0" width="500" alt="金毛犬的品种简介" title="金毛犬的品种简介" />
                     <br />金毛犬(详情介绍)</span></p>
             <p>　　金毛巡回猎犬（Golden Retriever），原产于苏格兰，祖先有雪达犬血统，因有较强的游泳能力，并能把猎物从水中叼回给主人，故最初用作狩猎及巡回被枪猎射落的水鸟，AKC分类属于运动犬组。
                 <br />
@@ -96,7 +96,7 @@
         <p>
             <p style="text-align:center">
                 <span class="replace_title">
-                    <img style="width:500px;height:350px;" ptype="1" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/ba62d-6567.jpg" border="0" height="350" hspace="0" vspace="0" width="500" alt="金毛犬的形态特征" title="金毛犬的形态特征" />
+                    <img style="width:500px;height:350px;" ptype="1" src="{{$commonAssetUrl}}/petcms/m/img/ba62d-6567.jpg" border="0" height="350" hspace="0" vspace="0" width="500" alt="金毛犬的形态特征" title="金毛犬的形态特征" />
                     <br />金毛犬(详情介绍)</span></p>
             <p>　　金毛犬在犬的智商中排名在第四位，由于金毛犬有着一双温柔的眼睛、微笑的脸庞、天使般完美的性格、一身笼罩着天堂光辉的金色被毛，目前多被用作家庭犬及导盲犬。美国犬业俱乐部(American Kennel Club,AKC)标准规定其毛皮是“丰富的，有光泽的由不同层次的金色(rich，lustrous golden of various shades)”，不允许有过于浅或者过于深的颜色。
                 <br />　　它本身分为淡奶油(色素不够)及深咖啡二大类的颜色。
@@ -114,7 +114,7 @@
         <p>
             <p style="text-align:center">
                 <span class="replace_title">
-                    <img style="width:500px;height:350px;" ptype="1" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/9383b-1744.jpg" border="0" height="350" hspace="0" vspace="0" width="500" alt="金毛犬的性格特点" title="金毛犬的性格特点" />
+                    <img style="width:500px;height:350px;" ptype="1" src="{{$commonAssetUrl}}/petcms/m/img/9383b-1744.jpg" border="0" height="350" hspace="0" vspace="0" width="500" alt="金毛犬的性格特点" title="金毛犬的性格特点" />
                     <br />金毛犬(详情介绍)</span></p>
             <p>　　在很多家庭中，人们对金毛犬的大概认识就是金毛犬性格活泼、爱撒娇、忠诚、憨厚，我么在玩耍的时候都可以看到他的踪影，他对任何人都友善，可以和人类成为好朋友，因为他的好脾气以及聪明的脑袋，现在已有很多金毛犬被训练成导盲犬，为人类做贡献。
                 <br />　　
@@ -163,7 +163,7 @@
         <p>
             <p style="text-align:center">
                 <span class="replace_title">
-                    <img style="width:500px;height:350px;" ptype="1" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/0c6ce-4367.jpg" border="0" height="350" hspace="0" vspace="0" width="500" alt="金毛犬的养护知识" title="金毛犬的养护知识" />
+                    <img style="width:500px;height:350px;" ptype="1" src="{{$commonAssetUrl}}/petcms/m/img/0c6ce-4367.jpg" border="0" height="350" hspace="0" vspace="0" width="500" alt="金毛犬的养护知识" title="金毛犬的养护知识" />
                     <br />金毛犬(详情介绍)</span></p>
             <p>　　金毛犬给人感觉憨厚可爱、聪明乖巧，听话可人，早期是为了用作猎捕野禽的寻回犬而培养的，游泳的续航力极佳。现在大多作为导盲犬与宠物狗。对小学生或者孩子十分友善，金毛的独特之处就是对人友善，讨人欢心。
                 <br />　　
@@ -182,7 +182,7 @@
         <p>
             <p style="text-align:center">
                 <span class="replace_title">
-                    <img style="width:500px;height:350px;" ptype="1" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/e267b-5365.jpg" border="0" height="350" hspace="0" vspace="0" width="500" alt="金毛犬的喂食要点" title="金毛犬的喂食要点" />
+                    <img style="width:500px;height:350px;" ptype="1" src="{{$commonAssetUrl}}/petcms/m/img/e267b-5365.jpg" border="0" height="350" hspace="0" vspace="0" width="500" alt="金毛犬的喂食要点" title="金毛犬的喂食要点" />
                     <br />金毛犬(详情介绍)</span></p>
             <p>　　金毛犬是个不挑食的好孩子，既乖巧又听话，因体型较大所以胃口也相对比较大，对于一只大型犬来说健康的饮食是需要严格把关的。金毛犬可以吃什么？不可以吃什么呢？
                 <br />　　
@@ -212,15 +212,15 @@
         <h2>金毛相册</h2>
         <ul class="ablum_ani">
             <li>
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/0fe84-3771.jpg" alt=""></li>
+                <img src="{{$commonAssetUrl}}/petcms/m/img/0fe84-3771.jpg" alt=""></li>
             <li>
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/80a84-3009.jpg" alt=""></li>
+                <img src="{{$commonAssetUrl}}/petcms/m/img/80a84-3009.jpg" alt=""></li>
             <li>
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/db3e1-6924.jpg" alt=""></li>
+                <img src="{{$commonAssetUrl}}/petcms/m/img/db3e1-6924.jpg" alt=""></li>
             <li>
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/7512f-1928.jpg" alt=""></li>
+                <img src="{{$commonAssetUrl}}/petcms/m/img/7512f-1928.jpg" alt=""></li>
             <li>
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/8c5b5-2603.jpg" alt=""></li>
+                <img src="{{$commonAssetUrl}}/petcms/m/img/8c5b5-2603.jpg" alt=""></li>
         </ul>
     </section>
     <section class="bottom">
@@ -231,7 +231,7 @@
         <a href="mailto:qiang.zhang@boqii.com">qiang.zhang@boqii.com</a>】</div>
     <section class="bottom_banner">
         <a href="http://s.boqii.com/?utm_source=baidu-SEO">
-            <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/57c57-9705.jpg"></a>
+            <img src="{{$commonAssetUrl}}/petcms/m/img/57c57-9705.jpg"></a>
     </section>
     <div class="mask" id="showframepic">
         <div id="bigfocus" class="focus ok_con">
@@ -241,36 +241,36 @@
             <div class="bd">
                 <ul>
                     <li>
-                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/0fe84-3771.jpg" alt=""></li>
+                        <img src="{{$commonAssetUrl}}/petcms/m/img/0fe84-3771.jpg" alt=""></li>
                     <li>
-                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/80a84-3009.jpg" alt=""></li>
+                        <img src="{{$commonAssetUrl}}/petcms/m/img/80a84-3009.jpg" alt=""></li>
                     <li>
-                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/db3e1-6924.jpg" alt=""></li>
+                        <img src="{{$commonAssetUrl}}/petcms/m/img/db3e1-6924.jpg" alt=""></li>
                     <li>
-                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/7512f-1928.jpg" alt=""></li>
+                        <img src="{{$commonAssetUrl}}/petcms/m/img/7512f-1928.jpg" alt=""></li>
                     <li>
-                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/8c5b5-2603.jpg" alt=""></li>
+                        <img src="{{$commonAssetUrl}}/petcms/m/img/8c5b5-2603.jpg" alt=""></li>
                 </ul>
             </div>
         </div>
     </div>
     <!-- <div class="openByApp-container"><a href="javascript:;" class="openByApp gotoApp">APP中打开</a></div> -->
     <!--安卓下载提示-->
-    <!-- <div class="andriod_download_tips"><div class="andriod_download_con clearfix"><a href="javascript:;" class="close_andriod"></a><div class="left_side"><img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/290fd-9149.png" alt=""><p><i class="android_hint">下载波奇宠物APP</i><br/>注册立享270元 首单再送330元
+    <!-- <div class="andriod_download_tips"><div class="andriod_download_con clearfix"><a href="javascript:;" class="close_andriod"></a><div class="left_side"><img src="{{$commonAssetUrl}}/petcms/m/img/290fd-9149.png" alt=""><p><i class="android_hint">下载波奇宠物APP</i><br/>注册立享270元 首单再送330元
     </p></div><div class="right_side"><a href="javascript:;" class="down_rightnow">立即下载</a></div></div></div> --></div>
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/js/jmlink.min.js"></script>
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/js/touchslide.js"></script>
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/js/20/zepto.min.js"></script>
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/js/md5.js"></script>
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/js/auth.js"></script>
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/js/jweixin-1.0.0.js"></script>
+<script src="{{$commonAssetUrl}}/petcms/m/js/jmlink.min.js"></script>
+<script src="{{$commonAssetUrl}}/petcms/m/js/touchslide.js"></script>
+<script src="{{$commonAssetUrl}}/petcms/m/js/20/zepto.min.js"></script>
+<script src="{{$commonAssetUrl}}/petcms/m/js/md5.js"></script>
+<script src="{{$commonAssetUrl}}/petcms/m/js/auth.js"></script>
+<script src="{{$commonAssetUrl}}/petcms/m/js/jweixin-1.0.0.js"></script>
 <!-- build:js scripts/entryDetail.js -->
-<script data-main="/baike/Public/Js/entryDetail" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/js/require.js"></script>
+<script data-main="/baike/Public/Js/entryDetail" src="{{$commonAssetUrl}}/petcms/m/js/require.js"></script>
 <!-- endbuild -->
 <script type="text/javascript">var cnzz_protocol03 = (("https:" == document.location.protocol) ? " https://": " http://");
     document.write(unescape("%3Cspan style='display:none' id='cnzz_stat_icon_1264316807'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol03 + "s13.cnzz.com/z_stat.php%3Fid%3D1264316807' type='text/javascript'%3E%3C/script%3E"));</script>
 <!-- End GrowingIO Analytics code version: 2.1 -->
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/js/bqstat.js"></script>
+<script src="{{$commonAssetUrl}}/petcms/m/js/bqstat.js"></script>
 </body>
 
 </html>

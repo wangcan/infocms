@@ -15,8 +15,8 @@
 <meta http-equiv="mobile-agent" content="format=html5; url=http://m.yac8.com/news/list_5.html">
 <meta http-equiv="mobile-agent" content="format=wml; url=http://m.yac8.com/news/list_5.html">
 <link rel="alternate" media="only screen and(max-width: 640px)" href="http://m.yac8.com/news/list_5.html">
-<link rel="icon" href="<?= Yii::getAlias('@tasseturl'); ?>/culture/img/9147b-6066.ico" type="image/x-icon" />
-<link rel="shortcut icon" href="<?= Yii::getAlias('@tasseturl'); ?>/culture/img/9147b-6066.ico" type="image/x-icon" />
+<link rel="icon" href="{{$commonAssetUrl}}/culture/img/9147b-6066.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="{{$commonAssetUrl}}/culture/img/9147b-6066.ico" type="image/x-icon" />
 <link rel="alternate" type="application/rss+xml" title="书法欣赏 RSS Feed" href="../rss.asp?typeStr=&maxNum=50" />
 <script language="javascript" type="text/javascript">var webTypeName = 'list';
     var webDataID = '5';
@@ -24,10 +24,10 @@
     var webPathPart = '../';
     var jsPathPart = '../';</script>
 <script language="javascript" type="text/javascript" src="../configJs.asp?webName=list&webID=5&v="></script>
-<script language="javascript" type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/m/js/otca.js"></script>
-<script language="javascript" type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/js/jquery.min.js"></script>
-<script language="javascript" type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/js/common.js"></script>
-<link rel="stylesheet" href="<?= Yii::getAlias('@tasseturl'); ?>/culture/css/19cef-5346.css" type="text/css" media="all" id="webSkin" /></head>
+<script language="javascript" type="text/javascript" src="{{$commonAssetUrl}}/culture/m/js/otca.js"></script>
+<script language="javascript" type="text/javascript" src="{{$commonAssetUrl}}/culture/js/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="{{$commonAssetUrl}}/culture/js/common.js"></script>
+<link rel="stylesheet" href="{{$commonAssetUrl}}/culture/css/19cef-5346.css" type="text/css" media="all" id="webSkin" /></head>
 
 <body>
 <div class="topBg">
@@ -48,8 +48,8 @@
             </li>
             <li class="b">
                 <a href="http://m.yac8.com/" target="_blank">
-                    <img id="topWapBtn" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/img/3d6e2-8961.gif" alt="WAP手机版" style="margin:5px 0 0 4px;cursor:pointer;float:right;" /></a>
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/culture/img/01bb4-2415.gif" alt="RSS订阅" style="margin:6px 0 0 4px;cursor:pointer;float:right;" onclick="OpenPopup('rss');" />
+                    <img id="topWapBtn" src="{{$commonAssetUrl}}/culture/img/3d6e2-8961.gif" alt="WAP手机版" style="margin:5px 0 0 4px;cursor:pointer;float:right;" /></a>
+                <img src="{{$commonAssetUrl}}/culture/img/01bb4-2415.gif" alt="RSS订阅" style="margin:6px 0 0 4px;cursor:pointer;float:right;" onclick="OpenPopup('rss');" />
                 <span onclick="AddFavorite(document.location.href,document.title);" title="加入收藏" class="font1_2d pointer">加入收藏</span>&nbsp;
                 <span id="setHomeA" onclick="SetHome($id('setHomeA'),document.location.href);" title="设为首页" class="font1_2d pointer">设为首页</span></li>
         </ul>
@@ -61,7 +61,7 @@
     <ul>
         <li class="a">
             <a href='../'>
-                <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/img/d6ad2-7466.png' alt="书法欣赏" title="书法欣赏" /></a>
+                <img src='{{$commonAssetUrl}}/culture/img/d6ad2-7466.png' alt="书法欣赏" title="书法欣赏" /></a>
         </li>
         <li class="adClass b">
             <div class="ad1Style">
@@ -215,13 +215,13 @@
                                 <div class='a'>
                                     <div class='img'>
                                         <a href='../news/15659.html' class='font1_1' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/3ef48-1071.jpg' alt="清末著名书法家许锷小楷《倪文贞公传》" title="清末著名书法家许锷小楷《倪文贞公传》" onerror="if(this.value!='1'){this.value='1';this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';}" /></a>
+                                            <img src='{{$commonAssetUrl}}/culture/m/img/3ef48-1071.jpg' alt="清末著名书法家许锷小楷《倪文贞公传》" title="清末著名书法家许锷小楷《倪文贞公传》" onerror="if(this.value!='1'){this.value='1';this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';}" /></a>
                                     </div>
                                 </div>
                                 <div class='b'>
                                     <h4>
                                         <a href='../news/15659.html' class='font1_1' style='' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />清末著名书法家许锷小楷《倪文贞公传》</a></h4>
+                                            <img src='{{$commonAssetUrl}}/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />清末著名书法家许锷小楷《倪文贞公传》</a></h4>
                                     <div class='clear'></div>
                                     <div class='note'>许锷小楷《倪文贞公传》，来源：倪元璐花卉图卷后题跋，弗利尔美术馆收藏。许锷，字达夫，号颖叔、瓢隐居士，室名诗可楼，苏州人。工诗，豪饮，尤善楷书。书法学王文治，清末著名书法家，学者。著有《西湖棹歌百首》等。 ...&nbsp;
                                         <a href='../news/15659.html' class='font2_2' target='_blank'>阅读全文&gt;&gt;</a></div>
@@ -236,13 +236,13 @@
                                 <div class='a'>
                                     <div class='img'>
                                         <a href='../news/15585.html' class='font1_1' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/fa98e-5545.jpg' alt="“防控疫情·万众一心”主题书法网络展" title="“防控疫情·万众一心”主题书法网络展" onerror="if(this.value!='1'){this.value='1';this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';}" /></a>
+                                            <img src='{{$commonAssetUrl}}/culture/m/img/fa98e-5545.jpg' alt="“防控疫情·万众一心”主题书法网络展" title="“防控疫情·万众一心”主题书法网络展" onerror="if(this.value!='1'){this.value='1';this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';}" /></a>
                                     </div>
                                 </div>
                                 <div class='b'>
                                     <h4>
                                         <a href='../news/15585.html' class='font1_1' style='' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />“防控疫情·万众一心”主题书法网络展</a></h4>
+                                            <img src='{{$commonAssetUrl}}/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />“防控疫情·万众一心”主题书法网络展</a></h4>
                                     <div class='clear'></div>
                                     <div class='note'>“武汉疫情”牵动了全国人民的心，党中央高度重视。为贯彻落实习近平总书记的重要指示精神，按照中国文联关于要用文艺的方式加强疫情防控的正面宣传、鼓舞群众斗志、凝聚强大正能量的要求，根据中国书法家协会的统一部署，中国书法出版传媒有限责任公司及书法出版社有限公司、《中国书法报》社、《中国...&nbsp;
                                         <a href='../news/15585.html' class='font2_2' target='_blank'>阅读全文&gt;&gt;</a></div>
@@ -257,13 +257,13 @@
                                 <div class='a'>
                                     <div class='img'>
                                         <a href='../news/15554.html' class='font1_1' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/35421-4778.jpg' alt="第三届全国册页书法展入展作品选刊" title="第三届全国册页书法展入展作品选刊" onerror="if(this.value!='1'){this.value='1';this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';}" /></a>
+                                            <img src='{{$commonAssetUrl}}/culture/m/img/35421-4778.jpg' alt="第三届全国册页书法展入展作品选刊" title="第三届全国册页书法展入展作品选刊" onerror="if(this.value!='1'){this.value='1';this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';}" /></a>
                                     </div>
                                 </div>
                                 <div class='b'>
                                     <h4>
                                         <a href='../news/15554.html' class='font1_1' style='' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />第三届全国册页书法展入展作品选刊</a></h4>
+                                            <img src='{{$commonAssetUrl}}/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />第三届全国册页书法展入展作品选刊</a></h4>
                                     <div class='clear'></div>
                                     <div class='note'>第三届全国册页书法展共收到9497件投稿作品，全国第三届册页书法作品展入展名单公示期间，中国书协对部分入展作者进行了抽查面试。经考核，有1名作者未通过面试考核，1名作者未参加面试。共有267名作者正式入展。陈超勇《草书册》陈阳静《行书册》李德会《词品五则》黄显霖《孝经》...&nbsp;
                                         <a href='../news/15554.html' class='font2_2' target='_blank'>阅读全文&gt;&gt;</a></div>
@@ -278,13 +278,13 @@
                                 <div class='a'>
                                     <div class='img'>
                                         <a href='../news/15506.html' class='font1_1' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/1159e-3811.jpg' alt="“景行维贤·启功作品展”字画欣赏" title="“景行维贤·启功作品展”字画欣赏" onerror="if(this.value!='1'){this.value='1';this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';}" /></a>
+                                            <img src='{{$commonAssetUrl}}/culture/m/img/1159e-3811.jpg' alt="“景行维贤·启功作品展”字画欣赏" title="“景行维贤·启功作品展”字画欣赏" onerror="if(this.value!='1'){this.value='1';this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';}" /></a>
                                     </div>
                                 </div>
                                 <div class='b'>
                                     <h4>
                                         <a href='../news/15506.html' class='font1_1' style='' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />“景行维贤·启功作品展”字画欣赏</a></h4>
+                                            <img src='{{$commonAssetUrl}}/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />“景行维贤·启功作品展”字画欣赏</a></h4>
                                     <div class='clear'></div>
                                     <div class='note'>“景行维贤·启功作品展”北京荣宝拍卖有限公司主办 展览时间2019年11月15日—19日（9:00—17:00）展览地点荣宝斋大厦二层 多功能厅（北京市西城区琉璃厂西街19号） 启功行书“振兴中华”70×178.5cm启功85岁 米家云山图，设色纸本，1938年作，128×58...&nbsp;
                                         <a href='../news/15506.html' class='font2_2' target='_blank'>阅读全文&gt;&gt;</a></div>
@@ -299,13 +299,13 @@
                                 <div class='a'>
                                     <div class='img'>
                                         <a href='../news/15468.html' class='font1_1' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/8f716-6775.jpg' alt="沈尹默行书诗轴8幅故宫博物院藏" title="沈尹默行书诗轴8幅故宫博物院藏" onerror="if(this.value!='1'){this.value='1';this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';}" /></a>
+                                            <img src='{{$commonAssetUrl}}/culture/m/img/8f716-6775.jpg' alt="沈尹默行书诗轴8幅故宫博物院藏" title="沈尹默行书诗轴8幅故宫博物院藏" onerror="if(this.value!='1'){this.value='1';this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';}" /></a>
                                     </div>
                                 </div>
                                 <div class='b'>
                                     <h4>
                                         <a href='../news/15468.html' class='font1_1' style='' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />沈尹默行书诗轴8幅故宫博物院藏</a></h4>
+                                            <img src='{{$commonAssetUrl}}/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />沈尹默行书诗轴8幅故宫博物院藏</a></h4>
                                     <div class='clear'></div>
                                     <div class='note'>沈尹默行书诗轴8幅，北京故宫博物院藏。沈尹默（1883－1971），原名君默，字中、秋明，号君墨，别号鬼谷子，浙江湖州人，著名的学者、诗人、书法家、教育家。沈尹默是以学帖出名的。其实，他在碑上也下了苦功。近50岁时致力于行草书，从米南宫而释智永，而虞世南，而褚遂良，再上溯二王。又...&nbsp;
                                         <a href='../news/15468.html' class='font2_2' target='_blank'>阅读全文&gt;&gt;</a></div>
@@ -320,13 +320,13 @@
                                 <div class='a'>
                                     <div class='img'>
                                         <a href='../news/15466.html' class='font1_1' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/ebd5f-7216.jpg' alt="名家马衡4体书法作品欣赏" title="名家马衡4体书法作品欣赏" onerror="if(this.value!='1'){this.value='1';this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';}" /></a>
+                                            <img src='{{$commonAssetUrl}}/culture/m/img/ebd5f-7216.jpg' alt="名家马衡4体书法作品欣赏" title="名家马衡4体书法作品欣赏" onerror="if(this.value!='1'){this.value='1';this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';}" /></a>
                                     </div>
                                 </div>
                                 <div class='b'>
                                     <h4>
                                         <a href='../news/15466.html' class='font1_1' style='' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />名家马衡4体书法作品欣赏</a></h4>
+                                            <img src='{{$commonAssetUrl}}/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />名家马衡4体书法作品欣赏</a></h4>
                                     <div class='clear'></div>
                                     <div class='note'>马衡（1881～1955），字叔平，别署鍴庐、凡将斋，浙江鄞县人，寓居北京。早年曾任北京大学研究所国学考古学研究室主任，故宫博物院成立后任古物馆副馆长，1933年任故宫博物院院长。1947年当选为西泠印社第二任社长。 马衡行楷五律诗轴，故宫博物院藏。 马衡隶书录世说新语轴，故宫博...&nbsp;
                                         <a href='../news/15466.html' class='font2_2' target='_blank'>阅读全文&gt;&gt;</a></div>
@@ -341,13 +341,13 @@
                                 <div class='a'>
                                     <div class='img'>
                                         <a href='../news/15427.html' class='font1_1' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/e90e1-1585.jpg' alt="首届“中国书法大厦杯”特等奖作品" title="首届“中国书法大厦杯”特等奖作品" onerror="if(this.value!='1'){this.value='1';this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';}" /></a>
+                                            <img src='{{$commonAssetUrl}}/culture/m/img/e90e1-1585.jpg' alt="首届“中国书法大厦杯”特等奖作品" title="首届“中国书法大厦杯”特等奖作品" onerror="if(this.value!='1'){this.value='1';this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';}" /></a>
                                     </div>
                                 </div>
                                 <div class='b'>
                                     <h4>
                                         <a href='../news/15427.html' class='font1_1' style='' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />首届“中国书法大厦杯”特等奖作品</a></h4>
+                                            <img src='{{$commonAssetUrl}}/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />首届“中国书法大厦杯”特等奖作品</a></h4>
                                     <div class='clear'></div>
                                     <div class='note'>首届“中国书法大厦杯”书法大奖赛特等奖作品（奖金50万元/人） 纪松草书中堂 （局部） 颉江泊行书东坡中堂 （局部） 尚湘原楷书中堂 （局部） 刘永清印屏 （局部）...&nbsp;
                                         <a href='../news/15427.html' class='font2_2' target='_blank'>阅读全文&gt;&gt;</a></div>
@@ -362,13 +362,13 @@
                                 <div class='a'>
                                     <div class='img'>
                                         <a href='../news/15343.html' class='font1_1' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/e2ce2-4182.jpg' alt="陈宝琛书法作品欣赏（西泠拍品六幅）" title="陈宝琛书法作品欣赏（西泠拍品六幅）" onerror="if(this.value!='1'){this.value='1';this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';}" /></a>
+                                            <img src='{{$commonAssetUrl}}/culture/m/img/e2ce2-4182.jpg' alt="陈宝琛书法作品欣赏（西泠拍品六幅）" title="陈宝琛书法作品欣赏（西泠拍品六幅）" onerror="if(this.value!='1'){this.value='1';this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';}" /></a>
                                     </div>
                                 </div>
                                 <div class='b'>
                                     <h4>
                                         <a href='../news/15343.html' class='font1_1' style='' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />陈宝琛书法作品欣赏（西泠拍品六幅）</a></h4>
+                                            <img src='{{$commonAssetUrl}}/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />陈宝琛书法作品欣赏（西泠拍品六幅）</a></h4>
                                     <div class='clear'></div>
                                     <div class='note'>陈宝琛（1848～1935），字伯潜，一字伯泉，号弢庵、陶庵，福建闽侯人。同治七年（1868）进士，授编修。历官江西学政、内阁学士、山西巡抚等，宣统帝（溥仪）师傅、弼徳院顾问大臣。工书法，学黄庭坚，又擅画松。...&nbsp;
                                         <a href='../news/15343.html' class='font2_2' target='_blank'>阅读全文&gt;&gt;</a></div>
@@ -383,13 +383,13 @@
                                 <div class='a'>
                                     <div class='img'>
                                         <a href='../news/15298.html' class='font1_1' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/853de-5927.jpg' alt="2019启功作品展书法选刊" title="2019启功作品展书法选刊" onerror="if(this.value!='1'){this.value='1';this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';}" /></a>
+                                            <img src='{{$commonAssetUrl}}/culture/m/img/853de-5927.jpg' alt="2019启功作品展书法选刊" title="2019启功作品展书法选刊" onerror="if(this.value!='1'){this.value='1';this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';}" /></a>
                                     </div>
                                 </div>
                                 <div class='b'>
                                     <h4>
                                         <a href='../news/15298.html' class='font1_1' style='' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />2019启功作品展书法选刊</a></h4>
+                                            <img src='{{$commonAssetUrl}}/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />2019启功作品展书法选刊</a></h4>
                                     <div class='clear'></div>
                                     <div class='note'>“景行维贤·启功作品展”书法作品选刊，来源：北京荣宝斋拍卖有限公司。 启功行书 “欲聋洞”，36cm×68.5cm 启功行书论诗绝句，102cm×34cm。 启功行书杜甫诗轴，132cm×65cm。启功行书自作书一首，1998年作。启功行书吴骏公句，93×30cm。启功行书自作诗一...&nbsp;
                                         <a href='../news/15298.html' class='font2_2' target='_blank'>阅读全文&gt;&gt;</a></div>
@@ -404,13 +404,13 @@
                                 <div class='a'>
                                     <div class='img'>
                                         <a href='../news/15267.html' class='font1_1' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/fd96f-5972.jpg' alt="2019中日书法名家交流展作品选刊" title="2019中日书法名家交流展作品选刊" onerror="if(this.value!='1'){this.value='1';this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';}" /></a>
+                                            <img src='{{$commonAssetUrl}}/culture/m/img/fd96f-5972.jpg' alt="2019中日书法名家交流展作品选刊" title="2019中日书法名家交流展作品选刊" onerror="if(this.value!='1'){this.value='1';this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';}" /></a>
                                     </div>
                                 </div>
                                 <div class='b'>
                                     <h4>
                                         <a href='../news/15267.html' class='font1_1' style='' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />2019中日书法名家交流展作品选刊</a></h4>
+                                            <img src='{{$commonAssetUrl}}/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />2019中日书法名家交流展作品选刊</a></h4>
                                     <div class='clear'></div>
                                     <div class='note'>2019年5月8日，由中国国家画院书法篆刻院、《中国美术报》社和（公财）日本全国书美术振兴会、（公社）日本全国道连盟、日本美术新闻社联合主办的“中日书法名家交流展（2019东京展）”，在日本东京芸术剧场举行，共展出中国和日本69位书法家共计70余幅作品。 欧阳中石 谢云 孙伯翔 ...&nbsp;
                                         <a href='../news/15267.html' class='font2_2' target='_blank'>阅读全文&gt;&gt;</a></div>
@@ -425,13 +425,13 @@
                                 <div class='a'>
                                     <div class='img'>
                                         <a href='../news/15228.html' class='font1_1' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/12ff3-5836.jpg' alt="状元陆润庠书法西泠印社拍品专辑" title="状元陆润庠书法西泠印社拍品专辑" onerror="if(this.value!='1'){this.value='1';this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';}" /></a>
+                                            <img src='{{$commonAssetUrl}}/culture/m/img/12ff3-5836.jpg' alt="状元陆润庠书法西泠印社拍品专辑" title="状元陆润庠书法西泠印社拍品专辑" onerror="if(this.value!='1'){this.value='1';this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';}" /></a>
                                     </div>
                                 </div>
                                 <div class='b'>
                                     <h4>
                                         <a href='../news/15228.html' class='font1_1' style='' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />状元陆润庠书法西泠印社拍品专辑</a></h4>
+                                            <img src='{{$commonAssetUrl}}/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />状元陆润庠书法西泠印社拍品专辑</a></h4>
                                     <div class='clear'></div>
                                     <div class='note'>陆润庠书法拍品专辑，来源：西泠印社拍卖会陆润庠（1841～1915），字云洒，又字凤石，别号固叟，江苏苏州人。工书法，意近欧、虞。同治十三年状元，歴任国子监祭酒、内阁学士、吏部尚书、东阁大学士等职。辛亥革命后为溥仪师傅。 陆润庠行书五言诗洒金扇页，19×53.5cm，成交价RMB...&nbsp;
                                         <a href='../news/15228.html' class='font2_2' target='_blank'>阅读全文&gt;&gt;</a></div>
@@ -446,13 +446,13 @@
                                 <div class='a'>
                                     <div class='img'>
                                         <a href='../news/15193.html' class='font1_1' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/77a42-1256.jpg' alt="书之大者--杨守敬书法艺术展" title="书之大者--杨守敬书法艺术展" onerror="if(this.value!='1'){this.value='1';this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';}" /></a>
+                                            <img src='{{$commonAssetUrl}}/culture/m/img/77a42-1256.jpg' alt="书之大者--杨守敬书法艺术展" title="书之大者--杨守敬书法艺术展" onerror="if(this.value!='1'){this.value='1';this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';}" /></a>
                                     </div>
                                 </div>
                                 <div class='b'>
                                     <h4>
                                         <a href='../news/15193.html' class='font1_1' style='' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />书之大者--杨守敬书法艺术展</a></h4>
+                                            <img src='{{$commonAssetUrl}}/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />书之大者--杨守敬书法艺术展</a></h4>
                                     <div class='clear'></div>
                                     <div class='note'>2月26日，由湖北省博物馆与武汉美术馆联合主办的“书之大者——杨守敬的书法艺术”，在武汉美术馆盛大开幕。本次展览展出杨守敬各个时期的书法作品40件，及吴昌硕、张之洞、张裕钊等杨守敬友人的作品5件。 杨守敬（1839—1915），出生在湖北宜都，晚年自号邻苏老人。杨守敬是清末民初非...&nbsp;
                                         <a href='../news/15193.html' class='font2_2' target='_blank'>阅读全文&gt;&gt;</a></div>
@@ -468,13 +468,13 @@
                                 <div class='a'>
                                     <div class='img'>
                                         <a href='../news/15142.html' class='font1_1' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/ccd6e-4881.jpg' alt="贾景德颜体楷书作品欣赏" title="贾景德颜体楷书作品欣赏" onerror="if(this.value!='1'){this.value='1';this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';}" /></a>
+                                            <img src='{{$commonAssetUrl}}/culture/m/img/ccd6e-4881.jpg' alt="贾景德颜体楷书作品欣赏" title="贾景德颜体楷书作品欣赏" onerror="if(this.value!='1'){this.value='1';this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';}" /></a>
                                     </div>
                                 </div>
                                 <div class='b'>
                                     <h4>
                                         <a href='../news/15142.html' class='font1_1' style='' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />贾景德颜体楷书作品欣赏</a></h4>
+                                            <img src='{{$commonAssetUrl}}/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />贾景德颜体楷书作品欣赏</a></h4>
                                     <div class='clear'></div>
                                     <div class='note'>贾景德（1880—1960），字煜如，号韬园。山西晋城市沁水县人。阎锡山与袁世凯合作的牵线人，中原大战晋绥系高层唯一的支持者，阎锡山永远的秘书长，最后的送葬人。贾景德的书法，与当年的于右任、梁寒操、计子高，曾被称誉为&quot;中国书法四大名家&quot;。书法界认为他的字...&nbsp;
                                         <a href='../news/15142.html' class='font2_2' target='_blank'>阅读全文&gt;&gt;</a></div>
@@ -490,13 +490,13 @@
                                 <div class='a'>
                                     <div class='img'>
                                         <a href='../news/15108.html' class='font1_1' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/d31fe-3584.jpg' alt="“品翰堂杯”第五届中国硬笔书法公开赛获奖作品欣赏" title="“品翰堂杯”第五届中国硬笔书法公开赛获奖作品欣赏" onerror="if(this.value!='1'){this.value='1';this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';}" /></a>
+                                            <img src='{{$commonAssetUrl}}/culture/m/img/d31fe-3584.jpg' alt="“品翰堂杯”第五届中国硬笔书法公开赛获奖作品欣赏" title="“品翰堂杯”第五届中国硬笔书法公开赛获奖作品欣赏" onerror="if(this.value!='1'){this.value='1';this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';}" /></a>
                                     </div>
                                 </div>
                                 <div class='b'>
                                     <h4>
                                         <a href='../news/15108.html' class='font1_1' style='' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />“品翰堂杯”第五届中国硬笔书法公开赛获奖作品欣赏</a></h4>
+                                            <img src='{{$commonAssetUrl}}/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />“品翰堂杯”第五届中国硬笔书法公开赛获奖作品欣赏</a></h4>
                                     <div class='clear'></div>
                                     <div class='note'>“品翰堂杯”第五届中国硬笔书法公开赛获奖作品欣赏（成人组）特等奖 刘振林 于声（女） 吴钢 金海东 卓祖毅金奖 郑发文 方义杰 夏勇 马国峰 赖敬槐 杨铁成 赵占强 杨响 潘伟 谭立军银奖 杨静 陈松 刘良谋 花爱军 雷鹏飞 徐秀康 赵卫星 蔚陆军 游章林 刘旭山 黄厚桦 杨连双...&nbsp;
                                         <a href='../news/15108.html' class='font2_2' target='_blank'>阅读全文&gt;&gt;</a></div>
@@ -511,13 +511,13 @@
                                 <div class='a'>
                                     <div class='img'>
                                         <a href='../news/15090.html' class='font1_1' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/caf57-6408.jpg' alt="赵朴初书法墨迹拍品专辑" title="赵朴初书法墨迹拍品专辑" onerror="if(this.value!='1'){this.value='1';this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';}" /></a>
+                                            <img src='{{$commonAssetUrl}}/culture/m/img/caf57-6408.jpg' alt="赵朴初书法墨迹拍品专辑" title="赵朴初书法墨迹拍品专辑" onerror="if(this.value!='1'){this.value='1';this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';}" /></a>
                                     </div>
                                 </div>
                                 <div class='b'>
                                     <h4>
                                         <a href='../news/15090.html' class='font1_1' style='' target='_blank'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />赵朴初书法墨迹拍品专辑</a></h4>
+                                            <img src='{{$commonAssetUrl}}/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />赵朴初书法墨迹拍品专辑</a></h4>
                                     <div class='clear'></div>
                                     <div class='note'>赵朴初（1907-2000），安徽安庆人。自幼酷爱诗词书法，尔后从事佛教和社会救济工作。历任上海文化界救亡协会理事，中国人民保卫世界和平委员会常委、副主席，中国佛教协会会长，中国佛学院院长，中国藏语系高级佛学院顾问，西泠印社社长等职。 赵朴初书法墨迹6幅，来源：嘉德秋拍赵朴初手稿...&nbsp;
                                         <a href='../news/15090.html' class='font2_2' target='_blank'>阅读全文&gt;&gt;</a></div>
@@ -537,9 +537,9 @@
                                     <td>
                                         <div class='navBtn font1_2'>第1/103页&nbsp;&nbsp;每页15条,共1537条记录</div>
                                         <div class='navBtn'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/img/71d85-4775.gif' border='0' style='margin-top:5px;' alt='第一页' class='navBtnD' /></div>
+                                            <img src='{{$commonAssetUrl}}/culture/img/71d85-4775.gif' border='0' style='margin-top:5px;' alt='第一页' class='navBtnD' /></div>
                                         <div class='navBtn'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/img/0fb2c-1558.gif' border='0' style='margin-top:5px;' alt='上一页' /></div>
+                                            <img src='{{$commonAssetUrl}}/culture/img/0fb2c-1558.gif' border='0' style='margin-top:5px;' alt='上一页' /></div>
                                         <div class='navBtn fontNav2_2'>1</div>
                                         <a class='navBtnPointer fontNav_2' href='../news/list_5_2.html'>2</a>
                                         <a class='navBtnPointer fontNav_2' href='../news/list_5_3.html'>3</a>
@@ -548,9 +548,9 @@
                                         <a class='navBtnPointer fontNav_2' href='../news/list_5_6.html'>6</a>
                                         <a class='navBtnPointer fontNav_2' href='../news/list_5_7.html'>7</a>
                                         <a href='../news/list_5_2.html' class='navBtnPointer fontNav_2'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/img/5c95e-7059.gif' border='0' style='margin-top:5px;' alt='下一页' /></a>
+                                            <img src='{{$commonAssetUrl}}/culture/img/5c95e-7059.gif' border='0' style='margin-top:5px;' alt='下一页' /></a>
                                         <a href='../news/list_5_103.html' class='navBtnPointer fontNav_2'>
-                                            <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/img/3b56b-3493.gif' border='0' style='margin-top:5px;' alt='最后页' /></a>
+                                            <img src='{{$commonAssetUrl}}/culture/img/3b56b-3493.gif' border='0' style='margin-top:5px;' alt='最后页' /></a>
                                         <div class='navBtn'>
                                             <select onchange="if(this.value!=''){ListPageHref(this.value,'../news/list_5_[page].html');}" class='adClass'>
                                                 <option value=''></option>
@@ -702,7 +702,7 @@
                         <li>
                             <div class='img'>
                                 <a href='../news/9955.html' class='font1_2' target='_blank'>
-                                    <img src='<?= Yii::getAlias('@tasseturl'); ?>/culture/img/f0aaf-8859.jpg' onerror="if (this.value!='1'){this.value='1';this.src='<?= Yii::getAlias('@tasseturl'); ?>/culture/m/img/97a63-8488.gif';}" alt="优秀硬笔书法行书作品欣赏" width='70' height='90' /></a>
+                                    <img src='{{$commonAssetUrl}}/culture/img/f0aaf-8859.jpg' onerror="if (this.value!='1'){this.value='1';this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';}" alt="优秀硬笔书法行书作品欣赏" width='70' height='90' /></a>
                             </div>
                             <div class='info'>
                                 <div class='ft'>
@@ -879,7 +879,7 @@
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(bp, s);
     })();</script>
-<script language="javascript" type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/culture/js/top.js"></script>
+<script language="javascript" type="text/javascript" src="{{$commonAssetUrl}}/culture/js/top.js"></script>
 <script language='javascript' type='text/javascript'>JsWriteBottom();</script></body>
 
 </html>

@@ -25,15 +25,15 @@
             <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
             <title>狗狗大全_波奇宠物百科</title>
             <!-- build:css(.) styles/main.css -->
-            <link rel="stylesheet" href="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/css/2bd41-7171.css" />
+            <link rel="stylesheet" href="{{$commonAssetUrl}}/petcms/m/css/2bd41-7171.css" />
             <!--endbuild-->
             <!-- build:js scripts/vendor/modernizr.js -->
-            <script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/js/modernizr.js"></script>
+            <script src="{{$commonAssetUrl}}/petcms/m/js/modernizr.js"></script>
             <!-- endbuild --></head>
         
         <body>
             <div class="pupWindow">
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/9f795-4062.png" /></div>
+                <img src="{{$commonAssetUrl}}/petcms/m/img/9f795-4062.png" /></div>
             <div class="container mb">
                 <header>
                     <div class="header-left">
@@ -70,105 +70,105 @@
                         <ul class="pets_lists" id="pets_lists">
                             <li>
                                 <a href="http://m.boqii.com/entry/detail/347.html">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/29653-3424.jpg" alt="博美犬" style="width: 149px; height: 111.75px;">
+                                    <img src="{{$commonAssetUrl}}/petcms/m/img/29653-3424.jpg" alt="博美犬" style="width: 149px; height: 111.75px;">
                                     <p>
                                         <span>博美犬</span></p>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://m.boqii.com/entry/detail/368.html">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/fb5c3-3631.jpg" alt="比熊犬" style="width: 149px; height: 111.75px;">
+                                    <img src="{{$commonAssetUrl}}/petcms/m/img/fb5c3-3631.jpg" alt="比熊犬" style="width: 149px; height: 111.75px;">
                                     <p>
                                         <span>比熊犬</span></p>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://m.boqii.com/entry/detail/340.html">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/d154a-5252.jpg" alt="贵宾" style="width: 149px; height: 111.75px;">
+                                    <img src="{{$commonAssetUrl}}/petcms/m/img/d154a-5252.jpg" alt="贵宾" style="width: 149px; height: 111.75px;">
                                     <p>
                                         <span>贵宾</span></p>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://m.boqii.com/entry/detail/634.html">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/a9c51-9024.jpg" alt="巴哥犬" style="width: 149px; height: 111.75px;">
+                                    <img src="{{$commonAssetUrl}}/petcms/m/img/a9c51-9024.jpg" alt="巴哥犬" style="width: 149px; height: 111.75px;">
                                     <p>
                                         <span>巴哥犬</span></p>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://m.boqii.com/entry/detail/383.html">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/edad7-1404.jpg" alt="法国斗牛犬" style="width: 149px; height: 111.75px;">
+                                    <img src="{{$commonAssetUrl}}/petcms/m/img/edad7-1404.jpg" alt="法国斗牛犬" style="width: 149px; height: 111.75px;">
                                     <p>
                                         <span>法国斗牛犬</span></p>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://m.boqii.com/entry/detail/552.html">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/b9dcb-1924.jpg" alt="迷你牛头梗" style="width: 149px; height: 111.75px;">
+                                    <img src="{{$commonAssetUrl}}/petcms/m/img/b9dcb-1924.jpg" alt="迷你牛头梗" style="width: 149px; height: 111.75px;">
                                     <p>
                                         <span>迷你牛头梗</span></p>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://m.boqii.com/entry/detail/630.html">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/fa205-3022.jpg" alt="京巴犬" style="width: 149px; height: 111.75px;">
+                                    <img src="{{$commonAssetUrl}}/petcms/m/img/fa205-3022.jpg" alt="京巴犬" style="width: 149px; height: 111.75px;">
                                     <p>
                                         <span>京巴犬</span></p>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://m.boqii.com/entry/detail/455.html">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/ffccd-1263.jpg" alt="吉娃娃" style="width: 149px; height: 111.75px;">
+                                    <img src="{{$commonAssetUrl}}/petcms/m/img/ffccd-1263.jpg" alt="吉娃娃" style="width: 149px; height: 111.75px;">
                                     <p>
                                         <span>吉娃娃</span></p>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://m.boqii.com/entry/detail/460.html">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/71843-1500.jpg" alt="杰克罗素梗" style="width: 149px; height: 111.75px;">
+                                    <img src="{{$commonAssetUrl}}/petcms/m/img/71843-1500.jpg" alt="杰克罗素梗" style="width: 149px; height: 111.75px;">
                                     <p>
                                         <span>杰克罗素梗</span></p>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://m.boqii.com/entry/detail/406.html">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/a301d-2820.jpg" alt="中国冠毛犬" style="width: 149px; height: 111.75px;">
+                                    <img src="{{$commonAssetUrl}}/petcms/m/img/a301d-2820.jpg" alt="中国冠毛犬" style="width: 149px; height: 111.75px;">
                                     <p>
                                         <span>中国冠毛犬</span></p>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://m.boqii.com/entry/detail/467.html">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/1ca11-2654.jpg" alt="西施犬" style="width: 149px; height: 111.75px;">
+                                    <img src="{{$commonAssetUrl}}/petcms/m/img/1ca11-2654.jpg" alt="西施犬" style="width: 149px; height: 111.75px;">
                                     <p>
                                         <span>西施犬</span></p>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://m.boqii.com/entry/detail/681.html">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/f2b22-6708.jpg" alt="迷你雪纳瑞" style="width: 149px; height: 111.75px;">
+                                    <img src="{{$commonAssetUrl}}/petcms/m/img/f2b22-6708.jpg" alt="迷你雪纳瑞" style="width: 149px; height: 111.75px;">
                                     <p>
                                         <span>迷你雪纳瑞</span></p>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://m.boqii.com/entry/detail/450.html">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/0f7b3-8646.jpg" alt="蝴蝶犬" style="width: 149px; height: 111.75px;">
+                                    <img src="{{$commonAssetUrl}}/petcms/m/img/0f7b3-8646.jpg" alt="蝴蝶犬" style="width: 149px; height: 111.75px;">
                                     <p>
                                         <span>蝴蝶犬</span></p>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://m.boqii.com/entry/detail/626.html">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/fe40a-3294.jpg" alt="比格犬" style="width: 149px; height: 111.75px;">
+                                    <img src="{{$commonAssetUrl}}/petcms/m/img/fe40a-3294.jpg" alt="比格犬" style="width: 149px; height: 111.75px;">
                                     <p>
                                         <span>比格犬</span></p>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://m.boqii.com/entry/detail/337.html">
-                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/908b7-3695.jpg" alt="约克夏" style="width: 149px; height: 111.75px;">
+                                    <img src="{{$commonAssetUrl}}/petcms/m/img/908b7-3695.jpg" alt="约克夏" style="width: 149px; height: 111.75px;">
                                     <p>
                                         <span>约克夏</span></p>
                                 </a>
@@ -190,7 +190,7 @@
                     <div class="andriod_download_con clearfix">
                         <a href="javascript:;" class="close_andriod"></a>
                         <div class="left_side">
-                            <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/290fd-9149.png" alt="">
+                            <img src="{{$commonAssetUrl}}/petcms/m/img/290fd-9149.png" alt="">
                             <p>
                                 <i class="android_hint">下载波奇宠物APP</i>
                                 <br />新人立送290，首单再返330</p></div>
@@ -200,11 +200,11 @@
                 </div>
             </div>
             <!-- build:js scripts/main.js -->
-            <script data-main="/baike/Public/Js/pets" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/js/require.js"></script>
+            <script data-main="/baike/Public/Js/pets" src="{{$commonAssetUrl}}/petcms/m/js/require.js"></script>
             <!-- endbuild -->
             <script type="text/javascript">var cnzz_protocol03 = (("https:" == document.location.protocol) ? " https://": " http://");
                 document.write(unescape("%3Cspan style='display:none' id='cnzz_stat_icon_1264316807'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol03 + "s13.cnzz.com/z_stat.php%3Fid%3D1264316807' type='text/javascript'%3E%3C/script%3E"));</script>
-            <script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/js/bqstat.js"></script>
+            <script src="{{$commonAssetUrl}}/petcms/m/js/bqstat.js"></script>
         </body>
         
         </html>

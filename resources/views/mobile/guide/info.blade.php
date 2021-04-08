@@ -15,23 +15,23 @@
 <meta content="black" name="apple-mobile-web-app-status-bar-style" />
 <meta content="telephone=no" name="format-detection" />
 <meta name="applicable-device" content="mobile">
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/48832-7373.ico" rel="shortcut icon" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/30cdb-6621.css" type="text/css" rel="stylesheet" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/f1d79-1352.css" type="text/css" rel="stylesheet" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/3de29-2420.css" type="text/css" rel="stylesheet" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/2dc79-1378.css" type="text/css" rel="stylesheet" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/3abff-3494.css" type="text/css" rel="stylesheet" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/1f210-2154.css" type="text/css" rel="stylesheet" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/43def-5984.css" type="text/css" rel="stylesheet" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/04685-4408.css" type="text/css" rel="stylesheet" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/76ceb-5436.css" type="text/css" rel="stylesheet" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/a2aa6-9704.css" type="text/css" rel="stylesheet" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/79a2f-6185.css" type="text/css" rel="stylesheet" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/95e19-3221.css" type="text/css" rel="stylesheet" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/e8052-6126.css" type="text/css" rel="stylesheet" />
-<link href="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/css/18f19-3770.css" type="text/css" rel="stylesheet" />
-<style type="text/css">.pc #wrap .md_2039{ padding-top:80px;}.mobile #wrap .md_2039{ padding-top:60px;}.md_2039 .mod_title .fcolor {color:#43a886; font-size:64px;}.mobile .md_2039 .mod_title .fcolor{font-size:40px;}.md_2039 .mod_word .leftimg{ height: 100px; width: 68px; background: url(<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/3206b-1007.png) no-repeat; background-size: 68px 100px; margin-top: -50px; right:-40px} .md_2039 .mod_word .rightimg{ height: 100px; width: 68px; background: url(<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/bdd0b-3039.png) no-repeat; background-size: 68px 100px; margin-top: -50px; left:-40px}.mobile .md_2039 .mod_word .leftimg,.mobile .md_2039 .mod_word .rightimg{height: 50px; width: 34px;background-size: 34px 50px; margin-top: -24px; }.mobile .md_2039 .mod_word{ max-width:80%;padding:0px;}.md_6020 .md_desc{background:#f6f6f6;color:#888888;padding:30px;border-radius:12px;font-size:28px;line-height:1.7em}.md_6020{ margin-top:-40px;padding-bottom:0px;} .md_6020 .md_desc{ margin-top:60px;}.mobile .md_6020 .md_citiao_brandcategory{ margin-top:-10px;}.md_6020 .md_citiao_brand2{margin-top:-20px;}.md_3024{ margin-top:-10px;padding-bottom:0px;}.mobile .md_3024{ margin-top:-40px;}.mobile .md_6015{ margin-top:-40px;}</style>
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/jquery.min.js" type="text/javascript"></script>
+<link href="{{$commonAssetUrl}}/sguide/m/img/48832-7373.ico" rel="shortcut icon" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/30cdb-6621.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/f1d79-1352.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/3de29-2420.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/2dc79-1378.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/3abff-3494.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/1f210-2154.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/43def-5984.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/04685-4408.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/76ceb-5436.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/a2aa6-9704.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/79a2f-6185.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/95e19-3221.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/e8052-6126.css" type="text/css" rel="stylesheet" />
+<link href="{{$commonAssetUrl}}/sguide/m/css/18f19-3770.css" type="text/css" rel="stylesheet" />
+<style type="text/css">.pc #wrap .md_2039{ padding-top:80px;}.mobile #wrap .md_2039{ padding-top:60px;}.md_2039 .mod_title .fcolor {color:#43a886; font-size:64px;}.mobile .md_2039 .mod_title .fcolor{font-size:40px;}.md_2039 .mod_word .leftimg{ height: 100px; width: 68px; background: url({{$commonAssetUrl}}/sguide/m/img/3206b-1007.png) no-repeat; background-size: 68px 100px; margin-top: -50px; right:-40px} .md_2039 .mod_word .rightimg{ height: 100px; width: 68px; background: url({{$commonAssetUrl}}/sguide/m/img/bdd0b-3039.png) no-repeat; background-size: 68px 100px; margin-top: -50px; left:-40px}.mobile .md_2039 .mod_word .leftimg,.mobile .md_2039 .mod_word .rightimg{height: 50px; width: 34px;background-size: 34px 50px; margin-top: -24px; }.mobile .md_2039 .mod_word{ max-width:80%;padding:0px;}.md_6020 .md_desc{background:#f6f6f6;color:#888888;padding:30px;border-radius:12px;font-size:28px;line-height:1.7em}.md_6020{ margin-top:-40px;padding-bottom:0px;} .md_6020 .md_desc{ margin-top:60px;}.mobile .md_6020 .md_citiao_brandcategory{ margin-top:-10px;}.md_6020 .md_citiao_brand2{margin-top:-20px;}.md_3024{ margin-top:-10px;padding-bottom:0px;}.mobile .md_3024{ margin-top:-40px;}.mobile .md_6015{ margin-top:-40px;}</style>
+<script src="{{$commonAssetUrl}}/sguide/m/js/jquery.min.js" type="text/javascript"></script>
 </head>
 
 <body class="mobile ">
@@ -146,7 +146,7 @@
                 <a href="https://m.maigoo.com/news/list_797.html" class="color1">文具用品</a></div>
         </div>
         <div class="blockinfo articleshow nopadding " id="pos_articleinfo">
-            <div class="articlehead" style="background:url(<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/984ec-6369.png) 610px 0px no-repeat;">
+            <div class="articlehead" style="background:url({{$commonAssetUrl}}/sguide/m/img/984ec-6369.png) 610px 0px no-repeat;">
                 <h1 class="title font18 b c333 line15em">2021年粉笔十大品牌排行榜 无尘粉笔-彩色粉笔哪个牌子好用</h1>
                 <div class="qzoneinfo c999">
                     <span class="color1">MAIGOO编辑</span>&nbsp;上传提供 2020-12-23
@@ -575,7 +575,7 @@
                                                         <div class="libox">
                                                             <div class="imgbox">
                                                                 <a isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3D%2FaoCtATe98YcQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMcB77vO0eB7Ct4hWD5k2kjNQGJRg6iVmCsG9%2B3Bhuj2rh74dnMJXmKgyny9FmT8FF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJt4Q%2B%2FitoHOlHeLsxM6fyMFsIQXltp%2BrrB4a9TktjjmvI4HH1TXUzTevwZGJm0bDJ%2FomfkDJRs%2BhU%3D&union_lens=lensId:TAPI@1611298443@0b58a102_cf57_17728df105f_98fc@01">
-                                                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/cf662-1253.jpg" class="mod_img" /></a>
+                                                                    <img src="{{$commonAssetUrl}}/sguide/m/img/cf662-1253.jpg" class="mod_img" /></a>
                                                             </div>
                                                             <div class="desc">
                                                                 <div class="title line18em c333 font16">
@@ -598,7 +598,7 @@
                                                         <div class="libox">
                                                             <div class="imgbox">
                                                                 <a isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3DvkhJhDYMI%2B4cQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMcB77vO0eB7Ct4hWD5k2kjNQGJRg6iVmCsG9%2B3Bhuj2rh74dnMJXmKgyny9FmT8FF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJt4Q%2B%2FitoHOlHeLsxM6fyMFpGIEmxWGnkEJ5rGsHnrZ884HH1TXUzTevwZGJm0bDJ%2FomfkDJRs%2BhU%3D&union_lens=lensId:TAPI@1611298443@0b58a102_cf57_17728df105f_98fd@01">
-                                                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/8245e-3210.jpg" class="mod_img" /></a>
+                                                                    <img src="{{$commonAssetUrl}}/sguide/m/img/8245e-3210.jpg" class="mod_img" /></a>
                                                             </div>
                                                             <div class="desc">
                                                                 <div class="title line18em c333 font16">
@@ -621,7 +621,7 @@
                                                         <div class="libox">
                                                             <div class="imgbox">
                                                                 <a isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3D8Y%2BQ0c6NoOwcQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMW1eui1FuIKJ5x%2BIUlGKNpVQGJRg6iVmCsG9%2B3Bhuj2rh74dnMJXmKgyny9FmT8FF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJtXnmPwjhCE1zV4ce%2FS5Z31gNdzcFFug%2BbfV2pJ6KGMmhNBOVMR71stRZ0a4jVps56jtQwliZ4wWDGDmntuH4VtA%3D%3D&union_lens=lensId:TAPI@1609898585@0b0b182a_d88a_176d56eebaf_4c32@01">
-                                                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/6139f-7228.jpg" class="mod_img" /></a>
+                                                                    <img src="{{$commonAssetUrl}}/sguide/m/img/6139f-7228.jpg" class="mod_img" /></a>
                                                             </div>
                                                             <div class="desc">
                                                                 <div class="title line18em c333 font16">
@@ -644,7 +644,7 @@
                                                         <div class="libox">
                                                             <div class="imgbox">
                                                                 <a isconvert=1 href="https://s.click.taobao.com/t?e=m%3D2%26s%3D9DjsGKXm4CQcQipKwQzePOeEDrYVVa64yK8Cckff7TVRAdhuF14FMfEitHJRxfvAxq3IhSJN6GRQGJRg6iVmCsG9%2B3Bhuj2rh74dnMJXmKgyny9FmT8FF%2B%2FBas0tvb4eZz42eVlqqJTf1lozC%2BSXTPdFsh68tKJtY7WkdgGhQRWd%2FlCvIA0zKiHEdUBcCdgWEnBX5gnmEZ44ZYF0fKuDxBbqKVbTskvgIYULNg46oBA%3D&union_lens=lensId:TAPI@1598868084@0b17556a_0e5a_17443f6d529_28c5@01">
-                                                                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/d3ee0-5577.jpg" class="mod_img" /></a>
+                                                                    <img src="{{$commonAssetUrl}}/sguide/m/img/d3ee0-5577.jpg" class="mod_img" /></a>
                                                             </div>
                                                             <div class="desc">
                                                                 <div class="title line18em c333 font16">
@@ -698,49 +698,49 @@
                                                 <li class=" ">
                                                     <a class="fcolor" href="https://m.maigoo.com/maigoo/5143hb_index.html">
                                                         <div class="bg bg1">
-                                                            <img width="100" height="100" class="lazy" data-src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/d49f7-1936.png" /></div>
+                                                            <img width="100" height="100" class="lazy" data-src="{{$commonAssetUrl}}/sguide/m/img/d49f7-1936.png" /></div>
                                                         <div class="tcenter dhidden name font14 line18em c333">黑板</div></a>
                                                 </li>
                                                 <li class=" ">
                                                     <a class="fcolor" href="https://m.maigoo.com/maigoo/151wj_index.html">
                                                         <div class="bg bg2">
-                                                            <img width="100" height="100" class="lazy" data-src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/28c57-5852.png" /></div>
+                                                            <img width="100" height="100" class="lazy" data-src="{{$commonAssetUrl}}/sguide/m/img/28c57-5852.png" /></div>
                                                         <div class="tcenter dhidden name font14 line18em c333">文具用品</div></a>
                                                 </li>
                                                 <li class=" ">
                                                     <a class="fcolor" href="https://m.maigoo.com/maigoo/1015xxt_index.html">
                                                         <div class="bg bg3">
-                                                            <img width="100" height="100" class="lazy" data-src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/f6bb5-7692.png" /></div>
+                                                            <img width="100" height="100" class="lazy" data-src="{{$commonAssetUrl}}/sguide/m/img/f6bb5-7692.png" /></div>
                                                         <div class="tcenter dhidden name font14 line18em c333">学习桌</div></a>
                                                 </li>
                                                 <li class=" ">
                                                     <a class="fcolor" href="https://m.maigoo.com/maigoo/1040shub_index.html">
                                                         <div class="bg bg4">
-                                                            <img width="100" height="100" class="lazy" data-src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/d94ff-5661.png" /></div>
+                                                            <img width="100" height="100" class="lazy" data-src="{{$commonAssetUrl}}/sguide/m/img/d94ff-5661.png" /></div>
                                                         <div class="tcenter dhidden name font14 line18em c333">书包</div></a>
                                                 </li>
                                                 <li class=" ">
                                                     <a class="fcolor" href="https://m.maigoo.com/maigoo/4951xf_index.html">
                                                         <div class="bg bg5">
-                                                            <img width="100" height="100" class="lazy" data-src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/c9e2f-2450.png" /></div>
+                                                            <img width="100" height="100" class="lazy" data-src="{{$commonAssetUrl}}/sguide/m/img/c9e2f-2450.png" /></div>
                                                         <div class="tcenter dhidden name font14 line18em c333">校服</div></a>
                                                 </li>
                                                 <li class=" ">
                                                     <a class="fcolor" href="https://m.maigoo.com/maigoo/5108qb_index.html">
                                                         <div class="bg bg6">
-                                                            <img width="100" height="100" class="lazy" data-src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/ca5e8-4245.png" /></div>
+                                                            <img width="100" height="100" class="lazy" data-src="{{$commonAssetUrl}}/sguide/m/img/ca5e8-4245.png" /></div>
                                                         <div class="tcenter dhidden name font14 line18em c333">铅笔</div></a>
                                                 </li>
                                                 <li class=" ">
                                                     <a class="fcolor" href="https://m.maigoo.com/maigoo/6923kzy_index.html">
                                                         <div class="bg bg7">
-                                                            <img width="100" height="100" class="lazy" data-src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/8ca56-5866.png" /></div>
+                                                            <img width="100" height="100" class="lazy" data-src="{{$commonAssetUrl}}/sguide/m/img/8ca56-5866.png" /></div>
                                                         <div class="tcenter dhidden name font14 line18em c333">课桌椅</div></a>
                                                 </li>
                                                 <li class=" ">
                                                     <a class="fcolor" href="https://m.maigoo.com/maigoo/7145scb_index.html">
                                                         <div class="bg bg8">
-                                                            <img width="100" height="100" class="lazy" data-src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/d8f2a-1172.png" /></div>
+                                                            <img width="100" height="100" class="lazy" data-src="{{$commonAssetUrl}}/sguide/m/img/d8f2a-1172.png" /></div>
                                                         <div class="tcenter dhidden name font14 line18em c333">水彩笔</div></a>
                                                 </li>
                                             </ul>
@@ -771,7 +771,7 @@
                     <a class="color1" href="javascript:;" onclick="window.open('https://m.maigoo.com/answer/355.html');">投诉侵权>></a></div>
             </div>
             <div class="moremzsm">
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/dec8c-3557.gif" onclick="$('#mzsmcontent').find('.mzsm').css('height','auto');$(this).parent().remove();" /></div>
+                <img src="{{$commonAssetUrl}}/sguide/m/img/dec8c-3557.gif" onclick="$('#mzsmcontent').find('.mzsm').css('height','auto');$(this).parent().remove();" /></div>
         </div>
         <div class="articlepraise bottombd" id="articlepraise">
             <!--点赞-->
@@ -829,7 +829,7 @@
                     <div class="ibox">
                         <div class="img ">
                             <a href="https://m.maigoo.com/goomai/203375.html">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/d2024-3949.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/d2024-3949.jpg" /></a>
                         </div>
                         <div class="contbox">
                             <a class="title font15 color2 dhidden2" href="https://m.maigoo.com/goomai/203375.html">
@@ -848,7 +848,7 @@
                     <div class="ibox">
                         <div class="img ">
                             <a href="https://m.maigoo.com/goomai/236645.html">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/f4e12-5382.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/f4e12-5382.jpg" /></a>
                         </div>
                         <div class="contbox">
                             <a class="title font15 color2 dhidden2" href="https://m.maigoo.com/goomai/236645.html">
@@ -866,7 +866,7 @@
                     <div class="ibox">
                         <div class="img ">
                             <a href="https://m.maigoo.com/goomai/203334.html">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/29eb6-6942.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/29eb6-6942.jpg" /></a>
                         </div>
                         <div class="contbox">
                             <a class="title font15 color2 dhidden2" href="https://m.maigoo.com/goomai/203334.html">
@@ -885,7 +885,7 @@
                     <div class="ibox">
                         <div class="img ">
                             <a href="https://m.maigoo.com/goomai/220360.html">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/1a66c-7650.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/1a66c-7650.jpg" /></a>
                         </div>
                         <div class="contbox">
                             <a class="title font15 color2 dhidden2" href="https://m.maigoo.com/goomai/220360.html">
@@ -903,7 +903,7 @@
                     <div class="ibox">
                         <div class="img ">
                             <a href="https://m.maigoo.com/goomai/236695.html">
-                                <img src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/img/d87f3-1925.jpg" /></a>
+                                <img src="{{$commonAssetUrl}}/sguide/m/img/d87f3-1925.jpg" /></a>
                         </div>
                         <div class="contbox">
                             <a class="title font15 color2 dhidden2" href="https://m.maigoo.com/goomai/236695.html">
@@ -931,7 +931,7 @@
     </div>
 </div>
 <div class="ads">
-    <script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/v.js"></script>
+    <script type="text/javascript" src="{{$commonAssetUrl}}/sguide/m/js/v.js"></script>
     </script>
 </div>
 <footer>
@@ -991,11 +991,11 @@
     test = 'show',
     issm = '';
     var authorpiclist = [];</script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/jquery.cookie.min.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/public.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/6025.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/6020p.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/sguide/m/js/news_show_06e72af3f229f7e99a13c69f6d683bb1.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/sguide/m/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/sguide/m/js/public.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/sguide/m/js/6025.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/sguide/m/js/6020p.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/sguide/m/js/news_show_06e72af3f229f7e99a13c69f6d683bb1.js"></script>
 <script>var _hmt = _hmt || []; (function() {
         var hm = document.createElement("script");
         hm.src = "https://hm.baidu.com/hm.js?882d151476ece2b55af12abf0af8572c";

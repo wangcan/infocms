@@ -6,21 +6,21 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="edge" />
 <meta name="applicable-device" content="pc" />
-<link rel="shortcut icon" href="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/ab561-6001.ico" />
+<link rel="shortcut icon" href="{{$commonAssetUrl}}/petcms/img/ab561-6001.ico" />
 <!--头部开始-->
 <meta name="keywords" content="狗狗寄生虫 狗狗饲养 狗狗 驱虫 波奇百科" />
 <meta name="description" content="为狗狗做好驱虫工作不只是为了防止某些寄生虫对我们的健康造成影响，更主要的是因为寄生虫对于狗狗的危害来的更大，而且寄生虫不仅本身会对狗狗的健康造成一定的影响，而且还会因此而衍生出其它的一些疾病。所以定期做好驱虫工作不仅能够减少寄生虫对狗狗带来的影响，也能防止其它众多疾病的发生。" />
 <title>犬体外寄生虫会诱发出哪些疾病|狗狗常见病-波奇网百科大全</title>
 <link rel="stylesheet" type="text/css" href="//a.boqiicdn.com/Js1/min/?f=/Css/baikenew/common.css,/Css/baikenew/style.css,/Css/baikenew/subList.css" />
 <!--[if lt IE 9]>
-    <script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/respond.min.js"></script>
+    <script src="{{$commonAssetUrl}}/petcms/js/respond.min.js"></script>
     <link href="//a.boqiicdn.com/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
-    <link href="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/1325b-8180.gif" id="respond-redirect" rel="respond-redirect" />
-    <script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/respond.proxy.js"></script>
+    <link href="{{$commonAssetUrl}}/petcms/img/1325b-8180.gif" id="respond-redirect" rel="respond-redirect" />
+    <script src="{{$commonAssetUrl}}/petcms/js/respond.proxy.js"></script>
 <![endif]-->
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/jquery.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/boqii.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/boqii.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/petcms/js/jquery.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/petcms/js/boqii.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/petcms/js/boqii.js"></script>
 <!--头部结束--></head>
 
 <body>
@@ -43,7 +43,7 @@
         "shop_dir": "http://shop.boqii.com",
         "img_dir": "http://img.boqiicdn.com"
     };</script>
-<link rel="stylesheet" type="text/css" href="<?= Yii::getAlias('@tasseturl'); ?>/petcms/css/05527-2245.css" />
+<link rel="stylesheet" type="text/css" href="{{$commonAssetUrl}}/petcms/css/05527-2245.css" />
 <div id="toolbar">
     <div class="toolbar_auto">
         <ul class="toolbar_left left">
@@ -59,13 +59,13 @@
         <ul class="toolbar_right right"></ul>
     </div>
 </div>
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/public_toolbar_baike.js"></script>
+<script src="{{$commonAssetUrl}}/petcms/js/public_toolbar_baike.js"></script>
 <!--顶部开始-->
 <div id="header">
     <div class="top_auto">
         <div class="logo">
             <a href="http://www.boqii.com/baike">
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/c7eff-4452.png" alt="宠物百科" title="宠物百科" /></a>
+                <img src="{{$commonAssetUrl}}/petcms/img/c7eff-4452.png" alt="宠物百科" title="宠物百科" /></a>
         </div>
         <div class="top_search left">
             <form id="search_form" method="get" action="http://i.boqii.com/search">
@@ -75,7 +75,7 @@
         </div>
         <div class="top_ad right">
             <a href="http://vet.boqii.com/?utm_source=baik-cg" target="_blank">
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/52f3b-7661.jpg" /></a>
+                <img src="{{$commonAssetUrl}}/petcms/img/52f3b-7661.jpg" /></a>
         </div>
     </div>
 </div>
@@ -426,7 +426,7 @@
             <div class="leftside left">
                 <div class="article_top">
                     <div class="article_top_img">
-                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/c1116-8493.jpg" /></div>
+                        <img src="{{$commonAssetUrl}}/petcms/img/c1116-8493.jpg" /></div>
                     <div class="like" id="like" val="22357"></div>
                 </div>
                 <div class="leftside_body">
@@ -445,7 +445,7 @@
                     <div class="article_body" onselect="document.selection.empty();" oncontextmenu="return false" oncontextmenu="return false" onselectstart="return false" ondrag="return false">
                         <p style="text-align:center">
                             <span class="replace_title">
-                                <img ptype="1" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/d073a-9721.jpg" border="0" hspace="0" vspace="0" alt="犬体外寄生虫会诱发出哪些疾病" title="犬体外寄生虫会诱发出哪些疾病" />
+                                <img ptype="1" src="{{$commonAssetUrl}}/petcms/m/img/d073a-9721.jpg" border="0" hspace="0" vspace="0" alt="犬体外寄生虫会诱发出哪些疾病" title="犬体外寄生虫会诱发出哪些疾病" />
                                 <br />做好狗狗驱虫工作</span></p>
                         <p style="text-indent:2em;">
                             <span>为狗狗做好驱虫工作不只是为了防止某些寄生虫对我们的健康造成影响，更主要的是因为寄生虫对于狗狗的
@@ -462,7 +462,7 @@
                                 <a href='http://www.boqii.com/tag/5806/' target='_blank' style='text-decoration:none;border-bottom:1px dotted #FE730C;'>症状</a>为呕吐、拉血痢、发烧、精神不振、食欲变差、身体逐渐虚弱、肌肉关节疼痛等等，但是这些临床症状并无特异性，无法由临床症状就诊断出来，同时这些症状也跟其它壁虱传播的传染病症症状很像，然而在很多时候，被犬肝簇虫感染后，并不会有临床症状表现出来，这些干扰的因素包括免疫系统的不健全、免疫性贫血、类固醇的使用、丝球体肾炎、严重的壁虱感染等，此外在某些年轻的狗狗也是如此，如果刚好又罹患爱利希体症，也会对病情造成研判上的干扰，所以，在血液抹片的检查就变得非常的重要了，因为从血液抹片中，可以看到白血球中有犬肝簇虫的配子体，这是非常重要的诊断依据。</span></p>
                         <p style="text-align:center">
                             <span class="replace_title">
-                                <img ptype="1" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/362c0-8870.jpg" border="0" hspace="0" vspace="0" alt="犬体外寄生虫会诱发出哪些疾病" title="犬体外寄生虫会诱发出哪些疾病" />
+                                <img ptype="1" src="{{$commonAssetUrl}}/petcms/m/img/362c0-8870.jpg" border="0" hspace="0" vspace="0" alt="犬体外寄生虫会诱发出哪些疾病" title="犬体外寄生虫会诱发出哪些疾病" />
                                 <br />尽量少往草丛等地玩耍，防止感染寄生虫</span></p>
                         <p style="text-indent:2em;">
                             <strong>
@@ -620,13 +620,13 @@
                     <span>1</span>人喜欢这篇文章</div>
                 <div class="like_cont">
                     <a href="http://i.boqii.com/u/14452463" target="_blank">
-                        <img alt="大黄" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/9a901-8873.jpg" title="大黄" /></a>
+                        <img alt="大黄" src="{{$commonAssetUrl}}/petcms/img/9a901-8873.jpg" title="大黄" /></a>
                 </div>
                 <!--喜欢文章结束-->
                 <!-- 广告位开始 -->
                 <div class="slogan-mAd">
                     <a href="http://shop.boqii.com/zhuanti/684.html?utm_source=baidu-seopc" target="_blank">
-                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/8cc74-7161.jpg" alt="" /></a>
+                        <img src="{{$commonAssetUrl}}/petcms/img/8cc74-7161.jpg" alt="" /></a>
                 </div>
                 <!-- 广告位结束 -->
                 <!--专家问答开始-->
@@ -672,11 +672,11 @@
                 <!-- 广告位开始 -->
                 <div class="slogan-sAd">
                     <a href="http://shop.boqii.com/zhuanti/1249.html" target="_blank">
-                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/c06c1-5801.jpg" alt="" /></a>
+                        <img src="{{$commonAssetUrl}}/petcms/img/c06c1-5801.jpg" alt="" /></a>
                 </div>
                 <div class="slogan-sAd">
                     <a href="http://vet.boqii.com/zhuanti/newuser.html?utm_source=baidu-seopc" target="_blank">
-                        <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/653f8-2654.jpg" alt="" /></a>
+                        <img src="{{$commonAssetUrl}}/petcms/img/653f8-2654.jpg" alt="" /></a>
                 </div>
                 <!-- 广告位结束 -->
                 <!--推荐文章开始-->
@@ -685,7 +685,7 @@
                 <div class="floatWchat">
                     <p>微信公众平台搜索“波奇网”
                         <br />或扫描下方二维码</p>
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/39069-1230.jpg" /></div>
+                    <img src="{{$commonAssetUrl}}/petcms/img/39069-1230.jpg" /></div>
             </div>
         </div>
         <!--文章详情结束-->
@@ -750,7 +750,7 @@
                 <a target="_blank" href="http://www.boqii.com/baike/news/">最新文章</a></p>
             <p class="beian">
                 <a class="police" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502004955">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/31ab7-5261.png" alt="">沪公网安备 31011502004955号</a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/31ab7-5261.png" alt="">沪公网安备 31011502004955号</a>
                 <span>|</span>
                 <a href="http://www.beian.miit.gov.cn/" target="_blank">沪ICP备13034501号-2</a>
                 <span>|</span>&nbsp;增值电信业务经营许可证：
@@ -758,25 +758,25 @@
             <p class="copy">Copyright © 2007-2021 Boqii.com All Rights Reserved 光橙（上海）信息科技有限公司 版权所有</p>
             <p>
                 <a href='http://wap.scjgj.sh.gov.cn/businessCheck/verifKey.do?showType=extShow&serial=9031000020200804110320000006173852-SAIC_SHOW_310000-20131022163114962238&signData=MEUCIQCxAhT2yp7CGYeqT3Nzy3yKKs+8PiJPEXXe40scDQIh5QIgQxGCEwLzNES+bsFkNBbDioZIDWffBlMmuTmGn4zlaQw=' target='_blank' rel='nofollow'>
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/3829f-8548.png" width="100" height="35"></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/3829f-8548.png" width="100" height="35"></a>
                 <a href="http://www.boqii.com/ads.php" target="_blank" rel="nofollow">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/a4644-3558.png" width="100" height="35"></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/a4644-3558.png" width="100" height="35"></a>
                 <a href="https://ss.knet.cn/verifyseal.dll?sn=e14111831011556282oicb000000&ct=df&a=1&pa=0.1636424780320953" target="_blank" rel="nofollow">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/aef78-9568.png" width="100" height="35"></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/aef78-9568.png" width="100" height="35"></a>
                 <a href="http://www.zx110.org/" target="_blank" rel="nofollow">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/d29f5-2562.png" width="100" height="35"></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/d29f5-2562.png" width="100" height="35"></a>
                 <a rel="nofollow" target="_blank" href="http://www.shjbzx.cn/">
-                    <img width="100" height="35" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/6e8d6-1338.png"></a>
+                    <img width="100" height="35" src="{{$commonAssetUrl}}/petcms/img/6e8d6-1338.png"></a>
             </p>
             <!-- <p><a href="http://www.boqii.com/ads.php" target="_blank" rel="nofollow"><img
-            src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/f1a57-7077.png"></a><a
+            src="{{$commonAssetUrl}}/petcms/img/f1a57-7077.png"></a><a
             href="http://www.zx110.org/" target="_blank" rel="nofollow"><img
-            src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/7fff7-5407.png"></a><SCRIPT LANGUAGE="JavaScript">
+            src="{{$commonAssetUrl}}/petcms/img/7fff7-5407.png"></a><SCRIPT LANGUAGE="JavaScript">
             document.writeln(
-            "<a href='http://wap.scjgj.sh.gov.cn/businessCheck/verifKey.do?showType=extShow&serial=9031000020200804110320000006173852-SAIC_SHOW_310000-20131022163114962238&signData=MEUCIQCxAhT2yp7CGYeqT3Nzy3yKKs+8PiJPEXXe40scDQIh5QIgQxGCEwLzNES+bsFkNBbDioZIDWffBlMmuTmGn4zlaQw=' target='_blank' rel='nofollow'><img src='<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/00aac-8970.png' border=0></a>"
+            "<a href='http://wap.scjgj.sh.gov.cn/businessCheck/verifKey.do?showType=extShow&serial=9031000020200804110320000006173852-SAIC_SHOW_310000-20131022163114962238&signData=MEUCIQCxAhT2yp7CGYeqT3Nzy3yKKs+8PiJPEXXe40scDQIh5QIgQxGCEwLzNES+bsFkNBbDioZIDWffBlMmuTmGn4zlaQw=' target='_blank' rel='nofollow'><img src='{{$commonAssetUrl}}/petcms/img/00aac-8970.png' border=0></a>"
             )
             </SCRIPT><a rel="nofollow" target="_blank" href="http://www.shjbzx.cn/"><img width="100" height="35"
-            src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/6e8d6-1338.png"></a><script src="http://kxlogo.knet.cn/seallogo.dll?sn=e14111831011556282oicb000000&size=0"></script></p> -->
+            src="{{$commonAssetUrl}}/petcms/img/6e8d6-1338.png"></a><script src="http://kxlogo.knet.cn/seallogo.dll?sn=e14111831011556282oicb000000&size=0"></script></p> -->
             <p class="copy">违法和不良信息举报电话：
                 <a href="tel:021-68826169">021-68826169</a>
                 <span>|</span>举报邮箱：
@@ -813,7 +813,7 @@ e = d.body.getElementsByTagName('script')[0]; e.parentNode.insertBefore(s, e),
 f = 'https:' == location.protocol;
 s.src = (f ? 'https' : 'http') + '://'+(f?'fm.ipinyou.com':'fm.p0y.cn')+'/j/adv.js';
 }(document);
-</script><noscript><img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/4c99e-8783.gif" style="display:none;"/></noscript> -->
+</script><noscript><img src="{{$commonAssetUrl}}/petcms/img/4c99e-8783.gif" style="display:none;"/></noscript> -->
 <!-- 增加百度统计代码 -->
 <!-- <script>
 (function(){
@@ -838,7 +838,7 @@ s.parentNode.insertBefore(bp, s);
 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://": " http://");
     document.write(unescape("%3Cspan style='display:none;' id='cnzz_stat_icon_1264316807'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1264316807' type='text/javascript'%3E%3C/script%3E"));</script>
 <!-- cnzz20180423新增 end-->
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/js/bqstat.js"></script>
+<script src="{{$commonAssetUrl}}/petcms/m/js/bqstat.js"></script>
 </body>
 
 </html>

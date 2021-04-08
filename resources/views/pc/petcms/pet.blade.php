@@ -5,21 +5,21 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="edge" />
-<link rel="shortcut icon" href="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/ab561-6001.ico" />
+<link rel="shortcut icon" href="{{$commonAssetUrl}}/petcms/img/ab561-6001.ico" />
 <!--头部开始-->
 <meta name="keywords" content="宠物，狗，猫，水族，小宠，宠物用品，狗狗用品，狗狗医疗，狗狗美容，狗狗训练，猫猫用品，猫猫医疗，猫猫美容，猫猫训练" />
 <meta name="description" content="波奇宠物品种大全，和你分享最专业的各类宠物养护知识。这里有最新最全的宠物百科知识、宠物用品导购，还有最贴心的宠物健康、宠物养护、宠物美容和宠物训练等丰富的宠物知识，是宠物爱好者们了解宠物知识的不二首选。" />
 <title>狗狗品种、猫猫品种、小宠品种、水族品种大全</title>
 <link rel="stylesheet" type="text/css" href="//a.boqiicdn.com/Js1/min/?f=/Css/baikenew/common.css,/Css/baikenew/style.css,/Css/baikenew/subList.css" />
 <!--[if lt IE 9]>
-    <script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/respond.min.js"></script>
+    <script src="{{$commonAssetUrl}}/petcms/js/respond.min.js"></script>
     <link href="//a.boqiicdn.com/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
-    <link href="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/1325b-8180.gif" id="respond-redirect" rel="respond-redirect" />
-    <script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/respond.proxy.js"></script>
+    <link href="{{$commonAssetUrl}}/petcms/img/1325b-8180.gif" id="respond-redirect" rel="respond-redirect" />
+    <script src="{{$commonAssetUrl}}/petcms/js/respond.proxy.js"></script>
 <![endif]-->
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/jquery.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/boqii.js"></script>
-<script type="text/javascript" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/boqii.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/petcms/js/jquery.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/petcms/js/boqii.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/petcms/js/boqii.js"></script>
 <!--头部结束--></head>
 
 <body>
@@ -42,7 +42,7 @@
         "shop_dir": "http://shop.boqii.com",
         "img_dir": "http://img.boqiicdn.com"
     };</script>
-<link rel="stylesheet" type="text/css" href="<?= Yii::getAlias('@tasseturl'); ?>/petcms/css/05527-2245.css" />
+<link rel="stylesheet" type="text/css" href="{{$commonAssetUrl}}/petcms/css/05527-2245.css" />
 <div id="toolbar">
     <div class="toolbar_auto">
         <ul class="toolbar_left left">
@@ -58,13 +58,13 @@
         <ul class="toolbar_right right"></ul>
     </div>
 </div>
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/js/public_toolbar_baike.js"></script>
+<script src="{{$commonAssetUrl}}/petcms/js/public_toolbar_baike.js"></script>
 <!--顶部开始-->
 <div id="header">
     <div class="top_auto">
         <div class="logo">
             <a href="http://www.boqii.com/baike">
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/c7eff-4452.png" alt="宠物百科" title="宠物百科" /></a>
+                <img src="{{$commonAssetUrl}}/petcms/img/c7eff-4452.png" alt="宠物百科" title="宠物百科" /></a>
         </div>
         <div class="top_search left">
             <form id="search_form" method="get" action="http://i.boqii.com/search">
@@ -74,7 +74,7 @@
         </div>
         <div class="top_ad right">
             <a href="http://vet.boqii.com/?utm_source=baik-cg" target="_blank">
-                <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/52f3b-7661.jpg" /></a>
+                <img src="{{$commonAssetUrl}}/petcms/img/52f3b-7661.jpg" /></a>
         </div>
     </div>
 </div>
@@ -431,7 +431,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/332.html">
-                            <img alt="金毛" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/0d9e5-4098.png" />
+                            <img alt="金毛" src="{{$commonAssetUrl}}/petcms/m/img/0d9e5-4098.png" />
                             <p>中文名：金毛
                                 <br />英文名：Golden Retriever
                                 <br />市价：800-3000元
@@ -443,7 +443,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/678.html">
-                            <img alt="罗威纳犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/56a05-6030.jpg" />
+                            <img alt="罗威纳犬" src="{{$commonAssetUrl}}/petcms/img/56a05-6030.jpg" />
                             <p>中文名：罗威纳犬
                                 <br />英文名：Rottweiler
                                 <br />市价：3500左右
@@ -455,7 +455,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/357.html">
-                            <img alt="哈士奇" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/1e30a-4109.png" />
+                            <img alt="哈士奇" src="{{$commonAssetUrl}}/petcms/img/1e30a-4109.png" />
                             <p>中文名：哈士奇
                                 <br />英文名：Siberian Huskiy
                                 <br />市价：2000-4000元
@@ -467,7 +467,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/347.html">
-                            <img alt="博美犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/29653-3424.jpg" />
+                            <img alt="博美犬" src="{{$commonAssetUrl}}/petcms/m/img/29653-3424.jpg" />
                             <p>中文名：博美犬
                                 <br />英文名：Pomeranian
                                 <br />市价：1000-3000元
@@ -479,7 +479,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/609.html">
-                            <img alt="阿拉斯加雪橇犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/37cf0-3659.jpg" />
+                            <img alt="阿拉斯加雪橇犬" src="{{$commonAssetUrl}}/petcms/img/37cf0-3659.jpg" />
                             <p>中文名：阿拉斯加雪橇犬
                                 <br />英文名：Alaskan Malamute
                                 <br />市价：3000起
@@ -491,7 +491,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/368.html">
-                            <img alt="比熊犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/fb5c3-3631.jpg" />
+                            <img alt="比熊犬" src="{{$commonAssetUrl}}/petcms/m/img/fb5c3-3631.jpg" />
                             <p>中文名：比熊犬
                                 <br />英文名：Bichon Frise
                                 <br />市价：1000-3000元
@@ -503,7 +503,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/677.html">
-                            <img alt="拉布拉多猎犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/9a3f3-8992.jpg" />
+                            <img alt="拉布拉多猎犬" src="{{$commonAssetUrl}}/petcms/img/9a3f3-8992.jpg" />
                             <p>中文名：拉布拉多猎犬
                                 <br />英文名：Labrador
                                 <br />市价：1000-3000元
@@ -515,7 +515,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/377.html">
-                            <img alt="法老王猎犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/ac9c3-2450.jpg" />
+                            <img alt="法老王猎犬" src="{{$commonAssetUrl}}/petcms/img/ac9c3-2450.jpg" />
                             <p>中文名：法老王猎犬
                                 <br />英文名：Pharaoh Hound
                                 <br />市价：
@@ -527,7 +527,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/340.html">
-                            <img alt="贵宾" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/img/d154a-5252.jpg" />
+                            <img alt="贵宾" src="{{$commonAssetUrl}}/petcms/m/img/d154a-5252.jpg" />
                             <p>中文名：贵宾
                                 <br />英文名：Poodle
                                 <br />市价：1000-7000元
@@ -539,7 +539,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/613.html">
-                            <img alt="柴犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/78af0-5643.jpg" />
+                            <img alt="柴犬" src="{{$commonAssetUrl}}/petcms/img/78af0-5643.jpg" />
                             <p>中文名：柴犬
                                 <br />英文名：Shiba inu
                                 <br />市价：
@@ -551,7 +551,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/350.html">
-                            <img alt="边境牧羊犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/ab960-3855.jpg" />
+                            <img alt="边境牧羊犬" src="{{$commonAssetUrl}}/petcms/img/ab960-3855.jpg" />
                             <p>中文名：边境牧羊犬
                                 <br />英文名：Border Collie
                                 <br />市价：2000-4000元
@@ -563,7 +563,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/425.html">
-                            <img alt="泰迪犬" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/ea15e-8430.jpg" />
+                            <img alt="泰迪犬" src="{{$commonAssetUrl}}/petcms/img/ea15e-8430.jpg" />
                             <p>中文名：泰迪犬
                                 <br />英文名：Poodle|Caniche
                                 <br />市价：
@@ -586,7 +586,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/330.html">
-                            <img alt="布偶猫" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/0c805-1396.jpg" />
+                            <img alt="布偶猫" src="{{$commonAssetUrl}}/petcms/img/0c805-1396.jpg" />
                             <p>中文名：布偶猫
                                 <br />英文名：Ragdoll
                                 <br />市价：宠物级:8000-18000 赛级: 18000-25000
@@ -598,7 +598,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/458.html">
-                            <img alt="英国短毛猫" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/1693e-3269.jpg" />
+                            <img alt="英国短毛猫" src="{{$commonAssetUrl}}/petcms/img/1693e-3269.jpg" />
                             <p>中文名：英国短毛猫
                                 <br />英文名：British Shorthair
                                 <br />市价：5000--10000
@@ -610,7 +610,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/461.html">
-                            <img alt="中国狸花猫" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/d0b6a-5900.jpg" />
+                            <img alt="中国狸花猫" src="{{$commonAssetUrl}}/petcms/img/d0b6a-5900.jpg" />
                             <p>中文名：中国狸花猫
                                 <br />英文名：Dragon Li
                                 <br />市价：2000--5000
@@ -622,7 +622,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/1390.html">
-                            <img alt="美国短毛猫" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/3f037-6111.jpg" />
+                            <img alt="美国短毛猫" src="{{$commonAssetUrl}}/petcms/img/3f037-6111.jpg" />
                             <p>中文名：美国短毛猫
                                 <br />英文名：
                                 <br />市价：
@@ -634,7 +634,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/353.html">
-                            <img alt="异国短毛猫" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/2d23e-1532.jpg" />
+                            <img alt="异国短毛猫" src="{{$commonAssetUrl}}/petcms/img/2d23e-1532.jpg" />
                             <p>中文名：异国短毛猫
                                 <br />英文名：Exotic Shorthair
                                 <br />市价：3500--12000
@@ -646,7 +646,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/364.html">
-                            <img alt="波斯猫" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/dcb96-7225.jpg" />
+                            <img alt="波斯猫" src="{{$commonAssetUrl}}/petcms/img/dcb96-7225.jpg" />
                             <p>中文名：波斯猫
                                 <br />英文名：Persian
                                 <br />市价：4000--20000
@@ -658,7 +658,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/359.html">
-                            <img alt="暹罗猫" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/96a2b-7471.jpg" />
+                            <img alt="暹罗猫" src="{{$commonAssetUrl}}/petcms/img/96a2b-7471.jpg" />
                             <p>中文名：暹罗猫
                                 <br />英文名：Siamese
                                 <br />市价：500-1500
@@ -670,7 +670,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/423.html">
-                            <img alt="加拿大无毛猫" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/e99fa-7737.jpg" />
+                            <img alt="加拿大无毛猫" src="{{$commonAssetUrl}}/petcms/img/e99fa-7737.jpg" />
                             <p>中文名：加拿大无毛猫
                                 <br />英文名：Sphynx
                                 <br />市价：
@@ -682,7 +682,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/343.html">
-                            <img alt="苏格兰折耳猫" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/69941-8898.jpg" />
+                            <img alt="苏格兰折耳猫" src="{{$commonAssetUrl}}/petcms/img/69941-8898.jpg" />
                             <p>中文名：苏格兰折耳猫
                                 <br />英文名：Scottish Fold
                                 <br />市价：8000--20000
@@ -694,7 +694,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/389.html">
-                            <img alt="斯芬克斯猫" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/5fdf1-9334.jpg" />
+                            <img alt="斯芬克斯猫" src="{{$commonAssetUrl}}/petcms/img/5fdf1-9334.jpg" />
                             <p>中文名：斯芬克斯猫
                                 <br />英文名：Canadian Hairless
                                 <br />市价：20000以上
@@ -706,7 +706,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/416.html">
-                            <img alt="俄罗斯蓝猫" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/b2147-4572.jpg" />
+                            <img alt="俄罗斯蓝猫" src="{{$commonAssetUrl}}/petcms/img/b2147-4572.jpg" />
                             <p>中文名：俄罗斯蓝猫
                                 <br />英文名：Russian Blue
                                 <br />市价：
@@ -718,7 +718,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/419.html">
-                            <img alt="金吉拉" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/9afb4-7387.jpg" />
+                            <img alt="金吉拉" src="{{$commonAssetUrl}}/petcms/img/9afb4-7387.jpg" />
                             <p>中文名：金吉拉
                                 <br />英文名：Chinchilla
                                 <br />市价：2500-5000元
@@ -741,7 +741,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/993.html">
-                            <img alt="狨猴" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/5a28b-5633.jpg" />
+                            <img alt="狨猴" src="{{$commonAssetUrl}}/petcms/img/5a28b-5633.jpg" />
                             <p>中文名：狨猴
                                 <br />英文名：Marmoset
                                 <br />市价：
@@ -753,7 +753,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/1015.html">
-                            <img alt="虎皮鹦鹉" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/f1558-4248.jpg" />
+                            <img alt="虎皮鹦鹉" src="{{$commonAssetUrl}}/petcms/img/f1558-4248.jpg" />
                             <p>中文名：虎皮鹦鹉
                                 <br />英文名：Budgerigar
                                 <br />市价：
@@ -765,7 +765,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/358.html">
-                            <img alt="垂耳兔" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/3ccee-6957.jpg" />
+                            <img alt="垂耳兔" src="{{$commonAssetUrl}}/petcms/img/3ccee-6957.jpg" />
                             <p>中文名：垂耳兔
                                 <br />英文名：
                                 <br />市价：80~150元
@@ -777,7 +777,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/365.html">
-                            <img alt="安哥拉兔" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/5f1b2-6550.jpg" />
+                            <img alt="安哥拉兔" src="{{$commonAssetUrl}}/petcms/img/5f1b2-6550.jpg" />
                             <p>中文名：安哥拉兔
                                 <br />英文名：Angora
                                 <br />市价：500元左右
@@ -789,7 +789,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/712.html">
-                            <img alt="小葵花凤头鹦鹉" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/26b39-7592.jpg" />
+                            <img alt="小葵花凤头鹦鹉" src="{{$commonAssetUrl}}/petcms/img/26b39-7592.jpg" />
                             <p>中文名：小葵花凤头鹦鹉
                                 <br />英文名：Yellow-crested Cockatoo
                                 <br />市价：
@@ -801,7 +801,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/360.html">
-                            <img alt="布丁仓鼠" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/171da-2587.jpg" />
+                            <img alt="布丁仓鼠" src="{{$commonAssetUrl}}/petcms/img/171da-2587.jpg" />
                             <p>中文名：布丁仓鼠
                                 <br />英文名：Cricetidae
                                 <br />市价：
@@ -813,7 +813,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/607.html">
-                            <img alt="指猴" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/80f4e-6317.jpg" />
+                            <img alt="指猴" src="{{$commonAssetUrl}}/petcms/img/80f4e-6317.jpg" />
                             <p>中文名：指猴
                                 <br />英文名：aye-aye
                                 <br />市价：
@@ -825,7 +825,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/1363.html">
-                            <img alt="八哥鸟" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/f79b6-6076.jpg" />
+                            <img alt="八哥鸟" src="{{$commonAssetUrl}}/petcms/img/f79b6-6076.jpg" />
                             <p>中文名：八哥鸟
                                 <br />英文名：Acridotherescristatellus
                                 <br />市价：25—100
@@ -837,7 +837,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/351.html">
-                            <img alt="标准灰龙猫" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/fda4c-5065.jpg" />
+                            <img alt="标准灰龙猫" src="{{$commonAssetUrl}}/petcms/img/fda4c-5065.jpg" />
                             <p>中文名：标准灰龙猫
                                 <br />英文名：
                                 <br />市价：
@@ -849,7 +849,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/1090.html">
-                            <img alt="奶茶仓鼠" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/97f0d-7999.jpg" />
+                            <img alt="奶茶仓鼠" src="{{$commonAssetUrl}}/petcms/img/97f0d-7999.jpg" />
                             <p>中文名：奶茶仓鼠
                                 <br />英文名：DwarfWinterWhiteRussianHamster
                                 <br />市价：20—100
@@ -861,7 +861,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/992.html">
-                            <img alt="日本袖珍石猴" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/3e4bd-4372.jpg" />
+                            <img alt="日本袖珍石猴" src="{{$commonAssetUrl}}/petcms/img/3e4bd-4372.jpg" />
                             <p>中文名：日本袖珍石猴
                                 <br />英文名：
                                 <br />市价：
@@ -873,7 +873,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/686.html">
-                            <img alt="相思鸟" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/13276-7392.jpg" />
+                            <img alt="相思鸟" src="{{$commonAssetUrl}}/petcms/img/13276-7392.jpg" />
                             <p>中文名：相思鸟
                                 <br />英文名：Leiothrix argentauris
                                 <br />市价：
@@ -896,7 +896,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/874.html">
-                            <img alt="金龙鱼" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/703c9-8663.jpg" />
+                            <img alt="金龙鱼" src="{{$commonAssetUrl}}/petcms/img/703c9-8663.jpg" />
                             <p>中文名：金龙鱼
                                 <br />英文名：
                                 <br />市价：
@@ -908,7 +908,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/1212.html">
-                            <img alt="鹦鹉鱼" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/a6099-9340.jpg" />
+                            <img alt="鹦鹉鱼" src="{{$commonAssetUrl}}/petcms/img/a6099-9340.jpg" />
                             <p>中文名：鹦鹉鱼
                                 <br />英文名：Blood parrot
                                 <br />市价：
@@ -920,7 +920,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/1171.html">
-                            <img alt="银龙鱼" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/3dea6-7593.jpg" />
+                            <img alt="银龙鱼" src="{{$commonAssetUrl}}/petcms/img/3dea6-7593.jpg" />
                             <p>中文名：银龙鱼
                                 <br />英文名：Osteoglossum bicirrhosum
                                 <br />市价：
@@ -932,7 +932,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/703.html">
-                            <img alt="过背金龙" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/8af31-7283.jpg" />
+                            <img alt="过背金龙" src="{{$commonAssetUrl}}/petcms/img/8af31-7283.jpg" />
                             <p>中文名：过背金龙
                                 <br />英文名：Malayan Golden Arawana
                                 <br />市价：
@@ -944,7 +944,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/568.html">
-                            <img alt="成吉思汗鱼" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/f1d7c-3334.jpg" />
+                            <img alt="成吉思汗鱼" src="{{$commonAssetUrl}}/petcms/img/f1d7c-3334.jpg" />
                             <p>中文名：成吉思汗鱼
                                 <br />英文名：pangasius sanitwongsei
                                 <br />市价：
@@ -956,7 +956,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/1243.html">
-                            <img alt="招财鱼" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/d91e1-6156.jpg" />
+                            <img alt="招财鱼" src="{{$commonAssetUrl}}/petcms/img/d91e1-6156.jpg" />
                             <p>中文名：招财鱼
                                 <br />英文名：osphronemus goramy
                                 <br />市价：
@@ -968,7 +968,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/1207.html">
-                            <img alt="虎鱼" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/3cb8e-9069.jpg" />
+                            <img alt="虎鱼" src="{{$commonAssetUrl}}/petcms/img/3cb8e-9069.jpg" />
                             <p>中文名：虎鱼
                                 <br />英文名：
                                 <br />市价：
@@ -980,7 +980,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/331.html">
-                            <img alt="孔雀鱼" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/7d197-7170.jpg" />
+                            <img alt="孔雀鱼" src="{{$commonAssetUrl}}/petcms/img/7d197-7170.jpg" />
                             <p>中文名：孔雀鱼
                                 <br />英文名：guppy
                                 <br />市价：
@@ -992,7 +992,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/1143.html">
-                            <img alt="血红龙" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/2eff9-3342.jpg" />
+                            <img alt="血红龙" src="{{$commonAssetUrl}}/petcms/img/2eff9-3342.jpg" />
                             <p>中文名：血红龙
                                 <br />英文名：Scleropages formosus
                                 <br />市价：
@@ -1004,7 +1004,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/335.html">
-                            <img alt="龙鱼" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/5eecc-2377.jpg" />
+                            <img alt="龙鱼" src="{{$commonAssetUrl}}/petcms/img/5eecc-2377.jpg" />
                             <p>中文名：龙鱼
                                 <br />英文名：
                                 <br />市价：
@@ -1016,7 +1016,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/977.html">
-                            <img alt="青龙鱼" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/992dd-1237.jpg" />
+                            <img alt="青龙鱼" src="{{$commonAssetUrl}}/petcms/img/992dd-1237.jpg" />
                             <p>中文名：青龙鱼
                                 <br />英文名：Green Arowana
                                 <br />市价：
@@ -1028,7 +1028,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/338.html">
-                            <img alt="金鱼" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/6b38a-3955.jpg" />
+                            <img alt="金鱼" src="{{$commonAssetUrl}}/petcms/img/6b38a-3955.jpg" />
                             <p>中文名：金鱼
                                 <br />英文名：Carassius auratus
                                 <br />市价：
@@ -1051,7 +1051,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/713.html">
-                            <img alt="金钱龟" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/30934-7943.jpg" />
+                            <img alt="金钱龟" src="{{$commonAssetUrl}}/petcms/img/30934-7943.jpg" />
                             <p>中文名：金钱龟
                                 <br />英文名：Cuora trifasciata
                                 <br />市价：
@@ -1063,7 +1063,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/342.html">
-                            <img alt="大鳄龟" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/b0857-8425.png" />
+                            <img alt="大鳄龟" src="{{$commonAssetUrl}}/petcms/img/b0857-8425.png" />
                             <p>中文名：大鳄龟
                                 <br />英文名：Macroclemystemminckii
                                 <br />市价：800~1200元
@@ -1075,7 +1075,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/462.html">
-                            <img alt="黄头侧颈龟" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/0a27f-4536.jpg" />
+                            <img alt="黄头侧颈龟" src="{{$commonAssetUrl}}/petcms/img/0a27f-4536.jpg" />
                             <p>中文名：黄头侧颈龟
                                 <br />英文名：Yellow-spotted Amazonriver turtle
                                 <br />市价：100元以上
@@ -1087,7 +1087,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/1102.html">
-                            <img alt="中华草龟" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/b1f3d-8809.jpg" />
+                            <img alt="中华草龟" src="{{$commonAssetUrl}}/petcms/img/b1f3d-8809.jpg" />
                             <p>中文名：中华草龟
                                 <br />英文名：Chinese pond turtle
                                 <br />市价：20~50元
@@ -1099,7 +1099,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/334.html">
-                            <img alt="蛋龟" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/2a57c-4467.jpg" />
+                            <img alt="蛋龟" src="{{$commonAssetUrl}}/petcms/img/2a57c-4467.jpg" />
                             <p>中文名：蛋龟
                                 <br />英文名：
                                 <br />市价：根据不同的品种，价格差异较大
@@ -1111,7 +1111,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/348.html">
-                            <img alt="巴西红耳龟" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/a4e63-4710.jpg" />
+                            <img alt="巴西红耳龟" src="{{$commonAssetUrl}}/petcms/img/a4e63-4710.jpg" />
                             <p>中文名：巴西红耳龟
                                 <br />英文名：Trachemys scripta elegans
                                 <br />市价：便宜，小的也就几块钱
@@ -1123,7 +1123,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/466.html">
-                            <img alt="黄喉拟水龟" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/0f18c-7755.jpg" />
+                            <img alt="黄喉拟水龟" src="{{$commonAssetUrl}}/petcms/img/0f18c-7755.jpg" />
                             <p>中文名：黄喉拟水龟
                                 <br />英文名：Asian Yellow Pond Turtle
                                 <br />市价：500~1000元
@@ -1135,7 +1135,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/1269.html">
-                            <img alt="赤练蛇" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/1203a-7593.jpg" />
+                            <img alt="赤练蛇" src="{{$commonAssetUrl}}/petcms/img/1203a-7593.jpg" />
                             <p>中文名：赤练蛇
                                 <br />英文名：Lycodon rufozonatus
                                 <br />市价：
@@ -1147,7 +1147,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/949.html">
-                            <img alt="中华石龙子" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/58ca8-5355.jpg" />
+                            <img alt="中华石龙子" src="{{$commonAssetUrl}}/petcms/img/58ca8-5355.jpg" />
                             <p>中文名：中华石龙子
                                 <br />英文名：Chinese skink
                                 <br />市价：
@@ -1159,7 +1159,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/329.html">
-                            <img alt="枫叶龟" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/a6a74-6795.jpg" />
+                            <img alt="枫叶龟" src="{{$commonAssetUrl}}/petcms/img/a6a74-6795.jpg" />
                             <p>中文名：枫叶龟
                                 <br />英文名：Black-breatsed Leaf Turtle
                                 <br />市价：100~500元
@@ -1171,7 +1171,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/714.html">
-                            <img alt="加拉帕戈斯象龟" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/77fe6-2321.jpg" />
+                            <img alt="加拉帕戈斯象龟" src="{{$commonAssetUrl}}/petcms/img/77fe6-2321.jpg" />
                             <p>中文名：加拉帕戈斯象龟
                                 <br />英文名：Galapagos Giant Tortoise
                                 <br />市价：
@@ -1183,7 +1183,7 @@
                 <dl>
                     <dt>
                         <a target="_blank" href="http://www.boqii.com/entry/detail/459.html">
-                            <img alt="火焰龟" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/dbd26-3914.jpg" />
+                            <img alt="火焰龟" src="{{$commonAssetUrl}}/petcms/img/dbd26-3914.jpg" />
                             <p>中文名：火焰龟
                                 <br />英文名：Painted Turtle
                                 <br />市价：
@@ -1226,7 +1226,7 @@
                 <a target="_blank" href="http://www.boqii.com/baike/news/">最新文章</a></p>
             <p class="beian">
                 <a class="police" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502004955">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/31ab7-5261.png" alt="">沪公网安备 31011502004955号</a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/31ab7-5261.png" alt="">沪公网安备 31011502004955号</a>
                 <span>|</span>
                 <a href="http://www.beian.miit.gov.cn/" target="_blank">沪ICP备13034501号-2</a>
                 <span>|</span>&nbsp;增值电信业务经营许可证：
@@ -1234,25 +1234,25 @@
             <p class="copy">Copyright © 2007-2021 Boqii.com All Rights Reserved 光橙（上海）信息科技有限公司 版权所有</p>
             <p>
                 <a href='http://wap.scjgj.sh.gov.cn/businessCheck/verifKey.do?showType=extShow&serial=9031000020200804110320000006173852-SAIC_SHOW_310000-20131022163114962238&signData=MEUCIQCxAhT2yp7CGYeqT3Nzy3yKKs+8PiJPEXXe40scDQIh5QIgQxGCEwLzNES+bsFkNBbDioZIDWffBlMmuTmGn4zlaQw=' target='_blank' rel='nofollow'>
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/3829f-8548.png" width="100" height="35"></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/3829f-8548.png" width="100" height="35"></a>
                 <a href="http://www.boqii.com/ads.php" target="_blank" rel="nofollow">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/a4644-3558.png" width="100" height="35"></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/a4644-3558.png" width="100" height="35"></a>
                 <a href="https://ss.knet.cn/verifyseal.dll?sn=e14111831011556282oicb000000&ct=df&a=1&pa=0.1636424780320953" target="_blank" rel="nofollow">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/aef78-9568.png" width="100" height="35"></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/aef78-9568.png" width="100" height="35"></a>
                 <a href="http://www.zx110.org/" target="_blank" rel="nofollow">
-                    <img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/d29f5-2562.png" width="100" height="35"></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/d29f5-2562.png" width="100" height="35"></a>
                 <a rel="nofollow" target="_blank" href="http://www.shjbzx.cn/">
-                    <img width="100" height="35" src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/6e8d6-1338.png"></a>
+                    <img width="100" height="35" src="{{$commonAssetUrl}}/petcms/img/6e8d6-1338.png"></a>
             </p>
             <!-- <p><a href="http://www.boqii.com/ads.php" target="_blank" rel="nofollow"><img
-            src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/f1a57-7077.png"></a><a
+            src="{{$commonAssetUrl}}/petcms/img/f1a57-7077.png"></a><a
             href="http://www.zx110.org/" target="_blank" rel="nofollow"><img
-            src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/7fff7-5407.png"></a><SCRIPT LANGUAGE="JavaScript">
+            src="{{$commonAssetUrl}}/petcms/img/7fff7-5407.png"></a><SCRIPT LANGUAGE="JavaScript">
             document.writeln(
-            "<a href='http://wap.scjgj.sh.gov.cn/businessCheck/verifKey.do?showType=extShow&serial=9031000020200804110320000006173852-SAIC_SHOW_310000-20131022163114962238&signData=MEUCIQCxAhT2yp7CGYeqT3Nzy3yKKs+8PiJPEXXe40scDQIh5QIgQxGCEwLzNES+bsFkNBbDioZIDWffBlMmuTmGn4zlaQw=' target='_blank' rel='nofollow'><img src='<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/00aac-8970.png' border=0></a>"
+            "<a href='http://wap.scjgj.sh.gov.cn/businessCheck/verifKey.do?showType=extShow&serial=9031000020200804110320000006173852-SAIC_SHOW_310000-20131022163114962238&signData=MEUCIQCxAhT2yp7CGYeqT3Nzy3yKKs+8PiJPEXXe40scDQIh5QIgQxGCEwLzNES+bsFkNBbDioZIDWffBlMmuTmGn4zlaQw=' target='_blank' rel='nofollow'><img src='{{$commonAssetUrl}}/petcms/img/00aac-8970.png' border=0></a>"
             )
             </SCRIPT><a rel="nofollow" target="_blank" href="http://www.shjbzx.cn/"><img width="100" height="35"
-            src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/6e8d6-1338.png"></a><script src="http://kxlogo.knet.cn/seallogo.dll?sn=e14111831011556282oicb000000&size=0"></script></p> -->
+            src="{{$commonAssetUrl}}/petcms/img/6e8d6-1338.png"></a><script src="http://kxlogo.knet.cn/seallogo.dll?sn=e14111831011556282oicb000000&size=0"></script></p> -->
             <p class="copy">违法和不良信息举报电话：
                 <a href="tel:021-68826169">021-68826169</a>
                 <span>|</span>举报邮箱：
@@ -1294,7 +1294,7 @@ e = d.body.getElementsByTagName('script')[0]; e.parentNode.insertBefore(s, e),
 f = 'https:' == location.protocol;
 s.src = (f ? 'https' : 'http') + '://'+(f?'fm.ipinyou.com':'fm.p0y.cn')+'/j/adv.js';
 }(document);
-</script><noscript><img src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/img/4c99e-8783.gif" style="display:none;"/></noscript> -->
+</script><noscript><img src="{{$commonAssetUrl}}/petcms/img/4c99e-8783.gif" style="display:none;"/></noscript> -->
 <!-- 增加百度统计代码 -->
 <!-- <script>
 (function(){
@@ -1319,7 +1319,7 @@ s.parentNode.insertBefore(bp, s);
 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://": " http://");
     document.write(unescape("%3Cspan style='display:none;' id='cnzz_stat_icon_1264316807'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1264316807' type='text/javascript'%3E%3C/script%3E"));</script>
 <!-- cnzz20180423新增 end-->
-<script src="<?= Yii::getAlias('@tasseturl'); ?>/petcms/m/js/bqstat.js"></script>
+<script src="{{$commonAssetUrl}}/petcms/m/js/bqstat.js"></script>
 </body>
 
 </html>
