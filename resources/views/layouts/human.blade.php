@@ -9,9 +9,10 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 @yield('dynamicMeta')
-@yield('jscss')
+@include('modules.human._jscss')
 </head>
-<body>
+<body @yield('bodyClass')>
+@include('human.modules._header')
 @yield('content')
 
 @include('modules.human._footer-js')

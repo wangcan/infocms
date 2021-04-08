@@ -12,9 +12,9 @@ class HomeController extends Controller
         return $this->customView('home');
     }
 
-    public function listinfo()
+    public function view($code)
     {
-        return $this->customView('list');
+        return $this->customView($code);
     }
 
     public function detail()

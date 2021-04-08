@@ -25,17 +25,17 @@
                     <div class="span4 footer_teaser">
                         <h3>Latest News</h3>
                         <ul class="media-list">
-                            <li class="media"> <a href="#" class="media-photo" style="background-image:url(<?= config('app.assetUrl'); ?>/human/images/portfolio/t5.jpg)"></a> <a href="#" class="media-date">19<span>FEB</span></a>
+                            <li class="media"> <a href="#" class="media-photo" style="background-image:url({{$commonAssetUrl}}/human/images/portfolio/t5.jpg)"></a> <a href="#" class="media-date">19<span>FEB</span></a>
                                 <h5 class="media-heading"><a href="#">Media heading, this is a title of a news...</a></h5>
                                 <p>Fugiat dapibus, tellus ac cursus commodo, ut fermentum...</p>
                             </li>
-                            <li class="media"> <a href="#" class="media-photo" style="background-image:url(<?= config('app.assetUrl'); ?>/human/images/portfolio/t4.jpg)"></a> <a href="#" class="media-date">18<span>FEB</span></a>
+                            <li class="media"> <a href="#" class="media-photo" style="background-image:url({{$commonAssetUrl}}/human/images/portfolio/t4.jpg)"></a> <a href="#" class="media-date">18<span>FEB</span></a>
                                 <h5 class="media-heading"><a href="#">Media heading, of a news item.</a></h5>
                                 <p>Fugiat dapibus, tellus ac cursus commodo, condime ntum nibh, ut fermentum...</p>
                             </li>
                         </ul>
                     </div>
-                    <div class="span4 footer_teaser" >
+                    <div class="span4 footer_teaser" id="latest-flickr-images">
                         <h3>FlickrFeed</h3>
                         <p>All photos &copy; by <a href="http://www.cssmoban.com/" target="_blank">Dimitra Giannouka</a>.</p>
                         <ul>
@@ -47,8 +47,8 @@
         <section id="copyright">
             <div class="container">
                 <div class="row">
-                    <div class="span6">Copyright &copy; 2014.Company name All rights reserved.<a target="_blank" href="http://www.cssmoban.com/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a> - More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a></div>
-                    <div class="span6 text-right"><a href="http://www.cssmoban.com/">模板之家</a>  </div>
+                    <div class="span6">Copyright &copy; 2014.Company name All rights reserved.<a target="_blank" href="http://www.cssmoban.com/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></div>
+                    <div class="span6 text-right"><a href="http://www.cssmoban.com/">模板之家</a> </div>
                 </div>
             </div>
         </section>

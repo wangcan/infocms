@@ -1,9 +1,7 @@
 @extends('layouts.human')
 @section('dynamicMeta')@include('modules._meta', $datas)@endsection
-@section('jscss')@include('modules.human._jscss', $datas)@endsection
 @section('content')
 
-@include('human.modules._header')
 <section id="slider_wrapper">
     <div id="main_flexslider" class="flexslider">
         <ul class="slides">
