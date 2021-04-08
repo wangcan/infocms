@@ -51,7 +51,7 @@
             </dl>
         </div>
         <div class="lgimg">
-            <img src="{{$commonAssetUrl}}/sguide/img/e9669-2905.png" /></div>
+            <img src="{{$commonAssetUrl}}/sguide/img/e9669-2147.png" /></div>
         <div class="words font12 fff center line18em">
             <ul class="words1">
                 <li>本站为注册用户提供信息存储空间服务，提供查询数据是为了消费者选购到市面上好的品牌（品牌消费），非“MAIGOO编辑上传提供”或“CNPP品牌数据研究部门</li>
@@ -88,8 +88,8 @@
             <div class="clear"></div>
         </div>
         <div class="center bimg">
-            <img src="{{$commonAssetUrl}}/sguide/img/f5b42-3019.png" /></div>
+            <img class="lazy" data-src="{{$commonAssetUrl}}/sguide/img/f5b42-1095.png" /></div>
         <div class="center bimg">
-            <img src="{{$commonAssetUrl}}/sguide/img/313c9-1854.png" /></div>
+            <img class="lazy" data-src="{{$commonAssetUrl}}/sguide/img/b0e91-5790.png" /></div>
     </div>
 </footer>

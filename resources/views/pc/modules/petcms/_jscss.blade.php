@@ -1,4 +1,6 @@
-<link rel="shortcut icon" href="{{$commonAssetUrl}}/petcms/img/ab561-5543.ico" />
+<link rel="shortcut icon" href="{{$commonAssetUrl}}/petcms/img/ab561-6001.ico" />
+
+
 
 @switch($view)
 @case('home')
@@ -26,7 +28,7 @@
 <!--[if lt IE 9]>
     <script src="{{$commonAssetUrl}}/petcms/js/respond.min.js"></script>
     <link href="//a.boqiicdn.com/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
-    <link href="{{$commonAssetUrl}}/petcms/img/1325b-7023.gif" id="respond-redirect" rel="respond-redirect" />
+    <link href="{{$commonAssetUrl}}/petcms/img/1325b-8180.gif" id="respond-redirect" rel="respond-redirect" />
     <script src="{{$commonAssetUrl}}/petcms/js/respond.proxy.js"></script>
 <![endif]-->
 <script type="text/javascript" src="{{$commonAssetUrl}}/petcms/js/jquery.js"></script>

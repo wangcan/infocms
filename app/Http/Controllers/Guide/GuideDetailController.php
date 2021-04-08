@@ -32,7 +32,7 @@ class GuideDetailController extends Controller
 			'description' => '',
 			'view' => 'human-detail',
 		];
-        return $this->customView('human', ['datas' => $datas]);
+        return $this->customView('human', $datas);
 	}
 
 	public function info()

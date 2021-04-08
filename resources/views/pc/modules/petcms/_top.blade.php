@@ -18,7 +18,7 @@
             "shop_dir": "http://shop.boqii.com",
             "img_dir": "http://img.boqiicdn.com"
         };</script>
-    <link rel="stylesheet" type="text/css" href="{{$commonAssetUrl}}/petcms/css/05527-5892.css" />
+    <link rel="stylesheet" type="text/css" href="{{$commonAssetUrl}}/petcms/css/05527-2245.css" />
     <div id="toolbar">
         <div class="toolbar_auto">
             <ul class="toolbar_left left">
@@ -40,7 +40,7 @@
         <div class="top_auto">
             <div class="logo">
                 <a href="http://www.boqii.com/baike">
-                    <img src="{{$commonAssetUrl}}/petcms/img/fa78a-5652.png" alt="宠物百科" title="宠物百科" /></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/c7eff-4452.png" alt="宠物百科" title="宠物百科" /></a>
             </div>
             <div class="top_search left">
                 <form id="search_form" method="get" action="http://i.boqii.com/search">
@@ -50,7 +50,7 @@
             </div>
             <div class="top_ad right">
                 <a href="http://vet.boqii.com/?utm_source=baik-cg" target="_blank">
-                    <img src="{{$commonAssetUrl}}/petcms/img/52f3b-9493.jpg" /></a>
+                    <img src="{{$commonAssetUrl}}/petcms/img/52f3b-7661.jpg" /></a>
             </div>
         </div>
     </div>

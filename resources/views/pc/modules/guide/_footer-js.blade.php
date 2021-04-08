@@ -1,9 +1,9 @@
 <div id="go_top">
     <ul>
-        <li class="holidayicon getajaxdata" url="/ajaxstream/holiday/?action=getinfo"></li>
+        <li class="holidayicon getajaxdata" url="https://s.maigoo.com/ajaxstream/holiday/?action=getinfo"></li>
         <li>
             <a class="fff" href="javascript:void(0);" id="kefu" onclick="kefulink();">
-                <img src="{{$commonAssetUrl}}/sguide/img/7bd6f-1211.gif">
+                <img src="{{$commonAssetUrl}}/sguide/img/7bd6f-8721.gif">
                 <div class="wordout">
                     <div class="word">联 系客 服</div></div>
             </a>
@@ -29,7 +29,7 @@
             <a class="qrcode fff" href="javascript:;" onmouseover="$(this).find('img').attr('src',$(this).find('img').attr('data-src'))">
                 <i class="iconfont icon-erweima1"></i>
                 <div class="word lh" style="width:42px;">二维码</div>
-                <img width="682" height="194" data-src="{{$commonAssetUrl}}/sguide/img/af43f-3932.png" /></a>
+                <img width="682" height="194" data-src="{{$commonAssetUrl}}/sguide/img/af43f-5320.png" /></a>
         </li>
         <li>
             <a class="gotop fff" href="javascript:;" onclick="$('html,body').animate({'scrollTop':'0'},{duration:300})">
@@ -38,7 +38,7 @@
         </li>
     </ul>
 </div>
-<!--<script language="javascript">var pac = 'company',
+<script language="javascript">var pac = 'brand',
     pdo = 'show',
     pid = '2411',
     siteid = 0,
@@ -48,10 +48,10 @@
     userid = '0',
     issm = '';
     var authorpiclist = null;</script>
-<script type="text/javascript" src="{{$commonAssetUrl}}/sguide/js/company_show_819b40195d362ec635b44bd074e4ee2c.js"></script>
+<script type="text/javascript" src="{{$commonAssetUrl}}/sguide/js/brand_show_d94be6d8b37fb917d5428436170ff058.js"></script>
 <script>var _hmt = _hmt || []; (function() {
         var hm = document.createElement("script");
         hm.src = "https://hm.baidu.com/hm.js?de3f6fd28ec4ac19170f18e2a8777593";
         var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
-    })();</script>-->
+    })();</script>

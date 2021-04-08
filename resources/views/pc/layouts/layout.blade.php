@@ -8,8 +8,6 @@
     @yield('jscss')
 </head>
 <body @yield('bodyClass')>
-<div class="szwrap">
     @yield('main')
-</div>
 </body>
 </html>

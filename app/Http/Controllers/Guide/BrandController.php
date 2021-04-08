@@ -17,7 +17,7 @@ class BrandController extends Controller
 			'description' => 'description',
 			'view' => 'home',
 		];
-        return $this->customView('home', ['datas' => $datas]);
+        return $this->customView('home', $datas);
     }
 
     public function detail()
@@ -28,6 +28,6 @@ class BrandController extends Controller
 			'description' => 'description',
 			'view' => 'detail',
 		];
-        return $this->customView('detail', ['datas' => $datas]);
+        return $this->customView('detail', $datas);
     }
 }

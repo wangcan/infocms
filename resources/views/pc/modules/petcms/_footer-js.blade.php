@@ -12,7 +12,7 @@
             s.parentNode.insertBefore(mvl, s);
         })();</script>
     <!-- 新增加访客代码 -->
-    <!-- <script type="text/javascript">var _py = _py || [];_py.push(['a', 'irs..iRfl18kq8dTQKZlZo93OV_']);_py.push(['domain','stats.ipinyou.com']);_py.push(['e','']);-function(d) {    var s = d.createElement('script'),    e = d.body.getElementsByTagName('script')[0]; e.parentNode.insertBefore(s, e),    f = 'https:' == location.protocol;    s.src = (f ? 'https' : 'http') + '://'+(f?'fm.ipinyou.com':'fm.p0y.cn')+'/j/adv.js';}(document);</script><noscript><img src="{{$commonAssetUrl}}/petcms/img/4c99e-1050.gif" style="display:none;"/></noscript> -->
+    <!-- <script type="text/javascript">var _py = _py || [];_py.push(['a', 'irs..iRfl18kq8dTQKZlZo93OV_']);_py.push(['domain','stats.ipinyou.com']);_py.push(['e','']);-function(d) {    var s = d.createElement('script'),    e = d.body.getElementsByTagName('script')[0]; e.parentNode.insertBefore(s, e),    f = 'https:' == location.protocol;    s.src = (f ? 'https' : 'http') + '://'+(f?'fm.ipinyou.com':'fm.p0y.cn')+'/j/adv.js';}(document);</script><noscript><img src="{{$commonAssetUrl}}/petcms/img/4c99e-8783.gif" style="display:none;"/></noscript> -->
     <!-- 增加百度统计代码 -->
     <!-- <script>(function(){    var bp = document.createElement('script');    var curProtocol = window.location.protocol.split(':')[0];    if (curProtocol === 'https') {        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';            }    else {        bp.src = 'http://push.zhanzhang.baidu.com/push.js';    }    var s = document.getElementsByTagName("script")[0];    s.parentNode.insertBefore(bp, s);})();</script> -->
     <!-- 增加百度统计代码 end-->
@@ -26,4 +26,5 @@
     <!-- cnzz20180423新增 end-->
     <script src="{{$commonAssetUrl}}/petcms/m/js/bqstat.js"></script>
 
+<!-- 底部结束 -->
 <script type='text/javascript'>object.load('baikenew/common,superslide,login,baikenew/index');</script>

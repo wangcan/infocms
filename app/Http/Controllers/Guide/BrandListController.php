@@ -17,7 +17,7 @@ class BrandListController extends Controller
 			'description' => 'description',
 			'view' => 'store',
 		];
-        return $this->customView('store', ['datas' => $datas]);
+        return $this->customView('store', $datas);
     }
 
 	public function shop()
@@ -28,7 +28,7 @@ class BrandListController extends Controller
 			'description' => 'description',
 			'view' => 'shop',
 		];
-        return $this->customView('shop', ['datas' => $datas]);
+        return $this->customView('shop', $datas);
 	}
 
 	public function product()
@@ -39,6 +39,6 @@ class BrandListController extends Controller
 			'description' => 'description',
 			'view' => 'product',
 		];
-        return $this->customView('product', ['datas' => $datas]);
+        return $this->customView('product', $datas);
 	}
 }
