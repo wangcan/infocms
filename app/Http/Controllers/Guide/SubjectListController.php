@@ -9,38 +9,80 @@ class SubjectListController extends Controller
 {
 	use SubjectTrait;
 
+	public function product()
+	{
+		$datas = [
+			'title' => '',
+			'keywords' => '',
+			'description' => '',
+			'view' => 'product',
+		];
+        return $this->customView('product', $datas);
+	}
+
     public function store()
     {
-        return $this->customView('store');
+		$datas = [
+			'title' => '',
+			'keywords' => '',
+			'description' => '',
+			'view' => 'store',
+		];
+        return $this->customView('store', $datas);
     }
 
 	public function shop()
 	{
-        return $this->customView('shop');
+		$datas = [
+			'title' => '',
+			'keywords' => '',
+			'description' => '',
+			'view' => 'shop',
+		];
+        return $this->customView('shop', $datas);
 	}
 
 	public function knowledge()
 	{
-        return $this->customView('knowledge');
+		$datas = [
+			'title' => '',
+			'keywords' => '',
+			'description' => '',
+			'view' => 'knowledge',
+		];
+        return $this->customView('knowledge', $datas);
 	}
 
 	public function human()
 	{
-        return $this->customView('human');
+		$datas = [
+			'title' => '',
+			'keywords' => '',
+			'description' => '',
+			'view' => 'human',
+		];
+        return $this->customView('human', $datas);
 	}
 
 	public function info()
 	{
-        return $this->customView('info');
-	}
-
-	public function product()
-	{
-        return $this->customView('product');
+		$datas = [
+			'title' => '',
+			'keywords' => '',
+			'description' => '',
+			'view' => 'info',
+		];
+        return $this->customView('info', $datas);
 	}
 
 	public function league()
 	{
-        return $this->customView('league');
+		$datas = [
+			'title' => '',
+			'keywords' => '',
+			'description' => '',
+			'view' => 'league',
+		];
+        return $this->customView('league', $datas);
 	}
 }

@@ -1,4 +1,4 @@
-@include('modules.guide._common-css');
+@include('modules.guide._common-css')
 
 @switch($view)
 @case('home')
@@ -19,7 +19,5 @@
 @case('human-detail')
 <link href="{{$commonAssetUrl}}/sguide/css/8bfd9-7295.css" type="text/css" rel="stylesheet" />
 @break
-{{--@case('detail')
-@break--}}
 @endswitch
-@include('modules.guide._common-js');
+@include('modules.guide._common-js')
