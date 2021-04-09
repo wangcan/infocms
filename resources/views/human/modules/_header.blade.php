@@ -1,7 +1,20 @@
 <header>
     <div class="container">
         <div class="navbar">
-            <div class="navbar-inner"> <a class="brand" href="index.html"> <img src="<?= config('app.assetUrl'); ?>/human/images/restart_logo.png" width="90" height="90" alt="optional logo" /> <span class="logo_title">{re}<strong>start</strong></span> <span class="logo_subtitle">a clean &amp; multipurpose template</span> </a> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="nb_left pull-left"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></span> <span class="nb_right pull-right">menu</span> </a>
+            <div class="navbar-inner">
+                <a class="brand" href="index.html">
+                    <!--<img src="<?= config('app.assetUrl'); ?>/human/images/restart_logo.png" width="90" height="90" alt="optional logo" />-->
+                    <span class="logo_title">{re}<strong>start</strong></span>
+                    <span class="logo_subtitle">a clean &amp; multipurpose template</span>
+                </a>
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="nb_left pull-left">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </span>
+                    <span class="nb_right pull-right">menu</span>
+                </a>
                 <div class="nav-collapse collapse">
                     <ul class="nav pull-right">
                         <li class="active"><a href="index.html">Home</a></li>
@@ -27,7 +40,7 @@
                 </div>
             </div>
         </div>
-        <div id="social_media_wrapper"> <a href="#facebook"><i class="icon icon-facebook"></i></a> <a href="#twitter"><i class="icon icon-twitter"></i></a> <a href="#googleplus"><i class="icon icon-google-plus"></i></a> </div>
-        <div id="sign"><a href="register.html"><i class="icon icon-user"></i>Register/Sign in</a></div>
+        <!--<div id="social_media_wrapper"> <a href="#facebook"><i class="icon icon-facebook"></i></a> <a href="#twitter"><i class="icon icon-twitter"></i></a> <a href="#googleplus"><i class="icon icon-google-plus"></i></a> </div>
+        <div id="sign"><a href="register.html"><i class="icon icon-user"></i>Register/Sign in</a></div>-->
     </div>
 </header>

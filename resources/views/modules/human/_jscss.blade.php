@@ -1,7 +1,7 @@
 <link href="<?= config('app.assetUrl'); ?>/human/less/animate.less-master/animate.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="<?= config('app.assetUrl'); ?>/human/js/woothemes-FlexSlider-06b12f8/flexslider.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="<?= config('app.assetUrl'); ?>/human/js/prettyPhoto_3.1.5/prettyPhoto.css" type="text/css" media="screen" />
-<link href="<?= config('app.assetUrl'); ?>/human/style.css" rel="stylesheet" type="text/css" />
+<link href="<?= config('app.assetUrl'); ?>/human/style.css?v=10" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="<?= config('app.assetUrl'); ?>/human/fonts/font-awesome/css/font-awesome.min.css" media="screen" />
 <!--[if IE 7]>
     <link rel="stylesheet" href="<?= config('app.assetUrl'); ?>/human/fonts/font-awsome/css/font-awesome-ie7.min.css">

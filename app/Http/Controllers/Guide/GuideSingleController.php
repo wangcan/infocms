@@ -11,11 +11,23 @@ class GuideSingleController extends Controller
 
     public function home()
     {
-        return $this->customView('home');
+		$datas = [
+			'title' => 'hhhh', 
+			'keywords' => 'key', 
+			'description' => 'description',
+			'view' => 'home',
+		];
+        return $this->customView('home', $datas);
     }
 
     public function vote()
     {
-        return $this->customView('vote');
+		$datas = [
+			'title' => 'hhhh', 
+			'keywords' => 'key', 
+			'description' => 'description',
+			'view' => 'vote',
+		];
+        return $this->customView('vote', $datas);
     }
 }
