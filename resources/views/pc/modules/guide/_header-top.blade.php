@@ -1,5 +1,5 @@
 <header>
-    <div class="headlist">
+    <!--<div class="headlist">
         <a class="logo" href="https://www.maigoo.com/">
             <img src="{{$commonAssetUrl}}/sguide/img/9b49d-6078.png" /></a>
         <a class="phoneqrcode color1 fenlei" href="/category/brand/#poscat1name5196" target="_blank">
@@ -36,7 +36,7 @@
         </div>
         <div class="clear"></div>
     </div>
-    <div class="clear"></div>
+    <div class="clear"></div>-->
     <div id="pagenav" class="col0">
         <div class="pagenav bg1">
             <div class="navcont">

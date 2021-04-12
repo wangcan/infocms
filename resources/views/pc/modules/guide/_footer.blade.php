@@ -1,6 +1,6 @@
 <footer class="footlist">
     <div id="footer">
-        <div class="footxg">
+        <!--<div class="footxg">
             <dl class="col3">
                 <dt>
                     <i class="iconfont icon-jiangpai"></i>
@@ -49,16 +49,17 @@
                     <a href="https://www.maigoo.com/product/list_4877.html" target="_blank">网购行业</a>
                     <a href="https://www.maigoo.com/goomai/list_5570.html" target="_blank">购物清单</a></dd>
             </dl>
-        </div>
-        <div class="lgimg">
-            <img src="{{$commonAssetUrl}}/sguide/img/e9669-2147.png" /></div>
+        </div>-->
+        <!--<div class="lgimg">
+            <img src="{{$commonAssetUrl}}/sguide/img/e9669-2147.png" /></div>-->
         <div class="words font12 fff center line18em">
-            <ul class="words1">
+            <!--<ul class="words1">
                 <li>本站为注册用户提供信息存储空间服务，提供查询数据是为了消费者选购到市面上好的品牌（品牌消费），非“MAIGOO编辑上传提供”或“CNPP品牌数据研究部门</li>
                 <li>研究”的内容均是注册用户发布上传或搜索引擎技术自动搜录所得，不代表本站观点。如有侵权、虚假信息、错误信息或任何问题，请及时联系我们，</li>
-                <li>我们将在第一时间删除或更正。只有在行业出名、具有规模、影响力、经济实力的企业在才会被系统收录并在网站上面展示出现。</li></ul>
+                <li>我们将在第一时间删除或更正。只有在行业出名、具有规模、影响力、经济实力的企业在才会被系统收录并在网站上面展示出现。</li>
+            </ul>-->
             <div class="words2">
-                <div class="links">
+                <!--<div class="links">
                     <a href="https://www.cnpp.cn/index/cnpp/" target="_blank">品牌研究</a>
                     <span>|</span>
                     <a rel="nofollow" href="https://www.cnpp.cn/user/" target="_blank">办事大厅</a>
@@ -77,7 +78,7 @@
                     <span>|</span>
                     <a rel="nofollow" href="https://www.cnpp.cn/phliosophy/" target="_blank">平台介绍</a>
                     <span>|</span>
-                    <a rel="nofollow" href="https://www.cnpp.cn/aboutus/#contact" target="_blank">联系买购网</a></div>
+                    <a rel="nofollow" href="https://www.cnpp.cn/aboutus/#contact" target="_blank">联系买购网</a></div>-->
                 <div>
                     <span class="ipc">广东省通信管理局
                         <a target="_blank" href="http://beian.miit.gov.cn/" class="fff">粤ICP备13027612号</a></span>
@@ -87,9 +88,9 @@
             </div>
             <div class="clear"></div>
         </div>
-        <div class="center bimg">
+        <!--<div class="center bimg">
             <img class="lazy" data-src="{{$commonAssetUrl}}/sguide/img/f5b42-1095.png" /></div>
         <div class="center bimg">
-            <img class="lazy" data-src="{{$commonAssetUrl}}/sguide/img/b0e91-5790.png" /></div>
+            <img class="lazy" data-src="{{$commonAssetUrl}}/sguide/img/b0e91-5790.png" /></div>-->
     </div>
 </footer>
