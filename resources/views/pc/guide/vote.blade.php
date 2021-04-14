@@ -660,24 +660,5 @@
         @include('brand.modules._right')
     </div>
 </div>
-<script language="javascript">var pac = 'vote',
-    pdo = 'list',
-    pid = '797',
-    siteid = 0,
-    CNPP = 'https://cnpp.cn/',
-    catid = '797',
-    brandid = '',
-    userid = '0',
-    issm = '';
-    var authorpiclist = null;</script>
 <script type="text/javascript" src="{{$commonAssetUrl}}/sguide/js/vote_list_4c45342d376097e2d61e97dada1b024a.js"></script>
-<script>var _hmt = _hmt || []; (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?de3f6fd28ec4ac19170f18e2a8777593";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-    })();</script>
-</body>
-
-</html>
 @endsection

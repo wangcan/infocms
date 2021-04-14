@@ -47,11 +47,6 @@
     brandid = '2411',
     userid = '0',
     issm = '';
-    var authorpiclist = null;</script>
+    var authorpiclist = null;
+</script>
 <script type="text/javascript" src="{{$commonAssetUrl}}/sguide/js/brand_show_d94be6d8b37fb917d5428436170ff058.js"></script>
-<script>var _hmt = _hmt || []; (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?de3f6fd28ec4ac19170f18e2a8777593";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-    })();</script>

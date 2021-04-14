@@ -21,4 +21,9 @@ class HomeController extends Controller
     {
         return $this->customView('show');
     }
+
+    public function resume()
+    {
+        return $this->customView('resume');
+    }
 }

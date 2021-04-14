@@ -1,4 +1,4 @@
-@extends('layouts.subject')
+@extends('layouts.guide')
 @section('dynamicMeta')@include('modules._meta', $datas)@endsection
 @section('jscss')@include('modules.subject._jscss', ['view' => $datas['view']])@endsection
 @section('bodyClass')class="pc blockstyle2"@endsection

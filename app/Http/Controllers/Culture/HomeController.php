@@ -40,7 +40,7 @@ class HomeController extends Controller
 			'subject' => ['/', '/human', '/info', '/knowledge', '/league', '/product', '/shop', '/store'],
 			'brand' => ['/', '/detail', '/product', '/shop', '/store'],
 			'guide' => ['/', '/showhuman-1', '/showinfo-1', '/showknowledge-1', '/showleague-1', '/showshop-1', '/showstore-1', '/vote'],
-			'human' => ['/', '/404', '/about', '/blog', '/contact', '/elements', '/gallery', '/home_alternative', '/page_alternative', '/portfolio', '/portfolio_item', '/portfolio_item_2', '/register', '/services', '/single_post'],
+			'human' => ['/', '/404', '/about', '/blog', '/contact', '/elements', '/gallery', '/home_alternative', '/page_alternative', '/portfolio', '/portfolio_item', '/portfolio_item_2', '/register', '/services', '/single_post', '/resume'],
 		];
 
 		foreach (['culture', 'pet', 'subject', 'brand', 'guide', 'human'] as $elem) {

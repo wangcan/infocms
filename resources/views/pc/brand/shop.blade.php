@@ -1,4 +1,4 @@
-@extends('layouts.brand')
+@extends('layouts.guide')
 
 @section('dynamicMeta')@include('modules._meta', $datas)@endsection
 @section('jscss')@include('modules.brand._jscss', ['view' => $datas['view']])@endsection
