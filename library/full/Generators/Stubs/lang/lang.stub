@@ -1,6 +1,0 @@
-<?php
-
-return [
-    'columns' => $MODEL_FIELDS$,
-    'header' => '$MODEL$'
-];
