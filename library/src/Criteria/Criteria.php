@@ -1,4 +1,6 @@
-<?php namespace Bosnadev\Repositories\Criteria;
+<?php
+
+namespace Bosnadev\Repositories\Criteria;
 
 use Bosnadev\Repositories\Contracts\RepositoryInterface as Repository;
 

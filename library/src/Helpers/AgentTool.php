@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Utils;
+namespace Larabase\Helpers;
 
 use Jenssegers\Agent\Agent;
 

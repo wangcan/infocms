@@ -9,7 +9,7 @@ use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 
-use App\Utils\AgentTool;
+use Larabase\Helpers\AgentTool;
 
 class Controller extends BaseController
 {

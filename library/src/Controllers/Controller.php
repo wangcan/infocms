@@ -1,5 +1,80 @@
 <?php
 
+
+use Illuminate\Http\Response;
+use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Redis;
+use Tymon\JWTAuth\Exceptions\JWTException;
+use Tymon\JWTAuth\Exceptions\TokenExpiredException;
+use Tymon\JWTAuth\Facades\JWTAuth;
+use Illuminate\Routing\Controller as BaseController;
+
+class Controller extends BaseController
+{
+}
+<?php
+
+namespace Larabase\Http\Controllers;
+
+use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
+use Illuminate\Foundation\Bus\DispatchesJobs;
+use Illuminate\Foundation\Validation\ValidatesRequests;
+use Illuminate\Routing\Controller as BaseController;
+use Yeelight\Traits\AuthUserHelpers;
+
+/**
+ * Class Controller
+ *
+ * @category Larabase
+ * @package Larabase\Http\Controllers
+ * @license https://opensource.org/licenses/MIT MIT
+ */
+abstract class Controller extends BaseController
+{
+    use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+    use AuthUserHelpers;
+
+    const CODE_NOT_FOUND = 404;
+    protected  $perPage;
+    protected $user = null;
+
+    public function __construct()
+    {
+        try{
+            $this->user = \JWTAuth::parseToken()->authenticate();
+        }catch (\Exception $e){
+            $this->user = null;
+        }
+        $inTest = config('app.inTest');
+        $testUser = \Request::input('point_testuid');
+        if ($inTest && $testUser) {
+            $this->user = \App\Models\AppUser::find($testUser);
+        }
+        $this->perPage = intval(Input::get('page_size',15));
+    }
+
+    public function getPointModel($code)
+    {
+        $code = ucfirst($code);
+        $class = "\App\Models\\{$code}";
+        return new $class();
+    }
+
+    public function getVersion()
+    {
+        return \Request::header('version');
+    }
+
+    public function checkInnerUid($uid)
+    {
+        $innerUids = config('app.inner_uid');
+        $innerUids = explode(',', $innerUids);
+        return in_array($uid, $innerUids) ? 1 : 0;
+    }
+}
+<?php
+
 namespace Yeelight\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
@@ -559,105 +634,5 @@ class Controller extends BaseController
         }
 
         return $assistantIds;
-    }
-}
-<?php
-
-namespace App\Http\Controllers\Front;
-
-use App\Models\Setting;
-use Illuminate\Http\Response;
-use Illuminate\Support\Facades\Input;
-use Illuminate\Support\Facades\Log;
-use Illuminate\Support\Facades\Redis;
-use Tymon\JWTAuth\Exceptions\JWTException;
-use Tymon\JWTAuth\Exceptions\TokenExpiredException;
-use Tymon\JWTAuth\Facades\JWTAuth;
-use Illuminate\Routing\Controller as BaseController;
-
-class Controller extends BaseController
-{
-
-    const CODE_NOT_FOUND = 404;
-    protected  $perPage;
-    protected $user = null;
-
-    public function __construct()
-    {
-        try{
-            $this->user = \JWTAuth::parseToken()->authenticate();
-        }catch (\Exception $e){
-            $this->user = null;
-        }
-        $inTest = config('app.inTest');
-        $testUser = \Request::input('point_testuid');
-        if ($inTest && $testUser) {
-            $this->user = \App\Models\AppUser::find($testUser);
-        }
-        $this->perPage = intval(Input::get('page_size',15));
-    }
-
-    public function error($msg, $code = 1, $data = null)
-    {
-       return collect([
-           'status' => $code,
-           'msg' => $msg, 
-           'data' => $data,
-           ]);
-    }
-
-    public function success($msg , $data=null ,$token = '',$pageCount=0)
-    {
-       $headers = $token ? ['Authorization' =>  'Bearer '.$token ] : [];
-        return  new Response(
-             collect([
-                'status' => 0,
-                'msg' => $msg,
-                'data' => $data,
-              ]),
-            200,
-            $headers
-        );
-    }
-
-    public function user(){
-        return $this->user;
-    }
-
-    public function getDeviceno()
-    {
-        return \Request::header('deviceno');
-    }
-
-    public function getPointModel($code)
-    {
-        $code = ucfirst($code);
-        $class = "\App\Models\\{$code}";
-        return new $class();
-    }
-
-    public function noPenMark($course, $request)
-    {
-        $noPen = $request->input('no_pen');
-        if (empty($noPen)) {
-            return 0;
-        }
-        $isExperience = $course->isExperience();
-        if (empty($isExperience)) {
-            return 0;
-        }
-        return 1;
-    }
-
-    public function getVersion()
-    {
-        return \Request::header('version');
-    }
-
-    public function checkInnerUid($uid)
-    {
-        $innerUids = config('app.inner_uid');
-        $innerUids = explode(',', $innerUids);
-        return in_array($uid, $innerUids) ? 1 : 0;
     }
 }
