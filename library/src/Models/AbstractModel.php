@@ -26,7 +26,7 @@ use Yeelight\Traits\BaseModelEvents;
  *
  * @mixin \Eloquent
  */
-class BaseModel extends Model implements BaseModelEventsInterface
+class AbstractModel extends Model implements BaseModelEventsInterface
 {
     use BaseModelEvents;
 

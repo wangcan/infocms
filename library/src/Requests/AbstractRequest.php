@@ -1,6 +1,6 @@
 <?php
 
-namespace Larabase\Http\Requests;
+namespace Larabase\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;

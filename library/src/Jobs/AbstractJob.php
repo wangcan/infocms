@@ -8,7 +8,7 @@ use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Bus\SelfHandling;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-abstract class Job implements SelfHandling, ShouldQueue
+abstract class AbstractJob implements SelfHandling, ShouldQueue
 {
     use InteractsWithQueue, Queueable, SerializesModels;
 

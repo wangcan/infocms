@@ -9,7 +9,7 @@ namespace Larabase\Helpers;
  * @package Larabase\Helpers
  * @license https://opensource.org/licenses/MIT MIT
  */
-class Helper
+class Operation
 {
     public function models()
     {
