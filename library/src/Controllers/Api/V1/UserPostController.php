@@ -13,10 +13,4 @@ class UserPostController extends Controller
     /**
      * Return the user's posts.
      */
-    public function index(Request $request, User $user): ResourceCollection
-    {
-        return PostResource::collection(
-            $user->posts()->latest()->paginate($request->input('limit', 20))
-        );
-    }
 }
