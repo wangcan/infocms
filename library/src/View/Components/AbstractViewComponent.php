@@ -7,19 +7,18 @@ use Illuminate\View\View;
 
 class AbstractViewComponent extends Component
 {
-    public string $type;
-
-    public ?string $dismissible;
+    public string $route;
+    public $params;
 
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct(string $type, string $dismissible = null)
+    public function __construct($params = '')
     {
-        $this->type = $type;
-        $this->dismissible = $dismissible;
+        $this->route = \Request::route()->getName();
+        $this->params = json_decode($params, true);
     }
 
     /**
@@ -27,6 +26,23 @@ class AbstractViewComponent extends Component
      */
     public function render(): View
     {
-        return view('components.alert');
+        if (empty($this->getView())) {
+            return '';
+        }
+        $datas = $this->getDatas();
+        return view('components.' . $this->getView(), $datas);
+    }
+
+    public function getDatas()
+    {
+        $datas = $this->params;
+        $datas['route'] = $this->route;
+
+        return $datas;
+    }
+
+    public function getView()
+    {
+        return '';
     }
 }

@@ -7,8 +7,7 @@
                         <a href="http://www.boqii.com/baike/">首页</a></p>
                 </li>
                 <li class="menu_list ">
-                    <p>
-                        <a href="http://www.boqii.com/baike/dog/">狗狗</a></p>
+                    <p><a href="http://www.boqii.com/baike/dog/">狗狗</a></p>
                     <div class="nav_list w470 none">
                         <dl class="dquan">
                             <dt>

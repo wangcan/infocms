@@ -1,8 +1,5 @@
 <link rel="shortcut icon" href="{{$commonAssetUrl}}/petcms/img/ab561-6001.ico" />
-
-
-
-@switch($view)
+@switch($route)
 @case('home')
 <link rel="stylesheet" type="text/css" href="//a.boqiicdn.com/Js1/min/?f=/Css/baikenew/common.css,/Css/baikenew/style.css,/Css/baikenew/subList.css" />
 @break
@@ -24,7 +21,6 @@
 {{--@case('detail')
 @break--}}
 @endswitch
-
 <!--[if lt IE 9]>
     <script src="{{$commonAssetUrl}}/petcms/js/respond.min.js"></script>
     <link href="//a.boqiicdn.com/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />

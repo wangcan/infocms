@@ -19,7 +19,7 @@
             "img_dir": "http://img.boqiicdn.com"
         };</script>
     <link rel="stylesheet" type="text/css" href="{{$commonAssetUrl}}/petcms/css/05527-2245.css" />
-    <div id="toolbar">
+    <!--<div id="toolbar">
         <div class="toolbar_auto">
             <ul class="toolbar_left left">
                 <li>
@@ -33,10 +33,10 @@
             </ul>
             <ul class="toolbar_right right"></ul>
         </div>
-    </div>
+    </div>-->
     <script src="{{$commonAssetUrl}}/petcms/js/public_toolbar_baike.js"></script>
     <!--顶部开始-->
-    <div id="header">
+    <!--<div id="header">
         <div class="top_auto">
             <div class="logo">
                 <a href="http://www.boqii.com/baike">
@@ -53,5 +53,5 @@
                     <img src="{{$commonAssetUrl}}/petcms/img/52f3b-7661.jpg" /></a>
             </div>
         </div>
-    </div>
+    </div>-->
     <!--顶部结束-->
