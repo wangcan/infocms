@@ -1,27 +1,54 @@
 <?php
 
-namespace Yeelight\Base\Presenters;
+namespace Larabase\Presenters;
 
 use Illuminate\Pagination\AbstractPaginator;
 use Illuminate\Support\Collection;
 use Prettus\Repository\Presenter\FractalPresenter;
+use Larabase\Transformers\AbstractTransformer;
 
 /**
  * Class Presenter
  *
- * @category Yeelight
- *
- * @package Yeelight\Base\Presenters
- *
- * @author Sheldon Lee <xdlee110@gmail.com>
- *
+ * @category Larabase
+ * @package Larabase\Presenters
  * @license https://opensource.org/licenses/MIT MIT
- *
- * @link https://www.yeelight.com
  */
-abstract class Presenter extends FractalPresenter
+abstract class AbstractPresenter extends FractalPresenter
 {
     protected $meta = [];
+    /**
+     * @var string
+     */
+    protected $transformer = null;
+
+    /**
+     * @param string $transformer
+     */
+    public function setTransformer(string $transformer)
+    {
+        $this->transformer = $transformer;
+    }
+
+    /**
+     * Transformer.
+     *
+     * @return \League\Fractal\TransformerAbstract
+     */
+    public function getTransformer()
+    {
+        if ($this->transformer) {
+            return new $this->transformer();
+        } else {
+            return new AbstractTransformer();
+        }
+    }
+
+//use Yeelight\Transformers\AdminMenuTransformer;
+    public function getTransformer()
+    {
+        return new AdminMenuTransformer();
+    }
 
     /**
      * Prepare data to present.
@@ -62,86 +89,5 @@ abstract class Presenter extends FractalPresenter
     public function setMeta(array $meta)
     {
         $this->meta = $meta;
-    }
-}
-<?php
-
-namespace Larabase\Presenters;
-
-use Yeelight\Transformers\BasicTransformer;
-
-/**
- * Class BasicPresenter
- *
- * @category Yeelight
- *
- * @package Yeelight\Presenters
- *
- * @author Sheldon Lee <xdlee110@gmail.com>
- *
- * @license https://opensource.org/licenses/MIT MIT
- *
- * @link https://www.yeelight.com
- */
-class BasicPresenter extends BasePresenter
-{
-    /**
-     * @var string
-     */
-    protected $transformer = null;
-
-    /**
-     * @param string $transformer
-     */
-    public function setTransformer(string $transformer)
-    {
-        $this->transformer = $transformer;
-    }
-
-    /**
-     * Transformer.
-     *
-     * @return \League\Fractal\TransformerAbstract
-     */
-    public function getTransformer()
-    {
-        if ($this->transformer) {
-            return new $this->transformer();
-        } else {
-            return new BasicTransformer();
-        }
-    }
-//use Yeelight\Transformers\AdminMenuTransformer;
-    public function getTransformer()
-    {
-        return new AdminMenuTransformer();
-    }
-}
-<?php
-namespace Prettus\Repository\Presenter;
-
-use Exception;
-use Prettus\Repository\Transformer\ModelTransformer;
-
-/**
- * Class ModelFractalPresenter
- * @package Prettus\Repository\Presenter
- */
-class ModelFractalPresenter extends FractalPresenter
-{
-
-    /**
-     * Transformer
-     *
-     * @return ModelTransformer
-     * @throws Exception
-     */
-    public function getTransformer()
-    {
-        if (!class_exists('League\Fractal\Manager')) {
-            throw new Exception("Package required. Please install: 'composer require league/fractal' (0.12.*)");
-        }
-
-        return new ModelTransformer();
     }
 }

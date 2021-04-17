@@ -1,77 +1,162 @@
-<?php namespace Bosnadev\Repositories\Contracts;
+<?php
+
+namespace Yeelight\Base\Repositories\Interfaces;
+
+use Illuminate\Database\Eloquent\Model;
+use Prettus\Repository\Contracts\RepositoryInterface as BaseRepositoryInterface;
+use Prettus\Repository\Exceptions\RepositoryException;
+use Prettus\Validator\Contracts\ValidatorInterface;
 
 /**
  * Interface RepositoryInterface
- * @package Bosnadev\Repositories\Contracts
+ *
+ * @category Yeelight
+ *
+ * @package Yeelight\Base\Repositories\Interfaces
+ *
+ * @author Sheldon Lee <xdlee110@gmail.com>
+ *
+ * @license https://opensource.org/licenses/MIT MIT
+ *
+ * @link https://www.yeelight.com
  */
-interface RepositoryInterface {
+interface RepositoryInterface extends BaseRepositoryInterface
+{
+    /**
+     * ByAuthUser
+     *
+     * @return $this
+     */
+    public function byAuthUser();
 
     /**
-     * @param array $columns
+     * AuthUserId
+     *
      * @return mixed
      */
-    public function all($columns = array('*'));
+    public function authUserId();
 
     /**
-     * @param $perPage
-     * @param array $columns
+     * ValidateCreate
+     *
+     * @param array $attributes attributes
+     *
+     * @return void
+     */
+    public function validateCreate(array $attributes);
+
+    /**
+     * ValidateUpdate
+     *
+     * @param array $attributes attributes
+     *
+     * @return void
+     */
+    public function validateUpdate(array $attributes);
+
+    /**
+     * SetValidator
+     *
+     * @param ValidatorInterface $validator validator
+     *
+     * @return $this
+     */
+    public function setValidator($validator);
+
+    /**
+     * Present
+     *
+     * @param Object $results results
+     *
      * @return mixed
      */
-    public function paginate($perPage = 1, $columns = array('*'));
+    public function present($results);
 
     /**
-     * @param array $data
+     * SetRelateModel
+     *
+     * @param Model $targetModel targetModel
+     *
+     * @return $this
+     * @throws RepositoryException
+     */
+    public function setRelateModel(Model $targetModel);
+
+    /**
+     * Relation
+     *
+     * @return \Prettus\Repository\Contracts\PresenterInterface
+     */
+    public function getPresenter();
+
+    /**
+     * SetPresenterMeta
+     *
+     * @param array $meta $meta
+     *
      * @return mixed
      */
-    public function create(array $data);
+    public function setPresenterMeta(array $meta);
 
     /**
-     * @param array $data
+     * GetIsSearchableForceAndWhere
+     *
      * @return bool
      */
-    public function saveModel(array $data);
+    public function getIsSearchableForceAndWhere();
 
     /**
-     * @param array $data
-     * @param $id
-     * @return mixed
+     * Find data by where conditions.
+     *
+     * @param array $where where
+     *
+     * @return $this
      */
-    public function update(array $data, $id);
+    public function where(array $where);
 
     /**
-     * @param $id
+     * Retrieve first data of repository with fail if not found.
+     *
+     * @param array $columns columns
+     *
      * @return mixed
      */
-    public function delete($id);
+    public function firstOrFail($columns = ['*']);
 
     /**
-     * @param $id
-     * @param array $columns
+     * Where first.
+     *
+     * @param array $where where
+     * @param array $columns columns
+     *
      * @return mixed
      */
-    public function find($id, $columns = array('*'));
+    public function whereFirst(array $where, $columns = ['*']);
 
     /**
-     * @param $field
-     * @param $value
-     * @param array $columns
+     * Wrapper result data.
+     *
+     * @param mixed $result result
+     *
      * @return mixed
      */
-    public function findBy($field, $value, $columns = array('*'));
+    public function parserResult($result);
 
     /**
-     * @param $field
-     * @param $value
-     * @param array $columns
-     * @return mixed
+     * Use Model for custom usages.
+     *
+     * @param callable $callback callback
+     *
+     * @return $this
      */
-    public function findAllBy($field, $value, $columns = array('*'));
+    public function useModel(callable $callback);
 
     /**
-     * @param $where
-     * @param array $columns
-     * @return mixed
+     * Remove all or passed registered global scopes.
+     *
+     * @param array|null $scopes scopes
+     *
+     * @return $this
      */
-    public function findWhere($where, $columns = array('*'));
-
+    public function withoutGlobalScopes(array $scopes = null);
 }
