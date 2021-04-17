@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers\Backend;
 
-use Illuminate\Support\Facades\DB;
-use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Routing\Controller as BaseController;
 
@@ -14,9 +12,6 @@ abstract class AbstractController extends BaseController
     const CODE_NOT_FOUND = 404;
     protected  $perPage;
     protected $user = null;
-    public $smartpenAdmin;
-    public $smartpenTeachers = [];
-    public $smartpenAssistants = [];
 
     public function __construct()
     {

@@ -3,18 +3,10 @@
 namespace Larabase\Controllers;
 
 use Illuminate\Support\Facades\DB;
-use App\Http\Controllers\Controller as BaseController;
-use App\Models\Sale\SalePeople;
 use Maatwebsite\Excel\Facades\Excel; 
 use App\Services\ExcelDownloadService;
-use Maatwebsite\Excel\Facades\Excel;
-use App\Exceptions\PrivException;
 use App\Services\ExcelService;
 use App\Services\ExcelDownloadService;
-use App\Models\User;
-use App\Models\Teacher;
-use App\Models\Assistant;
-use App\Models\Managerlog;
 
 trait TraitOperation
 {

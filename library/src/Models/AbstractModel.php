@@ -5,76 +5,17 @@ namespace Larabase\Models;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Prettus\Repository\Presenter\ModelFractalPresenter;
-use Yeelight\Models\Foundation\BaseUser;
-use Yeelight\Models\Interfaces\BaseModelEventsInterface;
-use Yeelight\Traits\BaseModelEvents;
 
 /**
- * Class BaseModel
+ * Class AbstractModel
  *
- * @category Yeelight
- *
- * @package Yeelight\Base\Models
- *
- * @author Sheldon Lee <xdlee110@gmail.com>
- *
+ * @category Larabase
+ * @package Larabase\Models
  * @license https://opensource.org/licenses/MIT MIT
- *
- * @link https://www.yeelight.com
- *
- * @property-read mixed $id
- *
  * @mixin \Eloquent
  */
-class AbstractModel extends Model implements BaseModelEventsInterface
+class AbstractModel extends Model
 {
-    use BaseModelEvents;
-
-    /**
-     * Indicates if the model should be auto set user_id.
-     *
-     * @var bool
-     */
-    protected $autoUserId = true;
-
-    /**
-     * Indicates if the model should be recorded ips.
-     *
-     * @var bool
-     */
-    protected $ips = true;
-
-    /**
-     * Indicates if the model should be recorded users.
-     *
-     * @var bool
-     */
-    protected $update_users = true;
-
-    /**
-     * Indicates timestamp is always saved in UTC timezone.
-     *
-     * @var bool
-     */
-    protected $timestampAlwaysUtc = false;
-
-    /**
-     * Indicates timestamp is always get in user timezone.
-     *
-     * @var bool
-     */
-    protected $getWithUserTimezone = true;
-
-    /**
-     * Get the auth instance.
-     *
-     * @return \Dingo\Api\Auth\Auth
-     */
-    protected function apiAuth()
-    {
-        return app('Dingo\Api\Auth\Auth');
-    }
-
     /**
      * Get ID from the model primary key.
      *
@@ -83,142 +24,6 @@ class AbstractModel extends Model implements BaseModelEventsInterface
     public function getIdAttribute()
     {
         return $this->attributes[$this->getKeyName()];
-    }
-
-    /**
-     * Get current auth user.
-     *
-     * @return BaseUser|null
-     */
-    public function getAuthUser()
-    {
-        $user = null;
-        if ($this->apiAuth()->check()) { // API
-            $user = $this->apiAuth()->user();
-        } elseif (\Auth::guard(config('yeelight.backend.route.prefix'))->check()) {
-            // Backend
-            $user = \Auth::guard(config('yeelight.backend.route.prefix'))->user();
-        } elseif (\Auth::check()) {
-            // Normal
-            $user = \Auth::user();
-        }
-
-        return $user;
-    }
-
-    /**
-     * Get current auth user_id.
-     *
-     * @return mixed|null
-     */
-    public function getAuthUserId()
-    {
-        $user_id = null;
-        $user = $this->getAuthUser();
-        if ($user) {
-            $user_id = isset($user->user_id) ? $user->user_id : $user->id;
-        }
-
-        return $user_id;
-    }
-
-    /**
-     * Get current model's user_id.
-     *
-     * @return mixed|null
-     */
-    public function getUserId()
-    {
-        return $this->user_id;
-    }
-
-    /**
-     * Update the creation and update ips.
-     *
-     * @return void
-     */
-    protected function updateIps()
-    {
-        $ips = get_client_ip();
-
-        if (!$this->isDirty('updated_ip')) {
-            $this->updated_ip = $ips;
-        }
-
-        if (!$this->exists && !$this->isDirty('created_ip')) {
-            $this->created_ip = $ips;
-        }
-    }
-
-    /**
-     * Update the creation and update by users.
-     *
-     * @return void
-     */
-    protected function updateUsers()
-    {
-        $user_id = $this->getAuthUserId();
-        if (!($user_id > 0)) {
-            return;
-        }
-
-        if (!$this->isDirty('updated_by')) {
-            $this->updated_by = $user_id;
-        }
-
-        if (!$this->exists && !$this->isDirty('created_by')) {
-            $this->created_by = $user_id;
-        }
-    }
-
-    /**
-     * 判断当前登陆者
-     *
-     * @return bool
-     */
-    public function isAuthUserOwner()
-    {
-        return $this->getAuthUserId() == $this->getUserId();
-    }
-
-    /**
-     * 获取当前UTC时间
-     *
-     * @return Carbon
-     */
-    public function getNowUTCTime()
-    {
-        return Carbon::now('UTC');
-    }
-
-    /**
-     * 获取当前Auth用户UTC时间
-     *
-     * @return Carbon
-     */
-    public function getNowAuthUserTime()
-    {
-        return Carbon::now($this->getAuthUserDateTimezone());
-    }
-
-    /**
-     * 获取当前用户
-     *
-     * @return BaseUser|null
-     */
-    public function getUser()
-    {
-        return $this->user;
-    }
-
-    /**
-     * 获取关联用户
-     *
-     * @return BaseUser|null
-     */
-    public function getRelatedUser()
-    {
-        return $this->related_user;
     }
 
     /**
@@ -232,21 +37,6 @@ class AbstractModel extends Model implements BaseModelEventsInterface
         $this->setPresenter(new ModelFractalPresenter());
 
         return $this;
-    }
-
-    /**
-     * Return a timezone for all Datetime objects.
-     *
-     * @return mixed
-     */
-    public function getAuthUserDateTimezone()
-    {
-        $user = $this->getAuthUser();
-        if ($user && !empty($user->timezone)) {
-            return $user->timezone;
-        } else {
-            return app_timezone();
-        }
     }
 
     /**
@@ -303,44 +93,8 @@ class AbstractModel extends Model implements BaseModelEventsInterface
         return $date->format($this->getDateFormat());
     }
 
-    /**
-     * 模型标记.
-     *
-     * @var
-     */
-    public $modelTag;
-
     public function __construct(array $attributes = [])
     {
         parent::__construct($attributes);
-    }
-
-    public function initModelTag()
-    {
-        $this->modelTag = strtolower((new \ReflectionClass($this))->getShortName());
-    }
-
-    /**
-     * @return User|null
-     */
-    public function getUser()
-    {
-        return parent::getUser();
-    }
-
-    /**
-     * @return User|null
-     */
-    public function getAuthUser()
-    {
-        return parent::getAuthUser();
-    }
-
-    /**
-     * @return User|null
-     */
-    public function getRelatedUser()
-    {
-        return $this->related_user;
     }
 }
