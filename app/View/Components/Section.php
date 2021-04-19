@@ -23,7 +23,6 @@ class Section extends AbstractView
 
     public function getNavDatas()
     {
-        $
         //$
     }
 }

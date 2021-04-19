@@ -42,18 +42,7 @@ class RouteServiceProvider extends ServiceProvider
      */
     public function map()
     {
-		if (!app()->runningInConsole()) {
-            $siteCode = explode('.', $_SERVER['HTTP_HOST'])[0];
-            $siteCode = explode('-', $siteCode)[0];
-            $siteCode = in_array($siteCode, ['brand', 'subject']) ? 'guide' : $siteCode;
-            //var_dump($siteCode);
-            if (in_array($siteCode, ['pet', 'culture', 'guide', 'human', 'topic'])) {
-		        $namespace = 'App\Http\Controllers\\' . ucfirst($siteCode);
-                Route::namespace($namespace)->group(base_path("routes/{$siteCode}.php"));
-			    return ;
-            }
-        }
-
+        $this->mapWebRoutes();
         $this->mapSaleRoutes();
         $this->mapApiRoutes();
     }
@@ -86,5 +75,23 @@ class RouteServiceProvider extends ServiceProvider
             ->middleware('api')
             ->namespace($this->namespace)
             ->group(base_path('routes/sale.php'));
+    }
+
+    protected function mapWebRoutes()
+    {
+		/*if (!app()->runningInConsole()) {
+            $siteCode = explode('.', $_SERVER['HTTP_HOST'])[0];
+            $siteCode = explode('-', $siteCode)[0];
+            $siteCode = in_array($siteCode, ['brand', 'subject']) ? 'guide' : $siteCode;
+            //var_dump($siteCode);
+            if (in_array($siteCode, ['pet', 'culture', 'guide', 'human', 'topic'])) {
+		        $namespace = 'App\Http\Controllers\\' . ucfirst($siteCode);
+                Route::namespace($namespace)->group(base_path("routes/{$siteCode}.php"));
+			    return ;
+            }
+        }*/
+        Route::prefix('web')
+            ->namespace($this->namespace)
+            ->group(base_path('routes/web.php'));
     }
 }
