@@ -7,11 +7,11 @@ use Illuminate\Support\Facades\App;
 use Illuminate\View\FileViewFinder;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
-use Illuminate\Routing\Controller as BaseController;
 
+use Larabase\Controllers\AbstractController;
 use Larabase\Helpers\AgentTool;
 
-class Controller extends BaseController
+class Controller extends AbstractController
 {
     use DispatchesJobs, ValidatesRequests;
 

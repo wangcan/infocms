@@ -17,6 +17,7 @@ $routes = [
     ],
     'human' => [
         'routes' => ['', '{code}'],
+        '{code}' => ['action' => 'view'],
     ],
     'culture' => [
         'routes' => ['', 'list', 'list/{code}', 'list/{code}-{page}', 'show-{id}', 'test'],
@@ -36,19 +37,7 @@ foreach ($routes as $domain => $domainRoutes) {
     }
     Route::domain(config('app.' . $currentHost . 'Domain'))->group(function () use ($domain, $domainRoutes) {
         foreach ($domainRoutes['routes'] as $route) {
-            $domainRoute = $domainRoutes[$route] ?? [];
-
-            $methods = $domainRoute['methods'] ?? ['GET'];
-            $controller = $domainRoute['controller'] ?? $domain;
-            $action = $domainRoute['action'] ?? $route;
-            $action = empty($action) ? 'home' : $action;
-            $name = $domainRoute['name'] ?? $controller . '.' . $action;
-            echo serialize($methods) . '--' . $controller . '==' . $action . '===' . $name . "\n <br />";
-            if ($methods === 'any') {
-                Route::any('/' . $route, ucfirst($controller) . 'Controller@' . $action)->name($name);
-            } else {
-                Route::match($methods, '/' . $route, ucfirst($controller) . 'Controller@' . $action)->name($name);
-            }
+            ResourceManager::setRoute($route, $domain, $domainRoutes);
         }
     });
 }

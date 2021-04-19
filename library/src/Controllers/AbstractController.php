@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Backend;
+namespace Larabase\Controllers;
 
 use Illuminate\Support\Facades\Input;
 use Illuminate\Routing\Controller as BaseController;
@@ -16,13 +16,13 @@ abstract class AbstractController extends BaseController
     public function __construct()
     {
         try{
-            $inTest = config('app.inTest');
-            $this->user = $inTest && $inTest == 2 ? User::find(1909223) : \JWTAuth::parseToken()->authenticate();
+            //$inTest = config('app.inTest');
+            //$this->user = $inTest && $inTest == 2 ? User::find(1909223) : \JWTAuth::parseToken()->authenticate();
         }catch (\Exception $e){
-            throw new PrivException('您没有权限');
+            //throw new \Exception('您没有权限');
         }
 
-        $this->perPage = intval(Input::get('page_size',15));
+        //$this->perPage = intval(Input::get('page_size',15));
     }
 
     public function user(){
@@ -56,5 +56,10 @@ abstract class AbstractController extends BaseController
     public function getVersion()
     {
         return \Request::header('version');
+    }
+
+    public function getRouteParam($param)
+    {
+        return \Larabase\Helpers\ResourceManager::getRouteParam($param);
     }
 }

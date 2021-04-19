@@ -6,7 +6,6 @@ use Illuminate\Support\Facades\DB;
 use Maatwebsite\Excel\Facades\Excel; 
 use App\Services\ExcelDownloadService;
 use App\Services\ExcelService;
-use App\Services\ExcelDownloadService;
 
 trait TraitOperation
 {

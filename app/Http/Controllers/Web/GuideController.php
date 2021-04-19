@@ -15,7 +15,7 @@ class GuideController extends Controller
         return $this->customView('home', $datas);
     }
 
-    public function store()
+    public function showStore()
     {
 		$datas = [
 			'title' => '',
@@ -26,7 +26,7 @@ class GuideController extends Controller
         return $this->customView('store', $datas);
     }
 
-	public function shop()
+	public function showShop()
 	{
 		$datas = [
 			'title' => '',
@@ -37,7 +37,7 @@ class GuideController extends Controller
         return $this->customView('shop', $datas);
 	}
 
-	public function knowledge()
+	public function showKnowledge()
 	{
 		$datas = [
 			'title' => '',
@@ -48,7 +48,7 @@ class GuideController extends Controller
         return $this->customView('knowledge', $datas);
 	}
 
-	public function human()
+	public function showHuman()
 	{
 		$datas = [
 			'title' => '',
@@ -59,7 +59,7 @@ class GuideController extends Controller
         return $this->customView('human', $datas);
 	}
 
-	public function info()
+	public function showInfo()
 	{
 		$datas = [
 			'title' => '',
@@ -70,7 +70,7 @@ class GuideController extends Controller
         return $this->customView('info', $datas);
 	}
 
-	public function league()
+	public function showLeague()
 	{
 		$datas = [
 			'title' => '',

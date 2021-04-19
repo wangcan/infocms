@@ -1,6 +1,5 @@
 @extends('layouts.petcms')
 @section('dynamicMeta')@include('modules._meta', $datas)@endsection
-@section('jscss')@include('modules.petcms._jscss', ['view' => $datas['view']])@endsection
 @section('content')
 <!--主题内容开始-->
 <div id="content">

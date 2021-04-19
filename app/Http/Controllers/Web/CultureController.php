@@ -36,10 +36,10 @@ class CultureController extends Controller
 
 		$routes = [
 			'culture' => ['/', '/list', '/show-1'],
-			'pet' => ['/', '/infoshow-1', '/infolist', '/infohome', '/pethome', '/petlist', '/petshow-1', '/speciallist', '/specialshow-1'],
+			'pet' => ['/', '/info-show-1', '/info-list', '/info-home', '/pet-home', '/pet-list', '/pet-show-1', '/special-list', '/special-show-1'],
 			'subject' => ['/', '/human', '/info', '/knowledge', '/league', '/product', '/shop', '/store'],
 			'brand' => ['/', '/detail', '/product', '/shop', '/store'],
-			'guide' => ['/', '/showhuman-1', '/showinfo-1', '/showknowledge-1', '/showleague-1', '/showshop-1', '/showstore-1', '/vote'],
+			'guide' => ['/', '/show-human-1', '/show-info-1', '/show-knowledge-1', '/show-league-1', '/show-shop-1', '/show-store-1', '/vote'],
 			'human' => ['/', '/404', '/about', '/blog', '/contact', '/elements', '/gallery', '/home_alternative', '/page_alternative', '/portfolio', '/portfolio_item', '/portfolio_item_2', '/register', '/services', '/single_post', '/resume'],
 		];
 

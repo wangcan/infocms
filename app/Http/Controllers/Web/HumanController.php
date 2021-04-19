@@ -6,12 +6,14 @@ class HumanController extends Controller
 {
     public function home()
     {
-
+        $this->getHuman();
         return $this->customView('home');
     }
 
-    public function view($code)
+    public function view()
     {
+        $code = $this->getRouteParam('code');
+        var_dump($code);
         return $this->customView($code);
     }
 
@@ -23,5 +25,21 @@ class HumanController extends Controller
     public function resume()
     {
         return $this->customView('resume');
+    }
+
+	public function isMobile()
+	{
+		return null;
+	}
+
+	protected function viewPath()
+	{
+		return 'human';
+	}
+
+    public function getHuman()
+    {
+        $human = $this->getRouteParam('human');
+        return $human;
     }
 }
