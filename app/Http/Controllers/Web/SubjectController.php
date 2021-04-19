@@ -1,13 +1,19 @@
 <?php
 
-namespace App\Http\Controllers\Guide;
+namespace App\Http\Controllers\Web;
 
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Http;
-
-class SubjectListController extends Controller
+class SubjectController extends Controller
 {
-	use SubjectTrait;
+    public function home()
+    {
+		$datas = [
+			'title' => 'hhhh', 
+			'keywords' => 'key', 
+			'description' => 'description',
+			'view' => 'home',
+		];
+        return $this->customView('home', $datas);
+    }
 
 	public function product()
 	{
@@ -84,5 +90,9 @@ class SubjectListController extends Controller
 			'view' => 'league',
 		];
         return $this->customView('league', $datas);
+	}
+	protected function viewPath()
+	{
+		return 'subject';
 	}
 }

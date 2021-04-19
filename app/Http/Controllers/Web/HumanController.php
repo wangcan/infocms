@@ -1,10 +1,8 @@
 <?php
 
-namespace App\Http\Controllers\Human;
+namespace App\Http\Controllers\Web;
 
-use Illuminate\Http\Request;
-
-class HomeController extends Controller
+class HumanController extends Controller
 {
     public function home()
     {

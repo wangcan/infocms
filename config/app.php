@@ -241,6 +241,7 @@ return [
     'brandDomain' => env('BRAND_DOMAIN', ''),
     'guideDomain' => env('GUIDE_DOMAIN', ''),
     'petDomain' => env('PET_DOMAIN', ''),
+    'humanDomain' => env('HUMAN_DOMAIN', ''),
     'cultureDomain' => env('CULTURE_DOMAIN', ''),
 
 ];

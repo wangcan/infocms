@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Culture;
+namespace App\Http\Controllers\Web;
 
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class CultureController extends Controller
 {
     public function home()
     {
@@ -51,5 +51,10 @@ class HomeController extends Controller
 			}
 		}
 		echo $str;
+	}
+
+	protected function viewPath()
+	{
+		return 'culture';
 	}
 }

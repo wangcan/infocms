@@ -1,13 +1,19 @@
 <?php
 
-namespace App\Http\Controllers\Guide;
+namespace App\Http\Controllers\Web;
 
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Http;
-
-class GuideDetailController extends Controller
+class GuideController extends Controller
 {
-	use GuideTrait;
+    public function home()
+    {
+		$datas = [
+			'title' => 'hhhh', 
+			'keywords' => 'key', 
+			'description' => 'description',
+			'view' => 'home',
+		];
+        return $this->customView('home', $datas);
+    }
 
     public function store()
     {
@@ -73,5 +79,21 @@ class GuideDetailController extends Controller
 			'view' => 'league',
 		];
         return $this->customView('league', $datas);
+	}
+
+    public function vote()
+    {
+		$datas = [
+			'title' => 'hhhh', 
+			'keywords' => 'key', 
+			'description' => 'description',
+			'view' => 'vote',
+		];
+        return $this->customView('vote', $datas);
+    }
+
+	protected function viewPath()
+	{
+		return 'guide';
 	}
 }

@@ -1,13 +1,19 @@
 <?php
 
-namespace App\Http\Controllers\Guide;
+namespace App\Http\Controllers\Web;
 
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Http;
-
-class BrandListController extends Controller
+class BrandController extends Controller
 {
-	use BrandTrait;
+    public function home()
+    {
+		$datas = [
+			'title' => 'ggggg', 
+			'keywords' => 'key', 
+			'description' => 'description',
+			'view' => 'home',
+		];
+        return $this->customView('home', $datas);
+    }
 
     public function store()
     {
@@ -40,5 +46,21 @@ class BrandListController extends Controller
 			'view' => 'product',
 		];
         return $this->customView('product', $datas);
+	}
+
+    public function detail()
+    {
+		$datas = [
+			'title' => 'ggggg', 
+			'keywords' => 'key', 
+			'description' => 'description',
+			'view' => 'detail',
+		];
+        return $this->customView('detail', $datas);
+    }
+
+	protected function viewPath()
+	{
+		return 'brand';
 	}
 }
