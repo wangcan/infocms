@@ -17,9 +17,11 @@ $authAttributes = [
 
 Route::group($authAttributes, function() {
     Route::post('login', 'AuthController@login');//->name('login'); // 用户名、密码登录接口
+    Route::post('refresh', 'AuthController@refresh');
+    Route::get('register', 'RegisterController@register');
 });
 
-$authAttributes['middleware'] = ['api', 'auth'];
+$authAttributes['middleware'] = ['api', 'auth:api'];
 
 Route::group($authAttributes, function() {
     Route::get('myinfo', 'UserController@myinfo');

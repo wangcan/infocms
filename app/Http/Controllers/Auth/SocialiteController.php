@@ -3,12 +3,16 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Enums\UserSourceEnum;
-use App\Http\Controllers\Controller;
 use App\Models\User;
 use App\Services\WechatServe;
 use Illuminate\Http\Request;
 use Overtrue\Socialite\AuthorizeFailedException;
 use Overtrue\Socialite\SocialiteManager;
+
+
+use App\Models\User;
+use Auth;
+use Socialite;
 
 class AuthLoginController extends Controller
 {
@@ -253,11 +257,6 @@ class AuthLoginController extends Controller
 <?php
 
 namespace App\Http\Controllers\Auth;
-
-use App\Http\Controllers\Controller;
-use App\Models\User;
-use Auth;
-use Socialite;
 
 class AuthController extends Controller
 {

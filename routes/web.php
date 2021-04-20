@@ -2,6 +2,27 @@
 
 use Illuminate\Support\Facades\Route;
 
+    Route::any('/captcha-test', function() {
+        if (request()->getMethod() == 'POST') {
+            $rules = ['captcha' => 'required|captcha'];
+print_r(request()->all());
+            $validator = validator()->make(request()->all(), $rules);
+            if ($validator->fails()) {
+                echo '<p style="color: #ff0000;">Incorrect!</p>';
+            } else {
+                echo '<p style="color: #00ff30;">Matched :)</p>';
+            }
+        }
+    
+        $form = '<form method="post" action="captcha-test">';
+        $form .= '<input type="hidden" name="_token" value="' . csrf_token() . '">';
+        $form .= '<p>' . captcha_img() . '</p>';
+        $form .= '<p><input type="text" name="captcha"></p>';
+        $form .= '<p><button type="submit" name="check">Check</button></p>';
+        $form .= '</form>';
+        return $form;
+    });
+
 $routes = [
     'subject' => [
         'routes' => ['', 'human', 'info', 'knowledge', 'product', 'shop', 'store', 'league'],
@@ -20,7 +41,7 @@ $routes = [
         '{code}' => ['action' => 'view'],
     ],
     'culture' => [
-        'routes' => ['', 'list', 'list/{code}', 'list/{code}-{page}', 'show-{id}', 'test'],
+        'routes' => ['', 'listinfo', 'list/{code}', 'list/{code}-{page}', 'show-{id}', 'test'],
     ],
 ];
 $currentHost = false;

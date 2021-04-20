@@ -178,6 +178,8 @@ return [
         App\Providers\RouteServiceProvider::class,
         App\Providers\BladeServiceProvider::class,
         App\Providers\ObserverServiceProvider::class,
+        Mews\Captcha\CaptchaServiceProvider::class,
+
 
     ],
 
@@ -234,6 +236,7 @@ return [
         'Html' => Collective\Html\HtmlFacade::class,
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
         'ResourceManager' => Larabase\Helpers\ResourceManager::class,
+        'Captcha' => Mews\Captcha\Facades\Captcha::class,
 
     ],
     'assetUrl' => env('ASSET_URL', ''),

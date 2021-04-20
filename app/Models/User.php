@@ -2,43 +2,27 @@
 namespace App\Models;
 
 use Illuminate\Auth\Authenticatable;
-use Illuminate\Support\Facades\Storage;
-use Illuminate\Support\Str;
 use Tymon\JWTAuth\Contracts\JWTSubject;
 use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
-use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Str;
 use Overtrue\Pinyin\Pinyin;
 use App\Services\GuzzleServe;
 
-class User extends Model implements AuthenticatableContract, JWTSubject
+class User extends AbstractModel implements AuthenticatableContract, JWTSubject
 {
-    protected $table = 'user';
-    protected $primaryKey = 'id';
-    public $timestamps = false;
-    protected $fillable = ['uname', 'sex', 'login_salt', 'password', 'login', 'reg_ip', 'ctime', 'mhm_id', 'is_audit', 'is_active','is_init','first_letter','search_key','is_copybook','phone'];
     use Authenticatable;
 
-    // 查询用户的时候，不暴露密码
-    protected $hidden = ['password'];
+    protected $table = 'user';
+    protected $primaryKey = 'id';
+    //public $timestamps = false;
+    protected $fillable = ['uname', 'sex', 'login_salt', 'password', 'login', 'reg_ip', 'ctime', 'mhm_id', 'is_audit', 'is_active','is_init','first_letter','search_key','is_copybook','phone'];
 
-    public function posts()
-    {
-        return $this->hasMany(Post::class);
-    }
-
-    public function comments()
-    {
-        return $this->hasMany(Comment::class);
-    }
+    //protected $hidden = ['password'];
 
     public static function getUserData($uid)
     {
         return self::query()->where('uid', $uid)->first();
-    }
-
-    public function getUserName()
-    {
-        return $this->uname;
     }
 
     public function getAvatarUrl($type = false)
@@ -104,31 +88,6 @@ class User extends Model implements AuthenticatableContract, JWTSubject
     public function getJWTCustomClaims()
     {
         return [];
-    }
-
-    public function getLoginUser($username)
-    {
-        // 手机号登录
-        $data = self::query()->where('mobile', $username)->first();
-        if (!empty($data)) {
-            return $data;
-        }
-        // 用户名登录
-        $data = self::query()->where('name', $username)->first();
-        return $data;
-    }
-
-    public function checkPassword($password)
-    {
-        $password1 = md5(md5($password) . $this->login_salt);
-        if ($password1 == $this->password) {
-            return true;
-        }
-        $password2 = md5(md5($password) . $this->login_salt2);
-        if ($password2 == $this->password2) {
-            return true;
-        }
-        return false;
     }
 
 	public function createBywechat($data)
@@ -202,74 +161,6 @@ class User extends Model implements AuthenticatableContract, JWTSubject
         return preg_replace('/\s/is','',$str);
     }
 
-
-    public function isAdmin()
-    {
-        return UserGroupLink::where('uid',$this->uid)
-            //->where('user_group_id',1)
-            ->whereIn('user_group_id',[1, 46, 56, 43, 50, 59])
-            ->exists()?1:0;
-    }
-
-
-    public function createCopybookBywechat($data)
-    {
-        $uname = $this->filterEmoji($data['nickname']);
-
-        $exist = $this->query()->where('uname', $uname)->select('uid')->first();
-        if ($exist) {
-            $random = Str::random(4);
-            $uname = $uname .'-'.$random . rand(1000, 9999);
-        }
-
-        $pinyin = new Pinyin();
-        $firstLetter = $pinyin->abbr($uname, PINYIN_KEEP_ENGLISH);
-        $firstLetter = empty($firstLetter) ? '' : strtoupper($firstLetter[0]);
-        if (preg_match('/[\x7f-\xff]+/', $uname)) {
-            $searchKey = $uname . ' ' . $pinyin->permalink($uname, '');
-        } else {
-            $searchKey = $uname;
-        }
-
-        $password   = md5(uniqid());
-        $loginSalt = rand(11111, 99999);
-
-        $nData = [
-            'uname' => $uname,
-            'sex' => $data['sex'],
-            'login_salt' => $loginSalt,
-            'password' => md5(md5(trim($password)) . $loginSalt),
-            'login' => $uname,
-            'reg_ip' => $data['ip'],
-            'ctime' => time(),
-            'mhm_id' => 1,
-            'is_audit' => 1, // 审核状态： 0-需要审核；1-通过审核
-            'is_active' => 1,
-            'is_init' => 1,
-            'first_letter' => $firstLetter,
-            'search_key' => $searchKey,
-            'is_copybook' => 1 //标识为字帖用户
-        ];
-
-        $user = $this->create($nData);
-
-        //添加用户组
-        $groupLink = new UserGroupLink();
-        $groupLink->create(['uid' => $user['uid'], 'user_group_id' => 2]);
-
-        //额外得用户信息
-        $userInfo = new UserInfo();
-        $userInfo->create(['uid' => $user['uid'], 'time_h' => time()]);
-
-        //用户微信授权得信息
-        $userLogin = new UserLogin();
-        $userLogin->createCopybookRecord($user, $data);
-        //用户头像上传腾讯cos
-        $this->saveAvatar2Cos($user['uid'],$data['headimgurl']);
-        return $user;
-    }
-
-
     /**
      * Notes:上传微信头像到腾讯cos
      * Author: zhongzhong & phperShine@163.com
@@ -318,78 +209,6 @@ class User extends Model implements AuthenticatableContract, JWTSubject
     }
 
     /**
-     * 检查手机号用户是否存在
-     * @param $phone
-     * @return bool|\Illuminate\Database\Eloquent\Builder|Model|object|null
-     */
-    public function isExistUser($phone)
-    {
-        $user = $this->query()
-            ->where('phone', $phone)
-            ->first();
-
-        if (!empty($user)) {
-            $data['user'] = $user;
-            $data['new_user'] = 0;//是否是新电商字帖用户
-            if($user->is_copybook == 0){
-                $user->is_copybook = 1;
-                $user->save();
-                $data['new_user'] = 1;
-            }
-            return  $data;
-        }
-
-        return false;
-    }
-
-    /**
-     * 手机号注册
-     * @param $data
-     * @return mixed
-     */
-    public function createCopybookByPhone($data)
-    {
-        $uname = $data['phone'];
-        $pinyin = new Pinyin();
-        $firstLetter = $pinyin->abbr($uname, PINYIN_KEEP_ENGLISH);
-        $firstLetter = empty($firstLetter) ? '' : strtoupper($firstLetter[0]);
-        if (preg_match('/[\x7f-\xff]+/', $uname)) {
-            $searchKey = $uname . ' ' . $pinyin->permalink($uname, '');
-        } else {
-            $searchKey = $uname;
-        }
-
-        $loginSalt = rand(11111, 99999);
-
-        $nData = [
-            'uname' => $uname,
-            'phone' =>$data['phone'],
-            'login_salt' => $loginSalt,
-            'login' => $uname,
-            'reg_ip' => $data['ip'],
-            'ctime' => time(),
-            'mhm_id' => 1,
-            'is_audit' => 1, // 审核状态： 0-需要审核；1-通过审核
-            'is_active' => 1,
-            'is_init' => 1,
-            'first_letter' => $firstLetter,
-            'search_key' => $searchKey,
-            'is_copybook' => 1 //标识为字帖用户
-        ];
-        $user = $this->create($nData);
-
-        //添加用户组
-        $groupLink = new UserGroupLink();
-        $groupLink->create(['uid' => $user['uid'], 'user_group_id' => 2]);
-
-        //额外得用户信息
-        $userInfo = new UserInfo();
-        $userInfo->create(['uid' => $user['uid'], 'time_h' => time()]);
-
-        return $user;
-    }
-
-    /**
      * Notes:一对多 关联关系 一个用户多个评测作品
      * Author: zhongzhong & phperShine@163.com
      * DateTime: 2020/10/22 11:17
@@ -399,7 +218,6 @@ class User extends Model implements AuthenticatableContract, JWTSubject
     {
         return $this->hasMany('App\Models\CopybookPhoto','uid','uid');
     }
-
 
     /**
      * Notes:指定字帖用户
@@ -411,14 +229,5 @@ class User extends Model implements AuthenticatableContract, JWTSubject
     public function scopeCopybook($query)
     {
         return $query->where('is_copybook', 1);
-    }
-
-    /**
-     * yang yang
-     * 一对多关联关系 一个用户可生成多个线索
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
-     */
-    public function customers(){
-        return $this->hasMany('App\Models\Sale\SalemanCustomer','uid','uid');
     }
 }

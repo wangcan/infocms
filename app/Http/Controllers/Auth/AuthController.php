@@ -23,7 +23,7 @@ class AuthController extends Controller
         // 这样的结果是，token 只能在有效期以内进行刷新，过期无法刷新
         // 如果把 refresh 也放进去，token 即使过期但仍在刷新期以内也可刷新
         // 不过刷新一次作废
-        $this->middleware('auth:api', ['except' => ['login', 'qrcode', 'qrscan', 'logout']]);
+        $this->middleware('auth:api', ['except' => ['login', 'qrcode', 'qrscan', 'refresh']]);
         // 另外关于上面的中间件，官方文档写的是『auth:api』
         // 但是我推荐用 『jwt.auth』，效果是一样的，但是有更加丰富的报错信息返回
     }
@@ -52,6 +52,7 @@ class AuthController extends Controller
      */
     public function login(LoginRequest $request)
     {
+        //$field = filter_var($request->input('username'), FILTER_VALIDATE_EMAIL) ? 'email' : 'name';
         $credentials = $request->only('name', 'password');
         if (!$token = JWTAuth::attempt($credentials)) {
             return responseJsonHttp(422, '用户名或密码不正确');
@@ -76,59 +77,20 @@ class AuthController extends Controller
      */
     public function refresh()
     {
-        return $this->respondWithToken(auth('api')->refresh());
-    }
-
-    /**
-     * @api {post} /auth/token/new 刷新token(refresh token)
-     * @apiDescription 刷新token(refresh token)
-     * @apiGroup Auth
-     * @apiPermission JWT
-     * @apiVersion 1.0.0
-     * @apiHeader {String} Authorization 用户旧的jwt-token, value以Bearer开头
-     * @apiHeaderExample {json} Header-Example:
-     *     {
-     *       "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEsImlzcyI6Imh0dHA6XC9cL21vYmlsZS5kZWZhcmEuY29tXC9hdXRoXC90b2tlbiIsImlhdCI6IjE0NDU0MjY0MTAiLCJleHAiOiIxNDQ1NjQyNDIxIiwibmJmIjoiMTQ0NTQyNjQyMSIsImp0aSI6Ijk3OTRjMTljYTk1NTdkNDQyYzBiMzk0ZjI2N2QzMTMxIn0.9UPMTxo3_PudxTWldsf4ag0PHq1rK8yO9e5vqdwRZLY"
-     *     }
-     * @apiSuccessExample {json} Success-Response:
-     *     HTTP/1.1 200 OK
-     *     {
-     *         token: 9UPMTxo3_PudxTWldsf4ag0PHq1rK8yO9e5vqdwRZLY.eyJzdWIiOjEsImlzcyI6Imh0dHA6XC9cL21vYmlsZS5kZWZhcmEuY29tXC9hdXRoXC90b2tlbiIsImlhdCI6IjE0NDU0MjY0MTAiLCJleHAiOiIxNDQ1NjQyNDIxIiwibmJmIjoiMTQ0NTQyNjQyMSIsImp0aSI6Ijk3OTRjMTljYTk1NTdkNDQyYzBiMzk0ZjI2N2QzMTMxIn0.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9
-     *     }
-     * @apiErrorExample {json} Error-Response:
-     *     HTTP/1.1 200 OK
-     *     {
-     *       "message": "token无效",
-     *       "status_code": 400
-     *     }
-     */
-    public function refreshToken()
-    {
-        try {
+        $data = [
+            'token' => $this->respondWithToken(auth('api')->refresh()),
+            'token_type' => 'bearer',
+            'expires_in' => auth('api')->factory()->getTTL() * 60
+        ];
+        return responseJsonHttp(200, '刷新成功', $data);
+        /*try {
             $token = JWTAuth::parseToken()->refresh();
         } catch (TokenExpiredException $e) {
             return $this->response->error('token已过期', $e->getStatusCode());
         } catch (JWTException $e) {
             return $this->response->error('token无效', $e->getStatusCode());
         }
-
-        return $this->response->array(compact('token'));
-    }
-
-    /**
-     * Get the token array structure.
-     *
-     * @param  string $token
-     *
-     * @return \Illuminate\Http\JsonResponse
-     */
-    protected function respondWithToken($token)
-    {
-        return response()->json([
-            'access_token' => $token,
-            'token_type' => 'bearer',
-            'expires_in' => auth('api')->factory()->getTTL() * 60
-        ]);
+        return $this->response->array(compact('token'));*/
     }
 
     /**

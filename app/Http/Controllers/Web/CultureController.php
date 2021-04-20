@@ -17,7 +17,7 @@ class CultureController extends Controller
         return $this->customView('list');
     }
 
-    public function detail()
+    public function show()
     {
         return $this->customView('show');
     }
@@ -35,7 +35,7 @@ class CultureController extends Controller
 		];
 
 		$routes = [
-			'culture' => ['/', '/list', '/show-1'],
+			'culture' => ['/', '/listinfo', '/show-1'],
 			'pet' => ['/', '/info-show-1', '/info-list', '/info-home', '/pet-home', '/pet-list', '/pet-show-1', '/special-list', '/special-show-1'],
 			'subject' => ['/', '/human', '/info', '/knowledge', '/league', '/product', '/shop', '/store'],
 			'brand' => ['/', '/detail', '/product', '/shop', '/store'],
@@ -50,6 +50,7 @@ class CultureController extends Controller
 				$str .= "<a href='{$url}' target='_blank'>{$url}</a><br />";
 			}
 		}
+echo "<img src='http://api.91zuiai.com/captcha' />";
 		echo $str;
 	}
 

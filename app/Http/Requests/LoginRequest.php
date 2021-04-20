@@ -26,8 +26,8 @@ class LoginRequest extends AbstractRequest
     public function rules()
     {
         return [
-            'name' => 'required',
-            'password' => 'required',
+            'name' => 'required|string',
+            'password' => 'required|string',
         ];
     }
 

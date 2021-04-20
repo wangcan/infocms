@@ -13,7 +13,6 @@ class HumanController extends Controller
     public function view()
     {
         $code = $this->getRouteParam('code');
-        var_dump($code);
         return $this->customView($code);
     }
 

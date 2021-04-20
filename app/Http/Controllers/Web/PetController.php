@@ -22,7 +22,7 @@ class PetController extends Controller
         return $this->customView('speciallist');
     }
 
-    public function specialDetail()
+    public function specialShow()
     {
         return $this->customView('specialshow');
     }
