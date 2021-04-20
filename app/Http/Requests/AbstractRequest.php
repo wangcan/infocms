@@ -2,8 +2,8 @@
 
 namespace App\Http\Requests;
 
-use Larabase\Http\Requests\AbstractRequest as AbstractRequestBase;
+use Larabase\Requests\AbstractRequest as AbstractRequestBase;
 
-class AbstractRequest extends AbstractRequestBase;
+class AbstractRequest extends AbstractRequestBase
 {
 }

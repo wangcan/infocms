@@ -34,7 +34,7 @@ class ResourceManager
         $controller = $domainRoute['controller'] ?? $domain;
         $action = self::formatRouteAction($route, $domainRoute);
         $name = $domainRoute['name'] ?? $controller . '.' . $action;
-        echo '/' . $route . '====' . serialize($methods) . '--' . $controller . '==' . $action . '===' . $name . "\n <br />";
+        //echo '/' . $route . '====' . serialize($methods) . '--' . $controller . '==' . $action . '===' . $name . "\n <br />";
         if ($methods === 'any') {
             \Route::any('/' . $route, ucfirst($controller) . 'Controller@' . $action)->name($name);
         } else {
@@ -48,7 +48,6 @@ class ResourceManager
         $action = empty($action) ? 'home' : $action;
         $strpos = strpos($action, '{');
         $action = $strpos ? substr($action, 0, $strpos) : $action;
-        var_dump($action); echo '=================';
         $action = trim($action, '/');
         return Str::camel($action);
     }

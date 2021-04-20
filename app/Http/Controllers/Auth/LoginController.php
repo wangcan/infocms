@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Auth;
 use App\Enums\UserStatusEnum;
 use App\Http\Controllers\Controller;
 use App\Models\User;
-use App\Services\ScoreLogServe;
 use App\Services\UserService;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Foundation\Auth\RedirectsUsers;
@@ -30,9 +29,9 @@ class LoginController extends Controller
      */
     public function __construct()
     {
-       $this->middleware('guest')->except('logout');
+        $this->middleware('guest')->except('logout');
+        $this->middleware('guest');
     }
-
 
     /**
      * 登录页面
@@ -174,5 +173,96 @@ class LoginController extends Controller
     protected function username()
     {
         return 'account';
+    }
+
+    /**
+     * Where to redirect users after registration.
+     *
+     * @var string
+     */
+    protected $redirectTo = '/home';
+
+
+    /**
+     * 核心注册方法
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
+     * @throws \Illuminate\Validation\ValidationException
+     */
+    public function register(Request $request)
+    {
+        $this->validator($request->all())->validate();
+
+        if ($request->input('captcha') != session()->get('captcha')) {
+
+            return back()->withErrors(['captcha' => '验证码不正确']);
+        }
+
+
+        event(new Registered($user = $this->create($request->all())));
+
+        return $this->registered($request, $user)
+            ?: redirect($this->redirectPath())->with('status', '注册成功');
+    }
+
+    /**
+     * registered event (send email)
+     * @param Request $request
+     * @param $user
+     */
+    protected function registered(Request $request, $user)
+    {
+        Mail::to($user->email)
+            ->queue(new UserRegister($user));
+    }
+
+
+    protected function validator(array $data)
+    {
+        return Validator::make($data, [
+            'name' => 'required|string|max:50|unique:users',
+            'email' => 'required|string|email|max:50|unique:users',
+            'password' => 'required|string|min:5|confirmed',
+            'sex' => ['required', Rule::in([0, 1])],
+            'captcha' => 'required',
+        ], [
+            'name.required' => '用户名不能为空',
+            'name.max' => '用户名不能超过50个字符',
+            'name.unique' => '用户名已经被占用',
+            'email.unique' => '邮箱已经被占用',
+            'email.required' => '邮箱不能为空',
+            'email.email' => '邮箱格式不正确',
+            'password.min' => '密码最少六位数',
+            'password.required' => '密码不能为空',
+            'password.confirmed' => '两次密码不一致',
+            'captcha.required' => '验证码不能为空',
+            'sex.in' => '性别错误',
+        ]);
+    }
+
+    protected function create(array $data)
+    {
+        // email_active,
+        return  User::query()->create([
+            'name' => $data['name'],
+            'email' => $data['email'],
+            'sex' => $data['sex'],
+            'password' => bcrypt($data['password']),
+            'active_token' => str_random(60),
+        ]);
+
+    }
+
+    /**
+     * @return string
+     */
+    public function captcha()
+    {
+        $builder = (new CaptchaBuilder(4))->build(150, 46);
+
+        session()->put('captcha', $builder->getPhrase());
+
+        return $builder->get();
     }
 }

@@ -20,20 +20,7 @@ Route::group($authAttributes, function() {
     Route::post('logout', 'AuthController@logout'); // 注销当前用户
 });
 
-
-$userAttributes = [
-    'prefix' => '',
-    'namespace' => 'Auth',
-    //'middleware' => 'cors',
-];
-Route::group($userAttributes, function() {
-    Route::post('login', 'AuthController@login');//->name('login'); // 用户名、密码登录接口
-    Route::put('signin', 'AuthController@login');//->name('login'); // 用户名、密码登录接口
-    Route::get('myinfo', 'AuthController@myinfo');
-    Route::post('logout', 'AuthController@logout'); // 注销当前用户
-});
-
-$saleNoauthAttributes = [
+/*$saleNoauthAttributes = [
     'prefix' => '',
     'namespace' => 'Sale',
     //'middleware' => 'cors',
@@ -53,4 +40,4 @@ $saleAttributes = [
 Route::group($saleAttributes, function() {
     Route::get('test', 'SalePeopleController@testUser'); // 销售列表
 
-});
+});*/

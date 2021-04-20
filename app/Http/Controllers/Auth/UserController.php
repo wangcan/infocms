@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers\Auth;
 
-use App\Http\Controllers\Controller;
 use App\Mail\UserRegister;
 use App\Models\User;
 use App\Http\Requests\UserRequest;

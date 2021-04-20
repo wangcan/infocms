@@ -167,6 +167,7 @@ class AuthController extends Controller
             return responseJsonHttp(422, '用户名或密码不正确');
             $this->response->error('', 422);
         }
+        var_dump($token);exit();
 
         return responseJsonHttp(200, '登录成功', $this->getToken($info));
     }
