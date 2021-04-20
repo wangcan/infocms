@@ -11,13 +11,19 @@ $authAttributes = [
     'prefix' => '',
     //'namespace' => 'auth:api',
     'namespace' => 'Auth',
+    'middleware' => 'api',
     //'middleware' => 'cors',
 ];
 
 Route::group($authAttributes, function() {
     Route::post('login', 'AuthController@login');//->name('login'); // 用户名、密码登录接口
-    Route::get('myinfo', 'AuthController@myinfo');
-    Route::post('logout', 'AuthController@logout'); // 注销当前用户
+});
+
+$authAttributes['middleware'] = ['api', 'auth'];
+
+Route::group($authAttributes, function() {
+    Route::get('myinfo', 'UserController@myinfo');
+    Route::post('logout', 'UserController@logout'); // 注销当前用户
 });
 
 /*$saleNoauthAttributes = [

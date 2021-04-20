@@ -13,7 +13,7 @@ use App\Services\GuzzleServe;
 class User extends Model implements AuthenticatableContract, JWTSubject
 {
     protected $table = 'user';
-    protected $primaryKey = 'uid';
+    protected $primaryKey = 'id';
     public $timestamps = false;
     protected $fillable = ['uname', 'sex', 'login_salt', 'password', 'login', 'reg_ip', 'ctime', 'mhm_id', 'is_audit', 'is_active','is_init','first_letter','search_key','is_copybook','phone'];
     use Authenticatable;

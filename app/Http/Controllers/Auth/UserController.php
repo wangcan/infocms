@@ -12,6 +12,48 @@ class UserController extends Controller
     /**
      * @group space宝贝空间
      *
+     * dev:myinfo当前登录用户信息
+     *
+     * @response {
+     *   "status": 0,
+     *   "message": "success",
+     *   "data": {
+     *     "uid": "用户ID",
+     *     "uname": "用户名",
+     *     "sex": "性别",
+     *     "avatar": "用户头像"
+     *   }
+     * }
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function myinfo()
+    {
+        $myinfo = $this->_userInfo($this->getCurrentUser());
+        //var_dump($myinfo);exit();
+        return responseJsonHttp(200, 'success', $myinfo);
+    }
+
+    /**
+     * @group auth登录模块
+     *
+     * logout退出登录
+     *
+     * @return \Illuminate\Http\JsonResponse
+     * @response {
+     *   "code": 200,
+     *   "message": "您已成功退出登录"
+     * }
+     */
+    public function logout()
+    {
+        auth('api')->logout();
+
+        return responseJsonHttp(200, '您已成功退出登录');
+    }
+
+    /**
+     * @group space宝贝空间
+     *
      * dev:update修改昵称接口
      *
      *

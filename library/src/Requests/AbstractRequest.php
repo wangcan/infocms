@@ -4,6 +4,7 @@ namespace Larabase\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
+use Illuminate\Http\Exceptions\HttpResponseException;
 
 /**
  * Class AbstractRequest
@@ -18,21 +19,28 @@ class AbstractRequest extends FormRequest
      *
      * @var string
      */
-    protected $redirectRoute = 'roles.create';
+    //protected $redirectRoute = 'roles.create';
 
     /**
      * Determine if the user is authorized to make this request.
      *
      * @return bool
      */
-    public function authorize()
+    /*public function authorize()
     {
         return true;
+    }*/
+
+    public function failedValidation($validator)
+    {
+        $error= $validator->errors()->all();
+        // $error = $validator;
+        throw new HttpResponseException(response()->json(['code' => 400 , 'message'=>$error[0]]));
     }
 
-    public function rules()
+    /*public function rules()
     {
-    }
+    }*/
 
     public function rulesbak()
     {
@@ -117,20 +125,20 @@ class AbstractRequest extends FormRequest
     /**
      * Prepare the data for validation.
      */
-    protected function prepareForValidation(): void
+    /*protected function prepareForValidation(): void
     {
-        /*$this->merge([
+        $this->merge([
             'posted_at' => Carbon::parse($this->input('posted_at')),
             'slug' => Str::slug($this->input('title'))
-        ]);*/
-    }
+        ]);
+    }*/
     /**
      * Get the URL to redirect to on a validation error.
      *
      * @return string
      */
-    protected function getRedirectUrl()
+    /*protected function getRedirectUrl()
     {
         return $this->getSession()->previousUrl();
-    }
+    }*/
 }

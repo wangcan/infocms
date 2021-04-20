@@ -59,8 +59,8 @@ class Handler extends ExceptionHandler
     public function render($request, Throwable $exception)
     {
 		//var_dump(get_class($exception));
-        //if ($request->is('api*') || $request->is('sale*')) {
-        if (false) {//$request->is('api*') || $request->is('sale*')) {
+        if ($request->is('api*') || $request->is('sale*')) {
+        //if (false) {//$request->is('api*') || $request->is('sale*')) {
 
             if ($exception instanceof JWTException) {
 
@@ -89,9 +89,9 @@ class Handler extends ExceptionHandler
         }
 
 
-        if ($request->is('api/e-commerce*') && $exception instanceof ValidationException) {
+        /*if ($request->is('api/e-commerce*') && $exception instanceof ValidationException) {
             return  response()->json(['status'=>1,"msg"=>$exception->validator->errors()->first()]);
-        }
+        }*/
 
         return parent::render($request, $exception);
     }

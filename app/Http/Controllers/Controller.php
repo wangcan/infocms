@@ -10,6 +10,7 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 
 use Larabase\Controllers\AbstractController;
 use Larabase\Helpers\AgentTool;
+use App\Http\Resources\UserResource;
 
 class Controller extends AbstractController
 {
@@ -44,4 +45,20 @@ class Controller extends AbstractController
 		$finder =new FileViewFinder(App::make ('files'), $paths);
 		View::setFinder ($finder);
 	}
+
+    public function getCurrentUser()
+    {
+        static $data;
+        if (!empty($data)) {
+            return $data;
+        }
+        $data = auth('api')->user();
+        //$data = User::query()->where('uid', 629239)->first();
+        return $data;
+    }
+
+    protected function _userInfo($user)
+    {
+        return new UserResource($user);
+    }
 }
