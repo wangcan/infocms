@@ -59,8 +59,8 @@ class Handler extends ExceptionHandler
     public function render($request, Throwable $exception)
     {
 		//var_dump(get_class($exception));
-        if ($request->is('api*') || $request->is('sale*')) {
-        //if (false) {//$request->is('api*') || $request->is('sale*')) {
+        //if ($request->is('api*') || $request->is('sale*')) {
+        if (false) {//$request->is('api*') || $request->is('sale*')) {
 
             if ($exception instanceof JWTException) {
 

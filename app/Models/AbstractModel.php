@@ -2,8 +2,8 @@
 
 namespace App\Models;
 
-use Larabase\Models\AbstractModel;
+use Larabase\Models\AbstractModel as AbstractModelBase;
 
-class AbstractModel extends AbstractModel
+class AbstractModel extends AbstractModelBase
 {
 }

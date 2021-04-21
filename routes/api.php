@@ -28,6 +28,16 @@ Route::group($authAttributes, function() {
     Route::post('logout', 'UserController@logout'); // 注销当前用户
 });
 
+$infocmsAttributes = [
+    'prefix' => 'infocms',
+    'namespace' => 'Infocms',
+    //'middleware' => 'cors',
+    //'middleware' => 'auth:api',
+];
+Route::group($infocmsAttributes, function() {
+    Route::resource('pets', PetController::class);
+});
+
 /*$saleNoauthAttributes = [
     'prefix' => '',
     'namespace' => 'Sale',
