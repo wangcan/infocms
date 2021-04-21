@@ -179,6 +179,7 @@ return [
         App\Providers\BladeServiceProvider::class,
         App\Providers\ObserverServiceProvider::class,
         Mews\Captcha\CaptchaServiceProvider::class,
+        Prettus\Repository\Providers\RepositoryServiceProvider::class,
 
 
     ],
