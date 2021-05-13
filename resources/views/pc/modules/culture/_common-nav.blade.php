@@ -100,7 +100,7 @@
         </ul>
         <div class='clear'></div>
     </div>
-    <div class="subnav">
+    <!--<div class="subnav">
         <div class="hotsearch">
             <marquee id='marInfo' direction='left' width='590' loop='-1' class='disClass' scrollamount='3' scrolldelay='30' onmouseover='this.stop()' onmouseout='this.start()'>
                 <a href='news/10785.html' target='_blank' class='font2_2' style='color:#008000;'>◆关注“书法欣赏”微信公众号：yac8com</a>&nbsp;&nbsp;&nbsp;&nbsp;</marquee></div>
@@ -118,7 +118,7 @@
             <input type='hidden' id='zhannei_domain' name='zhannei_domain' value='so.yac8.com' />
             <input type='hidden' id='zhannei_id' name='zhannei_id' value='12241538364760410328' /></div>
     </div>
-    <div class="clear"></div>
+    <div class="clear"></div>-->
 </div>
 {{--<div class="contentBlank adClass ad3Style">
     <script type="text/javascript">OTca('ot003');</script>

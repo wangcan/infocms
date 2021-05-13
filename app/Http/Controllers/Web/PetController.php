@@ -37,9 +37,21 @@ class PetController extends Controller
         return $this->customView('infolist', ['view' => 'infolist']);
     }
 
-    public function infoShow()
+    public function infoShow($id)
     {
-        return $this->customView('cmsshow', ['view' => 'infodetail']);
+        $model = $this->getPointModel('petArticle', 'infocms');
+        $info = $model->find($id);
+        if (empty($info)) {
+            echo 'info no exist';exit();
+        }
+        $datas = [
+            'view' => 'infodetail',
+            'title' => $info['name'],
+            'description' => $info['description'],
+            'keyword' => $info['tag'],
+            'info' => $info,
+        ];
+        return $this->customView('cmsshow', $datas);
     }
 
     public function petHome()

@@ -44,12 +44,16 @@ abstract class AbstractController extends BaseController
         return $this->getPointModel($code);
     }
 
-    public function getPointModel($code)
+    public function getPointModel($code, $module = '')
     {
         $code = ucfirst($code);
-        $class = "\App\Models\\{$code}";
+        if (!empty($module)) {
+            $module = ucfirst($module);
+            $module = "\\{$module}";
+        }
+        $class = "\App\Models{$module}\\{$code}";
         $model = new $class();
-        $model->adminUser = $this->user;
+        //$model->adminUser = $this->user;
         return $model;
     }
 

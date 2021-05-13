@@ -29,6 +29,7 @@
                         </div>
                     </div>
                     <div class="articlecont" id="articlecont">
+                        {!!$datas['info']['content']!!}
                         <div class="specialcont content">
                             <div class="only-cont">
                                 <div class="pagecolor16" id="t_container">

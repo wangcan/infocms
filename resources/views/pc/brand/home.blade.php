@@ -14,7 +14,7 @@
                 @include('brand.modules._relate-brand')
                 @include('brand.modules._shop')
                 @include('brand.modules._product')
-                @include('brand.modules._comment')
+                {{--@include('brand.modules._comment')--}}
                 @include('brand.modules._statement')
             </div>
         </div>

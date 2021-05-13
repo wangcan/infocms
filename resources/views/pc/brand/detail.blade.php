@@ -292,7 +292,7 @@
                     </div>
                 </div>
                 <div class="bline bline1"></div>
-                @include('brand.modules._comment')
+                {{--@include('brand.modules._comment')--}}
                 @include('brand.modules._statement-detail')
             </div>
         </div>

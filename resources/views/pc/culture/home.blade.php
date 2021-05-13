@@ -1,7 +1,6 @@
 @extends('layouts.culture')
 
 @section('main')
-<div class="content">
     <div class="leftA">
         <div class="turnImg">
             <div id="flashBox"></div>
@@ -404,9 +403,4 @@
     <div class="clear"></div>
     <div class='height5'></div>
 
-    <div class="bottomMenu">
-        <a href='news/web_6.html' style='' class='font1_2'>联系我们</a>&nbsp;-&nbsp;
-        <a href='news/web_5.html' style='' class='font1_2'>免责声明</a>&nbsp;-&nbsp;
-        <a href='sitemap.html' style='' class='font1_2' target='_blank'>网站地图</a></div>
-</div>
 @endsection
