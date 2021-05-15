@@ -21,10 +21,10 @@ class AbstractModel extends Model
      *
      * @return mixed
      */
-    public function getIdAttribute()
+    /*public function getIdAttribute()
     {
         return $this->attributes[$this->getKeyName()];
-    }
+    }*/
 
     /**
      * Set Model Presenter.

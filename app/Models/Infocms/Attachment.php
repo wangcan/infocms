@@ -6,13 +6,14 @@ namespace App\Models\Infocms;
 //use Prettus\Repository\Traits\TransformableTrait;
 
 /**
- * Class Article.
+ * Class Attachment.
  *
  * @package namespace App\Entities;
  */
-class Article extends AbstractModel
+//class Attachment extends AbstractModel implements Transformable
+class Attachment extends AbstractModel
 {
-    protected $table = 'article';
+    protected $table = 'attachment';
 
     /**
      * The attributes that are mass assignable.
@@ -21,4 +22,9 @@ class Article extends AbstractModel
      */
     protected $fillable = ['name'];
 
+    public function getUrlAttribute()
+    {
+        $domain = config('app.uploadUrl');
+        return rtrim($domain, '/') . '/' . $this->filepath;
+    }
 }

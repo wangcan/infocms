@@ -7,13 +7,13 @@
     <div id="container">
         <div class="leftlay">
             <div class="artcontent">
-                @include('brand.modules._brief')
-                @include('brand.modules._desc')
-                @include('brand.modules._league')
-                @include('brand.modules._vote')
-                @include('brand.modules._relate-brand')
-                @include('brand.modules._shop')
-                @include('brand.modules._product')
+                @include('brand.modules._brief', ['data' => $datas['info']])
+                @include('brand.modules._desc', ['data' => $datas['info']])
+                {{--@include('brand.modules._league', ['data' => $datas['info']])--}}
+                @include('brand.modules._vote', ['data' => $datas['info']])
+                @include('brand.modules._relate-brand', ['data' => $datas['info']])
+                @include('brand.modules._shop', ['data' => $datas['info']])
+                @include('brand.modules._product', ['data' => $datas['info']])
                 {{--@include('brand.modules._comment')--}}
                 @include('brand.modules._statement')
             </div>

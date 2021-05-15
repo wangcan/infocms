@@ -4,18 +4,12 @@ namespace App\Http\Controllers\Web;
 
 class BrandController extends Controller
 {
-    public function home()
+    public function home($code)
     {
-		$datas = [
-			'title' => 'ggggg', 
-			'keywords' => 'key', 
-			'description' => 'description',
-			'view' => 'home',
-		];
-        return $this->customView('home', $datas);
+        return $this->_showCommon($code, 'home', 'brand', 'infocms');
     }
 
-    public function store()
+    public function store($code)
     {
 		$datas = [
 			'title' => 'ggggg', 
@@ -48,15 +42,9 @@ class BrandController extends Controller
         return $this->customView('product', $datas);
 	}
 
-    public function detail()
+    public function detail($code)
     {
-		$datas = [
-			'title' => 'ggggg', 
-			'keywords' => 'key', 
-			'description' => 'description',
-			'view' => 'detail',
-		];
-        return $this->customView('detail', $datas);
+        return $this->_showCommon($code, 'detail', 'brand', 'infocms');
     }
 
 	protected function viewPath()
