@@ -3,13 +3,13 @@
 namespace App\Models\Infocms;
 
 /**
- * Class CultureArticle.
+ * Class CultureCategory.
  *
  * @package namespace App\Entities;
  */
-class CultureArticle extends AbstractModel
+class CultureCategory extends AbstractModel
 {
-    protected $table = 'culture_article';
+    protected $table = 'culture_category';
 
     /**
      * The attributes that are mass assignable.
@@ -17,11 +17,6 @@ class CultureArticle extends AbstractModel
      * @var array
      */
     protected $fillable = ['name'];
-
-    public function cultureCategory()
-    {
-        return $this->hasOne('App\Models\Infocms\CultureCategory', 'code', 'category_code');
-    }
 
     public function getUrl()
     {

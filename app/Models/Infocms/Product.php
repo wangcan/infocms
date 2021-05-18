@@ -25,6 +25,6 @@ class Product extends AbstractModel implements Transformable
 
     public function website()
     {
-        return $this->hasOne('App\Models\Website', 'foreign_key', 'local_key');
+        return $this->hasOne('App\Models\Infocms\Website', 'foreign_key', 'local_key');
     }
 }

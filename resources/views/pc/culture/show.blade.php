@@ -1,4 +1,8 @@
 @extends('layouts.culture')
+@php
+$info = $datas['info'] ;
+$colors = ['#0000ff;', '#ff0000;', '#FF0000;', '#008000;', ''];
+@endphp
 @inject('culturePresenter', 'App\Presenters\Infocms\CulturePresenter')
 @section('subnav')
 <div class="mainMenu">
@@ -19,7 +23,7 @@
         <div class="areaL">
             <div class="webBox">
                 <div class="a">
-                    <h1>{{$datas['info']['name']}}</h1>
+                    <h1>{{$info['name']}}</h1>
                     <div class="addi2">时间：2020-3-26 7:14:57&nbsp;&nbsp; 作者：书法欣赏&nbsp;&nbsp; 来源：www.yac8.com&nbsp;&nbsp; 阅读：
                         <span id="infoReadNum">58</span>&nbsp;&nbsp; 评论：
                         <span id="infoReplyNum">0</span>
@@ -28,16 +32,16 @@
                 </div>
                 <div class="clear"></div>
                 <div class="b">
-                    <div class="note"><b>内容摘要：</b>{{$datas['info']['description']}}</div>
+                    <div class="note"><b>内容摘要：</b>{{$info['description']}}</div>
                     <div id="newsContent">
-                        {!!$datas['info']->formatContent()!!}
+                        {!!$info->formatContent()!!}
                         {{--@include('culture.module._show-content-page')--}}
                     </div>
                     {{--@include('culture.module._show-content-share')--}}
                 </div>
                 <div class="c">
-                    上一篇：{!!$culturePresenter->preInfoStr($datas['info'], ['where' => ['category_code' => $datas['info']['category_code']]])!!}
-                    <br />下一篇：{!!$culturePresenter->nextInfoStr($datas['info'], ['where' => ['category_code' => $datas['info']['category_code']]])!!}
+                    上一篇：{!!$culturePresenter->preInfoStr($info, ['where' => ['category_code' => $info['category_code']]])!!}
+                    <br />下一篇：{!!$culturePresenter->nextInfoStr($info, ['where' => ['category_code' => $info['category_code']]])!!}
                 </div>
             </div>
             <div class="clear"></div>
@@ -49,7 +53,7 @@
                     <dl>
                         <dd class="liBox1" style="min-height:auto;height:auto;">
                             <ul>
-                                @foreach ($culturePresenter->getCategoryDatas(8, ['code' => $datas['info']['category_code']]) as $pData)
+                                @foreach ($culturePresenter->getRelateDatas($info->cultureCategory, 8, ['parent_code' => $info->cultureCategory['parent_code']]) as $pData)
                                 <li><a href='{{$pData->getUrl()}}'>{{$pData['name']}}</a></li>
                                 @endforeach
                             </ul>
@@ -78,45 +82,12 @@
                             <div class='clear'></div>
                         </li>
                         <li class='line'></li>
+                        @foreach ($culturePresenter->getRelateDatas($info, 14, ['category_code' => $info->category_code]) as $pData)
                         <li style='width:100%;height:21px;line-height:21px;overflow:hidden;'>
                             <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/72.html' class='font1_2' style='color:#FF0000;' target='_blank' title="苏适行书书法作品欣赏">苏适行书书法作品欣赏</a></li>
-                        <li style='width:100%;height:21px;line-height:21px;overflow:hidden;'>
-                            <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/9945.html' class='font1_2' style='color:#0000ff;' target='_blank' title="广西谭华行草书法作品欣赏">广西谭华行草书法作品欣赏</a></li>
-                        <li style='width:100%;height:21px;line-height:21px;overflow:hidden;'>
-                            <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/8733.html' class='font1_2' style='color:#008000;' target='_blank' title="周慧珺书法集萃网络展示专辑">周慧珺书法集萃网络展示专辑</a></li>
-                        <li style='width:100%;height:21px;line-height:21px;overflow:hidden;'>
-                            <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/7028.html' class='font1_2' style='color:#ff0000;' target='_blank' title="田英章毛笔书法作品欣赏">田英章毛笔书法作品欣赏</a></li>
-                        <li style='width:100%;height:21px;line-height:21px;overflow:hidden;'>
-                            <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/101.html' class='font1_2' style='' target='_blank' title="田英章书法作品欣赏">田英章书法作品欣赏</a></li>
-                        <li style='width:100%;height:21px;line-height:21px;overflow:hidden;'>
-                            <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/6816.html' class='font1_2' style='' target='_blank' title="当代书坛巨匠书法作品欣赏">当代书坛巨匠书法作品欣赏</a></li>
-                        <li style='width:100%;height:21px;line-height:21px;overflow:hidden;'>
-                            <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/7023.html' class='font1_2' style='color:#0000ff;' target='_blank' title="启功书法作品欣赏">启功书法作品欣赏</a></li>
-                        <li style='width:100%;height:21px;line-height:21px;overflow:hidden;'>
-                            <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/8699.html' class='font1_2' style='' target='_blank' title="孙晓云书法作品展示专辑">孙晓云书法作品展示专辑</a></li>
-                        <li style='width:100%;height:21px;line-height:21px;overflow:hidden;'>
-                            <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/5458.html' class='font1_2' style='color:#0000ff;' target='_blank' title="梁光彩行草书法作品欣赏">梁光彩行草书法作品欣赏</a></li>
-                        <li style='width:100%;height:21px;line-height:21px;overflow:hidden;'>
-                            <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/9934.html' class='font1_2' style='color:#0000ff;' target='_blank' title="刘大勇题字书法作品欣赏">刘大勇题字书法作品欣赏</a></li>
-                        <li style='width:100%;height:21px;line-height:21px;overflow:hidden;'>
-                            <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/6339.html' class='font1_2' style='' target='_blank' title="杨再春毛笔书法欣赏">杨再春毛笔书法欣赏</a></li>
-                        <li style='width:100%;height:21px;line-height:21px;overflow:hidden;'>
-                            <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/9710.html' class='font1_2' style='color:#0000ff;' target='_blank' title="苏泽立书法行书作品欣赏">苏泽立书法行书作品欣赏</a></li>
-                        <li style='width:100%;height:21px;line-height:21px;overflow:hidden;'>
-                            <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/3797.html' class='font1_2' style='color:#FF0000;' target='_blank' title="张旭光行草书法作品欣赏">张旭光行草书法作品欣赏</a></li>
+                            <a href='{{$pData->getUrl()}}' class='font1_2' style='color:{{$colors[rand(0, 4)]}}' title="{{$pData['name']}}">{{$pData['name']}}</a>
+                        </li>
+                        @endforeach
                     </ul>
                 </div>
             </div>
@@ -126,57 +97,15 @@
             <div class="height5"></div>
             <div class="clear"></div>
             <div class="hotRank">
-                <div class="title">
-                    <h2>推荐精选</h2></div>
+                <div class="title"><h2>推荐精选</h2></div>
                 <div class="content">
                     <ul>
+                        @foreach ($culturePresenter->getRelateDatas($info, 14, ['category_code' => $info->category_code]) as $pData)
                         <li style='width:100%;height:20px;overflow:hidden;'>
                             <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/72.html' class='font1_2' style='color:#FF0000;' target='_blank' title="苏适行书书法作品欣赏">苏适行书书法作品欣赏</a></li>
-                        <div class='clear'></div>
-                        <li style='width:100%;height:20px;overflow:hidden;'>
-                            <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/9945.html' class='font1_2' style='color:#0000ff;' target='_blank' title="广西谭华行草书法作品欣赏">广西谭华行草书法作品欣赏</a></li>
-                        <div class='clear'></div>
-                        <li style='width:100%;height:20px;overflow:hidden;'>
-                            <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/8733.html' class='font1_2' style='color:#008000;' target='_blank' title="周慧珺书法集萃网络展示专辑">周慧珺书法集萃网络展示专辑</a></li>
-                        <div class='clear'></div>
-                        <li style='width:100%;height:20px;overflow:hidden;'>
-                            <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/7028.html' class='font1_2' style='color:#ff0000;' target='_blank' title="田英章毛笔书法作品欣赏">田英章毛笔书法作品欣赏</a></li>
-                        <div class='clear'></div>
-                        <li style='width:100%;height:20px;overflow:hidden;'>
-                            <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/101.html' class='font1_2' style='' target='_blank' title="田英章书法作品欣赏">田英章书法作品欣赏</a></li>
-                        <div class='clear'></div>
-                        <li style='width:100%;height:20px;overflow:hidden;'>
-                            <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/6816.html' class='font1_2' style='' target='_blank' title="当代书坛巨匠书法作品欣赏">当代书坛巨匠书法作品欣赏</a></li>
-                        <div class='clear'></div>
-                        <li style='width:100%;height:20px;overflow:hidden;'>
-                            <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/7023.html' class='font1_2' style='color:#0000ff;' target='_blank' title="启功书法作品欣赏">启功书法作品欣赏</a></li>
-                        <div class='clear'></div>
-                        <li style='width:100%;height:20px;overflow:hidden;'>
-                            <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/8699.html' class='font1_2' style='' target='_blank' title="孙晓云书法作品展示专辑">孙晓云书法作品展示专辑</a></li>
-                        <div class='clear'></div>
-                        <li style='width:100%;height:20px;overflow:hidden;'>
-                            <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/5458.html' class='font1_2' style='color:#0000ff;' target='_blank' title="梁光彩行草书法作品欣赏">梁光彩行草书法作品欣赏</a></li>
-                        <div class='clear'></div>
-                        <li style='width:100%;height:20px;overflow:hidden;'>
-                            <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/9934.html' class='font1_2' style='color:#0000ff;' target='_blank' title="刘大勇题字书法作品欣赏">刘大勇题字书法作品欣赏</a></li>
-                        <div class='clear'></div>
-                        <li style='width:100%;height:20px;overflow:hidden;'>
-                            <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/6339.html' class='font1_2' style='' target='_blank' title="杨再春毛笔书法欣赏">杨再春毛笔书法欣赏</a></li>
-                        <div class='clear'></div>
-                        <li style='width:100%;height:20px;overflow:hidden;'>
-                            <a href='../news/list_33.html' class='font2_1'>[毛笔书法]</a>
-                            <a href='../news/9710.html' class='font1_2' style='color:#0000ff;' target='_blank' title="苏泽立书法行书作品欣赏">苏泽立书法行书作品欣赏</a></li>
+                            <a href='{{$pData->getUrl()}}' class='font1_2' style='color:{{$colors[rand(0, 4)]}}' title="{{$pData['name']}}">{{$pData['name']}}</a>
+                        </li>
+                        @endforeach
                         <div class='clear'></div>
                     </ul>
                 </div>

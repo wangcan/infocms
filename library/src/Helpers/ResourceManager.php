@@ -15,11 +15,38 @@ class ResourceManager
 {
     public static function getModel($code, $module = '')
     {
-        $class = "App\Models\\";
+        return self::getPointObject('model', $code, $module);
+    }
+
+    public static function getRepository($code, $module = '')
+    {
+        return self::getPointObject('model', $code, $module);
+    }
+
+    public static function getPointObject($type, $code, $module)
+    {
+        $types = [
+            'repository' => 'Repositories',
+        ];
+        $typeCode = $types[$type] ?? ucfirst($type) . 's';
+        $class = "App\\{$typeCode}\\";
         $class .= !empty($module) ? ucfirst($module) . "\\" : '';
         $class .= ucfirst($code);
         return new $class();
     }
+
+    /*public function getPointModel($code, $module = '')
+    {
+        $code = ucfirst($code);
+        if (!empty($module)) {
+            $module = ucfirst($module);
+            $module = "\\{$module}";
+        }
+        $class = "\App\Models{$module}\\{$code}";
+        $model = new $class();
+        //$model->adminUser = $this->user;
+        return $model;
+    }*/
 
     public static function getRouteParam($param)
     {

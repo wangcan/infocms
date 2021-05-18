@@ -39,7 +39,7 @@ class PetController extends Controller
 
     public function infoShow($id)
     {
-        $model = $this->getPointModel('petArticle', 'infocms');
+        $model = \ResourceManager::getModel('petArticle', 'infocms');
         $info = $model->find($id);
         if (empty($info)) {
             echo 'info no exist';exit();

@@ -8,7 +8,6 @@ class CultureController extends Controller
 {
     public function home()
     {
-
         return $this->customView('home');
     }
 

@@ -28,7 +28,7 @@ class GuideController extends Controller
 
     public function showShop($id)
     {
-        $model = $this->getPointModel('website', 'infocms');
+        $model = \ResourceManager::getModel('website', 'infocms');
         $info = $model->find($id);
         if (empty($info)) {
             echo 'info no exist';exit();
@@ -69,7 +69,7 @@ class GuideController extends Controller
 
     public function showInfo($id)
     {
-        $model = $this->getPointModel('article', 'infocms');
+        $model = \ResourceManager::getModel('article', 'infocms');
         $info = $model->find($id);
         if (empty($info)) {
             echo 'info no exist';exit();

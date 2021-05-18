@@ -38,8 +38,8 @@ class AbstractPresenter extends AbstractPresenterBase
         return $info->nextInfo($params);
     }
 
-    public function getRelateDatas($info, $num = 8, $type = 'simple')
+    public function getRelateDatas($info, $num = 8, $params)
     {
-        return $info->relateDatas($num, $type);
+        return $info->relateDatas($num, $params);
     }
 }

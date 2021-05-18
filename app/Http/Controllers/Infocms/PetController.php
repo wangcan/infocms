@@ -53,7 +53,7 @@ class PetController extends Controller
     public function index()
     {
         $this->repository->pushCriteria(app('Prettus\Repository\Criteria\RequestCriteria'));
-        $testbaks = $this->repository->all();
+        $testbaks = $this->repository->paginate();
 
         if (true) {//request()->wantsJson()) {
 

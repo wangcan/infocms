@@ -102,7 +102,7 @@ class AbstractModel extends Model
         return $result->isEmpty() ? [] : $result[0];
     }
 
-    public function getRelateDatas($num, $params)
+    public function relateDatas($num, $params)
     {
         return $this->_relateDatas($num, $params);
     }
