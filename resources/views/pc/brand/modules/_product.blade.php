@@ -15,7 +15,7 @@
             <li class="item bindhover" hover="$(this).find('.baojialist').slideDown(300)" hover2="$(this).find('.baojialist').slideUp(0)">
                 <div class="imgbox">
                     <a target="_blank" isconvert=1 href="{{$product->buy_url}}">
-                        <img src="{{$product->attachmentUrl('thumb')}}" />
+                        <img src="{{$product->pointAttachmentUrl('thumb')}}" />
                     </a>
                 </div>
                 <div class="cont ">

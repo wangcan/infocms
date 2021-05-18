@@ -25,7 +25,7 @@
             <li class="item">
                 <div class="imgbox">
                     <a target="_blank" href="{{$website->url}}">
-                        <img src="{{$website->attachmentUrl('logo')}}" />
+                        <img src="{{$website->pointAttachmentUrl('logo')}}" />
                     </a>
                 </div>
                 <div class="cont">

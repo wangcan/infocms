@@ -22,13 +22,24 @@ class AbstractModel extends AbstractModelBase
         return $info;
     }
 
-    public function attachmentUrl($field)
+    public function pointAttachmentUrl($field)
     {
         $info = $this->getSingleAttachment($field);
-        return empty($info) ? '' : $info->source_url;
+        return empty($info) ? '' : $info->url;
     }
 
-    public function getAttachments($field, $id)
+    public function getMulAttachment($field)
     {
+        $attachment = \ResourceManager::getModel('attachment', 'infocms');
+        $where = [
+            'info_field' => $field,
+            'info_id' => $this->id,
+            'info_table' => $this->getTable(),
+        ];
+        $infos = $attachment->where($where)->get();
+        if (empty($info)) {
+            return [];
+        }
+        return $infos;
     }
 }

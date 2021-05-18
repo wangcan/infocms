@@ -7,7 +7,7 @@ namespace App\Presenters\Infocms;
  *
  * @package namespace App\Presenters;
  */
-class BrandPresenter
+class BrandPresenter extends AbstractPresenter
 {
     public function getProductDatas($brand)
     {

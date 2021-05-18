@@ -5,7 +5,7 @@
             <div class="imgbg">
                 <div class="aimg">
                     <a rel="nofollow" href="{{$data->name}}" target="_blank">
-                        <img width="207" height="90" src="{{$data->attachmentUrl('logo')}}" />
+                        <img width="207" height="90" src="{{$data->pointAttachmentUrl('logo')}}" />
                     </a>
                 </div>
             </div>

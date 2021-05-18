@@ -16,15 +16,10 @@ use Prettus\Repository\Presenter\ModelFractalPresenter;
  */
 class AbstractModel extends Model
 {
-    /**
-     * Get ID from the model primary key.
-     *
-     * @return mixed
-     */
-    /*public function getIdAttribute()
+    public function __construct(array $attributes = [])
     {
-        return $this->attributes[$this->getKeyName()];
-    }*/
+        parent::__construct($attributes);
+    }
 
     /**
      * Set Model Presenter.
@@ -93,8 +88,39 @@ class AbstractModel extends Model
         return $date->format($this->getDateFormat());
     }
 
-    public function __construct(array $attributes = [])
+    public function getPreInfo($params)
     {
-        parent::__construct($attributes);
+        $params['orderBy'] = ['id' => 'desc'];
+        return $this->_relateDatas(1, $params);
     }
+
+    public function getNextInfo($params)
+    {
+        $params['orderBy'] = ['id' => 'asc'];
+        return $this->_relateDatas(1, $params);
+    }
+
+    public function getRelateDatas($num, $params)
+    {
+        return $this->_relateDatas($num, $params);
+    }
+
+    public function _relateDatas($num, $params)
+    {
+        $where = $params['where'] ?? [];
+        $oderBy = $params['orderBy'] ?? ['id' => 'desc'];
+        $select = $params['select'] ?? 'id,name,description,created_at';
+        $datas = $this->query()->where($where)->orderBy($orderBy)->limit($num)->get();
+        return $datas;
+    }
+
+    /**
+     * Get ID from the model primary key.
+     *
+     * @return mixed
+     */
+    /*public function getIdAttribute()
+    {
+        return $this->attributes[$this->getKeyName()];
+    }*/
 }

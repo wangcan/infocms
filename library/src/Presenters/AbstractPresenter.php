@@ -44,12 +44,6 @@ abstract class AbstractPresenter extends FractalPresenter
         }
     }
 
-//use Yeelight\Transformers\AdminMenuTransformer;
-    public function getTransformer()
-    {
-        return new AdminMenuTransformer();
-    }
-
     /**
      * Prepare data to present.
      *

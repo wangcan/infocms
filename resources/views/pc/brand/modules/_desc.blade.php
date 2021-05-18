@@ -9,7 +9,7 @@
         </span>
     </div>
     <div class="branddesc minpic">
-        <div class="img"><img src="{{$data->attachmentUrl('picture')}}" /></div>
+        <div class="img"><img src="{{$data->pointAttachmentUrl('picture')}}" /></div>
         <div class="desc font16">
             {{$data->description}}
         </div>
