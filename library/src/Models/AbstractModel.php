@@ -88,16 +88,18 @@ class AbstractModel extends Model
         return $date->format($this->getDateFormat());
     }
 
-    public function getPreInfo($params)
+    public function preInfo($params)
     {
         $params['orderBy'] = ['id' => 'desc'];
-        return $this->_relateDatas(1, $params);
+        $result = $this->_relateDatas(1, $params);
+        return $result->isEmpty() ? [] : $result[0];
     }
 
-    public function getNextInfo($params)
+    public function nextInfo($params)
     {
         $params['orderBy'] = ['id' => 'asc'];
-        return $this->_relateDatas(1, $params);
+        $result = $this->_relateDatas(1, $params);
+        return $result->isEmpty() ? [] : $result[0];
     }
 
     public function getRelateDatas($num, $params)
@@ -108,9 +110,9 @@ class AbstractModel extends Model
     public function _relateDatas($num, $params)
     {
         $where = $params['where'] ?? [];
-        $oderBy = $params['orderBy'] ?? ['id' => 'desc'];
+        $orderBy = $params['orderBy'] ?? ['id' => 'desc'];
         $select = $params['select'] ?? 'id,name,description,created_at';
-        $datas = $this->query()->where($where)->orderBy($orderBy)->limit($num)->get();
+        $datas = $this->query()->where($where)->limit($num)->get();
         return $datas;
     }
 

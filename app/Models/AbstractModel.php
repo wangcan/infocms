@@ -7,6 +7,14 @@ use Larabase\Models\AbstractModel as AbstractModelBase;
 class AbstractModel extends AbstractModelBase
 {
 
+    public function formatContent()
+    {
+        $content = $this->getOriginal('content');
+        $domain = config('app.uploadUrl');
+        $content = str_replace('src="upload', 'src="' . $domain . 'upload', $content);
+        return $content;
+    }
+
     public function getSingleAttachment($field)
     {
         $attachment = \ResourceManager::getModel('attachment', 'infocms');

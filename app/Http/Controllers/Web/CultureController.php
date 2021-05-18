@@ -17,9 +17,9 @@ class CultureController extends Controller
         return $this->customView('list');
     }
 
-    public function show()
+    public function show($id)
     {
-        return $this->customView('show');
+        return $this->_showCommon($id, 'show', 'cultureArticle', 'infocms');
     }
 
 	public function test()
@@ -50,7 +50,7 @@ class CultureController extends Controller
 				$str .= "<a href='{$url}' target='_blank'>{$url}</a><br />";
 			}
 		}
-echo "<img src='http://api.91zuiai.com/captcha' />";
+        //echo "<img src='http://api.91zuiai.com/captcha' />";
 		echo $str;
 	}
 
