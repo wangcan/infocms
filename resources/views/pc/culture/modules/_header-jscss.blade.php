@@ -11,6 +11,7 @@
 <script language="javascript" type="text/javascript" src="{{$commonAssetUrl}}/culture/m/js/otca.js"></script>
 <script language="javascript" type="text/javascript" src="{{$commonAssetUrl}}/culture/js/jquery.min.js"></script>
 <script language="javascript" type="text/javascript" src="{{$commonAssetUrl}}/culture/js/common.js?v=1"></script>
+<script language="javascript" type="text/javascript" src="{{$commonAssetUrl}}/culture/js/top.js"></script>
 <link rel="stylesheet" href="{{$commonAssetUrl}}/culture/css/19cef-5346.css?v=1" type="text/css" media="all" id="webSkin" />
 <link type='text/css' rel='stylesheet' href='{{$commonAssetUrl}}/culture/css/e4292-4360.css'>
 <style type='text/css'>.FocusImg .TitileBg, .FocusImg .NumberItemBg {background-color:#5c012d;}</style></head>

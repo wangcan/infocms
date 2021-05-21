@@ -2,6 +2,8 @@
 
 namespace App\Presenters\Infocms;
 
+use Larabase\Helpers\TreeTool;
+
 /**
  * Class CulturePresenter.
  *
@@ -9,4 +11,18 @@ namespace App\Presenters\Infocms;
  */
 class CulturePresenter extends AbstractPresenter
 {
+    public function getCategoryDatas()
+    {
+        $datas = \ResourceManager::getModel('cultureCategory', 'infocms')->get();
+        $datas = $datas->keyBy('code');
+        return $datas;
+    }
+
+    public function getCategoryTrees($parent = '')
+    {
+        $datas = $this->getCategoryDatas();
+        $result = TreeTool::createTree($datas, $parent);
+        print_r($result);
+        return $result;
+    }
 }

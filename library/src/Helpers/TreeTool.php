@@ -1,0 +1,26 @@
+<?php
+
+namespace Larabase\Helpers;
+
+class TreeTool
+{
+    public static function createTree(& $infos, $parent = '', $indexBy = 'key', $parentField = 'parent_code', $keyField = 'code')
+    {
+        $datas = [];
+        foreach ($infos as $key => $info) {
+            if ($info[$parentField] != $parent) {
+                continue;
+            }
+            unset($infos[$key]);
+
+            $info['subInfos'] = self::createTree($infos, $info[$parentField], $parentField, $keyField);
+            if ($indexBy == 'num') {
+                $datas[] = $info;
+            } else {
+                $datas[$info[$key]] = $info;
+            }
+
+        }
+        return $datas;
+    }
+}

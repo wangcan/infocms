@@ -1,3 +1,4 @@
+@inject('culturePresenter', 'App\Presenters\Infocms\CulturePresenter')
 <div class="mainMenu">
     <div>
         <ul class='topnavNum7 topnav'>
@@ -5,6 +6,7 @@
                 <div class='itemMenu'>
                     <a href='./' style='' target='_self'>网站首页</a></div>
             </li>
+            @foreach ($culturePresenter->getCategoryTrees() as $pKey => $pData)
             <li class='b'>
                 <div class='itemMenu'>
                     <a href='news/list_5.html' style='' target='_self'>书法篆刻</a></div>
@@ -19,6 +21,7 @@
                         <a href='news/list_153.html' target='_self' style=''>书法展览</a></li>
                 </ul>
             </li>
+            @endforeach
             <li class='b'>
                 <div class='itemMenu'>
                     <a href='news/list_94.html' style='' target='_self'>书法字帖</a></div>

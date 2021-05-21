@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" class="site_home">
 
 <head>
-@include('modules.culture._header-meta')
-@include('modules.culture._header-jscss')
+@include('culture.modules._header-meta')
+@include('culture.modules._header-jscss')
 
 <body>
-{{--@include('modules.culture._common-top')--}}
-{{-- @include('modules.culture._common-header') --}}
-@include('modules.culture._common-nav')
+{{--@include('culture.modules._common-top')--}}
+{{-- @include('culture.modules._common-header') --}}
+@include('culture.modules._common-nav')
 
 @yield('subnav')
 <div class="content">
