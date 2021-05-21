@@ -20,7 +20,7 @@ class ResourceManager
 
     public static function getRepository($code, $module = '')
     {
-        return self::getPointObject('model', $code, $module);
+        return self::getPointObject('repository', $code, $module);
     }
 
     public static function getPointObject($type, $code, $module)
@@ -32,6 +32,7 @@ class ResourceManager
         $class = "App\\{$typeCode}\\";
         $class .= !empty($module) ? ucfirst($module) . "\\" : '';
         $class .= ucfirst($code);
+        $class .= in_array($type, ['model']) ? '' : ucfirst($type);
         return new $class();
     }
 

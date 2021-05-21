@@ -19,20 +19,21 @@
                     <dt>书法篆刻</dt>
                     <dd class='listBox2'>
                         <ul>
+                            @foreach ($datas['lists'] as $pData)
                             <li>
                                 <div class='a'>
                                     <div class='img'>
-                                        <a href='../news/15659.html' class='font1_1' target='_blank'>
-                                            <img src='{{$commonAssetUrl}}/culture/m/img/3ef48-1071.jpg' alt="清末著名书法家许锷小楷《倪文贞公传》" title="清末著名书法家许锷小楷《倪文贞公传》" onerror="if(this.value!='1'){this.value='1';this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';}" /></a>
+                                        <a href='{{$pData->getUrl()}}' class='font1_1'>
+                                            <img src='{{$pData->pointAttachmentUrl('thumb')}}' alt="{{$pData['name']}}" title="{{$pData['name']}}" onerror="if(this.value!='1'){this.value='1';this.src='{{$commonAssetUrl}}/culture/m/img/97a63-8488.gif';}" /></a>
                                     </div>
                                 </div>
                                 <div class='b'>
                                     <h4>
-                                        <a href='../news/15659.html' class='font1_1' style='' target='_blank'>
-                                            <img src='{{$commonAssetUrl}}/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />清末著名书法家许锷小楷《倪文贞公传》</a></h4>
+                                        <a href='{{$pData->getUrl()}}' class='font1_1' style=''>
+                                            <img src='{{$commonAssetUrl}}/culture/img/4e102-3855.gif' alt='置顶' title='置顶' style='margin-right:5px;' />{{$pData['name']}}</a></h4>
                                     <div class='clear'></div>
-                                    <div class='note'>许锷小楷《倪文贞公传》，来源：倪元璐花卉图卷后题跋，弗利尔美术馆收藏。许锷，字达夫，号颖叔、瓢隐居士，室名诗可楼，苏州人。工诗，豪饮，尤善楷书。书法学王文治，清末著名书法家，学者。著有《西湖棹歌百首》等。 ...&nbsp;
-                                        <a href='../news/15659.html' class='font2_2' target='_blank'>阅读全文&gt;&gt;</a></div>
+                                    <div class='note'>{{$pData['description']}}&nbsp;
+                                        <a href='{{$pData->getUrl()}}' class='font2_2' >阅读全文&gt;&gt;</a></div>
                                     <div class='clear'></div>
                                     <div class='addi'>&nbsp;2020-3-26 7:14:57</div>
                                     <div class='mark'></div>
@@ -40,6 +41,7 @@
                                 <div class='clear'></div>
                             </li>
                             <div class='clear'></div>
+                            @endforeach
                             <li>
                                 <div class='a'>
                                     <div class='img'>
@@ -360,6 +362,7 @@
                                         <a href='../news/list_5_103.html' class='navBtnPointer fontNav_2'>
                                             <img src='{{$commonAssetUrl}}/culture/img/3b56b-3493.gif' border='0' style='margin-top:5px;' alt='最后页' /></a>
                                         <div class='navBtn'>
+
                                             <select onchange="if(this.value!=''){ListPageHref(this.value,'../news/list_5_[page].html');}" class='adClass'>
                                                 <option value=''></option>
                                                 <option value='1'>1</option>

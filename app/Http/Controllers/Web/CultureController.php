@@ -11,9 +11,19 @@ class CultureController extends Controller
         return $this->customView('home');
     }
 
-    public function listinfo()
+    public function listinfo($code = '', $page = 1)
     {
-        return $this->customView('list');
+        $repository = \ResourceManager::getRepository('cultureArticle', 'infocms');
+        $lists = $repository->paginate(null, ['*']);
+        //print_R($info);
+        $datas = [
+            'view' => 'list',
+            'title' => '列表',
+            'description' => '描述',
+            'keyword' => 'tag',
+            'lists' => $lists,
+        ];
+        return $this->customView('list', $datas);
     }
 
     public function show($id)

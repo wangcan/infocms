@@ -2,8 +2,8 @@
 
 namespace App\Services;
 
-use Larabase\Service\AbstractService;
+use Larabase\Services\AbstractService as AbstractServiceBase;
 
-class AbstractService extends AbstractService
+class AbstractService extends AbstractServiceBase
 {
 }

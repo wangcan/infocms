@@ -41,7 +41,8 @@ $routes = [
         '{code}' => ['action' => 'view'],
     ],
     'culture' => [
-        'routes' => ['', 'listinfo', 'list/{code}', 'list/{code}-{page}', 'show-{id}', 'test'],
+        'routes' => ['', 'listinfo', 'list/{code}/{page?}', 'show-{id}', 'test'],
+        'list/{code}/{page?}' => ['action' => 'listinfo'],
     ],
 ];
 $currentHost = false;
