@@ -13,13 +13,12 @@ class TreeTool
             }
             unset($infos[$key]);
 
-            $info['subInfos'] = self::createTree($infos, $info[$parentField], $parentField, $keyField);
+            $info['subInfos'] = self::createTree($infos, $info[$keyField], $indexBy, $parentField, $keyField);
             if ($indexBy == 'num') {
                 $datas[] = $info;
             } else {
-                $datas[$info[$key]] = $info;
+                $datas[$info[$keyField]] = $info;
             }
-
         }
         return $datas;
     }

@@ -1,6 +1,7 @@
 @extends('layouts.culture')
 @php
 $info = $datas['info'] ;
+$cultureCategory = $info->cultureCategory;
 @endphp
 @inject('culturePresenter', 'App\Presenters\Infocms\CulturePresenter')
 @section('subnav')
@@ -8,9 +9,12 @@ $info = $datas['info'] ;
     <div class="subnav">
         <div class="hotsearch">
             <span class='font2_2'>当前位置：</span>
-            <a href='../'>首页</a>&nbsp;&gt;&nbsp;
-            <a href='../news/list_5.html' target='_self'>书法篆刻</a>&nbsp;&gt;&nbsp;
-            <a href='../news/list_33.html' target='_self'>毛笔书法</a>
+            <a href='/'>首页</a>&nbsp;&gt;&nbsp;
+            <a href='/listinfo'>书法大全</a>&nbsp;&gt;&nbsp;
+            @if ($cultureCategory['parent_code'])
+            <a href='{{$cultureCategory->parentElem->getUrl()}}'>{{$cultureCategory->parentElem['name']}}ooo</a>&nbsp;&gt;&nbsp;
+            @endif
+            <a href='{{$cultureCategory->getUrl()}}'>{{$cultureCategory['name']}}</a>
         </div>
     </div>
     <div class="clear"></div>
@@ -45,7 +49,7 @@ $info = $datas['info'] ;
         </div>
         <div class="clear"></div>
     </div>
-    @include('culture.modules._right', ['currentCategory' => $info->cultureCategory])
+    @include('culture.modules._right', ['currentCategory' => $cultureCategory])
     <div class="clear"></div>
 </div>
 <div class="height10"></div>

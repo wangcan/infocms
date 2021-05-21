@@ -1,11 +1,18 @@
 @extends('layouts.culture')
+@php
+$currentCategory = $datas['currentCategory'];
+@endphp
 @section('subnav')
 <div class="mainMenu">
     <div class="subnav">
         <div class="hotsearch">
             <span class='font2_2'>当前位置：</span>
-            <a href='../'>首页</a>&nbsp;&gt;&nbsp;
-            <a href='../news/list_5.html' target='_self'>书法篆刻</a>
+            <a href='/'>首页</a>&nbsp;&gt;&nbsp;
+            <a href='/listinfo'>书法大全</a>&nbsp;&gt;&nbsp;
+            @if ($currentCategory['parent_code'])
+            <a href='{{$currentCategory->parentElem->getUrl()}}'>{{$currentCategory->parentElem['name']}}ooo</a>&nbsp;&gt;&nbsp;
+            @endif
+            <a href='{{$currentCategory->getUrl()}}'>{{$currentCategory['name']}}</a>
         </div>
     </div>
     <div class="clear"></div>
@@ -81,11 +88,9 @@
         </div>
         <div class='clear'></div>
     </div>
-    @include('culture.modules._right', ['currentCategory' => $datas['currentCategory']])
+    @include('culture.modules._right', ['currentCategory' => $currentCategory])
     <div class="clear"></div>
 </div>
-<div class="clear"></div>
-<div class="height1"></div>
 <div class="clear"></div>
 <div class="height10"></div>
 @endsection

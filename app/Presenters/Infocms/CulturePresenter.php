@@ -22,7 +22,7 @@ class CulturePresenter extends AbstractPresenter
     {
         $datas = $this->getCategoryDatas();
         $result = TreeTool::createTree($datas, $parent);
-        print_r($result);
+
         return $result;
     }
 }

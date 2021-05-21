@@ -18,8 +18,15 @@ class CultureCategory extends AbstractModel
      */
     protected $fillable = ['name'];
 
+    public function parentElem()
+    {
+        return $this->hasOne('App\Models\Infocms\CultureCategory', 'code', 'parent_code');
+    }
+
     public function getUrl()
     {
-        return '';
+        $domain = config('app.cultureDomain');;
+        $url = rtrim($domain, '/') . '/list/' . $this->code;
+        return $url;
     }
 }

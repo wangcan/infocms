@@ -25,6 +25,8 @@ class CultureArticle extends AbstractModel
 
     public function getUrl()
     {
-        return '';
+        $domain = config('app.cultureDomain');;
+        $url = rtrim($domain, '/') . '/show-' . $this->id;
+        return $url;
     }
 }
