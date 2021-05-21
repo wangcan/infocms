@@ -13,6 +13,7 @@ class CultureController extends Controller
 
     public function listinfo($code = '', $page = 1)
     {
+        $category = empty($code) ? ['parent_code' => '', 'name' => '书法欣赏', 'code' => null] : \ResourceManager::getModel('cultureCategory', 'infocms')->where(['code' => $code])->first();
         $repository = \ResourceManager::getRepository('cultureArticle', 'infocms');
         $lists = $repository->paginate(null, ['*']);
         //print_R($info);
@@ -22,6 +23,7 @@ class CultureController extends Controller
             'description' => '描述',
             'keyword' => 'tag',
             'lists' => $lists,
+            'currentCategory' => $category,
         ];
         return $this->customView('list', $datas);
     }

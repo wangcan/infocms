@@ -38,8 +38,20 @@ class AbstractPresenter extends AbstractPresenterBase
         return $info->nextInfo($params);
     }
 
+    public function getPointDatas($modelCode, $num, $params, $module = null)
+    {
+        $module = empty($module) ? $this->getDefaultModule() : $module;
+        $model = \ResourceManager::getModel($modelCode, $module);
+        return $model->relateDatas($num, $params);
+    }
+
     public function getRelateDatas($info, $num = 8, $params)
     {
         return $info->relateDatas($num, $params);
+    }
+
+    protected function getDefaultModule()
+    {
+        return '';
     }
 }

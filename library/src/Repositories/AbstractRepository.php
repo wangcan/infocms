@@ -4,7 +4,7 @@ namespace Larabase\Repositories;
 
 use Prettus\Repository\Eloquent\BaseRepository;
 
-use Prettus\Repository\CriteriaRequestCriteria;
+use Prettus\Repository\Criteria\RequestCriteria;
 //use App\Repositories\Enums\PermissionEnum;
 //use App\Repositories\Models\Post;
 //use App\Repositories\Presenters\PostPresenter;
@@ -20,16 +20,18 @@ use Prettus\Repository\CriteriaRequestCriteria;
  */
 abstract class AbstractRepository extends BaseRepository
 {
-    public function model()
+    public function __construct()
     {
-        return ;
-    }
-    /*public function model()
-    {
-        return Post::class;
+        $app = app();
+        parent::__construct($app);
     }
 
-    public function presenter()
+    public function model()
+    {
+        return null;
+    }
+
+    /*public function presenter()
     {
         return PostPresenter::class;
     }*/
