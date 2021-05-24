@@ -23,7 +23,7 @@ class ResourceManager
         return self::getPointObject('repository', $code, $module);
     }
 
-    public static function getPointObject($type, $code, $module)
+    public static function getPointObject($type, $code, $module, $returnObj = true)
     {
         $types = [
             'repository' => 'Repositories',

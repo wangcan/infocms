@@ -5,11 +5,6 @@ namespace Larabase\Repositories;
 use Prettus\Repository\Eloquent\BaseRepository;
 
 use Larabase\Criteria\RequestCriteria;
-//use App\Repositories\Enums\PermissionEnum;
-//use App\Repositories\Models\Post;
-//use App\Repositories\Presenters\PostPresenter;
-//use Illuminate\Support\Arr;
-//use Spatie\Permission\Exceptions\UnauthorizedException;
 
 /**
  * Class AbstractRepository
@@ -20,6 +15,10 @@ use Larabase\Criteria\RequestCriteria;
  */
 abstract class AbstractRepository extends BaseRepository
 {
+    use TraitField;
+    use TraitData;
+    use TraitTree;
+
     public function __construct()
     {
         $app = app();
@@ -30,6 +29,32 @@ abstract class AbstractRepository extends BaseRepository
     {
         return null;
     }
+
+    public function getModuleCode()
+    {
+        return '';
+    }
+
+    public function __call($name, $arguments)
+    {   
+        return $this->model->{$name}(...$arguments);
+    }
+
+    public function getModel()
+    {
+        $modelCode = !empty($this->pointModel) ? $this->pointModel : get_called_class();
+        \
+        $this->model = $this->resource->getObject('model', $modelCode);
+        //$this->criteria = $collection;
+        $this->resetScope();
+
+    }
+
+    public function getResourceClass($code = null)
+    {
+        return $this->resource->getClassName('resource', $code ? $code : get_called_class());
+    }
+
 
     /*public function presenter()
     {
