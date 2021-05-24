@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
     Route::any('/captcha-test', function() {
         if (request()->getMethod() == 'POST') {
             $rules = ['captcha' => 'required|captcha'];
-print_r(request()->all());
+            //print_r(request()->all());
             $validator = validator()->make(request()->all(), $rules);
             if ($validator->fails()) {
                 echo '<p style="color: #ff0000;">Incorrect!</p>';

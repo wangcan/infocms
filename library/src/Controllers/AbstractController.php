@@ -7,41 +7,63 @@ use Illuminate\Routing\Controller as BaseController;
 
 abstract class AbstractController extends BaseController
 {
-    use TraitOperation;
-
-    const CODE_NOT_FOUND = 404;
-    protected  $perPage;
-    protected $user = null;
+    use OperationTrait;
 
     public function __construct()
     {
-        try{
-            //$inTest = config('app.inTest');
-            //$this->user = $inTest && $inTest == 2 ? User::find(1909223) : \JWTAuth::parseToken()->authenticate();
-        }catch (\Exception $e){
-            //throw new \Exception('您没有权限');
+    }
+
+    public function getServiceRepo($code = '', $params = [])
+    {
+        $code = !empty($code) ? $code : get_called_class();
+        return $this->resource->getObject('service-repo', $code);
+    }
+
+    public function getRepositoryObj($code = '', $params = [])
+    {
+        $code = !empty($code) ? $code : get_called_class();
+        return $this->resource->getObject('repository', $code, $params);
+    }
+
+    public function getServiceObj($code = '', $params = [])
+    {
+        $code = !empty($code) ? $code : get_called_class();
+        return $this->resource->getObject('service', $code, $params);
+    }
+
+    public function getRequestObj($scene = '', $repository = null, $code = '')
+    {
+        //$type = empty($action) ? 'request' : 'request-' . $action;
+        $code = !empty($code) ? $code : get_called_class();
+        //$request = $this->resource->getObject($type, $code, false);
+        $request = $this->resource->getObject('request', $code, false);
+        if (empty($request)) {
+            return $this->request;
         }
+        if ($repository) {
+            $request->setRepository($repository);
+        }
+        $request->setScene($scene);
 
-        //$this->perPage = intval(Input::get('page_size',15));
+        if (method_exists($request, 'validateResolved')) {
+            $request->validateResolved();
+        }
+        return $request;
     }
 
-    public function user(){
-        return $this->user;
-    }
-
-    public function getCurrentUid()
+    protected function success($datas, $message = 'success')
     {
-        return $this->user->uid;
-        $user = $this->getCurrentUser();
-        //$uid = isset($_GET['test_uid']) ? $_GET['test_uid'] : (empty($user) ? 0 : $user['uid']);
-        $uid = empty($user) ? 0 : $user['uid'];
-        return $uid;
+        return ['code' => 200, 'message' => $message, 'datas' => $datas];
     }
 
-    protected function getModel($code = null, $module = '')
+    public function throwException($code, $message = null)
     {
-        $code = is_null($code) ?$this->_getModelCode() :$code;
-        return \ResourceManager::getModel($code, $module);
+        return $this->resource->throwException($code, $message);
+    }
+
+    public function dealCriteria($scene, $repository, $params)
+    {
+        return $repository->getDealSearchFields($scene, $params);
     }
 
     public function getVersion()
@@ -51,6 +73,6 @@ abstract class AbstractController extends BaseController
 
     public function getRouteParam($param)
     {
-        return \Larabase\Helpers\ResourceManager::getRouteParam($param);
+        return \ResourceManager::getRouteParam($param);
     }
 }
