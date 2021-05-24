@@ -4,7 +4,7 @@ namespace Larabase\Repositories;
 
 use Prettus\Repository\Eloquent\BaseRepository;
 
-use Prettus\Repository\Criteria\RequestCriteria;
+use Larabase\Criteria\RequestCriteria;
 //use App\Repositories\Enums\PermissionEnum;
 //use App\Repositories\Models\Post;
 //use App\Repositories\Presenters\PostPresenter;

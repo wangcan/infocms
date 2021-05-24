@@ -1,23 +1,60 @@
 <?php
 
-namespace Bosnadev\Repositories\Criteria;
-
-use Bosnadev\Repositories\Contracts\RepositoryInterface as Repository;
-use Illuminate\Database\Eloquent\Builder;
+namespace Larabase\Criteria;
 
 use Prettus\Repository\Contracts\CriteriaInterface;
 use Prettus\Repository\Contracts\RepositoryInterface;
 
-abstract class Criteria {
+abstract class Criteria implements CriteriaInterface
+{
+    protected $field;
+    protected $value;
+
+    public function __construct($params = [])
+    {
+        $this->params = $params;
+    }
+
+    /**
+     * @param $query
+     * @param RepositoryInterface $repository
+     * @param array $params
+     * @return mixed
+     */
+    public abstract function apply($query, RepositoryInterface $repository)
+    {
+        return $this->_pointApply($query, $repository);
+    }
+
+    public function _pointApply($query, $repository)
+    {
+        return $query;
+    }
+
+    public function getField()
+    {
+        return isset($this->params['field']) ? $this->params['field'] : false;
+    }
 
     /**
      * @param $model
-     * @param Repository $repository
+     * @param RepositoryInterface $repository
      * @return mixed
      */
-    public abstract function apply($model, Repository $repository);
+    public function _applyBase($query, $repository)
+    {
+        $field = $this->getField();
+        if (empty($field)) {
+            return $query;
+        }
+        $value = $this->params['value'];
+        $operator = $this->params['operator'];
+        $query->where($field, $operator, $value);
 
-    public function apply($model, RepositoryInterface $repository)
+        return $query;
+    }
+
+    /*public function apply($model, RepositoryInterface $repository)
     {
         $model = $model->where('user_id', '=', current_auth_user()->user_id);
 
@@ -56,5 +93,5 @@ abstract class Criteria {
         if ($email = $this->request->get('email')) {
             $query->where('email', 'like', "%$email%");
         }
-    }
+    }*/
 }

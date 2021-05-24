@@ -1,11 +1,14 @@
 @inject('culturePresenter', 'App\Presenters\Infocms\CulturePresenter')
+@php
+$categoryTrees = $culturePresenter->getCategoryTrees();
+@endphp
 <div class="mainMenu">
     <div>
         <ul class='topnavNum7 topnav'>
             <li class='b'>
                 <div class='itemMenu'><a href='./' style=''>网站首页</a></div>
             </li>
-            @foreach ($culturePresenter->getCategoryTrees() as $pKey => $pData)
+            @foreach ($categoryTrees as $pKey => $pData)
             <li class='b'>
                 <div class='itemMenu'><a href='{{$pData->getUrl()}}' style='' >{{$pData['name']}}</a></div>
                 <ul class='subnav'>

@@ -1,4 +1,8 @@
 @extends('layouts.culture')
+@inject('culturePresenter', 'App\Presenters\Infocms\CulturePresenter')
+@php
+$categoryTrees = $culturePresenter->getCategoryTrees();
+@endphp
 
 @section('main')
 <div class="leftA">
@@ -285,11 +289,12 @@
 <div class="clear"></div>
 <div class='height5'></div>
 
-@for ($j = 1; $j <= 7; $j++)
+@foreach ($categoryTrees as $pKey => $pData)
 <div class='areaBox'>
     <div class='title1'>
-        <h2><a href='news/list_160.html' target='_self'><strong>会员专栏</strong></a></h2>
+        <h2><a href='{{$pData->getUrl()}}'><strong>{{$pData['name']}}</strong></a></h2>
         <span>
+        @foreach ($pData['subInfos'] as $subKey => $subData)
             <a href='news/list_161.html' target='_self'>高清书法</a>&nbsp;|&nbsp;
 				<a href='news/list_162.html' target='_self'>投稿作品</a>
         </span>
@@ -384,7 +389,7 @@
 </div>
 <div class="height10"></div>
 <div class='clear'></div>
-@endfor
+@endforeach
 <table class="ke-zeroborder" style="border-top:#eaeaea 1px solid;border-right:#eaeaea 1px solid;border-bottom:#eaeaea 1px solid;border-left:#eaeaea 1px solid;margin-:6px;" cellspacing="0" cellpadding="0" width="100%">
 		<colgroup span="18" align="center" width="5.5%"></colgroup>
     <tbody>
